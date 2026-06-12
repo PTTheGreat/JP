@@ -44,13 +44,18 @@ def build_jsx() -> None:
             }
         )
 
+    jobs_json = js(jobs)
+    report_json_path = js(str(REPORT_JSON).replace("\\", "/"))
+    report_md_path = js(str(REPORT_MD).replace("\\", "/"))
+    root_path = js(str(ROOT).replace("\\", "/"))
+
     jsx = f"""#target photoshop
 app.displayDialogs = DialogModes.NO;
 app.preferences.rulerUnits = Units.PIXELS;
 
-var JOBS = {js(jobs)};
-var REPORT_JSON = {js(str(REPORT_JSON).replace("\\", "/"))};
-var REPORT_MD = {js(str(REPORT_MD).replace("\\", "/"))};
+var JOBS = {jobs_json};
+var REPORT_JSON = {report_json_path};
+var REPORT_MD = {report_md_path};
 
 function collectLayerNames(container, out, duplicates, paths, prefix) {{
   for (var i = 0; i < container.layers.length; i++) {{
@@ -165,7 +170,7 @@ function validateJob(job) {{
 
 var report = {{
   generatedAt: new Date().toString(),
-  root: {js(str(ROOT).replace("\\", "/"))},
+  root: {root_path},
   jobs: [],
   summary: {{
     totalExpected: 0,
