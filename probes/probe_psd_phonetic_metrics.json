@@ -1,0 +1,6 @@
+[
+  {"name":"@MEASURE_PHONETIC_ONLY","text":"[haɪ]","font":"GentiumPlus","size":58.3333282470703,"leading":68.75,"bounds":[429,858,527,914]},
+  {"name":"@MEASURE_BODY_ONLY","text":"M: Hi, Don! How are you doing in your English class.","font":"GentiumPlus","size":58.3333282470703,"leading":83.3333435058594,"bounds":[2827,458,3985,517]},
+  {"name":"@MEASURE_PHONETIC_BODY_PAIR","text":"[haɪ]\rM: Hi, Don! How are you doing in your English class.","font":"GentiumPlus","size":58.3333282470703,"leading":68.75,"bounds":[427,858,1585,988]},
+  {"name":"@MEASURE_BODY_PAIR","text":"[haɪ]\rM: Hi, Don! How are you doing in your English class.","font":"GentiumPlus","size":58.3333282470703,"leading":83.3333435058594,"bounds":[2827,456,3985,600]}
+]

@@ -1,0 +1,1737 @@
+{
+  "lessonNo": "Lesson 1-2",
+  "lessonTitle": "Rome Wasn't Built in a Day",
+  "status": "planOnlyNotRendered",
+  "rules": {
+    "preserveHiddenTemplateLayers": true,
+    "partTitlesPreserveTemplateStyle": true,
+    "vocabRowHeight": "fixed",
+    "vocabLongText": "wrapInsideFixedTextBoxOrFlagReview",
+    "part3NoFakeSubtitles": true,
+    "exerciseKeepOriginalNumbering": true,
+    "pageNumberFormat": "000"
+  },
+  "pages": [
+    {
+      "pageIndex": 1,
+      "template": "3-4 1.psd",
+      "pageNumbers": [
+        "001",
+        "002"
+      ],
+      "frames": {
+        "left": {
+          "top": 649,
+          "left": 200,
+          "bottom": 3311,
+          "right": 2149
+        },
+        "right": {
+          "top": 421,
+          "left": 2773,
+          "bottom": 3311,
+          "right": 4840
+        },
+        "source": "hidden PSD reference layers; keep hidden in output"
+      },
+      "hiddenLayers": [
+        "@SHELL_CONTENT_PANEL_DECOR_SHAPE",
+        "@SHELL_CONTENT_PANEL_LEFT",
+        "@SHELL_CONTENT_PANEL_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_LEFT"
+      ],
+      "modules": [
+        {
+          "id": "part1",
+          "type": "readingDialogue",
+          "dynamic": true,
+          "titleLayerPolicy": "preserveTemplateTitleLayer",
+          "reading": {
+            "styleSources": [
+              "@PART1_READING_LEFT_TEXT_STYLE_SOURCE",
+              "@PART1_READING_RIGHT_TEXT_STYLE_SOURCE"
+            ],
+            "lines": [
+              {
+                "kind": "phonetic",
+                "text": "[ɪntɚˈnæʃənl] [ˈlæŋɡwɪdʒ]"
+              },
+              {
+                "kind": "body",
+                "text": "English is an international language. Therefore, it is necessary for"
+              },
+              {
+                "kind": "phonetic",
+                "text": "[rɪˈwɔrdɪŋ]"
+              },
+              {
+                "kind": "body",
+                "text": "us to learn it. It can be rewarding or just a waste of time. It's up to you. It"
+              },
+              {
+                "kind": "phonetic",
+                "text": "[dɪˈpɛndz ɑn] [tɪps]"
+              },
+              {
+                "kind": "body",
+                "text": "depends on how you study it. Here are some tips about learning English."
+              },
+              {
+                "kind": "phonetic",
+                "text": "[əˈfred]"
+              },
+              {
+                "kind": "body",
+                "text": "First, don't be afraid to make mistakes. You will learn from them."
+              },
+              {
+                "kind": "phonetic",
+                "text": "[ʃaɪ] [ˌθɪkˈskɪnd] [spik ʌp]"
+              },
+              {
+                "kind": "body",
+                "text": "Second, you must not be shy. Be thick-skinned and speak up! Finally,"
+              },
+              {
+                "kind": "phonetic",
+                "text": "[ˈpeʃənt]"
+              },
+              {
+                "kind": "body",
+                "text": "you must be patient. Remember, \"Rome wasn't built in a day.\""
+              }
+            ],
+            "requiresPsMeasurement": [
+              "line wraps",
+              "phonetic y offset",
+              "green border bottom"
+            ]
+          },
+          "dialogue": {
+            "intro": "Mack is talking to his friend Don.",
+            "roleNote": "(M = Mack; D = Don)",
+            "lines": [
+              {
+                "kind": "phonetic",
+                "text": "[haɪ]"
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "M",
+                "text": "M: Hi, Don! How are you doing in your English class."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "D",
+                "text": "D: Not so well, I'm afraid."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "D",
+                "text": "D: I'm not improving. Tell me, how come your English is so good?"
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "M",
+                "text": "M: Hey, come back! I was just kidding."
+              }
+            ],
+            "requiresPsMeasurement": [
+              "right frame overflow to next left frame",
+              "yellow box bottom",
+              "green vertical line height"
+            ]
+          }
+        },
+        {
+          "id": "part2_rows_01_08",
+          "type": "vocabularyFixedRows",
+          "titleLayerPolicy": "preserveTemplateTitleLayer",
+          "rowHeightPolicy": "fixedFromTemplate",
+          "overflowPolicy": "wrapInsideFixedTextBoxOrFlagReview",
+          "rows": [
+            {
+              "rowNo": 1,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_01_GROUP",
+              "slots": {
+                "no": {
+                  "top": 1943,
+                  "left": 2853,
+                  "bottom": 1987,
+                  "right": 2895
+                },
+                "word": {
+                  "top": 1939,
+                  "left": 2921,
+                  "bottom": 1988,
+                  "right": 3132
+                },
+                "phonetic": {
+                  "top": 1905,
+                  "left": 3402,
+                  "bottom": 2038,
+                  "right": 3736
+                },
+                "meaning": {
+                  "top": 1938,
+                  "left": 4062,
+                  "bottom": 2003,
+                  "right": 4752
+                }
+              }
+            },
+            {
+              "rowNo": 2,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_02_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2121,
+                  "left": 2850,
+                  "bottom": 2167,
+                  "right": 2895
+                },
+                "word": {
+                  "top": 2119,
+                  "left": 2922,
+                  "bottom": 2167,
+                  "right": 3400
+                },
+                "phonetic": {
+                  "top": 2088,
+                  "left": 3446,
+                  "bottom": 2221,
+                  "right": 4039
+                },
+                "meaning": {
+                  "top": 2111,
+                  "left": 4106,
+                  "bottom": 2166,
+                  "right": 4278
+                }
+              }
+            },
+            {
+              "rowNo": 3,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_03_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2300,
+                  "left": 2850,
+                  "bottom": 2346,
+                  "right": 2895
+                },
+                "word": {
+                  "top": 2298,
+                  "left": 2924,
+                  "bottom": 2358,
+                  "right": 3141
+                },
+                "phonetic": {
+                  "top": 2265,
+                  "left": 3402,
+                  "bottom": 2402,
+                  "right": 3776
+                },
+                "meaning": {
+                  "top": 2297,
+                  "left": 4063,
+                  "bottom": 2357,
+                  "right": 4405
+                }
+              }
+            },
+            {
+              "rowNo": 4,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_04_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2480,
+                  "left": 2849,
+                  "bottom": 2525,
+                  "right": 2895
+                },
+                "word": {
+                  "top": 2477,
+                  "left": 2922,
+                  "bottom": 2538,
+                  "right": 3196
+                },
+                "phonetic": {
+                  "top": 2446,
+                  "left": 3402,
+                  "bottom": 2583,
+                  "right": 3729
+                },
+                "meaning": {
+                  "top": 2469,
+                  "left": 4062,
+                  "bottom": 2529,
+                  "right": 4507
+                }
+              }
+            },
+            {
+              "rowNo": 5,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_05_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2661,
+                  "left": 2850,
+                  "bottom": 2706,
+                  "right": 2895
+                },
+                "word": {
+                  "top": 2658,
+                  "left": 2919,
+                  "bottom": 2706,
+                  "right": 3106
+                },
+                "phonetic": {
+                  "top": 2625,
+                  "left": 3402,
+                  "bottom": 2757,
+                  "right": 3691
+                },
+                "meaning": {
+                  "top": 2657,
+                  "left": 4063,
+                  "bottom": 2713,
+                  "right": 4638
+                }
+              }
+            },
+            {
+              "rowNo": 6,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_06_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2839,
+                  "left": 2851,
+                  "bottom": 2885,
+                  "right": 2895
+                },
+                "word": {
+                  "top": 2840,
+                  "left": 2925,
+                  "bottom": 2885,
+                  "right": 3110
+                },
+                "phonetic": {
+                  "top": 2806,
+                  "left": 3402,
+                  "bottom": 2943,
+                  "right": 3786
+                },
+                "meaning": {
+                  "top": 2829,
+                  "left": 4063,
+                  "bottom": 2885,
+                  "right": 4697
+                }
+              }
+            },
+            {
+              "rowNo": 7,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_07_GROUP",
+              "slots": {
+                "no": {
+                  "top": 3019,
+                  "left": 2851,
+                  "bottom": 3064,
+                  "right": 2895
+                },
+                "word": {
+                  "top": 3016,
+                  "left": 2924,
+                  "bottom": 3076,
+                  "right": 3203
+                },
+                "phonetic": {
+                  "top": 2983,
+                  "left": 3402,
+                  "bottom": 3120,
+                  "right": 3807
+                },
+                "meaning": {
+                  "top": 3015,
+                  "left": 4063,
+                  "bottom": 3075,
+                  "right": 4503
+                }
+              }
+            },
+            {
+              "rowNo": 8,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_08_GROUP",
+              "slots": {
+                "no": {
+                  "top": 3197,
+                  "left": 2851,
+                  "bottom": 3243,
+                  "right": 2895
+                },
+                "word": {
+                  "top": 3195,
+                  "left": 2922,
+                  "bottom": 3243,
+                  "right": 3152
+                },
+                "phonetic": {
+                  "top": 3164,
+                  "left": 3402,
+                  "bottom": 3296,
+                  "right": 3754
+                },
+                "meaning": {
+                  "top": 3187,
+                  "left": 4062,
+                  "bottom": 3251,
+                  "right": 4348
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "no": "1",
+              "word": "international",
+              "kk": "KK: [ˌɪntɚˈnæʃənl]",
+              "ipa": "IPA: [ˌɪntərˈnæʃənəl]",
+              "meaning": "adj. 国际性的；国际间的",
+              "raw": "international KK: [ˌɪntɚˈnæʃənl] IPA: [ˌɪntərˈnæʃənəl] adj. 国际性的；国际间的"
+            },
+            {
+              "no": "2",
+              "word": "language",
+              "kk": "KK: [ˈlæŋɡwɪdʒ]",
+              "ipa": "IPA: [ˈlæŋɡwɪdʒ]",
+              "meaning": "n. 语言（可数）；言词（不可数）",
+              "raw": "language KK: [ˈlæŋɡwɪdʒ] IPA: [ˈlæŋɡwɪdʒ] n. 语言（可数）；言词（不可数）"
+            },
+            {
+              "no": "3",
+              "word": "rewarding",
+              "kk": "KK: [rɪˈwɔrdɪŋ]",
+              "ipa": "IPA: [rɪˈwɔːrdɪŋ]",
+              "meaning": "adj. 有（获）益的；值得做的；划算的",
+              "raw": "rewarding KK: [rɪˈwɔrdɪŋ] IPA: [rɪˈwɔːrdɪŋ] adj. 有（获）益的；值得做的；划算的"
+            },
+            {
+              "no": "4",
+              "word": "depend on",
+              "kk": "KK: [dɪˈpɛnd ɑn]",
+              "ipa": "IPA: [dɪˈpend ɑːn]",
+              "meaning": "视……而定",
+              "raw": "depend on KK: [dɪˈpɛnd ɑn] IPA: [dɪˈpend ɑːn] 视……而定"
+            },
+            {
+              "no": "5",
+              "word": "tip",
+              "kk": "KK: [tɪp]",
+              "ipa": "IPA: [tɪp]",
+              "meaning": "n. 建议；小费",
+              "raw": "tip KK: [tɪp] IPA: [tɪp] n. 建议；小费"
+            },
+            {
+              "no": "6",
+              "word": "afraid",
+              "kk": "KK: [əˈfred]",
+              "ipa": "IPA: [əˈfreɪd]",
+              "meaning": "adj. 害怕的；恐惧的",
+              "raw": "afraid KK: [əˈfred] IPA: [əˈfreɪd] adj. 害怕的；恐惧的"
+            },
+            {
+              "no": "7",
+              "word": "be afraid to +动词原形",
+              "kk": "KK: [bi əˈfred tu]",
+              "ipa": "IPA: [bi əˈfreɪd tu]",
+              "meaning": "害怕去做……",
+              "raw": "be afraid to +动词原形 KK: [bi əˈfred tu] IPA: [bi əˈfreɪd tu] 害怕去做……"
+            },
+            {
+              "no": "8",
+              "word": "shy",
+              "kk": "KK: [ʃaɪ]",
+              "ipa": "IPA: [ʃaɪ]",
+              "meaning": "adj. 羞怯的",
+              "raw": "shy KK: [ʃaɪ] IPA: [ʃaɪ] adj. 羞怯的"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageIndex": 2,
+      "template": "3-4 2.psd",
+      "pageNumbers": [
+        "003",
+        "004"
+      ],
+      "frames": {
+        "left": {
+          "top": 421,
+          "left": 200,
+          "bottom": 3311,
+          "right": 2149
+        },
+        "right": {
+          "top": 421,
+          "left": 2773,
+          "bottom": 3311,
+          "right": 4840
+        },
+        "source": "hidden PSD reference layers; keep hidden in output"
+      },
+      "hiddenLayers": [
+        "@SHELL_CONTENT_PANEL_DECOR_SHAPE",
+        "@SHELL_CONTENT_PANEL_LEFT",
+        "@SHELL_CONTENT_PANEL_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_LEFT"
+      ],
+      "modules": [
+        {
+          "id": "part2_rows_09_21",
+          "type": "vocabularyFixedRows",
+          "rowHeightPolicy": "fixedFromTemplate",
+          "overflowPolicy": "wrapInsideFixedTextBoxOrFlagReview",
+          "rows": [
+            {
+              "rowNo": 9,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_09_GROUP",
+              "slots": {
+                "no": {
+                  "top": 485,
+                  "left": 311,
+                  "bottom": 530,
+                  "right": 356
+                },
+                "word": {
+                  "top": 483,
+                  "left": 381,
+                  "bottom": 531,
+                  "right": 529
+                },
+                "phonetic": {
+                  "top": 447,
+                  "left": 834,
+                  "bottom": 578,
+                  "right": 1121
+                },
+                "meaning": {
+                  "top": 481,
+                  "left": 1381,
+                  "bottom": 542,
+                  "right": 1992
+                }
+              }
+            },
+            {
+              "rowNo": 10,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_10_GROUP",
+              "slots": {
+                "no": {
+                  "top": 664,
+                  "left": 282,
+                  "bottom": 709,
+                  "right": 357
+                },
+                "word": {
+                  "top": 661,
+                  "left": 381,
+                  "bottom": 710,
+                  "right": 646
+                },
+                "phonetic": {
+                  "top": 632,
+                  "left": 834,
+                  "bottom": 763,
+                  "right": 1177
+                },
+                "meaning": {
+                  "top": 654,
+                  "left": 1379,
+                  "bottom": 709,
+                  "right": 1665
+                }
+              }
+            },
+            {
+              "rowNo": 11,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_11_GROUP",
+              "slots": {
+                "no": {
+                  "top": 846,
+                  "left": 282,
+                  "bottom": 890,
+                  "right": 357
+                },
+                "word": {
+                  "top": 849,
+                  "left": 382,
+                  "bottom": 891,
+                  "right": 588
+                },
+                "phonetic": {
+                  "top": 809,
+                  "left": 834,
+                  "bottom": 942,
+                  "right": 1189
+                },
+                "meaning": {
+                  "top": 842,
+                  "left": 1381,
+                  "bottom": 902,
+                  "right": 1820
+                }
+              }
+            },
+            {
+              "rowNo": 12,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_12_GROUP",
+              "slots": {
+                "no": {
+                  "top": 1024,
+                  "left": 280,
+                  "bottom": 1069,
+                  "right": 355
+                },
+                "word": {
+                  "top": 1022,
+                  "left": 382,
+                  "bottom": 1083,
+                  "right": 566
+                },
+                "phonetic": {
+                  "top": 993,
+                  "left": 834,
+                  "bottom": 1128,
+                  "right": 1137
+                },
+                "meaning": {
+                  "top": 1013,
+                  "left": 1381,
+                  "bottom": 1070,
+                  "right": 1989
+                }
+              }
+            },
+            {
+              "rowNo": 13,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_13_GROUP",
+              "slots": {
+                "no": {
+                  "top": 1203,
+                  "left": 282,
+                  "bottom": 1248,
+                  "right": 357
+                },
+                "word": {
+                  "top": 1200,
+                  "left": 381,
+                  "bottom": 1249,
+                  "right": 585
+                },
+                "phonetic": {
+                  "top": 1168,
+                  "left": 834,
+                  "bottom": 1301,
+                  "right": 1149
+                },
+                "meaning": {
+                  "top": 1200,
+                  "left": 1379,
+                  "bottom": 1264,
+                  "right": 1869
+                }
+              }
+            },
+            {
+              "rowNo": 14,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_14_GROUP",
+              "slots": {
+                "no": {
+                  "top": 1383,
+                  "left": 281,
+                  "bottom": 1427,
+                  "right": 356
+                },
+                "word": {
+                  "top": 1380,
+                  "left": 382,
+                  "bottom": 1428,
+                  "right": 523
+                },
+                "phonetic": {
+                  "top": 1350,
+                  "left": 834,
+                  "bottom": 1481,
+                  "right": 1115
+                },
+                "meaning": {
+                  "top": 1372,
+                  "left": 1381,
+                  "bottom": 1427,
+                  "right": 1613
+                }
+              }
+            },
+            {
+              "rowNo": 15,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_15_GROUP",
+              "slots": {
+                "no": {
+                  "top": 1564,
+                  "left": 282,
+                  "bottom": 1608,
+                  "right": 357
+                },
+                "word": {
+                  "top": 1561,
+                  "left": 379,
+                  "bottom": 1609,
+                  "right": 571
+                },
+                "phonetic": {
+                  "top": 1527,
+                  "left": 834,
+                  "bottom": 1660,
+                  "right": 1141
+                },
+                "meaning": {
+                  "top": 1560,
+                  "left": 1381,
+                  "bottom": 1615,
+                  "right": 1613
+                }
+              }
+            },
+            {
+              "rowNo": 16,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_16_GROUP",
+              "slots": {
+                "no": {
+                  "top": 1743,
+                  "left": 282,
+                  "bottom": 1789,
+                  "right": 357
+                },
+                "word": {
+                  "top": 1741,
+                  "left": 385,
+                  "bottom": 1789,
+                  "right": 728
+                },
+                "phonetic": {
+                  "top": 1708,
+                  "left": 834,
+                  "bottom": 1840,
+                  "right": 1263
+                },
+                "meaning": {
+                  "top": 1740,
+                  "left": 1379,
+                  "bottom": 1795,
+                  "right": 1490
+                }
+              }
+            },
+            {
+              "rowNo": 17,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_17_GROUP",
+              "slots": {
+                "no": {
+                  "top": 1923,
+                  "left": 282,
+                  "bottom": 1968,
+                  "right": 357
+                },
+                "word": {
+                  "top": 1920,
+                  "left": 385,
+                  "bottom": 1968,
+                  "right": 601
+                },
+                "phonetic": {
+                  "top": 1889,
+                  "left": 834,
+                  "bottom": 2026,
+                  "right": 1197
+                },
+                "meaning": {
+                  "top": 1912,
+                  "left": 1377,
+                  "bottom": 1972,
+                  "right": 1716
+                }
+              }
+            },
+            {
+              "rowNo": 18,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_18_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2103,
+                  "left": 282,
+                  "bottom": 2149,
+                  "right": 357
+                },
+                "word": {
+                  "top": 2067,
+                  "left": 382,
+                  "bottom": 2190,
+                  "right": 758
+                },
+                "phonetic": {
+                  "top": 2069,
+                  "left": 834,
+                  "bottom": 2200,
+                  "right": 1572
+                },
+                "meaning": {
+                  "top": 2065,
+                  "left": 1634,
+                  "bottom": 2207,
+                  "right": 2035
+                }
+              }
+            },
+            {
+              "rowNo": 19,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_19_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2282,
+                  "left": 280,
+                  "bottom": 2328,
+                  "right": 355
+                },
+                "word": {
+                  "top": 2279,
+                  "left": 382,
+                  "bottom": 2328,
+                  "right": 619
+                },
+                "phonetic": {
+                  "top": 2249,
+                  "left": 834,
+                  "bottom": 2382,
+                  "right": 1230
+                },
+                "meaning": {
+                  "top": 2272,
+                  "left": 1379,
+                  "bottom": 2336,
+                  "right": 2070
+                }
+              }
+            },
+            {
+              "rowNo": 20,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_20_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2461,
+                  "left": 279,
+                  "bottom": 2507,
+                  "right": 357
+                },
+                "word": {
+                  "top": 2459,
+                  "left": 385,
+                  "bottom": 2507,
+                  "right": 496
+                },
+                "phonetic": {
+                  "top": 2428,
+                  "left": 834,
+                  "bottom": 2559,
+                  "right": 1081
+                },
+                "meaning": {
+                  "top": 2458,
+                  "left": 1377,
+                  "bottom": 2513,
+                  "right": 1699
+                }
+              }
+            },
+            {
+              "rowNo": 21,
+              "fixedHeight": true,
+              "group": "@PART2_VOCAB_ROW_21_GROUP",
+              "slots": {
+                "no": {
+                  "top": 2640,
+                  "left": 278,
+                  "bottom": 2686,
+                  "right": 356
+                },
+                "word": {
+                  "top": 2638,
+                  "left": 385,
+                  "bottom": 2686,
+                  "right": 519
+                },
+                "phonetic": {
+                  "top": 2608,
+                  "left": 834,
+                  "bottom": 2744,
+                  "right": 1110
+                },
+                "meaning": {
+                  "top": 2631,
+                  "left": 1381,
+                  "bottom": 2690,
+                  "right": 1716
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "no": "9",
+              "word": "thick-skinned",
+              "kk": "KK: [ˌθɪkˈskɪnd]",
+              "ipa": "IPA: [ˌθɪkˈskɪnd]",
+              "meaning": "adj. 厚脸皮的",
+              "raw": "thick-skinned KK: [ˌθɪkˈskɪnd] IPA: [ˌθɪkˈskɪnd] adj. 厚脸皮的"
+            },
+            {
+              "no": "10",
+              "word": "speak up",
+              "kk": "KK: [spik ʌp]",
+              "ipa": "IPA: [spiːk ʌp]",
+              "meaning": "大声说话；开口说出来",
+              "raw": "speak up KK: [spik ʌp] IPA: [spiːk ʌp] 大声说话；开口说出来"
+            },
+            {
+              "no": "11",
+              "word": "patient",
+              "kk": "KK: [ˈpeʃənt]",
+              "ipa": "IPA: [ˈpeɪʃənt]",
+              "meaning": "adj. 有耐心的（常与介词 with连用）",
+              "raw": "patient KK: [ˈpeʃənt] IPA: [ˈpeɪʃənt] adj. 有耐心的（常与介词 with连用）"
+            },
+            {
+              "no": "12",
+              "word": "improve",
+              "kk": "KK: [ɪmˈpruv]",
+              "ipa": "IPA: [ɪmˈpruːv]",
+              "meaning": "vt. & vi.（使）进步；改善",
+              "raw": "improve KK: [ɪmˈpruv] IPA: [ɪmˈpruːv] vt. & vi.（使）进步；改善"
+            },
+            {
+              "no": "13",
+              "word": "hi",
+              "kk": "KK: [haɪ]",
+              "ipa": "IPA: [haɪ]",
+              "meaning": "int. 嗨（打招呼声）",
+              "raw": "hi KK: [haɪ] IPA: [haɪ] int. 嗨（打招呼声）"
+            },
+            {
+              "no": "14",
+              "word": "kid",
+              "kk": "KK: [kɪd]",
+              "ipa": "IPA: [kɪd]",
+              "meaning": "vt. & vi.（口语）（与……）开玩笑 & n. 小孩",
+              "raw": "kid KK: [kɪd] IPA: [kɪd] vt. & vi.（口语）（与……）开玩笑 & n. 小孩"
+            }
+          ],
+          "emptyRowsPolicy": "hideUnusedRows"
+        },
+        {
+          "id": "part3_start",
+          "type": "grammarFlow",
+          "titleLayerPolicy": "preserveTemplateTitleLayer",
+          "lead": "本节课主要学习特殊疑问词引导的名词性从句。",
+          "sections": [
+            {
+              "title": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "对于特殊疑问句，我们只需要把特殊疑问词后面倒装的句子还原成正常的语序就可以当名词性从句用了，比如：",
+                  "runs": [
+                    {
+                      "text": "对于特殊疑问句，我们只需要把特殊疑问词后面倒装的句子还原成正常的语序就可以当名词性从句用了，比如：",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                },
+                {
+                  "type": "transformExample",
+                  "text": "What is your name? 变从句 → what your name is. be动词回到主语后面",
+                  "runs": [
+                    {
+                      "text": "    ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "What is your name?  ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "变从句",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "  ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "→",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": " what your name is.   ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "be",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "动词回到主语后面",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                },
+                {
+                  "type": "transformExample",
+                  "text": "Where will Vicky go? 变从句 → where Vicky will go. 助动词（can，will，have等）回到主语后面，这类助动词要么本身是情态动词，有确切的意思，修饰谓语动词，要么是为了帮助构成时态，变回陈述句语序后，其意思和时态都不变，因此仍然需要这些词，不能省掉。",
+                  "runs": [
+                    {
+                      "text": "    Where will Vicky go?  ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "变从句",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "  ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "→",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": " where Vicky will go.   ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "助动词",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "（",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "can",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "，",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "will",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "，",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "have",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "等",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "）",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "回到主语后面，这类助动词要么本身是情态动词，有确切的意思，修饰谓语动词，要么是为了帮助构成时态，变回陈述句语序后，其意思和时态都不变，因此仍然需要这些词，不能省掉。",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                },
+                {
+                  "type": "transformExample",
+                  "text": "Why does Vicky like kids? 变从句 → why Vicky likes kids. 助动词（do，does，did等）去除，动词还原成应有的时态，这里为一般现在时，所以动词要用三单。这类助动词只是为了帮助构成特殊疑问句，变从句后原来的句子还原成陈述句语序了，不再是特殊疑问句了，所以要将助动词去掉。",
+                  "runs": [
+                    {
+                      "text": "    ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "Why does Vicky like kids?  ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "变从句",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "  ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "→",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": " why Vicky likes kids.   ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "助动词",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "（",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "do",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "，",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "does",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "，",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "did",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "等",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "）",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "去除，动词还原成应有的时态，这里为一般",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "现在",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "时，所以动词要用三单。这类助动词只是为了帮助构成特殊疑问句，变从句后原来的句子还原成陈述句语序了，不再是特殊疑问句了，所以要将助动词去掉。",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "例子：",
+                  "runs": [
+                    {
+                      "text": "    ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "例子",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "：",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                },
+                {
+                  "type": "numberedExample",
+                  "text": "①What your name is doesn't matter to me. 名词性从句作主语",
+                  "runs": [
+                    {
+                      "text": "①",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "What your name is doesn",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "’",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "t matter to me.    ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "名词性从句作主语",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                },
+                {
+                  "type": "numberedExample",
+                  "text": "②The question is where Vicky will go. 名词性从句作表语",
+                  "runs": [
+                    {
+                      "text": "②",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "The question is where Vicky will go.    ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "名词性从句作表语",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                },
+                {
+                  "type": "numberedExample",
+                  "text": "③I don't know why Vicky likes kids. 名词性从句作动词的宾语",
+                  "runs": [
+                    {
+                      "text": "③",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "I don",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "’",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "t know why Vicky likes kids.    ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "名词性从句作动词的宾语",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                },
+                {
+                  "type": "numberedExample",
+                  "text": "④We are talking about where Vicky will go. 名词性从句作介词的宾语",
+                  "runs": [
+                    {
+                      "text": "④",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "We are talking about where Vicky will go. ",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    },
+                    {
+                      "text": "名词性从句作介词的宾语",
+                      "color": null,
+                      "highlight": null,
+                      "italic": false,
+                      "bold": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subtitlePolicy": "hideSubtitleGroupsWhenWordHasNoSectionTitle"
+        }
+      ]
+    },
+    {
+      "pageIndex": 3,
+      "template": "3-4 3.psd",
+      "pageNumbers": [
+        "005",
+        "006"
+      ],
+      "frames": {
+        "left": {
+          "top": 418,
+          "left": 200,
+          "bottom": 3308,
+          "right": 2149
+        },
+        "right": {
+          "top": 418,
+          "left": 2773,
+          "bottom": 3308,
+          "right": 4840
+        },
+        "source": "hidden PSD reference layers; keep hidden in output"
+      },
+      "hiddenLayers": [
+        "@SHELL_CONTENT_PANEL_DECOR_SHAPE",
+        "@SHELL_CONTENT_PANEL_LEFT",
+        "@SHELL_CONTENT_PANEL_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_LEFT"
+      ],
+      "modules": [
+        {
+          "id": "part3_cont",
+          "type": "grammarFlowContinuation",
+          "source": "part3_start"
+        }
+      ]
+    },
+    {
+      "pageIndex": 4,
+      "template": "3-4 4.psd",
+      "pageNumbers": [
+        "007",
+        "008"
+      ],
+      "frames": {
+        "left": {
+          "top": 421,
+          "left": 200,
+          "bottom": 3311,
+          "right": 2149
+        },
+        "right": {
+          "top": 421,
+          "left": 2773,
+          "bottom": 3311,
+          "right": 4840
+        },
+        "source": "hidden PSD reference layers; keep hidden in output"
+      },
+      "hiddenLayers": [
+        "@SHELL_CONTENT_PANEL_DECOR_SHAPE",
+        "@SHELL_CONTENT_PANEL_LEFT",
+        "@SHELL_CONTENT_PANEL_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_LEFT"
+      ],
+      "modules": [
+        {
+          "id": "part3_end",
+          "type": "grammarFlowContinuation",
+          "source": "part3_start"
+        },
+        {
+          "id": "part4_start",
+          "type": "exerciseFlow",
+          "titleLayerPolicy": "showOnceAtExerciseStart",
+          "blocks": [
+            {
+              "kind": "sectionTitle",
+              "sectionNo": "1.",
+              "text": "从下列句子中找出名词性从句，在从句下方画横线。"
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "①",
+              "text": "① What he needs is more time.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "②",
+              "text": "② What you learn will help you later.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "③",
+              "text": "③ This is what I have been looking for.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "④",
+              "text": "④ Life is what you make it.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑤",
+              "text": "⑤ I can't remember what she told me.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑥",
+              "text": "⑥ He didn't understand what I meant.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑦",
+              "text": "⑦ She finally realized what her mistake was.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑧",
+              "text": "⑧ We are worried about what will happen next.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑨",
+              "text": "⑨ She cares about what others think of her.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑩",
+              "text": "⑩ They are talking about what happened yesterday.",
+              "answerLines": 0,
+              "keepTogether": true
+            },
+            {
+              "kind": "sectionTitle",
+              "sectionNo": "2.",
+              "text": "翻译"
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "①",
+              "text": "① 我不知道如何提高我的国际语言水平。（international language）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "②",
+              "text": "② 他告诉我的是一些很有用的建议。（useful）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "③",
+              "text": "③ 问题是我们为什么要学得脸皮厚一点。（problem; thick-skinned）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "④",
+              "text": "④ 我明白了什么才是真正值得做的事。（worthy）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑤",
+              "text": "⑤ 她害怕别人会怎么看她。（be afraid to）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑥",
+              "text": "⑥ 他在问我这些语言技巧来自哪里。（language skills）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑦",
+              "text": "⑦ 成功的关键是你是否愿意不断进步。（success; key; improve）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑧",
+              "text": "⑧ 我们正在讨论怎样学习国际语言才更有效。（effectively）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑨",
+              "text": "⑨ 他只是在开玩笑，这就是我想说的。（kid）",
+              "answerLines": 1,
+              "keepTogether": true
+            },
+            {
+              "kind": "exerciseItem",
+              "itemNo": "⑩",
+              "text": "⑩ 你有多耐心决定了你能进步多快。（patient; decide; improve）",
+              "answerLines": 1,
+              "keepTogether": true
+            }
+          ],
+          "keepTogetherPolicy": "exerciseItemAndAnswerLines"
+        }
+      ]
+    },
+    {
+      "pageIndex": 5,
+      "template": "3-4 5.psd",
+      "pageNumbers": [
+        "009",
+        "010"
+      ],
+      "frames": {
+        "left": {
+          "top": 421,
+          "left": 200,
+          "bottom": 3311,
+          "right": 2149
+        },
+        "right": {
+          "top": 421,
+          "left": 2773,
+          "bottom": 3311,
+          "right": 4840
+        },
+        "source": "hidden PSD reference layers; keep hidden in output"
+      },
+      "hiddenLayers": [
+        "@SHELL_CONTENT_PANEL_DECOR_SHAPE",
+        "@SHELL_CONTENT_PANEL_LEFT",
+        "@SHELL_CONTENT_PANEL_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_RIGHT",
+        "@SHELL_PANEL_CORNER_DECOR_LEFT"
+      ],
+      "modules": [
+        {
+          "id": "part4_cont",
+          "type": "exerciseFlowContinuation",
+          "source": "part4_start"
+        }
+      ]
+    }
+  ],
+  "unresolvedRequiresPhotoshopMeasurement": [
+    "exact text wrap using PSD font metrics",
+    "Part1 reading green border dynamic resize",
+    "Dialogue yellow box and green line dynamic resize",
+    "flow break positions after actual Photoshop text composition"
+  ]
+}
