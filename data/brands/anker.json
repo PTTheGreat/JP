@@ -1,0 +1,74 @@
+{
+  "slug": "anker",
+  "name": "Anker(アンカー)",
+  "name_en": "Anker",
+  "country": "中国",
+  "summary": "Ankerは中国・深圳発の充電関連機器ブランド。元Googleエンジニアが2011年に創業し、日本ではアンカー・ジャパン株式会社が販売・サポートを行う。モバイルバッテリー、充電器、ケーブルなど充電周辺機器が主力。",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "親会社・設立背景",
+      "value": "Anker Innovations(中国・深圳)。2011年に元Googleエンジニアのスティーブン・ヤン氏が創業。",
+      "source": "Anker Innovations 公式サイト",
+      "source_url": "https://www.anker.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "主な価格帯",
+      "value": "充電器・モバイルバッテリーで概ね2,000〜15,000円の中価格帯。",
+      "source": "Anker Japan 公式オンラインストア",
+      "source_url": "https://www.ankerjapan.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "取扱カテゴリ",
+      "value": "モバイルバッテリー、USB充電器、ケーブル、オーディオ(Soundcore)、掃除機(Eufy)、プロジェクター(Nebula)ほか。",
+      "source": "Anker Japan 公式オンラインストア",
+      "source_url": "https://www.ankerjapan.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本での販売チャネル",
+      "value": "公式オンラインストア、Amazon、楽天市場、Yahoo!ショッピング、家電量販店、直営店(Anker Store)。",
+      "source": "Anker Japan 公式サイト 店舗一覧",
+      "source_url": "https://www.ankerjapan.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本法人",
+      "value": "アンカー・ジャパン株式会社(2013年設立)。法人番号は国税庁法人番号公表サイトで確認可能。【要確認】",
+      "source": "国税庁 法人番号公表サイト",
+      "source_url": "https://www.houjin-bangou.nta.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "技適(技術基準適合証明)",
+      "value": "Bluetooth搭載製品(Soundcore等)は技適取得済みの型番を確認可能。個別型番は総務省データベースで要確認。【要確認】",
+      "source": "総務省 技術基準適合証明等の公示",
+      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "リコール履歴",
+      "value": "モバイルバッテリーの一部型番で自主回収の事例あり。最新状況は消費者庁リコール情報サイトで確認可能。",
+      "source": "消費者庁 リコール情報サイト",
+      "source_url": "https://www.recall.caa.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "保証期間",
+      "value": "多くの製品で18〜24ヶ月。公式会員登録で延長される場合あり。【要確認】",
+      "source": "Anker Japan カスタマーサポート",
+      "source_url": "https://www.ankerjapan.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本語サポート",
+      "value": "日本語のカスタマーサポート(メール・電話)あり。修理は交換対応が中心。",
+      "source": "Anker Japan カスタマーサポート",
+      "source_url": "https://www.ankerjapan.com/",
+      "checked": "2026-08-27"
+    }
+  ],
+  "related_qa": ["anker-country", "anker-recall"]
+}

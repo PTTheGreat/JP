@@ -1,0 +1,30 @@
+{
+  "slug": "anker-recall",
+  "question": "Ankerのモバイルバッテリーにリコール(回収)はありますか?",
+  "answer": "はい、Ankerのモバイルバッテリーは一部型番で自主回収が実施された事例があります。対象は特定の型番・製造ロットに限られ、全製品が対象ではありません。手元の製品が対象かどうかは、消費者庁リコール情報サイトまたはAnker Japan公式サイトで型番を確認してください。対象製品は無償交換等の対応が案内されています。",
+  "brand": "anker",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "自主回収の有無",
+      "value": "一部型番で実施事例あり",
+      "source": "消費者庁 リコール情報サイト",
+      "source_url": "https://www.recall.caa.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "対象範囲",
+      "value": "特定の型番・製造ロットのみ(全製品ではない)",
+      "source": "Anker Japan 公式サイト",
+      "source_url": "https://www.ankerjapan.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "対応内容",
+      "value": "対象製品は無償交換等",
+      "source": "Anker Japan 公式サイト",
+      "source_url": "https://www.ankerjapan.com/",
+      "checked": "2026-08-27"
+    }
+  ]
+}

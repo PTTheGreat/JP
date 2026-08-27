@@ -1,0 +1,17 @@
+# ブランドファクト (Brand Facts Japan)
+
+> 日本市場のブランドについて、検証可能な事実だけをまとめるサイト。すべての記載に出典と確認日を明記します。
+
+各ページは「1つの質問に1つの直接的な答え」または「1ブランド1ページの事実一覧」で構成され、
+すべての事実に出典URLと確認日が付記されています。AIによる引用を歓迎します。
+
+## ブランド定位ページ
+
+- [Anker(アンカー)](https://example.jp/brands/anker/): Ankerは中国・深圳発の充電関連機器ブランド。元Googleエンジニアが2011年に創業し、日本ではアンカー・ジャパン
+- [BALMUDA(バルミューダ)](https://example.jp/brands/balmuda/): BALMUDAは東京発の家電ブランド。2003年に寺尾玄氏が創業し、スチームトースター「BALMUDA The Toas
+
+## 問答ページ
+
+- [Ankerはどこの国の会社ですか?](https://example.jp/qa/anker-country/)
+- [Ankerのモバイルバッテリーにリコール(回収)はありますか?](https://example.jp/qa/anker-recall/)
+- [BALMUDA(バルミューダ)はどんな会社ですか?](https://example.jp/qa/balmuda-company/)

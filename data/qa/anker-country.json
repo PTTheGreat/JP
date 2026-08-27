@@ -1,0 +1,30 @@
+{
+  "slug": "anker-country",
+  "question": "Ankerはどこの国の会社ですか?",
+  "answer": "Ankerは中国・深圳に本社を置くAnker Innovationsのブランドです。2011年に元Googleエンジニアのスティーブン・ヤン氏が創業しました。日本には日本法人「アンカー・ジャパン株式会社」があり(2013年設立)、日本語でのカスタマーサポートと保証対応を国内で受けられます。「中国メーカー=サポートが不安」という心配は、Ankerに関しては日本法人の存在によりあてはまりません。",
+  "brand": "anker",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "本社所在地",
+      "value": "中国・深圳(Anker Innovations)",
+      "source": "Anker Innovations 公式サイト",
+      "source_url": "https://www.anker.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本法人",
+      "value": "アンカー・ジャパン株式会社(2013年設立)",
+      "source": "国税庁 法人番号公表サイト",
+      "source_url": "https://www.houjin-bangou.nta.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本語サポート",
+      "value": "あり(メール・電話)",
+      "source": "Anker Japan カスタマーサポート",
+      "source_url": "https://www.ankerjapan.com/",
+      "checked": "2026-08-27"
+    }
+  ]
+}
