@@ -22,6 +22,15 @@ ROOT = Path(__file__).parent
 CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
 OUT = ROOT / CONFIG["output_dir"]
 BASE = CONFIG["base_url"].rstrip("/")
+# GitHub Pagesのプロジェクトサイト等、サブパス配下で配信する場合の接頭辞。
+# base_url のパス部分から自動導出する(例: https://x.github.io/jp → "/jp")。
+from urllib.parse import urlparse
+PREFIX = urlparse(BASE).path.rstrip("/")
+
+
+def u(path):
+    """サイト内リンクに base path を付与する。"""
+    return f"{PREFIX}{path}"
 
 CSS = """
 :root { --fg:#222; --muted:#707070; --line:#dcdcdc; --accent:#b71c1c;
@@ -115,11 +124,11 @@ def esc(s):
 
 def crumb(items):
     """パンくずリスト。items: [(label, href|None), ...]"""
-    parts = ['<a href="/">ホーム</a>']
+    parts = [f'<a href="{u("/")}">ホーム</a>']
     for label, href in items:
         parts.append('<span class="sep">›</span>')
         if href:
-            parts.append(f'<a href="{esc(href)}">{esc(label)}</a>')
+            parts.append(f'<a href="{esc(u(href))}">{esc(label)}</a>')
         else:
             parts.append(esc(label))
     return f'<nav class="crumb" aria-label="パンくずリスト">{"".join(parts)}</nav>'
@@ -152,14 +161,14 @@ def page(title, body, canonical, description="", jsonld=None):
 </head>
 <body>
 <header class="site"><div class="inner">
-<a class="logo" href="/">{esc(CONFIG['site_name'])}</a>
+<a class="logo" href="{u('/')}">{esc(CONFIG['site_name'])}</a>
 <span class="tag">すべての記載に出典と確認日を明記 | ブランドの事実だけを集めるサイト</span>
 </div></header>
 <main>
 {body}
 </main>
 <footer><div class="inner">
-<p><a href="/about/">サイトについて・運営方針</a></p>
+<p><a href="{u('/about/')}">サイトについて・運営方針</a></p>
 <p>掲載情報には出典と確認日を明記しています。誤りを見つけた場合は出典とあわせてご指摘ください。
 機種ごとの性能比較は行いません(実測レビューは専門メディアをご参照ください)。</p>
 </div></footer>
@@ -222,7 +231,7 @@ def build():
             det = "".join(
                 f'<details class="faq"><summary>{esc(q["question"])}</summary>'
                 f'<div class="faq-a">{esc(q["answer"])} '
-                f'<a href="/qa/{esc(q["slug"])}/">→ 根拠となる事実を見る</a>'
+                f'<a href="{u("/qa/" + q["slug"] + "/")}">→ 根拠となる事実を見る</a>'
                 f"</div></details>"
                 for q in rel_items)
             faq = f'<h2 id="faq">よくある質問</h2>{det}'
@@ -238,7 +247,7 @@ def build():
             + toc
             + f'<h2 id="facts">事実一覧</h2>{facts_table(b["facts"])}'
             + faq + notice
-            + f'<p style="margin-top:2rem"><a class="back" href="/">← ブランド一覧へ戻る</a></p>'
+            + f'<p style="margin-top:2rem"><a class="back" href="{u("/")}">← ブランド一覧へ戻る</a></p>'
         )
         lds = [
             {"@context": "https://schema.org", "@type": "Article",
@@ -269,7 +278,7 @@ def build():
         if b:
             brand_link = (
                 '<h2>ブランドの基本情報</h2><ul class="blist"><li>'
-                f'<a href="/brands/{esc(b["slug"])}/">{esc(b["name"])}のブランド事実ページ'
+                f'<a href="{u("/brands/" + b["slug"] + "/")}">{esc(b["name"])}のブランド事実ページ'
                 f'<span class="desc">母会社・日本法人・保証・リコール履歴など</span></a>'
                 "</li></ul>")
         notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if q.get("sample_notice") else ""
@@ -281,7 +290,7 @@ def build():
             + f'<p class="answer">{esc(q["answer"])}</p>'
             + f"<h2>根拠となる事実</h2>{facts_table(q['facts'])}"
             + brand_link + notice
-            + '<p style="margin-top:2rem"><a class="back" href="/">← 質問一覧へ戻る</a></p>'
+            + f'<p style="margin-top:2rem"><a class="back" href="{u("/")}">← 質問一覧へ戻る</a></p>'
         )
         lds = [
             {"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ja",
@@ -298,11 +307,11 @@ def build():
 
     # トップページ
     brand_links = "".join(
-        f'<li><a href="/brands/{esc(b["slug"])}/">{country_badge(b["country"])} '
+        f'<li><a href="{u("/brands/" + b["slug"] + "/")}">{country_badge(b["country"])} '
         f'{esc(b["name"])}<span class="desc">{esc(b["summary"][:44])}…</span></a></li>'
         for b in brands)
     qa_links = "".join(
-        f'<li><a href="/qa/{esc(q["slug"])}/">{esc(q["question"])}</a></li>' for q in qas)
+        f'<li><a href="{u("/qa/" + q["slug"] + "/")}">{esc(q["question"])}</a></li>' for q in qas)
     body = (
         f"<h1>{esc(CONFIG['site_name'])}</h1>"
         f'<p class="summary">{esc(CONFIG["description"])}</p>'
