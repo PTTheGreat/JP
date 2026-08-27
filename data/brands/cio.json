@@ -566,6 +566,326 @@
           "published": "不明"
         }
       ]
+    },
+    {
+      "slug": "cio-exchange-return-defective-item",
+      "question": "CIOの保証で交換品が先に届きましたが、故障した製品を捨ててしまいました。どうすればよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12327733987",
+        "original": "CIOの充電ケーブルが故障して保証申請して交換品の新品と故障品用の返送封筒が届いたのですが､故障品を捨ててしまった場合どうすれば良いのでしょうか"
+      },
+      "answer": "自己判断で放置せず、まずCIOのカスタマーサポートに事実を伝えて指示を仰いでください。CIOは修理ではなく交換対応で、初期不良は初期不良品として、保証期間内の故障は同一製品もしくは在庫状況により同等品と交換すると案内しています。運用上は交換品と返送用封筒が先に届き、不具合品を後から返送する流れです。返送できない場合の取り扱い(費用請求の有無など)は公式に明示されていません【要確認】。連絡先は06-6780-4095、受付10:00〜16:00です。",
+      "facts": [
+        {
+          "label": "修理体制",
+          "value": "修理ではなく交換対応。初期不良は初期不良品として交換、保証期間内の故障は同一製品もしくは在庫状況により同等品と交換",
+          "source": "お問い合わせ（個人）| 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/customer/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "カスタマーサポート 電話 06-6780-4095／個人向けお問い合わせフォーム",
+          "source": "お問い合わせ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "カスタマーサポート 10:00〜16:00（土日祝、及び翌営業日午前を除く）",
+          "source": "お問い合わせ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "不具合品を返送できない場合の扱い",
+          "value": "未確認 — 公式サポートで要確認【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/contact/customer/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-extended-warranty-how-to-register",
+      "question": "CIOの延長保証はどうやって登録するのですか?買ってすぐ登録しないと受けられませんか?",
+      "source": {
+        "platform": "note",
+        "url": "https://note.com/kunren/n/ncc888ac384d1",
+        "original": "「CIO」の充電器に不具合が出たので、延長保証を利用して最新機種に交換してもらった｜MtOjiisan"
+      },
+      "answer": "CIO製品の通常保証は1年で、全CIO製品を対象とした製品延長保証サービスにより最大2年に延長できます。費用は無料で、購入から2年以内であれば全ての人が対象と案内されており、会員登録のうえマイページから延長保証の登録を行う必要があります。つまり購入直後でなくても登録は可能です。登録には注文番号など購入情報が必要なため、注文履歴やレシートは保管してください。別制度の「トライアルサポート」では、対象製品で充電できなかった場合、購入後30日以内なら全額返金とされています。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "CIO製品の通常保証期間は1年",
+          "source": "新たなユーザーサポートとして、全CIO製品における製品延長保証サービスを開始",
+          "source_url": "https://connectinternationalone.co.jp/mypage/extendedwarranty/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "全CIO製品対象の製品延長保証サービス。購入から2年以内の全ての人が対象で無料、保証期間を最大2年に延長可能。会員登録後に延長保証登録が必要",
+          "source": "新たなユーザーサポートとして、全CIO製品における製品延長保証サービスを開始",
+          "source_url": "https://connectinternationalone.co.jp/mypage/extendedwarranty/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の保証サービス",
+          "value": "「トライアルサポート」— 対象製品で充電ができなかった場合、購入後30日以内であれば全額返金",
+          "source": "新サービス「トライアルサポート」を開始！",
+          "source_url": "https://connectinternationalone.co.jp/pages/trial_support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "登録に必要な情報",
+          "value": "注文番号等の購入情報。購入先ごとの必要書類は公式マイページで要確認【要確認】",
+          "source": "株式会社CIO 公式(延長保証)",
+          "source_url": "https://connectinternationalone.co.jp/mypage/extendedwarranty/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-crowdfunding-purchase-warranty",
+      "question": "クラウドファンディング(Makuake)で応援購入したCIO製品にも、通常の保証や延長保証は適用されますか?",
+      "source": {
+        "platform": "note",
+        "url": "https://note.com/kunren/n/n1a0379dddbb2",
+        "original": "【Makuake】CIOのモバイルバッテリーを初めて応援購入してみた【クラウドファンディング】｜MtOjiisan"
+      },
+      "answer": "CIOは新製品をクラウドファンディングで先行販売することがあります。公式の延長保証サービスは「全CIO製品」を対象とし、通常保証1年を無料で最大2年に延長できると案内されていますが、クラウドファンディング経由の購入分について保証の起算日や、支援履歴が購入証明として扱われるかは公式に明示されていません【要確認】。実務的にはプロジェクトページと支援・配送完了のメールを保存し、到着後すぐマイページで製品登録を試みてください。迷う場合は事前確認が確実です。",
+      "facts": [
+        {
+          "label": "延長保証の対象範囲",
+          "value": "全CIO製品対象。購入から2年以内の全ての人が対象で無料、最大2年に延長可能。会員登録後に延長保証登録が必要",
+          "source": "新たなユーザーサポートとして、全CIO製品における製品延長保証サービスを開始",
+          "source_url": "https://connectinternationalone.co.jp/mypage/extendedwarranty/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "クラウドファンディング購入分の扱い",
+          "value": "未確認 — 保証起算日および購入証明としての支援履歴の可否は公式に明示なし【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "問い合わせ窓口",
+          "value": "カスタマーサポート 電話 06-6780-4095、受付10:00〜16:00（土日祝、及び翌営業日午前を除く）",
+          "source": "お問い合わせ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "充電器・モバイルバッテリーは電気用品安全法の対象。国内流通品にPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-recycle-service-how-to-send",
+      "question": "CIOのモバイルバッテリー回収サービスは、実際にどう申し込んでどう送るのですか?他社製品も出せますか?",
+      "source": {
+        "platform": "note",
+        "url": "https://note.com/tasakura_/n/nbbfc851ccccf",
+        "original": "【備忘録】CIOのモバイルバッテリー回収サービスを利用してみた｜tasakura_"
+      },
+      "answer": "CIOの回収サービスはCIO製に加えて他社製モバイルバッテリーも対象です。利用者の記録では、Webで仮申請と本申請を行うと返送用封筒がポストに届き、バッテリー本体だけを入れて投函する流れとされています。ケーブル等の付属品は回収対象外です。クーポンの割引率はCIO製と他社製で異なり、CIO製は1個10%・2個13%・3個以上15%OFF、他社製は1個2%・2個4%・3個6%OFFと案内されています。膨張・破損品の郵送可否は明示がないため投函前に確認を【要確認】。",
+      "facts": [
+        {
+          "label": "回収サービスの対象",
+          "value": "CIO製だけでなく他社製モバイルバッテリーも回収対象",
+          "source": "株式会社CIO 公式（他社製モバイル回収サービス注釈ページ）",
+          "source_url": "https://connectinternationalone.co.jp/othercollectservice/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "回収特典",
+          "value": "CIO製の返送は1個10%OFF／2個13%OFF／3個以上15%OFF、他社製は1個2%OFF／2個4%OFF／3個6%OFFのクーポンを発行と案内",
+          "source": "株式会社CIO 公式（回収サービスをアップデート。他社モバイルバッテリーも回収可能に）",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/battery_recycle2023/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "膨張・破損品の受付可否",
+          "value": "未確認 — 郵送での受付条件は公式に明示なし。該当する場合は事前確認が必要【要確認】",
+          "source": "株式会社CIO 公式（他社製モバイル回収サービス注釈ページ）",
+          "source_url": "https://connectinternationalone.co.jp/othercollectservice/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "回収対象外の付属品",
+          "value": "ケーブル等の付属品は回収対象外とされる【要確認】",
+          "source": "株式会社CIO 公式（回収サービス）",
+          "source_url": "https://connectinternationalone.co.jp/othercollectservice/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-model-number-identification",
+      "question": "CIOのSMARTCOBYは名前が似た製品が多く、自分のがどれか分かりません。型番はどこで確認しますか?",
+      "source": {
+        "platform": "note",
+        "url": "https://note.com/mocchan/n/n20c8a9bf0423",
+        "original": "CIO モバイルバッテリーのおすすめ10選 半固体系電池モデルと容量・出力で選ぶ｜ガジェット沼｜デスクすっきり環境"
+      },
+      "answer": "製品名ではなく、本体やパッケージに印字された「CIO-」で始まる型番で判別してください。保証申請でもリコール照合でも判定に使われるのはこの型番です。自主回収の対象となった「SMARTCOBY Ex01 SLIM Qi2 & Cable」は型番CIO-MB20W2C-5000-EX01およびCIO-MB20W2C-5K-EX01で、同じSMARTCOBYを名乗る他の型番は対象外です。半固体系採用モデルは製品名の「SS」が目印です。印字が読めない場合は注文履歴でも確認できます。",
+      "facts": [
+        {
+          "label": "自主回収の対象型番",
+          "value": "「SMARTCOBY Ex01 SLIM Qi2 & Cable」（型番 CIO-MB20W2C-5K-EX01 / CIO-MB20W2C-5000-EX01、ホワイト・ブラック）の一部製造ロット",
+          "source": "「SMARTCOBY Ex01 SLIM Qi2 & Cable」に関するお詫びと一部製造ロットにおける製品の自主回収実施について",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/smartcoby_ex01/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "NovaPort(充電器)、SMARTCOBY / SMARTCOBY Pro(モバイルバッテリー)",
+          "source": "製品カテゴリ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/cioproduct/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "半固体系モデル",
+          "value": "2026年3月27日、半固体系バッテリーセルを採用した「SMARTCOBY Pro SLIM SS」「SMARTCOBY TRIO 35W SS20000mAh」「SMARTCOBY TRIO 67W SS20000mAh」を発売",
+          "source": "株式会社CIO 公式（SMARTCOBYシリーズ3製品を半固体系電池を採用し販売）",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/smartcoby_ss_series3/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的な照合先",
+          "value": "消費者庁リコール情報サイトで製品名・型番から検索可能",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-store-in-person-support",
+      "question": "大阪のCIO STOREに製品を持ち込めば、その場で交換などの対応をしてもらえますか?",
+      "source": {
+        "platform": "note",
+        "url": "https://note.com/yukisekai/n/nf79b334e8f17",
+        "original": "愛する初CIO STORE OSAKAへ｜ユキさん"
+      },
+      "answer": "CIO STOREは2025年3月6日にオープンした同社初の直営店で、大阪・ルクア イーレ9階の梅田 蔦屋書店内にあり、営業時間は10:30〜20:30です。ただし保証・交換の手続きが店頭で完結するかは公式に明示されていません【要確認】。公式の案内では対応は修理ではなく交換で、個人向けお問い合わせフォームやカスタマーサポート06-6780-4095(受付10:00〜16:00)を経由する郵送のやり取りが基本です。来店前に可否を問い合わせ、型番と購入日の証明を用意してください。",
+      "facts": [
+        {
+          "label": "直営店",
+          "value": "初の直営店「CIO STORE」を2025年3月6日オープン。大阪・ルクア イーレ9階 梅田 蔦屋書店内（営業時間10:30〜20:30）",
+          "source": "CIO初の直営店“CIO STORE”が2025年3月6日(木)よりOPENいたします！",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/ciostore_umeda1/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "店頭での保証・交換対応の可否",
+          "value": "未確認 — 公式に明示なし。事前に問い合わせが必要【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/contact/customer/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "標準の対応フロー",
+          "value": "修理ではなく交換対応。個人向けお問い合わせフォーム／カスタマーサポート06-6780-4095経由",
+          "source": "お問い合わせ（個人）| 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/customer/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "受付時間",
+          "value": "カスタマーサポート 10:00〜16:00（土日祝、及び翌営業日午前を除く）",
+          "source": "お問い合わせ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-charger-heat-safety",
+      "question": "CIOの小型充電器がかなり熱くなります。このまま使い続けても大丈夫でしょうか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/K0001457113/SortID=25457769/",
+        "original": "『壊れるかもしれないがそれがどうした』 CIO NovaPort TRIO CIO-G65W2C1A-N [ブラック] のクチコミ掲示板"
+      },
+      "answer": "高出力の小型充電器が充電中に温かくなること自体は珍しくありませんが、線引きは持っておいてください。手で持てないほど熱い、異臭や焦げ跡がある、筐体やプラグが変形・変色している場合は、直ちに使用を中止しコンセントから抜いてください。何度以上を異常とみなすかの公的な基準は本サイトでは確認していません【要確認】。CIOは独自の安全設計として「NovaCore」と「NovaSafety」を掲げています。保証は通常1年、延長登録で最大2年、対応は交換です。",
+      "facts": [
+        {
+          "label": "安全設計の取り組み",
+          "value": "独自の安全設計思想「NovaCore」（構造安全性の数値基準管理）と「NovaSafety」（ファームウェアによる劣化検知・温度制御）",
+          "source": "モバイルバッテリーの安全性と社会的責任について ─ CIOの考えと取り組み",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/safety-infmation/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "充電器・モバイルバッテリーは電気用品安全法の対象。製品にPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "発熱の許容範囲",
+          "value": "未確認 — 正常とみなせる温度の公的・公式な数値基準は確認できていない【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証と対応形態",
+          "value": "通常保証1年、延長保証登録で最大2年。対応は修理ではなく交換",
+          "source": "お問い合わせ（個人）| 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/customer/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-battery-wh-calculation-flight",
+      "question": "CIOのモバイルバッテリーを飛行機に持ち込みたいのですが、Wh(ワット時)はどう計算すればよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14304553579",
+        "original": "飛行機持ち込みの為にモバイルバッテリーのWhを計算する時は容量に書いてある3.7Vを参考にするのか入力、出力に書いてある12Vを参考にするのか"
+      },
+      "answer": "計算にはセルの公称電圧(3.6〜3.7V程度)を使い、入出力欄の5V/9V/12Vといった表記は使いません。式は「定格容量(mAh)×公称電圧(V)÷1000=Wh」です。ただし本体や外箱にWh表記があれば、その値が優先されます。CIOの主力である10,000〜20,000mAh帯はおよそ37〜74Whで、2026年4月24日から適用される「160Wh以下を2個まで」の枠内に収まります。あわせて受託手荷物に入れられないこと、機内での本体充電と他機器への給電が禁止された点にも注意を。",
+      "facts": [
+        {
+          "label": "2026年4月24日からの機内ルール",
+          "value": "160Wh以下を2個までとする運用のほか、機内でのモバイルバッテリー本体への充電、およびモバイルバッテリーから他機器への充電が禁止",
+          "source": "Anker Japan 公式オンラインストア(2026年4月から新ルール解説)",
+          "source_url": "https://www.ankerjapan.com/blogs/magazine/mobilebattery-ontheplane",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "航空機持ち込み制限",
+          "value": "リチウムイオン電池の航空機持ち込み制限が適用される",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な容量帯",
+          "value": "モバイルバッテリーの主力は10,000〜20,000mAh帯（例: SMARTCOBY Pro CABLE 100W 20K）",
+          "source": "製品カテゴリ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/cioproduct/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "所管・詳細の確認先",
+          "value": "航空機内へのリチウム電池持ち込みルールの詳細および各社の運用は国土交通省および各航空会社の案内で要確認【要確認】",
+          "source": "国土交通省",
+          "source_url": "https://www.mlit.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
     }
   ],
   "sections": [

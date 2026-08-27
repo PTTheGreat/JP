@@ -605,6 +605,326 @@
           "published": "不明"
         }
       ]
+    },
+    {
+      "slug": "dyson-battery-diy-replacement",
+      "question": "ダイソンの掃除機のバッテリーは自分で交換してもよいのですか。純正品はどこで手に入りますか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14254961089",
+        "original": "ダイソンの掃除機のバッテリー交換は自分で出来ますか？又、その費用はいくらくらい..."
+      },
+      "answer": "純正の交換用バッテリーは公式オンラインストア、お客様相談室、正規販売店で購入でき、機種によりボタン着脱やプラスドライバーで外す構造のため、利用者自身での交換は想定されています。公式の交換用パーツページではV12用が9,900円(税込)と表示されていますが、他機種の金額はお客様相談室(0120-295-731)で要確認です【要確認】。非純正の互換バッテリーは安価な一方、ダイソンは模倣品パーツの使用で保証が無効になりうるとし、NITE・消防との調査で非純正バッテリー起因の発火が確認されたとも告知しています。",
+      "facts": [
+        {
+          "label": "純正バッテリーの入手先",
+          "value": "ダイソン公式オンラインストア、お客様相談室、正規販売店で純正パーツを販売",
+          "source": "交換用パーツ",
+          "source_url": "https://www.dyson.co.jp/spare-parts",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "価格の例",
+          "value": "V12用交換バッテリー9,900円(税込)。他機種の金額は公式ストア／お客様相談室で要確認【要確認】",
+          "source": "交換用パーツ",
+          "source_url": "https://www.dyson.co.jp/spare-parts",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "非純正部品使用時の保証",
+          "value": "部品の模倣品・非純正バッテリーを使用すると保証が無効になる可能性があり、非純正バッテリー起因の故障・事故についてダイソンは責任を負わない",
+          "source": "よくあるご質問｜交換用パーツと付属品",
+          "source_url": "https://www.dyson.co.jp/spare-parts/frequently-asked-questions",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "非純正バッテリーの安全性",
+          "value": "NITE(製品評価技術基盤機構)および消防との調査により、調査対象の事故はいずれも第三者製の非純正バッテリーが原因の発火であったとダイソンが告知",
+          "source": "お客様へ大切なお知らせ",
+          "source_url": "https://www.dyson.co.jp/support/other-notice",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-battery-discontinued-model",
+      "question": "使っている機種の交換用バッテリーが公式サイトで販売終了になっていました。どうすればよいですか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13296168543",
+        "original": "ダイソンの掃除機のバッテリーの交換を考え、公式で見たら、販売終了し..."
+      },
+      "answer": "まずお客様相談室(0120-295-731)に型番を伝え、在庫や後継パーツの有無を確認してください。公式サポートには「修理および交換用パーツの提供を終了した製品」の案内があり、該当機種の利用者には新製品への特別な買い替え案内が行われるとされています。公式で入手できない場合は通販の互換バッテリーが選択肢に見えますが、ダイソンは非純正の使用で保証が無効になりうるとし、NITE・消防との調査で非純正バッテリー起因の発火が確認されたと告知しています。安全と費用を比べて判断してください。",
+      "facts": [
+        {
+          "label": "パーツ提供終了製品の扱い",
+          "value": "公式サポートに「修理および交換用パーツの提供を終了した製品」の案内があり、該当機種には新製品への特別な買い替え案内が行われるとされる",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "問い合わせ窓口",
+          "value": "ダイソンお客様相談室 0120-295-731(携帯 0570-073-731)、受付9:00〜17:30",
+          "source": "お問い合わせ",
+          "source_url": "https://www.dyson.co.jp/support/contact-us",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "部品保有期間",
+          "value": "未確認 — 機種ごとの部品保有期間は公式サイト上で確認できず、お客様相談室で要確認【要確認】",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "互換バッテリーのリスク",
+          "value": "非純正バッテリー起因の発火事例が公式に告知されており、保証も無効になりうる",
+          "source": "お客様へ大切なお知らせ",
+          "source_url": "https://www.dyson.co.jp/support/other-notice",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-pickup-repair-flow",
+      "question": "ダイソンの掃除機を修理に出すとどんな流れになりますか。費用や見積もりはどう扱われますか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11317242066",
+        "original": "ダイソン掃除機の修理について調べても見つからなかったので修理に出した方教えてください。DC46を２年以内に電源が入らないので修..."
+      },
+      "answer": "公式の流れは、窓口へ相談したうえで宅配業者が自宅へ集荷し、サービスセンターで修理して自宅へ返送する形です。保証期間中(掃除機は2年)は技術料・部品代・往復運賃がすべて無料、保証期間外は事前に修理料金を提示したうえで有償とされています。金額は依頼前に提示されますが、本サイトでは断定できずお客様相談室(0120-295-731)で要確認です【要確認】。代替機の貸出や、見積もりを断った場合の点検料も公式サイト上では確認できないため、集荷依頼前に窓口で確認してください【要確認】。",
+      "facts": [
+        {
+          "label": "修理の流れ",
+          "value": "宅配業者による自宅集荷→サービスセンターで修理→自宅へ返送",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間中の費用",
+          "value": "技術料・部品代・往復運賃が無料。保証期間外は事前に修理料金を提示のうえ有償",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間外の修理金額",
+          "value": "未確認 — 定額制かどうかを含め公式サポートで要確認【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "代替機の貸出・見積辞退時の費用",
+          "value": "未確認 — 公式サイト上に記載を確認できず、お客様相談室で要確認【要確認】",
+          "source": "お問い合わせ",
+          "source_url": "https://www.dyson.co.jp/support/contact-us",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-filter-wash-frequency",
+      "question": "フィルターの警告が頻繁に出ます。洗浄の頻度と乾燥時間はどう考えればよいですか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13243156323",
+        "original": "ダイソンのフィルター詰まりと乾燥方について。フィルターの警告..."
+      },
+      "answer": "洗浄頻度と乾燥時間は機種の取扱説明書の指示に従い、水洗い後は完全に乾いてから装着してください。生乾きのまま戻すと目詰まりやにおいの原因になり、警告が消えない状態が続きます。乾燥待ちの空白をなくしたい場合、純正フィルターは公式ストアで継続販売されており(6,600〜7,700円税込)、予備を1枚持つ運用が現実的です。洗浄しても警告が続くときはサイクロン部・パイプ・ヘッド側の詰まりも点検し、改善しなければお客様相談室(0120-295-731)へ相談してください。",
+      "facts": [
+        {
+          "label": "純正フィルターの入手性と価格",
+          "value": "公式オンラインストア・お客様相談室・正規販売店で販売。交換用フィルターは6,600〜7,700円(税込)",
+          "source": "交換用パーツ",
+          "source_url": "https://www.dyson.co.jp/spare-parts",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "洗浄頻度・乾燥時間の公式指示",
+          "value": "未確認 — 機種ごとに取扱説明書の指示が異なるため製品別に要確認【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間中の修理費用",
+          "value": "技術料・部品代・往復運賃が無料(掃除機の保証は2年、製品登録が必要)",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "互換フィルターと保証",
+          "value": "純正以外の部品使用に起因する不具合は保証対象外となる場合あり【要確認】",
+          "source": "よくあるご質問｜交換用パーツと付属品",
+          "source_url": "https://www.dyson.co.jp/spare-parts/frequently-asked-questions",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-outlet-genuine-and-warranty",
+      "question": "アウトレット店で見かけたダイソン製品は本物ですか。保証は通常品と同じですか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14316598399",
+        "original": "ダイソン アウトレット製品について質問です。先日アウトレット店にてヘアドライヤー..."
+      },
+      "answer": "公式オンラインストアの「アウトレットセール」は正規品で、製品箱の傷やへこみなど外装に難がある製品などを販売するものです。ただし保証は通常の2年ではなく1年で、外装を理由とした返品はできないと販売規約に明記されています。また「認定整備済(リファービッシュ)製品」という制度は公式サイト上に記載が確認できません。公式ストア以外のアウトレット店で買う場合は、国内正規品か、購入証明が発行されるか、保証登録ができるかを購入前に確認してください。",
+      "facts": [
+        {
+          "label": "公式アウトレットの保証",
+          "value": "アウトレット製品は1年間のメーカー保証(通常品は2年)。製品箱の傷・へこみ等がある場合があり、外装を理由とした返品は不可",
+          "source": "アウトレットセール",
+          "source_url": "https://www.dyson.co.jp/deals/clearance-sale",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "認定整備済製品制度",
+          "value": "公式サイト上に該当する制度の記載は確認できず",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証適用の前提",
+          "value": "掃除機・空調家電・ヘアケアは2年、照明は5年、アウトレットは1年。保証適用には製品登録が必要",
+          "source": "販売規約",
+          "source_url": "https://www.dyson.co.jp/support/terms-of-sale",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "正規販売チャネル",
+          "value": "公式オンラインストア、Dyson Demo直営店、指定家電量販店、百貨店・コスメセレクトショップ",
+          "source": "百貨店／コスメセレクトショップ",
+          "source_url": "https://www.dyson.co.jp/inside-dyson/dyson-demo/dyson-store-third-party",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-weight-for-seniors",
+      "question": "70代の親が使う予定ですが、ダイソンのコードレス掃除機は重すぎませんか。置き場所も心配です。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11292476646",
+        "original": "ダイソンの掃除機についてです。高齢者の親（７０代）が使用する場合、重さや..."
+      },
+      "answer": "本サイトは機種ごとの重さの優劣を判定しませんが、確認方法は明確です。ダイソンは直営店Dyson Demoを運営しており、表参道店(東京都港区北青山3-11-7 Ao 1階、11:00-20:00)などで実機を持って確かめられます。カタログ上の本体質量は製品ページに記載があるため、候補機種を比較してください。収納は充電ドックを壁に取り付ける前提の機種が多く、設置場所の確保が必要です【要確認】。体制面の判断材料は保証2年、保証期間中は無料の集荷修理、消耗品の公式販売です。",
+      "facts": [
+        {
+          "label": "実機を試せる直営店",
+          "value": "Dyson Demo ストア。表参道店は東京都港区北青山3-11-7 Ao 1階(TEL 03-5778-3595、11:00-20:00)。表参道店・越谷店では修理相談も受付",
+          "source": "Dyson Demo ストア",
+          "source_url": "https://www.dyson.co.jp/lightboxes/shop/informationlinks/dysondemo/informationlink_dysoncare_dysondemo.aspx",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "機種別の本体質量",
+          "value": "未確認 — 機種ごとに異なるため公式製品ページで型番別に要確認【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "掃除機は2年(メーカー保証)。保証適用には製品登録が必要",
+          "source": "販売規約",
+          "source_url": "https://www.dyson.co.jp/support/terms-of-sale",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "収納・充電ドックの設置条件",
+          "value": "未確認 — 壁掛けの要否は機種により異なるため製品ページで要確認【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-head-not-rotating",
+      "question": "ダイソンの掃除機のヘッドが回転しません。床に付けるとローラーが止まります。故障でしょうか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14261815819",
+        "original": "ダイソン掃除機のヘッドが回転しません。床に付けると、ローラーが止まります。床か..."
+      },
+      "answer": "故障と決める前に詰まりと接点を切り分けてください。順序は、(1)ヘッドのブラシバーに髪の毛や糸が巻き付いていないか、(2)パイプ・クリアビン・本体の接続部にホコリが溜まっていないか、(3)フィルターやサイクロン部の目詰まりで保護動作が働いていないか、の3点です。戻らなければお客様相談室(0120-295-731、9:00〜17:30)へ。保証期間中(2年)なら集荷修理で技術料・部品代・往復送料は無料です。取扱説明書にない分解に起因する破損は保証対象外と判断されうる点に注意してください【要確認】。",
+      "facts": [
+        {
+          "label": "日本語サポート窓口",
+          "value": "ダイソンお客様相談室 0120-295-731(携帯 0570-073-731)、Eメール japan.helpline@dyson.com、LINE公式アカウントあり",
+          "source": "お問い合わせ",
+          "source_url": "https://www.dyson.co.jp/support/contact-us",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "月〜日曜日および祝日 9:00〜17:30(年末年始・大型連休等は休業の場合あり)",
+          "source": "お問い合わせ",
+          "source_url": "https://www.dyson.co.jp/support/contact-us",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間中の修理費用",
+          "value": "集荷修理で技術料・部品代・往復運賃が無料",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "自己分解と保証の関係",
+          "value": "未確認 — 取扱説明書に記載のない分解に起因する破損の扱いは公式サポートで要確認【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-hairdryer-cord-fault",
+      "question": "3年前に買ったダイソンのドライヤーの電源コードが断線しかけています。自分で直してもよいですか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14281360589",
+        "original": "ダイソン製ドライヤーの断線についての質問です。3年前に妻にプレゼントしたダイソンのドライヤーが断線仕掛けているようで止まったり動いたりしま..."
+      },
+      "answer": "使用を止め、公式窓口に相談してください。電源コードの断線は発熱・発火につながるため、自分でコードを継ぐような対処は避けるべきです。ヘアケア製品のメーカー保証は2年のため、購入から3年経過した個体は保証外で有償対応になります。有償修理の金額は本サイトでは断定できず、お客様相談室(0120-295-731、9:00〜17:30)で要確認です【要確認】。国内正規品は電気用品安全法の対象でPSEマーク表示があり、非正規の修理はその適合性を損なう恐れがあります。",
+      "facts": [
+        {
+          "label": "ヘアケア製品の保証期間",
+          "value": "2年(メーカー保証)。保証適用には製品登録が必要",
+          "source": "販売規約",
+          "source_url": "https://www.dyson.co.jp/support/terms-of-sale",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証外の修理費用",
+          "value": "未確認 — 金額・定額制の有無を含め公式サポートで要確認【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理受付窓口",
+          "value": "ダイソンお客様相談室 0120-295-731、受付9:00〜17:30。集荷修理は保証期間外の場合、事前に修理料金を提示のうえ有償",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "ヘアドライヤーは電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
     }
   ],
   "sections": [

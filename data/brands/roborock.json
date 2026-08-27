@@ -532,6 +532,277 @@
           "published": "2026-06-11"
         }
       ]
+    },
+    {
+      "slug": "roborock-entrance-step-fall",
+      "question": "玄関の段差でロボット掃除機が落ちてしまいます。対策はありますか？",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/J0000036412/SortID=25243124/",
+        "original": "『玄関の段差で必ず落ちる』 Roborock S7 のクチコミ掲示板"
+      },
+      "answer": "まずアプリで進入禁止エリア（バーチャルウォール）を玄関前に設定してください。落下防止センサーは床の色や光の反射条件によって段差を検知しきれないことがあり、玄関の下り段差は実際に落下報告が出ています。ソフト側の設定だけで不安な場合は、物理的なスロープやペットゲートで玄関を仕切るのが確実です。逆に上り段差を越えたい場合は、乗り越え可能な高さが機種ごとに異なるため、購入前に公式の製品比較ページで確認してください。具体的な段差の対応寸法は機種依存です【要確認】。",
+      "facts": [
+        {
+          "label": "段差の乗り越え性能",
+          "value": "機種により異なる。公式の製品比較ページで型番ごとに確認が必要【要確認】",
+          "source": "Roborockロボット掃除機を比較",
+          "source_url": "https://jp.roborock.com/pages/robot-vacuum-cleaners-compare",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "アプリでのエリア制御",
+          "value": "アプリからマップ上でエリア指定・設定が可能。対応する制御項目は機種により異なる【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "落下・破損時の保証",
+          "value": "保証対象はロボット掃除機・水拭き掃除機・コードレス掃除機の本体と充電ドックの新品に限定され、アクセサリー類は対象外",
+          "source": "保証規定",
+          "source_url": "https://jp.roborock.com/pages/service",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-pet-accident-handling",
+      "question": "ペットの粗相をロボット掃除機が巻き込んでしまいました。どう対処すればよいですか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14287539879",
+        "original": "ロボット掃除機が犬の便を吸ってしまった為、中を外して洗って再度設置するもバクっ..."
+      },
+      "answer": "すぐ停止して電源を切り、取り外せる部品を分解して洗浄・完全乾燥させてください。順序は、ダストボックス、メインブラシとブラシカバー、サイドブラシ、車輪まわり、モップとモップ台です。水洗い不可の部品（フィルターや本体の電装部）は取扱説明書の指示に従い、乾燥が不十分なまま戻すと異臭やエラーの原因になります。予防は、留守中の自動運転を避け、ペットのいる部屋を進入禁止エリアにすることです。AIの障害物回避も液状の汚れは避けきれません【要確認】。",
+      "facts": [
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "公式サイトにアクセサリーページがあり、メインブラシ・エアフィルター・モップ等を交換可能。純正品の使用を推奨",
+          "source": "アクセサリー",
+          "source_url": "https://jp.roborock.com/pages/accessories-stick",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証の対象範囲",
+          "value": "対象はロボット掃除機・水拭き掃除機・コードレス掃除機の本体と充電ドックの新品に限定され、アクセサリー類は対象外",
+          "source": "保証規定",
+          "source_url": "https://jp.roborock.com/pages/service",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "障害物回避性能",
+          "value": "未確認 — 排泄物など液状の汚れに対する回避精度の公式な数値は確認できない【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-consumable-replacement-cycle",
+      "question": "Roborockのモップやブラシはどのくらいの頻度で交換が必要ですか？互換品を使っても大丈夫ですか？",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/J0000036412/SortID=26024119/",
+        "original": "『モップを洗うのが大変そうなのですが…』 Roborock S7 のクチコミ掲示板"
+      },
+      "answer": "交換時期はアプリが部品ごとの使用状況を集計して通知するので、その表示を基準にしてください。公式はアクセサリーページで純正品の使用を推奨しています。互換品は安価ですが、非純正部品に起因する不具合が保証の対象外と判断される可能性があり、モップやフィルターは目詰まりや変形で清掃性能が落ちる報告もあります。バッテリーなど発熱を伴う部品は特に純正を勧めます。年間の消耗品費用は機種と使用頻度で変わるため、本サイトでは金額を掲載しません。公式アクセサリーページで要確認【要確認】。",
+      "facts": [
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "公式サイトにアクセサリーページがあり、メインブラシ・エアフィルター・モップ等を交換可能。アプリが各パーツの使用状況と交換時期を通知。純正品の使用を推奨",
+          "source": "アクセサリー",
+          "source_url": "https://jp.roborock.com/pages/accessories-stick",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品の価格・交換周期",
+          "value": "未確認 — 機種・使用頻度により異なる。公式アクセサリーページで型番ごとに要確認【要確認】",
+          "source": "アクセサリー",
+          "source_url": "https://jp.roborock.com/pages/accessories-stick",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "非純正部品と保証の関係",
+          "value": "保証対象は本体と充電ドックの新品でアクセサリー類は対象外。非純正部品使用時の扱いは公式サポートで要確認【要確認】",
+          "source": "保証規定",
+          "source_url": "https://jp.roborock.com/pages/service",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-dock-mop-odor",
+      "question": "Roborockのドックやモップから生乾きのようなにおいがします。どうすればよいですか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12309685097",
+        "original": "ロボロックS7MAXVのドックが臭いです。（生乾きとか、カビのような臭いで..."
+      },
+      "answer": "原因はほぼ水分の残留なので、乾かす工程を増やすのが基本です。手順は、(1)汚水タンクは毎回排水して水洗いし、伏せて乾かす、(2)洗浄トレーと排水経路のぬめりを拭き取る、(3)自動乾燥機能を有効にし乾燥時間を長めに設定する、(4)清水タンクの水を溜め置きしない、(5)モップは通知に従って交換する、の順です。それでも改善しない場合は排水経路の詰まりで汚水がモップ側へ戻っている可能性があるため、サポートに相談してください。洗剤や除菌剤を入れてよいかは機種で異なるため取扱説明書で確認を【要確認】。",
+      "facts": [
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "公式サイトにアクセサリーページがあり、モップ等を交換可能。アプリが各パーツの使用状況と交換時期を通知",
+          "source": "アクセサリー",
+          "source_url": "https://jp.roborock.com/pages/accessories-stick",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "洗剤・薬剤の使用可否",
+          "value": "未確認 — 機種により異なる。取扱説明書および公式FAQで要確認【要確認】",
+          "source": "よくあるご質問",
+          "source_url": "https://www.roborock.jp/pages/faq",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談先",
+          "value": "無償修理の場合は事前にカスタマーサポートセンターへ相談のうえ、保証書を添えて着払いで送付",
+          "source": "よくあるご質問 / 保証規定",
+          "source_url": "https://www.roborock.jp/pages/faq",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-warranty-proof-of-purchase",
+      "question": "Roborockの保証書をなくしました。購入店がわからなくても修理は受けられますか？",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/-/SortID=22689269/",
+        "original": "『購入店が分かりません。調べる方法を教えてください。』 家電その他のクチコミ掲示板"
+      },
+      "answer": "購入日と購入先を証明できるかが分かれ目です。Roborockの保証は保証書に記載された購入日から起算し、対象は本体と充電ドックの新品に限られます。保証書がなくても、注文履歴・レシート・クレジットカード明細など購入日がわかる資料があれば相談できますが、可否はサポートの判断です【要確認】。認定販売店以外での購入品は保証対象外になる場合があります【要確認】。無償修理は事前にカスタマーサポートへ相談し、購入後1年以上経過した有償修理は預かり後に見積もりを算出、見積作成時に検品費用が発生します。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "保証書に記載された購入日から起算し、保証書記載の期間内は無償交換・修理。対象は本体と充電ドックの新品に限定され、アクセサリー類は対象外",
+          "source": "保証規定",
+          "source_url": "https://jp.roborock.com/pages/service",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "初期不良期間",
+          "value": "購入日より15日間（初期不良における交換期間）",
+          "source": "保証規定",
+          "source_url": "https://jp.roborock.com/pages/service",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "無償の場合は事前にカスタマーサポートセンターへ相談のうえ、保証書を添えて着払いで送付。購入後1年以上経過した有償修理は製品預かり後に見積を算出し、見積作成時に検品費用が発生",
+          "source": "よくあるご質問 / 保証規定",
+          "source_url": "https://www.roborock.jp/pages/faq",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "Amazon、楽天市場、Yahoo!ショッピング、トレテク！ソフトバンクセレクション等の認定販売店・認定ストア",
+          "source": "ご購入・販売店一覧",
+          "source_url": "https://jp.roborock.com/pages/shop",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-noise-in-apartment",
+      "question": "集合住宅でロボット掃除機を動かすと下の階に音は響きますか？夜間に動かしても問題ありませんか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14128803649",
+        "original": "一般的なマンションの場合、ルンバの音は下の階に響きますか？自分の家の生活音がど..."
+      },
+      "answer": "階下に伝わりやすいのは吸引音より、走行時の振動と家具に当たったときの衝撃音です。夜間や早朝（一般に22時以降）の稼働は避けるのが無難で、集合住宅では管理規約の生活音に関する規定も確認してください。対策としては、家具にぶつかりやすい場所を進入禁止エリアに設定する、ラグや防音マットを敷く、静音寄りの吸引モードを使う、自動ゴミ収集ドックの吸引動作は短時間でも音が大きいため稼働時間帯を昼間に固定する、が有効です。運転音の実測値は機種で異なるため、公式の製品情報で確認してください【要確認】。",
+      "facts": [
+        {
+          "label": "運転音",
+          "value": "未確認 — 機種・吸引モードにより異なる。公式の製品比較ページで型番ごとに要確認【要確認】",
+          "source": "Roborockロボット掃除機を比較",
+          "source_url": "https://jp.roborock.com/pages/robot-vacuum-cleaners-compare",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "スケジュール・エリア設定",
+          "value": "アプリから稼働スケジュールやマップ上のエリア設定が可能。対応項目は機種により異なる【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "自動ゴミ収集ドックの動作音",
+          "value": "未確認 — ドック付き機種のゴミ吸引時の騒音値は公開情報では確認できない【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-multi-floor-maps",
+      "question": "2階建ての家で使う場合、Roborockは階ごとにマップを分けて管理できますか？",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/K0001590654/SortID=25673718/",
+        "original": "『複数階』 Roborock Q Revo QR52-04 [黒] のクチコミ掲示板"
+      },
+      "answer": "複数フロアのマップ保存に対応する機種があります。ただし保存できる枚数は機種によって異なるため、公式の製品比較ページで型番ごとに確認してください【要確認】。運用上の注意は3点です。第一に、階段は自走できないので本体を手で運ぶ必要があり、持ち手のない機種は運搬しにくいという指摘があります。第二に、ドックは片方の階に置き、もう一方の階では掃除開始地点に戻る動作になります。第三に、階を移したあとにマップの自動判別が外れると再作成になるため、開始位置をできるだけ揃えるのが安定します。",
+      "facts": [
+        {
+          "label": "複数マップ対応",
+          "value": "対応可否と保存可能枚数は機種により異なる。公式の製品比較ページで要確認【要確認】",
+          "source": "Roborockロボット掃除機を比較",
+          "source_url": "https://jp.roborock.com/pages/robot-vacuum-cleaners-compare",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "階間の移動",
+          "value": "階段の自走には対応せず、本体を手で運ぶ必要がある",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "マップデータの保存先",
+          "value": "グローバルクラウドを利用し、中国・ドイツ・ロシア・米国のデータセンターを使用。アカウント登録時に選択した国・地域に最も近いデータセンターに保存される",
+          "source": "Roborock App プライバシーポリシー（日本語）",
+          "source_url": "https://files.roborock.com/iot/doc/os/privacy/latest/ja.html",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-map-lost-relocalization",
+      "question": "Roborockのマップが消えたり「現在位置を確認中」のまま動かなくなったりします。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13238526963",
+        "original": "ロボロックがずっと「現在位置を確認中です」と言い同じ場所をずっとぐ..."
+      },
+      "answer": "多くは自己位置の推定に失敗している状態です。順に、(1)本体をドックに戻してから再開する、(2)ドックの位置と向きを動かさず、周囲と前方を空ける、(3)センサー類（レーザー測距部・カメラ・落下センサー）の汚れを乾いた布で拭く、(4)家具を大きく動かした後はマップを作り直す、(5)複数マップ運用なら選択中のマップが合っているか確認する、(6)ファームウェアとアプリを更新する、を試してください。マップはクラウド側に保持される設計のため、アプリの再ログインで復元できる場合があります【要確認】。",
+      "facts": [
+        {
+          "label": "マップデータの保存先",
+          "value": "グローバルクラウドを利用し、中国・ドイツ・ロシア・米国のデータセンターを使用。アカウント登録時に選択した国・地域に最も近いデータセンターに保存される",
+          "source": "Roborock App プライバシーポリシー（日本語）",
+          "source_url": "https://files.roborock.com/iot/doc/os/privacy/latest/ja.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "マップの復元可否",
+          "value": "未確認 — 再ログインによる復元の可否・条件は公開情報では確認できない【要確認】",
+          "source": "よくあるご質問",
+          "source_url": "https://www.roborock.jp/pages/faq",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート窓口",
+          "value": "日本語サポート窓口あり。アプリも日本語対応。受付時間は未確認【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
     }
   ],
   "sections": [

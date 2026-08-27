@@ -524,6 +524,326 @@
           "published": "不明"
         }
       ]
+    },
+    {
+      "slug": "xiaomi-battery-replacement-route-cost",
+      "question": "Xiaomiのスマホのバッテリー交換は、どこに頼めばよいですか?費用や日数の目安はありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11299945301",
+        "original": "Xiaomiのスマートフォンでバッテリー交換をすると費用や時間"
+      },
+      "answer": "正規ルートは公式サポート経由の一本道です。Xiaomiカスタマーサービスセンター(フリーダイヤル0120-767-378、またはservice.jp@support.mi.com、受付は月〜日9:00〜18:00)へ申請したうえで、Xiaomi Service Center 秋葉原店への持ち込みか郵送修理を選ぶ流れになります。キャリアで購入した端末は、まずキャリアの窓口が入口です。交換費用と所要日数は機種・症状によって異なり、当サイトでは金額を確認できていないため公式サポートで要確認です【要確認】。保証面では、取り外しができないバッテリーは1年、取り外し可能なバッテリーと充電器は6ヶ月が対象期間です。経年劣化による容量低下が保証に含まれるかは公式で要確認【要確認】。",
+      "facts": [
+        {
+          "label": "申込窓口",
+          "value": "カスタマーサービスセンター フリーダイヤル 0120-767-378／メール service.jp@support.mi.com。受付は月曜〜日曜 9:00〜18:00(年末年始を除く)",
+          "source": "アフターサービスのよくあるご質問｜Xiaomi 日本公式",
+          "source_url": "https://www.mi.com/jp/service/support/aftersales.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理の受け方",
+          "value": "Xiaomi Service Center 秋葉原店での対面修理と、郵送修理(修理返送)の2通り",
+          "source": "Xiaomi Service Center秋葉原店／修理返送の流れと注意事項",
+          "source_url": "https://www.mi.com/jp/support/service-centre/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "バッテリーの保証期間",
+          "value": "取り外しができないバッテリーは1年、取り外し可能なバッテリーおよび充電器は6ヶ月(本体は1年)",
+          "source": "保証｜Xiaomi Japan",
+          "source_url": "https://www.mi.com/jp/support/warranty/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換費用・所要日数",
+          "value": "未確認 — 金額・日数とも機種と症状により異なる。公式サポートで要確認【要確認】",
+          "source": "Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-service-center-walk-in",
+      "question": "シャオミには日本に修理やバッテリー交換を持ち込める窓口がありますか?郵送しか方法はないのでしょうか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12311896792",
+        "original": "シャオミは日本にバッテリー交換、修理などのサービスセンターみたいなとこありますか? - 現在は電話かメールで申し込み郵送する"
+      },
+      "answer": "現在は郵送修理に加えて、対面で持ち込める直営拠点があります。日本初の直営アフターサービス拠点「Xiaomi Service Center 秋葉原店」が2026年2月28日に開設され、公式サポートページでも案内されています。所在地は東京都千代田区外神田4-6-7 カンダエイトビル1階と報じられています。ただし直営拠点は秋葉原以外に確認できておらず【要確認】、遠方の場合は従来どおり郵送修理が現実的です。いずれの場合も、まずカスタマーサービスセンター(0120-767-378、月〜日9:00〜18:00)へ電話またはメールで保証サービスを申請するのが手順です。キャリアで購入した端末はキャリア窓口が入口になります。",
+      "facts": [
+        {
+          "label": "直営サービス拠点",
+          "value": "Xiaomi Service Center 秋葉原店(2026年2月28日開設)。対面修理に対応",
+          "source": "Xiaomi Service Center秋葉原店｜Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/service-centre/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "郵送修理",
+          "value": "修理返送(郵送修理)に対応。カスタマーサービスセンターへ電話またはメールで申請する方式",
+          "source": "修理返送の流れと注意事項｜Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/service-centre/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "秋葉原以外の直営拠点",
+          "value": "未確認 — 公式サポートページで要確認【要確認】",
+          "source": "Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "キャリア購入品",
+          "value": "au・ソフトバンク等で購入した端末はキャリアの窓口が受付の入口",
+          "source": "Xiaomi Japan 公式サイト",
+          "source_url": "https://www.mi.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-hyperos-update-trouble",
+      "question": "HyperOSのアップデート後に発熱や電池の減りが早くなりました。どう対処すればよいですか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/J0000047667/SortID=26475870/",
+        "original": "HYPER OS3アップデート後に端末が熱くなる(Xiaomi POCO M7 Pro 5G SIMフリー)"
+      },
+      "answer": "まず数日から1週間ほど様子を見たうえで、改善しなければ記録を添えて公式サポートに連絡するのが実務的です。大型更新の直後は再インデックスやアプリの再最適化が走るため一時的に発熱・消費が増えることがあり、同種の報告は価格.comのクチコミにも複数見られます。ただし個々の事例から不具合の有無を当サイトが断定することはできません【要確認】。旧バージョンへの戻し(ダウングレード)が公式に案内されているかは確認できていません【要確認】。改善しない場合は、症状が出た日時・バージョン番号・電池使用状況の画面を保存し、カスタマーサービスセンター(0120-767-378、月〜日9:00〜18:00)へ。保証期間内であれば保証サービスの申請が可能です。",
+      "facts": [
+        {
+          "label": "問い合わせ窓口",
+          "value": "カスタマーサービスセンター フリーダイヤル 0120-767-378／メール service.jp@support.mi.com。受付は月曜〜日曜 9:00〜18:00",
+          "source": "アフターサービスのよくあるご質問｜Xiaomi 日本公式",
+          "source_url": "https://www.mi.com/jp/service/support/aftersales.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "本体1年(製品限定サービスにより1年でない場合あり)。取り外しができないバッテリーは1年",
+          "source": "保証｜Xiaomi Japan",
+          "source_url": "https://www.mi.com/jp/support/warranty/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "ダウングレードの可否",
+          "value": "未確認 — 公式に案内されているか確認できていない【要確認】",
+          "source": "Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "個別不具合の認定",
+          "value": "特定バージョンの不具合を認定する公的機関の指摘は確認されていない【要確認】",
+          "source": "総務省 公表情報",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-update-end-date-how-to-check",
+      "question": "自分が使っているXiaomi端末(au版など)のセキュリティ更新がいつ終わるかは、どこで確認できますか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/J0000042610/SortID=26201517/",
+        "original": "セキュリティアップデートはいつまで？(Xiaomi Redmi 12 5G XIG03 au)"
+      },
+      "answer": "結論として、機種ごとに公式サポートへ型番を伝えて個別に確認するのが最も確実です。Xiaomiは機種のグレードや発売時期によって更新提供年数を分けており、全機種一律ではありません。日本市場向けモデル、とくにキャリア版の終了予定日を一覧で示した公式ページは当サイトでは確認できていません【要確認】。キャリア版は端末メーカー側の方針に加えてキャリアの告知も関係するため、購入したキャリアの製品ページも併せて確認してください。問い合わせ先はカスタマーサービスセンター(0120-767-378、月〜日9:00〜18:00)で、端末の型番と購入時期を控えておくとやり取りが早く進みます。",
+      "facts": [
+        {
+          "label": "確認先",
+          "value": "カスタマーサービスセンター 0120-767-378／service.jp@support.mi.com(月曜〜日曜 9:00〜18:00)。型番と購入時期を控えて問い合わせ",
+          "source": "アフターサービスのよくあるご質問｜Xiaomi 日本公式",
+          "source_url": "https://www.mi.com/jp/service/support/aftersales.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本版の更新終了日一覧",
+          "value": "未確認 — 日本市場向け機種別の終了予定日を示した公式一覧は確認できていない【要確認】",
+          "source": "Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "キャリア版の扱い",
+          "value": "au・ソフトバンク等のキャリア版は、購入したキャリアの製品ページ・告知も併せて確認が必要",
+          "source": "Xiaomi Japan 公式サイト",
+          "source_url": "https://www.mi.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "製品ライン",
+          "value": "Xiaomi(旗艦)、Redmi(廉価)、POCO(性能重視)でグレードが分かれ、更新年数も一律ではない",
+          "source": "すべてのXiaomi製品｜Xiaomi 公式(日本)",
+          "source_url": "https://www.mi.com/jp/product-list/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-carrier-model-preinstalled-apps",
+      "question": "Xiaomiのau版・UQ版は、SIMフリー版と比べてプリインストールアプリやSIMロックの面で不利ですか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/J0000044630/SortID=26044843/",
+        "original": "au版とUQ版のプリインストールアプリの数(Xiaomi Redmi Note 13 Pro 5G au)"
+      },
+      "answer": "結論としては、プリインアプリの多寡よりも「購入経路によってサポートの入口が変わる」ことのほうが実務上の影響は大きいと言えます。キャリアで購入した端末の修理受付はキャリアの窓口が入口になり、公式サイトや量販店で購入した端末はXiaomi Japanのサポートが入口です。SIMロックの有無や解除条件は端末メーカーではなくキャリアの契約条件で決まるため、購入したキャリアの公式案内で確認する必要があります【要確認】。プリインアプリの具体的な本数や削除可否は機種・時期によって異なり、当サイトでは確認できていません【要確認】。なお日本正規販売のモデルは、キャリア版・SIMフリー版いずれも技適を取得済みです。",
+      "facts": [
+        {
+          "label": "サポートの入口",
+          "value": "キャリア購入品はキャリア窓口、公式サイト・量販店購入品はXiaomi Japanのサポートが受付の入口",
+          "source": "Xiaomi Japan 公式サイト",
+          "source_url": "https://www.mi.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "技適",
+          "value": "日本正規販売のスマートフォンは技適取得済み。型番ごとに総務省の公示検索で確認可能",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "SIMロック・解除条件",
+          "value": "未確認 — 端末メーカーではなくキャリアの契約条件による。購入したキャリアの公式案内で要確認【要確認】",
+          "source": "総務省 公表情報",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "プリインアプリの本数・削除可否",
+          "value": "未確認 — 機種・時期により異なる。公式製品ページで要確認【要確認】",
+          "source": "すべてのXiaomi製品｜Xiaomi 公式(日本)",
+          "source_url": "https://www.mi.com/jp/product-list/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-used-device-account-lock",
+      "question": "中古で買ったXiaomi端末が初期化後にパスワードやアカウントを求められて使えません。どうすればよいですか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/J0000032976/SortID=24109794/",
+        "original": "中古Redmi Note 9S SIMフリーのパスワード入力(Xiaomi Redmi Note 9S 64GB SIMフリー)"
+      },
+      "answer": "まず購入元(中古販売店・フリマ出品者)に連絡するのが最初の一手です。この画面は、前の所有者のアカウント紐付けが端末に残っている状態で表示される盗難防止機能によるもので、前所有者側で紐付けを解除するか、正規の所有権証明を示すかのいずれかが必要になります。メーカーが第三者からの依頼で解除に応じるかどうかは当サイトでは確認できていません【要確認】ので、公式サポート(0120-767-378、月〜日9:00〜18:00)への確認が必要です。あわせて、日本正規品の本体保証は購入から1年ですが、第三者から購入した中古品は購入証明を示せず保証適用外になる場合があります【要確認】。購入前に「初期化済みでアカウント解除済み」であることの確認をおすすめします。",
+      "facts": [
+        {
+          "label": "問い合わせ窓口",
+          "value": "カスタマーサービスセンター 0120-767-378／service.jp@support.mi.com(月曜〜日曜 9:00〜18:00)",
+          "source": "アフターサービスのよくあるご質問｜Xiaomi 日本公式",
+          "source_url": "https://www.mi.com/jp/service/support/aftersales.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "第三者によるアカウント解除",
+          "value": "未確認 — メーカーが第三者からの依頼に応じる条件は公式サポートで要確認【要確認】",
+          "source": "Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "本体1年(製品限定サービスにより1年でない場合あり)。中古品での保証適用可否は購入証明の有無による【要確認】",
+          "source": "保証｜Xiaomi Japan",
+          "source_url": "https://www.mi.com/jp/support/warranty/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証(Xiaomi Care)",
+          "value": "mi.com購入時はアクティベーション日から14日以内、Xiaomi Storeでは購入時に店頭加入。中古品は対象外と考えられる【要確認】",
+          "source": "Xiaomi Care 保証サービス",
+          "source_url": "https://www.mi.com/jp/event/xiaomi-care-service/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-third-party-battery-and-warranty",
+      "question": "自分で、または非正規店でバッテリーを交換したXiaomi端末は、その後メーカー修理を受けられますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13305433598",
+        "original": "Xiaomiスマホのバッテリー交換した場合って、メーカー修理に出すとき事前に"
+      },
+      "answer": "結論として、受けられなくなる可能性があるため、交換前に公式サポートへ確認することを強くおすすめします。一般に、正規の窓口以外での分解・部品交換は保証の対象外事由とされ、分解の痕跡がある端末は保証期間内でも無償対応が受けられず、有償修理も断られる場合があります【要確認】。Xiaomiの保証条件の具体的な除外事由は公式の保証ページで確認してください。また、非純正のバッテリーや充電器は電気用品安全法(PSE)の適合が担保されているとは限らず、安全面のリスクもあります。交換を検討する段階でカスタマーサービスセンター(0120-767-378、月〜日9:00〜18:00)に相談し、正規修理での対応可否と費用感を先に確認するのが確実です。",
+      "facts": [
+        {
+          "label": "保証の適用条件",
+          "value": "本体1年、取り外しができないバッテリーは1年。除外事由の詳細は公式の保証ページに記載【要確認】",
+          "source": "保証｜Xiaomi Japan",
+          "source_url": "https://www.mi.com/jp/support/warranty/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "非正規交換後の正規修理可否",
+          "value": "未確認 — 分解痕がある場合の取り扱いは公式サポートで要確認【要確認】",
+          "source": "Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "充電器・モバイルバッテリー等は電気用品安全法の対象。日本正規品にはPSEマーク表示あり。非純正部品は適合が担保されない場合がある",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "正規の交換ルート",
+          "value": "秋葉原店への持ち込みまたは郵送修理。事前にカスタマーサービスセンターへ申請",
+          "source": "Xiaomi Service Center秋葉原店｜Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/service-centre/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-trade-in-and-resale",
+      "question": "Xiaomiのスマホは下取り対象に入っていなかったり、買取価格が安いと聞きますが本当ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12300198837",
+        "original": "Googleストアのスマホ下取りでファーフェイなどのメーカーはあるのにXiaomiがないのはなぜですか?"
+      },
+      "answer": "下取りの対象機種や査定額は、メーカーではなく各下取り・買取事業者が独自に決めるもので、Xiaomiが公表する数値ではありません。したがって「なぜ対象外か」の理由も事業者側の判断であり、当サイトでは確認できていません【要確認】。具体的な買取相場も確認していません【要確認】ので、複数の事業者で見積もりを比較するのが現実的です。売却前の実務としては、Miアカウントとの紐付け解除、Googleアカウントの削除、設定メニューからの初期化を必ず行ってください。ハードウェアキー操作による強制初期化では紐付けが残り、購入者側でロック画面が出る原因になります。参考として、日本正規品の本体保証は購入から1年で、保証は購入日を起算に判断されます。",
+      "facts": [
+        {
+          "label": "下取り対象・査定額",
+          "value": "未確認 — 各下取り・買取事業者が個別に定めるもので、メーカーの公表値ではない【要確認】",
+          "source": "Xiaomi Japan 公式サイト",
+          "source_url": "https://www.mi.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "売却前の手順",
+          "value": "Miアカウント・Googleアカウントの紐付け解除後、設定メニューから初期化。詳細手順は公式サポートで要確認【要確認】",
+          "source": "Xiaomi Japan サポート",
+          "source_url": "https://www.mi.com/jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "本体1年。保証は購入日を起算に判断される",
+          "source": "保証｜Xiaomi Japan",
+          "source_url": "https://www.mi.com/jp/support/warranty/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "スマートフォンで2万〜15万円。同スペック帯では競合より安価な傾向",
+          "source": "Xiaomi Japan 公式サイト",
+          "source_url": "https://www.mi.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
     }
   ],
   "sections": [

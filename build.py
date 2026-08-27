@@ -90,6 +90,10 @@ ul.blist a { display:flex; gap:0.6rem; padding:0.6rem 0.2rem; color:var(--fg);
              text-decoration:none; align-items:baseline; flex-wrap:wrap; }
 ul.blist a:hover { color:var(--accent); }
 ul.blist .desc { color:var(--muted); font-size:0.8rem; }
+h3.faq-cat { font-size:0.88rem; margin:1.3rem 0 0.5rem; color:var(--muted);
+             border-bottom:1px solid var(--line); padding-bottom:0.25rem;
+             display:flex; justify-content:space-between; align-items:baseline; }
+h3.faq-cat span { font-size:0.75rem; font-weight:400; }
 details.faq { border:1px solid var(--line); border-radius:6px; margin:0.5rem 0;
               background:var(--bg); }
 details.faq summary { cursor:pointer; padding:0.6rem 0.8rem; font-weight:700;
@@ -220,7 +224,7 @@ def page(title, body, canonical, description="", jsonld=None):
 {body}
 </main>
 <footer><div class="inner">
-<p><a href="{u('/about/')}">サイトについて・運営方針</a> ｜ <a href="{u('/status/')}">データ整備状況</a></p>
+<p><a href="{u('/about/')}">サイトについて・運営方針</a> ｜ <a href="{u('/qa/')}">質問インデックス</a> ｜ <a href="{u('/status/')}">データ整備状況</a></p>
 <p>掲載情報には出典と確認日を明記しています。誤りを見つけた場合は出典とあわせてご指摘ください。
 機種ごとの性能比較は行いません(実測レビューは専門メディアをご参照ください)。</p>
 </div></footer>
@@ -315,6 +319,42 @@ def timeline(updates, brand_link=None):
             f'<span class="tl-body">{esc(uitem["body"])}</span>'
             f"{impact}{src}{bl}</li>")
     return f'<ul class="timeline">{"".join(lis)}</ul>'
+
+
+FAQ_CATEGORIES = [
+    ("最新の話題", None),  # topical フラグで判定
+    ("安全性・リコール", ["安全", "危険", "リスク", "セキュリティ", "ハッキング", "盗聴",
+                          "発火", "膨ら", "リコール", "回収", "解錠", "覗", "漏洩", "情報が"]),
+    ("規制・法令", ["電波法", "技適", "航空法", "登録", "規制", "PSE", "許可", "申請",
+                    "法律", "義務", "飛ば", "持ち込み", "リモートID", "禁止"]),
+    ("保証・修理・サポート", ["保証", "修理", "サポート", "交換", "部品", "消耗品",
+                              "バッテリー交換", "返品", "問い合わせ", "対応", "窓口",
+                              "壊れ", "故障", "サービス終了", "終わる"]),
+    ("他ブランドとの比較", ["どっち", "どちら", "違い", "比べ", "比較", "選ぶ", "選べ",
+                            "おすすめ", "超え", "vs"]),
+    ("ブランドの基本", ["どこの国", "会社", "企業", "メーカー", "上場", "創業", "本社",
+                        "国営", "民間", "製造", "どんなブランド"]),
+]
+
+
+def faq_category(q):
+    if q.get("topical"):
+        return "最新の話題"
+    text = q["question"]
+    for name, keys in FAQ_CATEGORIES:
+        if keys and any(k in text for k in keys):
+            return name
+    return "その他の質問"
+
+
+def group_faq(faqs):
+    """カテゴリ順に (カテゴリ名, [FAQ]) を返す。"""
+    order = [n for n, _ in FAQ_CATEGORIES] + ["その他の質問"]
+    buckets = {}
+    for q in faqs:
+        buckets.setdefault(faq_category(q), []).append(q)
+    # 「最新の話題」を先頭に、以降は定義順
+    return [(n, buckets[n]) for n in order if n in buckets]
 
 
 def related_brands(b, brands):
@@ -436,15 +476,24 @@ def build():
 
         faq = ""
         if rel_items:
-            det = "".join(
-                f'<details class="faq"><summary>{esc(q["question"])}</summary>'
-                f'<div class="faq-a">{esc(q["answer"])} '
-                f'<a href="{u("/" + b["slug"] + "/" + q["slug"] + "/")}">→ 根拠となる事実を見る</a>'
-                f"</div></details>"
-                for q in rel_items)
-            faq = ('<h2 id="faq">よくある質問</h2>'
-                   '<p class="legend">質問はYahoo!知恵袋・Quora等に実際に投稿された'
-                   "ユーザーの質問に基づいています(各ページに出典リンクあり)。</p>" + det)
+            n_real = sum(1 for q in rel_items if q.get("source"))
+            blocks = []
+            for cat, items in group_faq(rel_items):
+                det = "".join(
+                    f'<details class="faq"><summary>{esc(q["question"])}'
+                    + ('<span class="badge-new">最新</span>' if q.get("topical") else "")
+                    + "</summary>"
+                    f'<div class="faq-a">{esc(q["answer"])} '
+                    f'<a href="{u("/" + b["slug"] + "/" + q["slug"] + "/")}">→ 根拠となる事実を見る</a>'
+                    f"</div></details>"
+                    for q in items)
+                blocks.append(f'<h3 class="faq-cat">{esc(cat)}<span>{len(items)}件</span></h3>{det}')
+            faq = (f'<h2 id="faq">よくある質問({len(rel_items)}件)</h2>'
+                   f'<p class="legend">うち{n_real}件はYahoo!知恵袋・価格.comクチコミ等に'
+                   "実際に投稿された質問、"
+                   f"{len(rel_items) - n_real}件は2025年末以降の制度変更・事業動向を受けた"
+                   "話題です。いずれも各ページに出典リンクがあります。</p>"
+                   + "".join(blocks))
 
         notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if b.get("sample_notice") else ""
         crumbs = [(b["name"], None)]
@@ -591,12 +640,56 @@ def build():
         + news
         + f'<h2 id="brands">ブランドから探す</h2><div class="bgrid">{"".join(cards)}</div>'
         f'<h2 id="qa">質問から探す</h2>'
-        '<p class="legend">質問はYahoo!知恵袋・Quora等に実際に投稿された質問に基づいています。</p>'
+        '<p class="legend">質問はYahoo!知恵袋・価格.comクチコミ等に実際に投稿されたものと、'
+        '2025年末以降の制度変更を受けた話題で構成しています。'
+        f'テーマ別の一覧は<a href="{u("/qa/")}">質問インデックス</a>から。</p>'
         + "".join(qa_groups)
     )
     (OUT / "index.html").write_text(
         page(f"{CONFIG['site_name']} | ブランドの事実データベース", body,
              f"{BASE}/", CONFIG["description"]), encoding="utf-8")
+
+    # 質問インデックス(全ブランド横断・テーマ別)
+    allq = []
+    for b in brands:
+        for q in b.get("faq", []):
+            allq.append((b, q))
+    cat_order = [n for n, _ in FAQ_CATEGORIES] + ["その他の質問"]
+    cat_buckets = {}
+    for b, q in allq:
+        cat_buckets.setdefault(faq_category(q), []).append((b, q))
+    idx_blocks = []
+    toc_qa = []
+    for cat in cat_order:
+        items = cat_buckets.get(cat)
+        if not items:
+            continue
+        cid = f"c{cat_order.index(cat)}"
+        toc_qa.append(f'<li><a href="#{cid}">{esc(cat)}({len(items)}件)</a></li>')
+        lis = "".join(
+            f'<li><a href="{u("/" + b["slug"] + "/" + q["slug"] + "/")}">'
+            f'{esc(q["question"])}'
+            f'<span class="desc">{esc(b["name"])}</span></a></li>'
+            for b, q in sorted(items, key=lambda x: x[0]["slug"]))
+        idx_blocks.append(
+            f'<h2 id="{cid}">{esc(cat)}<span style="font-size:0.78rem;color:var(--muted);'
+            f'font-weight:400"> {len(items)}件</span></h2>'
+            f'<ul class="blist">{lis}</ul>')
+    qa_body = (
+        crumb([("質問インデックス", None)])
+        + "<h1>質問インデックス</h1>"
+        + f'<p class="summary">掲載している{len(allq)}件の質問を、ブランドを横断して'
+        "テーマ別に並べています。同じ悩みが他のブランドでどう答えられているかを"
+        "比べる用途を想定しています。</p>"
+        + f'<div class="toc"><span class="toc-title">目次</span><ol>{"".join(toc_qa)}</ol></div>'
+        + "".join(idx_blocks))
+    d = OUT / "qa"
+    d.mkdir(parents=True)
+    (d / "index.html").write_text(
+        page(f"質問インデックス | {CONFIG['site_name']}", qa_body, f"{BASE}/qa/",
+             f"{len(allq)}件のブランド関連の質問をテーマ別に一覧化。"),
+        encoding="utf-8")
+    urls.append(f"{BASE}/qa/")
 
     # データ整備状況ページ
     rows = []

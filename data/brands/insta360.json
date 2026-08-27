@@ -580,6 +580,333 @@
           "published": "2026-08-12"
         }
       ]
+    },
+    {
+      "slug": "insta360-support-no-response-route",
+      "question": "Insta360のサポートに修理を依頼したのに連絡が来ません。どこに問い合わせるのが正しいですか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/K0001096939/SortID=22728005/",
+        "original": "『修理サポート対応なし。返送もなし。再購入を求められました。』 Insta360 ONE X のクチコミ掲示板"
+      },
+      "answer": "日本の窓口は二重構造なので、両方を押さえると確実です。国内総代理店は株式会社アーキサイト(東京都台東区秋葉原5-9)で、同社のお客様コールセンター050-1731-8488がInsta360のメーカーサポート窓口を担当し、受付は月〜金の10:00〜13:00/14:00〜19:00(祝日を除く)です。一方、修理受付そのものはInsta360公式サイトにログインして「Support - Repair Services」からワークオーダーを申請する運用で、申込後に送付先がメールで案内され、発送後は公式サイト上で運送業者と送り状番号を入力します。返信が滞る場合は、ワークオーダー番号を控えたうえで日本語の電話窓口に連絡するのが早道です。",
+      "facts": [
+        {
+          "label": "国内総代理店・サポート窓口",
+          "value": "株式会社アーキサイト(ARCHISITE, INC.)。お客様コールセンター 050-1731-8488 がInsta360のメーカーサポート窓口",
+          "source": "お問い合わせ：Insta360 - 株式会社アーキサイト",
+          "source_url": "https://archisite.co.jp/contacts/insta360/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "受付時間",
+          "value": "10:00〜13:00／14:00〜19:00(月〜金、祝日を除く)",
+          "source": "お問い合わせ：Insta360 - 株式会社アーキサイト",
+          "source_url": "https://archisite.co.jp/contacts/insta360/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理の申込経路",
+          "value": "Insta360公式サイトにログインし「Support - Repair Services」からワークオーダーを申請。申込後に送付先がメールで案内され、発送後は公式サイトで運送業者と送り状番号を入力",
+          "source": "Insta360 Repair Service(修理サービス)",
+          "source_url": "https://www.insta360.com/support/workorder/repair_nav",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対応日数の目安",
+          "value": "未確認 — 症状・混雑状況により異なり、公開情報では一律に示せない【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-studio-pc-requirements",
+      "question": "Insta360の360度動画をPCで編集したいのですが、Insta360 Studioにはどの程度のPCが必要ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13304679748",
+        "original": "インスタ360Studio用のパソコンを購入検討中です以下推奨スペック（Windows）"
+      },
+      "answer": "必要な環境は、メーカーが公式に案内する推奨スペックを基準に判断してください。Insta360の編集は、2つのレンズ映像を合成するスティッチング処理と高解像度の書き出しが負荷の中心で、同じ解像度でも通常の平面動画より処理が重くなります。具体的な推奨CPU・メモリ・GPUの条件は機種とInsta360 Studioのバージョンで変わるため、公式サポートの製品サポートページで最新の動作環境を確認するのが確実です【要確認】。ブランド面での注意点として、Insta360製品は初期設定・ファームウェア更新・編集の多くを専用アプリやStudioが担う設計とされ、PC環境がそのまま使い勝手に直結します。",
+      "facts": [
+        {
+          "label": "アプリ・Studioの位置づけ",
+          "value": "初期設定・ファームウェア更新・編集の多くを専用アプリ/Insta360 Studioが担う設計とされる【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "動作環境の確認先",
+          "value": "未確認 — 推奨CPU・メモリ・GPUは機種とStudioのバージョンで異なる。公式の製品サポートページで要確認【要確認】",
+          "source": "Insta360 日本語公式サイト／製品サポート",
+          "source_url": "https://www.insta360.com/jp/support/product-support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対象となる製品",
+          "value": "X5(フラッグシップ8K 360度カメラ、レンズ交換設計)、X6(8K 360度カメラ)、Ace Pro 2、GO 3S、Flow 2シリーズなど",
+          "source": "Insta360 公式ストア 製品ページ",
+          "source_url": "https://store.insta360.com/product/x5",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "業務用PCへの導入",
+          "value": "会社貸与のPCへのソフト導入は勤務先のIT規程・情報システム部門の承認に従うことが基本",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-cloud-plus-data-handling",
+      "question": "Insta360+のクラウドに保存した動画は、解約したりアカウントを削除したらどうなりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11320249276",
+        "original": "Insta360のクラウド「Insta360+」について質問です。2泊3日の旅行中にX5で撮影した動画と写真を共有しようと思い"
+      },
+      "answer": "解約やアカウント削除の前に、手元へのダウンロードを済ませておくのが安全です。Insta360+の保存容量・料金・解約後のデータ保持期間は公開情報から一律には示せません【要確認】。前提として、Insta360製品は初期設定・ファームウェア更新・編集の多くを専用アプリが担う設計とされ、アカウントと結び付いた機能が多い点に注意が必要です。アカウント削除の可否、削除後にクラウド上のデータや延長保証・FlexiCareの契約がどう扱われるかは、日本語対応の公式サポート、または国内総代理店アーキサイトのコールセンター(050-1731-8488、平日10:00〜13:00/14:00〜19:00)で確認してください。",
+      "facts": [
+        {
+          "label": "クラウドサービスの条件",
+          "value": "未確認 — 保存容量・料金・解約後のデータ保持期間は公開情報では一律に示せない。公式サポートで要確認【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "アカウントとアプリの関係",
+          "value": "初期設定・ファームウェア更新・編集の多くを専用アプリが担う設計とされ、アカウントに紐づく機能が多い【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証サービスとの関係",
+          "value": "延長保証(2年)・FlexiCareはカメラ未アクティベート、またはアクティベートから30日以内が購入条件。アカウント削除時の扱いは要確認【要確認】",
+          "source": "Insta360 Coverage Plans",
+          "source_url": "https://www.insta360.com/support/care-warranty",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "問い合わせ窓口",
+          "value": "株式会社アーキサイト お客様コールセンター 050-1731-8488(10:00〜13:00／14:00〜19:00、月〜金・祝日を除く)",
+          "source": "お問い合わせ：Insta360 - 株式会社アーキサイト",
+          "source_url": "https://archisite.co.jp/contacts/insta360/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-overheating-shutdown-warranty",
+      "question": "Insta360のカメラが撮影中に熱で止まってしまいます。故障や保証の対象になりますか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/J0000041904/SortID=25341662/",
+        "original": "『熱暴走について』 Insta360 X3 のクチコミ掲示板"
+      },
+      "answer": "高温時に録画が停止する挙動は多くのアクションカメラに共通する保護動作とされ、それ自体が直ちに故障とは限りません【要確認】。ただし正常な保護動作なのか不具合なのかを当サイトで切り分けることはできません。冷めても復帰しない、電源が入らないといった症状が続く場合は修理扱いになります。手順としては、Insta360公式サイトにログインし「Support - Repair Services」からワークオーダーを申請し、症状の記録と購入証明を用意します。相談だけであれば国内総代理店アーキサイトのコールセンター050-1731-8488(平日10:00〜13:00/14:00〜19:00)も利用できます。なお並行輸入品は正規保証の対象外です。",
+      "facts": [
+        {
+          "label": "修理の申込経路",
+          "value": "Insta360公式サイトにログインし「Support - Repair Services」からワークオーダーを申請。指定のアフターサービス修理サービスセンターへ発送",
+          "source": "Insta360 Repair Service(修理サービス)",
+          "source_url": "https://www.insta360.com/support/workorder/repair_nav",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "株式会社アーキサイト お客様コールセンター 050-1731-8488(10:00〜13:00／14:00〜19:00、月〜金・祝日を除く)",
+          "source": "お問い合わせ：Insta360 - 株式会社アーキサイト",
+          "source_url": "https://archisite.co.jp/contacts/insta360/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "本体1年間のメーカー保証が基本【要確認】。延長保証で2年に延長可能",
+          "source": "Insta360 Coverage Plans",
+          "source_url": "https://www.insta360.com/support/care-warranty",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "並行輸入品の保証",
+          "value": "正規のInsta360製品のみ保証対象で、並行輸入品は保証対象外。保証には正規販売店または公式ストアでの購入が必要",
+          "source": "Insta360 After-Sales Policy(アフターサービスポリシー)",
+          "source_url": "https://www.insta360.com/support/aftersales",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-microsd-compatibility",
+      "question": "Insta360で使えるmicroSDカードに容量や規格の制限はありますか?大容量カードでも問題ありませんか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/K0001430878/SortID=24813339/",
+        "original": "『動作確認済の512GB以上のSDカードを教えて頂けないでしょうか。』 Insta360 ONE RS ツイン版 のクチコミ掲示板"
+      },
+      "answer": "判断の基準は、メーカーが機種ごとに公開している推奨microSDカードの条件です。360度カメラは高いビットレートで書き込むため、容量だけでなく書き込み速度クラスやフォーマット形式の条件を満たさないと、録画が途中で止まる、ファイルが正常に保存されないといった不具合につながります。対応上限容量や動作確認済みモデルは機種・ファームウェアで変わるため、公式の製品サポートページで型番ごとに確認してください【要確認】。カード起因のトラブルが保証対象になるかも個別判断となります【要確認】。迷う場合は国内総代理店アーキサイトの窓口(050-1731-8488)に相談できます。",
+      "facts": [
+        {
+          "label": "推奨カードの確認先",
+          "value": "未確認 — 対応上限容量・速度クラス・動作確認済みモデルは機種とファームウェアで異なる。公式の製品サポートページで型番ごとに要確認【要確認】",
+          "source": "Insta360 日本語公式サイト／製品サポート",
+          "source_url": "https://www.insta360.com/jp/support/product-support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証との関係",
+          "value": "未確認 — 非推奨カードに起因する不具合が保証対象になるかは個別判断。アフターサービスポリシーで要確認【要確認】",
+          "source": "Insta360 After-Sales Policy(アフターサービスポリシー)",
+          "source_url": "https://www.insta360.com/support/aftersales",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談窓口",
+          "value": "株式会社アーキサイト お客様コールセンター 050-1731-8488(10:00〜13:00／14:00〜19:00、月〜金・祝日を除く)",
+          "source": "お問い合わせ：Insta360 - 株式会社アーキサイト",
+          "source_url": "https://archisite.co.jp/contacts/insta360/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "アクセサリー・消耗品の入手",
+          "value": "レンズガード・バッテリー等の純正アクセサリーは公式ストアで購入可能",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-lens-scratch-replacement",
+      "question": "Insta360のレンズを傷つけてしまいました。自分で交換できますか?修理に出す場合の流れは?",
+      "source": {
+        "platform": "note",
+        "url": "https://note.com/schaccie1010/n/nae3f08218786",
+        "original": "Insta360 X4を神社で落としてレンズが逝った話と、爆速だった修理対応の記録｜Schaccie/しゃっちー"
+      },
+      "answer": "機種によって扱いが分かれます。X5はレンズ交換に対応した設計とされ、交換用パーツやレンズガードを公式ストアで購入できます。一方、それ以前の機種では自己交換に対応しておらず修理扱いになる場合があります【要確認】。修理の場合は、Insta360公式サイトにログインして「Support - Repair Services」からワークオーダーを申請し、案内された修理サービスセンターへ発送、発送後に運送業者と送り状番号を入力する流れです。費用は症状ごとの個別見積もりとなり、金額の目安は公開情報からは示せません【要確認】。日常的にはレンズガードを装着して傷を予防するのが基本です。",
+      "facts": [
+        {
+          "label": "レンズ交換対応",
+          "value": "X5はレンズ交換設計。旧機種の自己交換可否は機種ごとに異なり要確認【要確認】",
+          "source": "Insta360 公式ストア 製品ページ",
+          "source_url": "https://store.insta360.com/product/x5",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換パーツの入手",
+          "value": "レンズガード・バッテリー等は公式ストアで購入可",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理の流れ",
+          "value": "公式サイトの「Support - Repair Services」から申請 → 送付先がメールで案内 → 指定の修理サービスセンターへ発送 → 公式サイトで運送業者と送り状番号を入力",
+          "source": "Insta360 Repair Service(修理サービス)",
+          "source_url": "https://www.insta360.com/support/workorder/repair_nav",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理費用",
+          "value": "未確認 — 症状により個別見積もり。公開情報では目安を示せない【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-third-party-selfie-stick",
+      "question": "Insta360の「見えない自撮り棒」は、他社製の互換品でも映り込まずに使えますか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/-/SortID=26314262/",
+        "original": "『自撮り棒、映らないのは純正だけ？』 Insta360 X5 のクチコミ掲示板"
+      },
+      "answer": "自撮り棒が映らないのは、2つのレンズ映像をつなぐスティッチング境界の死角に棒が収まるためで、原理上は純正かどうかではなく棒の太さと形状で決まります。ただしメーカーが動作を保証するのは公式アクセサリーであり、他社製で映り込みや固定強度の問題が生じてもサポートの対象にはなりません。また、他社製アクセサリーの使用が原因と判断される破損について、保証やFlexiCareがどう扱われるかは公開情報からは確認できません【要確認】。純正アクセサリーは公式ストアで購入でき、対応機種は製品ページに記載があります。対応可否に不安がある場合は国内総代理店アーキサイトの窓口(050-1731-8488)で確認してください。",
+      "facts": [
+        {
+          "label": "純正アクセサリーの入手",
+          "value": "自撮り棒・レンズガード等の純正アクセサリーは公式ストアで購入可。対応機種は製品ページに記載",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "他社製アクセサリー使用時の保証",
+          "value": "未確認 — 他社製アクセサリーに起因する破損の保証・FlexiCareの扱いは公開情報では確認できない。アフターサービスポリシーで要確認【要確認】",
+          "source": "Insta360 After-Sales Policy(アフターサービスポリシー)",
+          "source_url": "https://www.insta360.com/support/aftersales",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "FlexiCareの内容",
+          "value": "2年プランで2年以内に最大4回の破損交換(1年プランは1年以内に2回)、往復送料はInsta360負担、交換手数料は製品ごとに設定(例:X4 Airは1回¥6,800)",
+          "source": "Insta360 Coverage Plans ／ X4 Air用Insta360 FlexiCare",
+          "source_url": "https://www.insta360.com/support/care-warranty",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談窓口",
+          "value": "株式会社アーキサイト お客様コールセンター 050-1731-8488(10:00〜13:00／14:00〜19:00、月〜金・祝日を除く)",
+          "source": "お問い合わせ：Insta360 - 株式会社アーキサイト",
+          "source_url": "https://archisite.co.jp/contacts/insta360/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-official-store-vs-retailer",
+      "question": "Insta360を公式ストアで買うのと、Amazonや家電量販店で買うのとでは何が違いますか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/K0001586752/SortID=25897451/",
+        "original": "『公式ショップで買うのはデメリットがありますか？』 Insta360 Ace Pro [ブラック] のクチコミ掲示板"
+      },
+      "answer": "正規販売ルートであれば製品保証の枠組みは共通で、差が出やすいのは保証オプションの加入タイミングと購入後の窓口です。延長保証(2年)とFlexiCareは、カメラ未アクティベート、またはアクティベートから30日以内が購入条件とされているため、量販店で買った場合も早めの判断が必要になります。販売チャネルは公式オンラインストアのほか、Amazon・楽天・Yahoo!ショッピングの各公式ストア、ビックカメラ・ヨドバシカメラ・エディオンなどの量販店があります。注意すべきは並行輸入品で、これは正規保証の対象外です。実機を確認したい場合は、2026年8月8日グランドオープンのInsta360浅草本店も選択肢になります。",
+      "facts": [
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア(store.insta360.com)、Yahoo!ショッピング公式ストア、楽天公式ストア、Amazon公式ストア、取扱家電量販店(ビックカメラ、エディオン、ヨドバシカメラ など)",
+          "source": "Insta360公式ストアがYahoo!ショッピングにオープン",
+          "source_url": "https://www.insta360.com/blog-jp/yahoojapan-html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証オプションの購入条件",
+          "value": "延長保証(2年)・FlexiCareはカメラ未アクティベート、またはアクティベートから30日以内が購入条件",
+          "source": "Insta360 Coverage Plans",
+          "source_url": "https://www.insta360.com/support/care-warranty",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "並行輸入品の扱い",
+          "value": "正規のInsta360製品のみ保証対象で、並行輸入品は保証対象外。保証には正規販売店または公式ストアでの購入が必要",
+          "source": "Insta360 After-Sales Policy(アフターサービスポリシー)",
+          "source_url": "https://www.insta360.com/support/aftersales",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "Insta360浅草本店(東京都台東区浅草2丁目35-11 二天門前ビル、10:00〜19:00)。2026年7月25日プレオープン、8月8日グランドオープン",
+          "source": "Insta360、国内初のブランドストアを浅草にオープン",
+          "source_url": "https://www.insta360.com/blog-jp/brand-store-asakusa",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "セール時期・割引率",
+          "value": "未確認 — 開催時期・割引率は公開情報では一律に示せない。公式ストアで要確認【要確認】",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
     }
   ],
   "sections": [

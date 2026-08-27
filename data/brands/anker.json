@@ -552,6 +552,326 @@
           "published": "不明"
         }
       ]
+    },
+    {
+      "slug": "anker-recall-kit-timeline",
+      "question": "Ankerの自主回収に申し込みました。回収キットや交換品はいつ届きますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10317603420",
+        "original": "Ankerのモバイルバッテリーのリコールがありましたが、返品キットは来ましたが交換の商品はいつ届くんですか?"
+      },
+      "answer": "「回収受付フォームで対象判定 → 回収キット到着 → 本体を返送 → 交換品または返金」という流れで進みます。判定には品番(Aから始まる番号)とシリアル番号を使います。ただし各工程の標準所要日数や、交換と返金のどちらを選べるかといった条件は公式告知で要確認【要確認】。キットが届かない、進捗が分からない場合は、Ankerカスタマーサポート(03-4455-7823、平日9:00〜17:00)へ照会してください。待つ間も対象製品の使用と充電は中止したままにしてください。",
+      "facts": [
+        {
+          "label": "回収受付窓口",
+          "value": "2025年10月発表の自主回収について、公式の回収受付フォームで品番とシリアル番号を入力して申し込む",
+          "source": "Anker Japan 公式(モバイルバッテリー / スピーカー回収受付フォーム)",
+          "source_url": "https://www.ankerjapan.com/pages/202510-support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対象の判別条件",
+          "value": "自主回収の対象はシリアル番号が16桁の製品。16桁でない製品は対象外",
+          "source": "モバイルバッテリー / スピーカー自主回収についてのFAQ",
+          "source_url": "https://www.ankerjapan.com/blogs/faq/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC%E8%87%AA%E4%B8%BB%E5%9B%9E%E5%8F%8E%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AEfaq",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "問い合わせ窓口",
+          "value": "Ankerカスタマーサポート 電話 03-4455-7823 / メール support@anker.com、受付は平日9:00-17:00(年末年始を除く)",
+          "source": "お問い合わせ | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/customer-support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "所要日数・交換/返金の選択条件",
+          "value": "未確認 — 公式の回収受付ページおよびカスタマーサポートで要確認【要確認】",
+          "source": "Anker Japan 公式(回収受付フォーム)",
+          "source_url": "https://www.ankerjapan.com/pages/202510-support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "anker-recall-serial-not-eligible",
+      "question": "品番はリコール対象と同じA1263ですが、シリアル番号では対象外でした。そのまま使い続けて問題ありませんか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11321395771",
+        "original": "Ankerのモバイルバッテリーのリコールが行われていますが、自分の持っている製品PowerCore10000型番A1263は…"
+      },
+      "answer": "判定は品番だけでなくシリアル番号まで見て行われるため、品番が一致していてもシリアルが対象範囲外なら回収の対象ではありません。公式FAQでは、対象はシリアル番号が16桁の製品で、16桁でない製品は対象外と案内されています。今回の自主回収は電池セル製造過程の不備が原因とされ、特定の製造ロットに限定された措置です。ただし対象外でも、リチウムイオン電池は経年で劣化します。本体の膨らみ、充電中の異常な発熱、異臭、変形に気づいたら直ちに使用と充電をやめてください。",
+      "facts": [
+        {
+          "label": "対象の判別条件",
+          "value": "自主回収の対象はシリアル番号が16桁の製品。16桁でない製品は対象外",
+          "source": "モバイルバッテリー / スピーカー自主回収についてのFAQ",
+          "source_url": "https://www.ankerjapan.com/blogs/faq/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC%E8%87%AA%E4%B8%BB%E5%9B%9E%E5%8F%8E%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AEfaq",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "自主回収の原因",
+          "value": "2025年10月21日発表のAnkerグループ4製品(A1263 / A3117 / A3305 / A3130)の自主回収。原因は電池セル製造過程の不備",
+          "source": "Ankerグループ4製品に関するお詫びと自主回収のお知らせ",
+          "source_url": "https://corp.ankerjapan.com/posts/579",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的な確認先",
+          "value": "消費者庁リコール情報サイトで製品名・型番から検索可能",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対象外製品の安全上の注意",
+          "value": "対象外でも膨張・異常発熱・異臭・変形があれば使用中止。判断基準の公式な数値目安は未確認【要確認】",
+          "source": "Anker Japan 公式サイト",
+          "source_url": "https://www.ankerjapan.com/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "anker-swollen-battery-handling",
+      "question": "2年ほど使ったAnkerのモバイルバッテリーが膨らんできました。どう扱い、どこに出せばよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14297934054",
+        "original": "Ankerのモバイルバッテリーが膨張しました。2年くらい使っているんですけど、最近になって少しずつ膨張してます。"
+      },
+      "answer": "安全確保が最優先です。直ちに使用と充電をやめ、分解や穴あけをしない、水に濡らさない、力を加えない、可燃物やコンセントから離して置いてください。膨張はセル内部のガス発生によるもので、通常の不燃ごみには出せません。次に品番とシリアル番号で自主回収の対象かを確認し、対象なら公式の回収受付へ。対象外ならAnkerの回収サービス、Anker Storeに順次設置される回収ボックス、自治体の拠点回収を利用します。膨張品の郵送可否は窓口ごとに異なるため事前確認を【要確認】。",
+      "facts": [
+        {
+          "label": "メーカー回収サービス",
+          "value": "Anker製モバイルバッテリー/ポータブル電源の回収サービスあり",
+          "source": "Anker Japan 公式(モバイルバッテリー/ポータブル電源回収サービス)",
+          "source_url": "https://www.ankerjapan.com/pages/recycle",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "店頭回収",
+          "value": "2026年2月18日、リチウムイオン電池搭載製品の安全対策強化として、Anker Storeに不燃素材の回収ボックスを順次設置すると発表",
+          "source": "Anker Japan 公式(リイオンくん誕生記念 モバイルバッテリー買い替えキャンペーン)",
+          "source_url": "https://www.ankerjapan.com/pages/liionkun-tradein-2026",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール該当の確認先",
+          "value": "公式の回収受付フォーム、および消費者庁リコール情報サイトで型番から検索可能",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "膨張品の郵送可否",
+          "value": "未確認 — 各回収窓口の受付条件・梱包条件は事前確認が必要【要確認】",
+          "source": "Anker Japan 公式(回収サービス)",
+          "source_url": "https://www.ankerjapan.com/pages/recycle",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "anker-warranty-without-receipt",
+      "question": "家電量販店で買ったAnker製品が壊れましたが、保証書もレシートもありません。決済履歴だけで保証は受けられますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13302163198",
+        "original": "エディオンの店舗で5月に買ったANKER製品が壊れてしまいました。保証書もレシートも見つからずあるのはPayPayの決済履歴だけなのですが…"
+      },
+      "answer": "購入日と購入先を示す資料が何らかの形で必要になります。Ankerの保証は紙の保証書ではなく購入日を起点に管理され、公式オンラインストアでは注文日から18ヶ月、会員は24ヶ月(一部製品は会員30ヶ月)が基本です。電子決済の履歴やポイントカードの購入履歴が購入証明として認められるかは公式に明示されていません【要確認】。まずはAnkerカスタマーサポート(03-4455-7823、平日9:00〜17:00)に型番・症状・手元の資料を伝えて相談してください。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "公式オンラインストアでの基本保証期間は注文日から18ヶ月。会員は自動で24ヶ月に延長。一部製品は24ヶ月(会員は30ヶ月)",
+          "source": "長期保証サービス | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/warranty",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "購入証明の代替手段",
+          "value": "未確認 — 電子決済履歴・ポイントカード履歴が購入証明として認められるかは公式に明示なし【要確認】",
+          "source": "延長保証 | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/extended_warranty",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "問い合わせ窓口",
+          "value": "電話 03-4455-7823 / support@anker.com、平日9:00-17:00(年末年始を除く)",
+          "source": "お問い合わせ | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/customer-support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "有償修理時の費用構造",
+          "value": "有償修理は「技術料＋部品代＋配送料」で配送料は顧客負担。個別金額は本サイトでは未確認【要確認】",
+          "source": "修理規約 | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/repair-policy",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "anker-membership-extension-other-stores",
+      "question": "AmazonでAnker製品を買っています。公式サイトで会員登録すれば保証は延長されますか?製品ごとの登録も必要ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14259225674",
+        "original": "アンカー製品をAmazonで購入することが多いのですが延長保証を受けたく、アンカー公式サイトで会員登録をしました。仕組みが…"
+      },
+      "answer": "公式の案内では、公式会員は2020年1月1日以降に正規取扱店舗で購入したAnkerグループ製品の保証期間が6ヶ月自動延長され、特別な手続きや追加費用は不要とされています。対象にはAmazon.co.jp、楽天市場、主要家電量販店での購入も含まれます。公式ストアの基本保証は注文日から18ヶ月で、会員は24ヶ月。一方、フリマアプリでの個人間売買など正規ルート外は対象外です。申請時に購入日と購入先の証明を求められるため、注文履歴は保管してください。",
+      "facts": [
+        {
+          "label": "延長保証制度",
+          "value": "公式会員は2020年1月1日以降に正規取扱店舗で購入したAnkerグループ製品の保証期間が6ヶ月自動延長。特別な手続き・追加費用は不要。Amazon.co.jp、楽天市場、主要家電量販店での購入も対象",
+          "source": "延長保証 | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/extended_warranty",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "基本18ヶ月、会員は24ヶ月。一部製品は24ヶ月(会員30ヶ月)",
+          "source": "長期保証サービス | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/warranty",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "正規販売チャネル",
+          "value": "公式オンラインストア／直営店Anker Store／家電量販店（エディオン、ケーズデンキ、ジョーシン、ビックカメラ、ヨドバシカメラ、ヤマダデンキ）／ECモール（Amazon、楽天市場）",
+          "source": "Anker Japan 公式サイト",
+          "source_url": "https://www.ankerjapan.com/blogs/magazine/where-buy-power",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "製品ごとの登録要否",
+          "value": "公式案内では会員の延長は「自動」とされるが、購入先ごとの登録操作の要否は公式ページで要確認【要確認】",
+          "source": "延長保証 | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/extended_warranty",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "anker-soundcore-eufy-support-desk",
+      "question": "SoundcoreのイヤホンやEufy製品が故障した場合、問い合わせ先はAnkerと同じ窓口ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12294272527",
+        "original": "Anker Soundcore Liberty 4(以下、イヤホン)の修理について…"
+      },
+      "answer": "Soundcore、Eufy、NebulaはいずれもAnkerグループのブランドで、日本の窓口はアンカー・ジャパンのカスタマーサポートに集約されています。電話03-4455-7823、受付は平日9:00〜17:00(年末年始を除く)。実際の修理は100%子会社のアンカー・テック株式会社が担当します。対応は分解修理より交換が中心で、落下・水没など使用者側の過失は無償交換の対象外です。2026年5月にAnkerブランドへの統合方針が発表されており、統合後の窓口の扱いは未確認です【要確認】。",
+      "facts": [
+        {
+          "label": "日本語サポート窓口",
+          "value": "Ankerカスタマーサポート 電話 03-4455-7823 / FAX 03-6280-5881 / メール support@anker.com",
+          "source": "Anker Japan 公式オンラインストア 特定商取引法に基づく表記",
+          "source_url": "https://www.ankerjapan.com/pages/commercial-code",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "受付時間",
+          "value": "平日9:00-17:00(年末年始を除く)。チャットサポートも同時間帯。混雑時や営業時間外はAnker AI Assistantが対応",
+          "source": "お問い合わせ | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/customer-support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理の担当会社",
+          "value": "Ankerグループ製品の修理等はアンカー・ジャパン100%出資の子会社「アンカー・テック株式会社」が担当",
+          "source": "Ankerグループ製品の修理等を担う新会社「アンカー・テック株式会社」設立",
+          "source_url": "https://corp.ankerjapan.com/posts/373",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "ブランド構成",
+          "value": "Anker(モバイル充電)、Soundcore(オーディオ)、Eufy(スマートホーム)、Nebula(プロジェクター)、MACHの5ブランド",
+          "source": "アンカー・ジャパン創業10周年特設サイト",
+          "source_url": "https://www.ankerjapan.com/pages/10th-anniversary",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "anker-charger-heat-and-multiport-output",
+      "question": "Ankerの充電器が急速充電中にかなり熱くなります。また2ポート同時に挿すと充電が遅くなるのはなぜですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13309054748",
+        "original": "Anker充電器の出力について質問です。充電器として、Anker 733 Power Bank(GaN Prime PowerCore 65W)…"
+      },
+      "answer": "出力が下がるのは多くの場合が仕様です。複数ポートの充電器は各ポートの最大出力を単純に合計できず、同時使用時は合計出力の範囲内で配分される設計が一般的で、配分の組み合わせは製品ごとに決まっています。製品ページの出力仕様表を確認してください。発熱も、高出力時にある程度温かくなること自体は異常ではありません。ただし手で持てないほど熱い、異臭がする、筐体やプラグが変形・変色している場合は直ちに使用を中止しコンセントから抜き、保証期間内にサポートへ相談してください。",
+      "facts": [
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "モバイルバッテリー・充電器は電気用品安全法の規制対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "複数ポート同時使用時の出力",
+          "value": "製品ごとに同時使用時の出力配分が定められている。個別機種の配分値は各製品ページで要確認【要確認】",
+          "source": "Anker Japan 公式サイト",
+          "source_url": "https://www.ankerjapan.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "発熱の許容範囲",
+          "value": "未確認 — 正常とみなせる温度の公式な数値基準は確認できていない【要確認】",
+          "source": "Anker Japan 公式サイト",
+          "source_url": "https://www.ankerjapan.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "第三者認証",
+          "value": "ポータブル電源が業界で初めて電気製品の第三者認証制度「Sマーク認証」を取得(PSEを補完する安全基準)",
+          "source": "Ankerのポータブル電源が、業界で初めて「Sマーク認証」を取得",
+          "source_url": "https://corp.ankerjapan.com/posts/595",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "anker-airplane-rules-2026",
+      "question": "2026年4月からモバイルバッテリーは飛行機に持ち込めなくなると聞きましたが本当ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12325474517",
+        "original": "4月から機内にモバイルバッテリーが持ち込みも預けも禁止って本当ですかだとしたら旅行先でバッテリー無くなったらどうすればいいですか?"
+      },
+      "answer": "「全面禁止」ではありません。従来どおり預け入れ手荷物には入れられませんが、機内持ち込みは可能です。2026年4月24日から多くの航空会社で運用が変わり、160Wh以下を2個までとする扱いのほか、機内でバッテリー本体を充電すること、バッテリーから他機器へ充電することが禁止されました。2025年7月8日から続く「頭上の棚に入れず手元で保管する」ルールも継続します。ブランドを問わない共通ルールです。容量は本体のWh表記で確認し、運用は航空会社の最新案内で確認を【要確認】。",
+      "facts": [
+        {
+          "label": "2026年4月24日からの機内ルール",
+          "value": "160Wh以下を2個までとする運用のほか、機内でのモバイルバッテリー本体への充電、およびモバイルバッテリーから他機器への充電が禁止",
+          "source": "Anker Japan 公式オンラインストア(2026年4月から新ルール解説)",
+          "source_url": "https://www.ankerjapan.com/blogs/magazine/mobilebattery-ontheplane",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保管方法",
+          "value": "2025年7月8日から適用の「頭上の収納棚に入れず、異常に気づける手元で保管する」ルールが継続",
+          "source": "Anker Japan 公式オンラインストア(2026年4月から新ルール解説)",
+          "source_url": "https://www.ankerjapan.com/blogs/magazine/mobilebattery-ontheplane",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "預け入れ手荷物",
+          "value": "リチウムイオン電池を内蔵するモバイルバッテリーは受託手荷物に入れられず、機内持ち込みのみ可",
+          "source": "Anker Japan 公式サイト",
+          "source_url": "https://www.ankerjapan.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "所管・詳細の確認先",
+          "value": "航空機内へのリチウム電池持ち込みルールの詳細および各社の運用は国土交通省および各航空会社の案内で要確認【要確認】",
+          "source": "国土交通省",
+          "source_url": "https://www.mlit.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
     }
   ],
   "sections": [

@@ -581,6 +581,326 @@
           "published": "不明"
         }
       ]
+    },
+    {
+      "slug": "sharkninja-ninja-appliance-support",
+      "question": "Ninja Blastはミキサーですか、ジューサーですか。故障したときの窓口はSharkと同じですか。",
+      "source": {
+        "platform": "価格.comクチコミ掲示板",
+        "url": "https://bbs.kakaku.com/bbs/K0001604588/SortID=25857597/",
+        "original": "『ジューサー?』 NINJA Blast BC151JPR [パッションフルーツ] のクチコミ掲示板"
+      },
+      "answer": "Ninja BlastはSharkNinjaのコードレスミキサー(ブレンダー)として販売されている製品で、果汁だけを搾り分けるジューサーとは別カテゴリの家電です。SharkとNinjaは同じSharkNinja, Inc.のブランドで、日本でも同一法人が扱っており、サポート窓口は0120-522-552(9:00〜17:30、フォームは24時間受付)が共通です。保証はメーカー保証2年で、公式オンラインストア購入＋製品登録により1年延長されますが、アクセサリーパックは対象外です。",
+      "facts": [
+        {
+          "label": "ブランドと社名の関係",
+          "value": "SharkNinja, Inc. が社名。Sharkは清掃家電、Ninjaは調理家電のブランド名",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本のサポート窓口",
+          "value": "電話 0120-522-552、受付9:00〜17:30。お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証",
+          "value": "メーカー保証2年。公式オンラインストア購入＋製品登録で合計3年(アクセサリーパック等は対象外)",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "調理家電への法規制",
+          "value": "調理家電は電気用品安全法(PSE)の対象であり、食品衛生法に基づく材質基準も適用される",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-product-registration-required",
+      "question": "Sharkのメーカー保証を受けるには、必ず製品登録が必要なのですか。登録しないとどうなりますか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13295778468",
+        "original": "SHARK掃除機のメーカー保証について質問です。SHARKのメーカー保証にはシリアル番号等を入力して製品登録をするという記事を見た..."
+      },
+      "answer": "整理すると2段構えです。メーカー保証2年は購入した時点で付きます。これに加えてSharkNinja公式オンラインストア(または公式楽天市場店)で購入した場合、商品到着後の製品登録でメーカー保証がプラス1年延長され合計3年になります。つまり登録が必須なのは延長分の1年で、忘れると延長が適用されない可能性があります。ただしリチウムイオンバッテリーとアクセサリーパックは延長の対象外です。登録の可否や期限は窓口(0120-522-552)で確認し、購入証明は必ず保管してください。",
+      "facts": [
+        {
+          "label": "メーカー保証",
+          "value": "2年。公式オンラインストアで購入し製品登録すると合計3年(メーカー保証2年＋公式オンラインストア保証1年)",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証の適用条件",
+          "value": "SharkNinja公式オンラインストアでの購入が前提で、適用には商品到着後の製品登録が必須",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証の対象外",
+          "value": "リチウムイオンバッテリー、アクセサリーパックには延長は適用されない",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "問い合わせ窓口",
+          "value": "電話 0120-522-552(受付9:00〜17:30)、お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-retailer-purchase-registration",
+      "question": "家電量販店で買ったShark製品も製品登録できますか。紙の保証書が入っていないのですが大丈夫ですか。",
+      "source": {
+        "platform": "価格.comクチコミ掲示板",
+        "url": "https://bbs.kakaku.com/bbs/J0000041633/SortID=25885728/",
+        "original": "『製品保証と製品登録の方式が独特です』 Shark Clean Sense iQ+ IW3241J のクチコミ掲示板"
+      },
+      "answer": "量販店で買った製品にもメーカー保証2年は付きますが、保証を1年延長する制度は公式オンラインストア(および公式楽天市場店)での購入が前提とされており、量販店購入分の登録が延長に結びつくとは限りません【要確認】。紙の保証書が同梱されない場合、購入日を示すレシートや納品書が保証適用の根拠になるので必ず保管してください。登録の反映状況や量販店購入分の扱いは窓口(0120-522-552)で確認するのが確実です。量販店独自の長期保証は料金と免責範囲を店頭で比較してください。",
+      "facts": [
+        {
+          "label": "メーカー保証",
+          "value": "2年。購入チャネルを問わずメーカー保証が付く(製品ごとに異なるため取扱説明書で要確認)",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長1年の前提条件",
+          "value": "SharkNinja公式オンラインストアでの購入＋製品登録。量販店購入分への適用可否は未確認【要確認】",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公式楽天市場店の扱い",
+          "value": "SharkNinja公式楽天市場店での購入もメーカー保証期間プラス1年延長の対象とされる",
+          "source": "SharkNinja公式楽天市場店 製品保証",
+          "source_url": "https://www.rakuten.ne.jp/gold/shark/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "量販店の独自延長保証",
+          "value": "未確認 — 量販店ごとの制度のため、料金・免責範囲は各店で要確認",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-battery-warranty-exclusion",
+      "question": "購入から1年も経たずにバッテリーの持ちが極端に短くなりました。保証で交換してもらえますか。",
+      "source": {
+        "platform": "価格.comクチコミ掲示板",
+        "url": "https://bbs.kakaku.com/bbs/K0001232425/SortID=24895333/",
+        "original": "『8ヶ月使用でバッテリーの持ちが5秒に』 Shark EVOPOWER W25 のクチコミ掲示板"
+      },
+      "answer": "まず窓口に相談すべき事案です。ただし前提として、SharkNinjaはリチウムイオンバッテリーとアクセサリーパックを保証・延長保証の対象外としており、経年による稼働時間の低下は保証で交換される想定ではありません。一方、購入後わずかな期間で使用時間が極端に落ちる症状は経年劣化とは言えず、初期不良として扱われるかはメーカーの判断になります【要確認】。0120-522-552(9:00〜17:30)に購入日・型番・症状・購入店を伝えてください。交換用バッテリーは公式ストアで単品購入できます。",
+      "facts": [
+        {
+          "label": "バッテリーの保証上の扱い",
+          "value": "リチウムイオンバッテリー・アクセサリーパックは保証対象外(延長保証も適用されない)",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "初期不良時の判断",
+          "value": "未確認 — 短期間での性能低下を初期不良として扱うかはメーカー判断のため窓口で要確認【要確認】",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換用バッテリーの入手",
+          "value": "公式オンラインストアのアクセサリー／付属品／消耗品カテゴリでEVOPOWER SYSTEM用バッテリー・充電器等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "非純正バッテリーの安全性",
+          "value": "NITEはリチウムイオン電池搭載製品の火災事故防止に関し、非純正バッテリーのリスク理解を呼びかけている",
+          "source": "NITE 注意喚起",
+          "source_url": "https://www.nite.go.jp/jiko/chuikanki/press/2025fy/prs250626.html",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-auto-empty-dock-choice",
+      "question": "Sharkの掃除機で自動ゴミ収集ドック付きにするか迷っています。維持費や手入れはどうなりますか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10320061805",
+        "original": "シャークの掃除機で、自動収集ドックありとなしで悩んでいます。カラーの好..."
+      },
+      "answer": "維持費はドックの集塵方式で結論が変わります。フィルター式なら紙パックの買い足しは不要ですが、代わりにドック側のフィルターやスポンジの清掃・乾燥という手入れが増えます。機種により方式が異なるため、検討中の型番について公式製品ページで集塵方式と消耗品の有無を確認してください【要確認】。消耗品が必要な機種でも、フィルターやブラシ類は公式オンラインストアで単品購入できます。リチウムイオンバッテリーとアクセサリーパックは保証対象外なので、維持費と併せて見積もってください。",
+      "facts": [
+        {
+          "label": "ドックの集塵方式と消耗品",
+          "value": "未確認 — 機種により方式が異なるため、型番ごとに公式製品ページで要確認【要確認】",
+          "source": "全製品｜Shark公式オンラインストア",
+          "source_url": "https://direct.shark.co.jp/collections/all",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品の入手性",
+          "value": "公式オンラインストアにアクセサリー／付属品／消耗品カテゴリがあり、フィルター・フィルター容器・サイドブラシ等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証対象外の部品",
+          "value": "リチウムイオンバッテリー、アクセサリーパック",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談窓口",
+          "value": "電話 0120-522-552(9:00〜17:30)、お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-filter-drying-abnormal-noise",
+      "question": "フィルターとダストカップを水洗いして乾かした後、電源を入れるといつもと違う音がします。どうすればよいですか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13311800473",
+        "original": "シャークの掃除機のフィルターとダストカップを水洗いして丸1日乾かしていました。取り付けて電源を入れるといつもと違う音がして途中..."
+      },
+      "answer": "まず使用を止め、装着状態と乾燥状態を確認してください。水分が残ったまま組み付けると異音や目詰まりの原因になり、部品の装着位置がずれている場合も異音が出ます。乾燥時間や洗浄方法は機種ごとに取扱説明書で指定されているため、その指示に従ってください【要確認】。再装着しても異音が続く場合は、無理に運転せず窓口(0120-522-552、9:00〜17:30、フォームは24時間受付)に型番・購入日・症状を伝えてください。修理は電話相談→自宅への回収→修理→自宅へお届けという流れです。",
+      "facts": [
+        {
+          "label": "修理の流れ",
+          "value": "サービスセンターでの修理対応。電話相談→自宅への回収→修理→自宅へお届け",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "電話 0120-522-552、受付9:00〜17:30(年末年始・大型連休等を除く)。お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "洗浄・乾燥の指示",
+          "value": "未確認 — 機種ごとに取扱説明書の指示が異なるため製品別に要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換用フィルターの入手",
+          "value": "公式オンラインストアのアクセサリーカテゴリでEVOPOWER EX用フィルター・フィルター容器等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-head-disassembly-diy",
+      "question": "Sharkのヘッドに毛が絡んでいますが分解できません。自分で分解して掃除してもよいですか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11311102001",
+        "original": "シャークスティッククリーナーの分解掃除。シャークのスティッククリーナのJ19R2623A9Z5のヘッド部分が分解できず困っ..."
+      },
+      "answer": "取扱説明書に記載のある範囲の着脱・清掃にとどめるのが基本です。手順のない部分を工具でこじ開けると破損しやすく、それに起因する故障は保証の対象外と判断されうるため【要確認】、無理な分解は避けてください。取り切れない絡まりやブラシロールが回らない状態が続く場合は、窓口(0120-522-552、9:00〜17:30)に型番と症状を伝えて相談してください。修理は電話相談→自宅への回収→修理→自宅へお届けという流れで、交換できる部品は公式ストアで単品購入できます。",
+      "facts": [
+        {
+          "label": "自己分解と保証の関係",
+          "value": "未確認 — 取扱説明書に記載のない分解に起因する破損の扱いは窓口で要確認【要確認】",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理の流れ",
+          "value": "電話相談→自宅への回収→サービスセンターで修理→自宅へお届け",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換部品の入手性",
+          "value": "公式オンラインストアのアクセサリー／付属品／消耗品カテゴリでサイドブラシ・フィルター・専用パッド等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談窓口",
+          "value": "電話 0120-522-552(9:00〜17:30)、お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-two-year-mark-failure",
+      "question": "購入から2年が経過したShark掃除機の調子が悪くなりました。保証はもう使えませんか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14324037719",
+        "original": "掃除機のシャークについて教えてください。購入して、２年が経過しました。動作させ..."
+      },
+      "answer": "購入場所で変わります。メーカー保証は2年なので、量販店などで購入した場合は2年経過時点で保証は切れています。ただしSharkNinja公式オンラインストアまたは公式楽天市場店で購入し、到着後に製品登録をしていれば1年延長され合計3年となり、まだ期間内の可能性があります。その場合もリチウムイオンバッテリーとアクセサリーパックは対象外です。保証外の修理費用は本サイトでは断定できず、公式窓口(0120-522-552)への問い合わせが必要です【要確認】。",
+      "facts": [
+        {
+          "label": "メーカー保証",
+          "value": "2年。公式オンラインストア購入＋製品登録で合計3年",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証の対象外",
+          "value": "リチウムイオンバッテリー、アクセサリーパック",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証外の修理費用",
+          "value": "未確認 — 公式の料金表は確認できず、窓口への問い合わせが必要【要確認】",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "サービスセンターでの修理対応。電話相談→自宅への回収→修理→自宅へお届け",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
     }
   ],
   "sections": [

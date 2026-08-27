@@ -573,6 +573,239 @@
           "published": "不明"
         }
       ]
+    },
+    {
+      "slug": "dji-comprehensive-application-renewal",
+      "question": "ドローンの包括申請(飛行許可・承認)の更新はどう進めればよいですか?期限を過ぎるとどうなりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13277635453",
+        "original": "ドローンの包括申請の更新について教えてください。※国土交通省に電話しようとしたら17時と早い時間にCloseしていた為こちらに"
+      },
+      "answer": "手続きはすべてDIPS(ドローン情報基盤システム)上で行います。前提として、DJI機を含む100g以上の無人航空機は国交省への機体登録とリモートID搭載が義務で、機体登録の有効期間は3年です。この機体登録が失効していると、飛行許可・承認の申請そのものができません。飛行許可・承認(いわゆる包括申請)にも有効期間があり、切れた場合は改めて申請が必要です。DIPS 2.0への移行後は画面構成や更新の扱いが変わっているため、更新可否・必要書類・審査日数は最新のDIPS画面と国交省の案内で確認してください【要確認】。期限が切れたまま特定飛行を行うと航空法違反となるおそれがあります。",
+      "facts": [
+        {
+          "label": "機体登録とリモートID",
+          "value": "100g以上の無人航空機は国交省への機体登録とリモートID搭載が義務(2022年6月20日〜)。機体登録の有効期間は3年で更新が必要",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "申請窓口",
+          "value": "機体登録・飛行許可承認ともDIPS(ドローン情報基盤システム)からオンライン申請",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "許可・承認が必要な飛行",
+          "value": "DID(人口集中地区)上空、空港周辺、地表・水面から150m以上、夜間、目視外、第三者や第三者の建物・車両から30m以内など",
+          "source": "国土交通省 飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "更新手続きの詳細",
+          "value": "未確認 — 更新可否・必要書類・審査日数はDIPSの最新画面と国交省の案内で要確認【要確認】",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-riverbed-park-flight-check",
+      "question": "多摩川などの河川敷や公園でDJIのドローンを飛ばしたいのですが、どこに確認すればよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13325755878",
+        "original": "聖蹟桜ヶ丘付近の多摩川の河川敷にてドローンを飛ばそうとしています。多摩川河川敷を管理している京浜河川事務所ではルールを守れば飛ばし"
+      },
+      "answer": "航空法上の可否と、土地の管理者の許可は別々に確認が必要です。まず航空法では100g以上の機体に機体登録とリモートID搭載が義務づけられ、DID(人口集中地区)上空・空港周辺・150m以上・夜間・目視外・第三者から30m以内などはDIPSでの許可承認が必要です。これに加えて、河川敷は国や自治体の河川管理事務所、都市公園は自治体の条例や公園管理者の判断に従う必要があり、条例で飛行を禁じている公園も少なくありません。個別の場所が飛ばせるかどうかを当サイトで判断することはできません。管理者への確認と、国交省・DIPS上での区域確認を必ず両方行ってください。",
+      "facts": [
+        {
+          "label": "航空法上のルール",
+          "value": "100g以上は機体登録とリモートID搭載が義務。DID上空・空港周辺・150m以上・夜間・目視外・第三者から30m以内などは許可承認が必要",
+          "source": "国土交通省 飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "土地管理者の許可",
+          "value": "航空法とは別に、河川管理者・公園管理者・私有地所有者の許可が必要。自治体の条例で公園での飛行を禁じている例がある",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "区域の確認方法",
+          "value": "DIPS(ドローン情報基盤システム)の地図で対象区域を確認したうえで申請。個別地点の可否は国交省・DIPSで要確認",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-used-drone-registration-transfer",
+      "question": "中古で買ったDJIのドローンがDIPSで機体登録できません(同じ製造番号で登録済みと出ます)。どうすればよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14283548549",
+        "original": "ドローンをメルカリで購入したのですが、DIPSで機体登録をしようとしたところ同（じ製造番号で登録されている）"
+      },
+      "answer": "中古機では「DIPSの機体登録」と「DJIアカウントへの紐付け」という2系統の手続きが前の所有者側に残っていることがあり、それぞれ別に解消が必要です。同一の製造番号がすでにDIPSに登録されている場合、新規登録は通りません。前所有者に登録の抹消または譲渡手続きを依頼するのが原則で、対応が取れない場合はDIPSのヘルプデスク・国交省に相談してください【要確認】。アクティベート済みの機体で「他のアカウントに紐付けられています」と表示される場合も、前所有者側での解除が前提です。DJI Care Refreshを中古機に引き継げるかは公式サポートで要確認【要確認】。購入前に両方の解除完了を出品者に確認するのが最も確実です。",
+      "facts": [
+        {
+          "label": "機体登録(航空法)",
+          "value": "100g以上は所有者ごとに国交省へ機体登録が必要。譲渡時は前所有者側での抹消・変更手続きが前提となる",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "手続きの窓口",
+          "value": "登録・変更・抹消の手続きはDIPSからオンラインで実施。個別の解消手順は国交省・DIPSで要確認【要確認】",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "DJIアカウントへの紐付け",
+          "value": "未確認 — 中古機の紐付け解除の手順・可否はDJI公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "DJI Care Refreshの引き継ぎ",
+          "value": "未確認 — 中古機への引き継ぎ可否は公式サポートで要確認。なおグローバル保証は製品購入とDJI Careサービス購入が同一の国で行われていることが条件",
+          "source": "DJI Care Refreshグローバル保証について",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008024&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-drone-stuck-in-tree-coverage",
+      "question": "DJIのドローンが木に引っかかって回収できません。保証や保険でどこまでカバーされますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12153939227",
+        "original": "10mある木の上にドローンが引っかかりました。どうしたら（取）ることができますか"
+      },
+      "answer": "まず前提として、DJIの公式説明では墜落・紛失時のサポートは日本国内正規品のみが対象とされています。並行輸入品や海外版は対象外となる場合があるため、購入経路の確認が先です。DJI Care Refreshは有償の交換サービスで、1年版は年2回、2年版は最大4回のリフレッシュ交換が設定されています。ただし紛失や水没がどの条件でカバーされるか、自己負担額がいくらかは機種・プランで異なり、公開情報から一律には示せません【要確認】。第三者への損害に備える賠償責任保険はDJIの保証とは別枠の商品です。なお回収のために他人の土地や樹木へ立ち入る場合は、管理者の許可が必要です。",
+      "facts": [
+        {
+          "label": "墜落・紛失時のサポート対象",
+          "value": "墜落・紛失時のサポートは日本国内正規品のみ対応。海外製のDJI製品は事前にDJIカスタマーサポートへの相談が必要",
+          "source": "機体紛失・墜落時のサポートについて",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008024&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "DJI Care Refreshの交換回数",
+          "value": "1年版は年2回、2年版は最大4回のリフレッシュ交換(2023年7月13日のアップグレード後)。2年版の購入で通常1年のメーカー保証が2年に延長",
+          "source": "DJI Care Refresh(2年版)",
+          "source_url": "https://store.dji.com/jp/guides/dji-care-refresh-two-years/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "紛失・水没時の自己負担額",
+          "value": "未確認 — 機種・プランにより異なり、公開情報では一律に示せない。公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "賠償責任保険との違い",
+          "value": "第三者への損害を補償する賠償責任保険はDJIの製品保証とは別枠の保険商品。補償内容・保険料は保険会社ごとに異なり未確認【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-repair-cost-estimate-process",
+      "question": "DJI製品の修理費用の目安を知りたいのですが、送る前に見積もりは分かりますか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/K0001310428/SortID=24872995/",
+        "original": "『プロペラがひとつ固まって動きません、、修理代の目安は』 DJI Mini 2 のクチコミ掲示板"
+      },
+      "answer": "修理はDJIのオンライン修理受付サービス(配送修理)から申し込み、点検後に見積もりが提示される流れです。送付先はDJI JAPANカスタマーサポート(〒354-0043 埼玉県入間郡三芳町竹間沢832-6)、電話窓口は03-6634-4949で、受付は平日10:00〜17:00です。DJIは公式サポート上で機種別の修理パーツ価格と点検費用を公開しているため、申し込み前におおよその水準を確認できます。ただし実際の請求額は症状や損傷範囲によって変わり、当サイトで一律の目安は示せません【要確認】。並行輸入品・海外版は事前にDJIカスタマーサポートへ相談が必要とされています。",
+      "facts": [
+        {
+          "label": "修理の申込方法",
+          "value": "オンライン修理受付サービス(配送修理)。修理品送付先はDJI JAPANカスタマーサポート 〒354-0043 埼玉県入間郡三芳町竹間沢832-6",
+          "source": "オンライン修理受付サービス申請ガイド",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043535&spaceId=17&re=JP&lang=ja&documentType=&paperDocType=ARTICLE",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "電話窓口・受付時間",
+          "value": "DJIカスタマーサポート 03-6634-4949 / 平日10:00〜17:00(UTC+9)",
+          "source": "DJI カスタマーサポート窓口のご紹介",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043579&spaceId=17&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理パーツ価格・点検費用",
+          "value": "機種別の修理パーツ価格・点検費用がDJI公式サポートページで公開されている。個別の請求額は症状により変動し要確認【要確認】",
+          "source": "【点検費用】【修理パーツ価格】について",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008360&spaceId=34&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "並行輸入品の扱い",
+          "value": "海外製のDJI製品は事前にDJIカスタマーサポートへの相談が必要",
+          "source": "機体紛失・墜落時のサポートについて",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008024&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-care-refresh-battery-coverage",
+      "question": "DJI Care Refreshでフライトバッテリーも新品に交換してもらえますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14298747199",
+        "original": "DJIドローンのバッテリーはケアリフレッシュで新品交換できますか？"
+      },
+      "answer": "DJI Care Refreshは本体の「リフレッシュ交換」を中心とした有償サービスで、消耗品であるバッテリー単体の劣化を無償で新品化する制度とは位置づけが異なります【要確認】。一方、フライトバッテリーにはメーカー保証12か月が設定されており、膨張などの不具合はまず保証の枠組みで扱われます。Care Refreshの交換回数は1年版で年2回、2年版で最大4回、2年版の購入で通常1年のメーカー保証が2年に延長されます。バッテリーが交換対象に含まれるか、自己負担額がいくらかは機種とプランで異なるため、シリアル番号を添えて公式サポートで確認してください【要確認】。",
+      "facts": [
+        {
+          "label": "フライトバッテリーの保証期間",
+          "value": "フライトバッテリーのメーカー保証は12ヶ月。保証期間はパーツごとにアフターサービスポリシーで定められている",
+          "source": "バッテリーの膨張が発生した場合の対応方法／DJI アフターサービスのご紹介",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400007637&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "DJI Care Refreshの内容",
+          "value": "1年版は年2回、2年版は最大4回のリフレッシュ交換。2年版の購入で通常1年のメーカー保証が2年に延長",
+          "source": "DJI Care Refresh(2年版)",
+          "source_url": "https://store.dji.com/jp/guides/dji-care-refresh-two-years/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "バッテリーが交換対象に含まれるか",
+          "value": "未確認 — 機種・プランにより異なる。シリアル番号を添えてDJI公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換パーツの入手",
+          "value": "バッテリー等の交換パーツ・アクセサリーはDJI公式オンラインストアで購入可能",
+          "source": "DJI 公式ストア",
+          "source_url": "https://store.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
     }
   ],
   "sections": [
