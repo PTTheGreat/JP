@@ -77,5 +77,72 @@
       "checked": "2026-08-27"
     }
   ],
-  "related_qa": ["dji-country", "dji-drone-rules"]
+  "faq": [
+    {
+      "slug": "dji-about",
+      "question": "DJIという中国のメーカーについて詳しく教えてください",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10316238400",
+        "original": "DJIと言う中国のメーカーについて詳しい方教えて下さい。アク…"
+      },
+      "answer": "DJIは中国・深圳に本社を置くドローン・映像機器メーカーです。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア首位です。東京に日本法人「DJI JAPAN株式会社」があり、日本語サポートと国内修理に対応しています。日本正規品は技適を取得済みですが、海外版のドローンには技適未取得のものがあるため、購入時は国内正規品かどうかの確認が重要です。",
+      "facts": [
+        {
+          "label": "本社",
+          "value": "中国・深圳。2006年創業、非上場",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人",
+          "value": "DJI JAPAN株式会社(東京)",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "技適",
+          "value": "日本正規品は取得済み。海外版は未取得の場合あり",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-drone-rules",
+      "question": "免許不要のドローンはどこまで飛行可能ですか?飛行に際し申請や連絡など何が必要ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10293764745",
+        "original": "免許不要のドローンはどこまで飛行可能ですか?飛行に際し申請や連絡など何…"
+      },
+      "answer": "自由には飛ばせません。重量100g以上のドローンは航空法の規制対象で、国土交通省への機体登録とリモートID搭載が必要です。人口集中地区(DID)上空、空港周辺、150m以上の高度、夜間・目視外飛行などは原則として許可・承認が必要です。DJI Mini系(249g)も100g以上なので登録が必要です。飛ばせる場所は国土地理院の地図やドローン情報基盤システム(DIPS)で確認できます。違反には罰則があります。",
+      "facts": [
+        {
+          "label": "機体登録",
+          "value": "100g以上は国交省への登録+リモートID義務(2022年〜)",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "飛行制限",
+          "value": "DID上空・空港周辺・150m以上・夜間等は許可承認が必要",
+          "source": "国土交通省 飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "申請窓口",
+          "value": "DIPS(ドローン情報基盤システム)でオンライン申請",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ]
 }

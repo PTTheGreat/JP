@@ -42,11 +42,17 @@ python3 monitor/monitor.py
 
 按 `monitor/queries.json` 的固定query集逐一提问,结果写入 `monitor/results/YYYY-MM-DD.jsonl`,并输出当日引用率(核心指标:AI引用率)。未设置key的provider自动跳过。上线后把 `queries.json` 中的 `site_domains` 改为正式域名,配合cron每日运行。
 
-## 当前样例内容
+## 当前内容
 
 - 品牌页 ×10:Anker、Xiaomi、SwitchBot、Roborock、DJI、Insta360(中国)/ BALMUDA、CIO(日本)/ SharkNinja(美国)/ Dyson(英国)
-- 问答页 ×18:以调研确认的日本高频问题模式「〇〇はどこの国の会社?」为主,加安全性、修理、法规、品牌对比类问题
+- FAQ ×19:**全部来自真实用户提问**(Yahoo!知恵袋、Quora日本版),每页顶部标注原帖出典和链接;FAQ 与品牌页同路径(`/brands/<品牌>/<问题>/`),数据结构化存于品牌 JSON 的 `faq` 数组
+- 未在一次来源核实的字段(含【要確認】)在页面上**整行红字**显示,并附图例说明
 - 设计遵循日本Web惯例:パンくずリスト、最終確認日、目次、「結論」先行、よくある質問折叠区、国别徽章、高信息密度表格、運営方針页
+
+## 部署
+
+站点通过 GitHub Pages 发布:https://ptthegreat.github.io/PS-test/
+推送代码 → `pages.yml` 工作流自动构建并推送 `gh-pages` 分支 → Pages 自动更新。
 
 ⚠️ **样例内容未经日语母语审校,标注【要確認】的事实(法人番号、技適型号、保修期限等)需在一次来源(国税庁/総務省/消費者庁)逐条核实后方可上线。** 按说明书§6.1,所有对外内容需日语母语审校通过。
 

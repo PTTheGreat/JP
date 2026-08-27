@@ -70,5 +70,72 @@
       "checked": "2026-08-27"
     }
   ],
-  "related_qa": ["balmuda-company"]
+  "faq": [
+    {
+      "slug": "balmuda-worth",
+      "question": "バルミューダのトースターは値段に対して買う価値ありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14248089839",
+        "original": "バルミューダのトースターは値段に対して買う価値ありますか?4枚焼きが出来ないのに…"
+      },
+      "answer": "価値の感じ方は用途次第ですが、判断材料になる事実は次の通りです。BALMUDAのトースターは2万〜3万円台で、一般的なトースター(5千円〜1万円)の2〜4倍の価格帯です。同社は2003年創業の日本企業で株式上場しており、スチーム技術による焼き上げを特徴としています。4枚焼きモデルはなく2枚焼きが基本です。メーカー保証は約1年。焼き上がりの評価は主観に依存するため、実測比較はmy-best等の評測メディアを参照してください。",
+      "facts": [
+        {
+          "label": "価格帯",
+          "value": "トースターは2万〜3万円台(一般的な製品の2〜4倍)",
+          "source": "BALMUDA 公式オンラインストア",
+          "source_url": "https://www.balmuda.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "企業",
+          "value": "2003年創業の日本企業。株式上場済み",
+          "source": "バルミューダ株式会社 会社概要",
+          "source_url": "https://www.balmuda.com/jp/about/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証",
+          "value": "約1年間のメーカー保証【要確認】",
+          "source": "BALMUDA サポート",
+          "source_url": "https://www.balmuda.com/jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "balmuda-price",
+      "question": "バルミューダの家電はデザイン重視で、機能が少ない割に強気の価格設定なのはなぜですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10322579185",
+        "original": "バルミューダの家電はデザイン重視で、機能が少ない割には強気の価格設定、…"
+      },
+      "answer": "BALMUDAは多機能・低価格ではなく「体験とデザイン」に価格を乗せるブランド戦略を公言しています。機能数を絞り、デザインと調理体験(トースターのスチーム技術等)へ投資する方針で、これは創業者の寺尾玄氏が繰り返し述べているものです。上場企業のため業績・戦略は決算資料で公開されており、価格設定が維持できているかは売上と利益率で検証可能です。割高と感じるか妥当と感じるかは、機能の多さと体験のどちらを重視するかで変わります。",
+      "facts": [
+        {
+          "label": "ブランド戦略",
+          "value": "機能数より体験・デザイン重視を公言",
+          "source": "バルミューダ 公式サイト・決算資料",
+          "source_url": "https://www.balmuda.com/jp/ir/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "価格帯",
+          "value": "生活家電で1.5万〜6万円の高価格帯",
+          "source": "BALMUDA 公式オンラインストア",
+          "source_url": "https://www.balmuda.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "情報公開",
+          "value": "上場企業のため業績・戦略は決算資料で公開",
+          "source": "バルミューダ IR情報",
+          "source_url": "https://www.balmuda.com/jp/ir/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ]
 }

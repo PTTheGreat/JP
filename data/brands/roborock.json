@@ -70,5 +70,72 @@
       "checked": "2026-08-27"
     }
   ],
-  "related_qa": ["roborock-country", "roborock-repair"]
+  "faq": [
+    {
+      "slug": "roborock-vs-roomba",
+      "question": "ロボロックとルンバどっちがオススメですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13279277408",
+        "original": "ロボロックとルンバどっちがオススメですか??"
+      },
+      "answer": "ブランドレベルの事実で比較すると:Roborockは中国・北京の上場企業(2014年創業)で、吸引と水拭きの一体型が主力、日本では大手量販店で正規流通し国内サポートがあります。ルンバの米iRobot社は1990年創業のロボット掃除機の草分けですが、近年は中国勢との競争で業績が悪化し、経営再建が報じられています。水拭きまで1台で済ませたいならRoborock型、吸引特化の実績と枯れた安定性ならルンバという構図です。機種ごとの吸引力・清掃力の実測はmy-best等の評測メディアを参照してください。",
+      "facts": [
+        {
+          "label": "Roborock",
+          "value": "中国・北京。2014年創業、上海STAR上場。水拭き一体型が主力",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "iRobot(ルンバ)",
+          "value": "米国。1990年創業。近年業績悪化・経営再建の報道あり【要確認】",
+          "source": "iRobot 公式サイト・報道",
+          "source_url": "https://www.irobot-jp.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本サポート",
+          "value": "両社とも国内正規流通・日本語サポートあり",
+          "source": "各社公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-domestic",
+      "question": "国産メーカーか中国以外のメーカーでおすすめのロボット掃除機はありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13314475093",
+        "original": "国産のメーカーor中国以外のメーカーでおすすめのロボット掃除機はありますか?"
+      },
+      "answer": "選択肢は少ないのが実情です。ロボット掃除機市場は現在、Roborock、エコバックス、Xiaomi等の中国メーカーが技術・シェアの両面で主導しており、日本の大手家電メーカーは撤退・縮小しています(パナソニックのRULOは生産終了)。中国以外の主な選択肢は、米iRobot(ルンバ)、米SharkNinja、アイリスオーヤマ等の国内ブランド(ただし製造は中国委託が多い)です。「ブランドの国」と「製造国」「データの取扱い」は別の問題なので、懸念が具体的に何か(製造品質か、データか)を切り分けて選ぶのが合理的です。",
+      "facts": [
+        {
+          "label": "国内大手の状況",
+          "value": "パナソニックRULOは生産終了。大手は撤退・縮小傾向【要確認】",
+          "source": "各社公式発表・報道",
+          "source_url": "https://panasonic.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "中国以外の選択肢",
+          "value": "iRobot(米)、SharkNinja(米)、アイリスオーヤマ(日)等",
+          "source": "各社公式サイト",
+          "source_url": "https://www.irobot-jp.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "市場動向",
+          "value": "ロボット掃除機は中国メーカーがシェア・技術で主導",
+          "source": "市場調査会社統計【要確認】",
+          "source_url": "https://www.idc.com/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ]
 }

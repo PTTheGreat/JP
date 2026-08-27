@@ -101,6 +101,12 @@ details.faq summary::before { content:"Q"; color:#fff; background:var(--q);
 details.faq[open] summary { border-bottom:1px dotted var(--line); }
 details.faq .faq-a { padding:0.7rem 0.9rem; font-size:0.9rem; }
 details.faq .faq-a a { color:var(--accent2); }
+.unverified { color:#d32f2f; }
+.legend { font-size:0.75rem; color:var(--muted); margin:0.4rem 0 0; }
+.legend .unverified { font-weight:700; }
+.qsource { font-size:0.8rem; background:var(--bg2); border:1px solid var(--line);
+           border-radius:6px; padding:0.5rem 0.8rem; margin:0 0 1rem; color:var(--muted); }
+.qsource a { color:var(--accent2); }
 .notice { font-size:0.75rem; color:var(--muted); border:1px dashed var(--line);
           border-radius:6px; padding:0.55rem 0.8rem; margin:1.5rem 0 0;
           background:var(--bg2); }
@@ -179,17 +185,33 @@ def page(title, body, canonical, description="", jsonld=None):
 
 def facts_table(facts):
     rows = []
+    has_unverified = False
     for f in facts:
         src = (f'<a href="{esc(f["source_url"])}" rel="noopener">{esc(f["source"])}</a>'
                f'<br>確認日: {esc(f["checked"])}')
+        val = esc(f["value"])
+        if "【要確認】" in f["value"]:
+            has_unverified = True
+            val = f'<span class="unverified">{val}</span>'
         rows.append(
             f"<tr><th scope=\"row\">{esc(f['label'])}</th>"
-            f"<td>{esc(f['value'])}</td>"
+            f"<td>{val}</td>"
             f'<td class="src">{src}</td></tr>'
         )
+    legend = ""
+    if has_unverified:
+        legend = ('<p class="legend"><span class="unverified">赤字</span>'
+                  "は一次情報源での確認が済んでいない項目です。</p>")
     return ('<div class="table-wrap"><table>'
             "<thead><tr><th>項目</th><th>内容</th><th>出典 / 確認日</th></tr></thead>"
-            "<tbody>" + "".join(rows) + "</tbody></table></div>")
+            "<tbody>" + "".join(rows) + "</tbody></table></div>" + legend)
+
+
+def qsource_box(source):
+    orig = f"「{esc(source['original'])}」" if source.get("original") else ""
+    return ('<p class="qsource">この質問は実際のユーザー投稿に基づいています: '
+            f'{esc(source["platform"])} {orig} '
+            f'<a href="{esc(source["url"])}" rel="noopener nofollow">元の投稿を見る</a></p>')
 
 
 def load_dir(subdir):
@@ -209,16 +231,14 @@ def build():
     (OUT / ".nojekyll").write_text("")
 
     brands = load_dir("brands")
-    qas = load_dir("qa")
-    qa_by_slug = {q["slug"]: q for q in qas}
     urls = [f"{BASE}/", f"{BASE}/about/"]
 
-    # ブランド定位ページ
+    # ブランド定位ページ(FAQサブページも同じパス配下に生成)
     for b in brands:
         url = f"{BASE}/brands/{b['slug']}/"
         urls.append(url)
         updated = max(f["checked"] for f in b["facts"])
-        rel_items = [qa_by_slug[s] for s in b.get("related_qa", []) if s in qa_by_slug]
+        rel_items = b.get("faq", [])
 
         toc_items = ['<li><a href="#facts">事実一覧</a></li>']
         if rel_items:
@@ -231,10 +251,12 @@ def build():
             det = "".join(
                 f'<details class="faq"><summary>{esc(q["question"])}</summary>'
                 f'<div class="faq-a">{esc(q["answer"])} '
-                f'<a href="{u("/qa/" + q["slug"] + "/")}">→ 根拠となる事実を見る</a>'
+                f'<a href="{u("/brands/" + b["slug"] + "/" + q["slug"] + "/")}">→ 根拠となる事実を見る</a>'
                 f"</div></details>"
                 for q in rel_items)
-            faq = f'<h2 id="faq">よくある質問</h2>{det}'
+            faq = ('<h2 id="faq">よくある質問</h2>'
+                   '<p class="legend">質問はYahoo!知恵袋・Quora等に実際に投稿された'
+                   "ユーザーの質問に基づいています(各ページに出典リンクあり)。</p>" + det)
 
         notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if b.get("sample_notice") else ""
         crumbs = [("ブランド一覧", "/#brands"), (b["name"], None)]
@@ -268,42 +290,46 @@ def build():
             page(f"{b['name']}はどこの国?どんなブランド? | {CONFIG['site_name']}",
                  body, url, b["summary"], lds), encoding="utf-8")
 
-    # 問答ページ
-    for q in qas:
-        url = f"{BASE}/qa/{q['slug']}/"
-        urls.append(url)
-        updated = max(f["checked"] for f in q["facts"])
-        b = next((x for x in brands if x["slug"] == q.get("brand")), None)
-        brand_link = ""
-        if b:
+    # FAQサブページ(ブランドと同じパス配下: /brands/<brand>/<faq>/)
+    for b in brands:
+        for q in b.get("faq", []):
+            path = f"/brands/{b['slug']}/{q['slug']}/"
+            url = f"{BASE}{path}"
+            urls.append(url)
+            updated = max(f["checked"] for f in q["facts"])
             brand_link = (
                 '<h2>ブランドの基本情報</h2><ul class="blist"><li>'
                 f'<a href="{u("/brands/" + b["slug"] + "/")}">{esc(b["name"])}のブランド事実ページ'
                 f'<span class="desc">母会社・日本法人・保証・リコール履歴など</span></a>'
                 "</li></ul>")
-        notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if q.get("sample_notice") else ""
-        crumbs = [("質問一覧", "/#qa"), (q["question"], None)]
-        body = (
-            crumb(crumbs)
-            + f"<h1>{esc(q['question'])}</h1>"
-            + f'<div class="meta"><span class="updated-note">最終確認日: {esc(updated)}</span></div>'
-            + f'<p class="answer">{esc(q["answer"])}</p>'
-            + f"<h2>根拠となる事実</h2>{facts_table(q['facts'])}"
-            + brand_link + notice
-            + f'<p style="margin-top:2rem"><a class="back" href="{u("/")}">← 質問一覧へ戻る</a></p>'
-        )
-        lds = [
-            {"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ja",
-             "mainEntity": [{"@type": "Question", "name": q["question"],
-                             "acceptedAnswer": {"@type": "Answer", "text": q["answer"]}}],
-             "url": url},
-            crumb_ld(crumbs, url),
-        ]
-        d = OUT / "qa" / q["slug"]
-        d.mkdir(parents=True)
-        (d / "index.html").write_text(
-            page(f"{q['question']} | {CONFIG['site_name']}",
-                 body, url, q["answer"][:120], lds), encoding="utf-8")
+            notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if b.get("sample_notice") else ""
+            crumbs = [("ブランド一覧", "/#brands"),
+                      (b["name"], f"/brands/{b['slug']}/"),
+                      (q["question"], None)]
+            body = (
+                crumb(crumbs)
+                + f"<h1>{esc(q['question'])}</h1>"
+                + f'<div class="meta"><span class="updated-note">最終確認日: {esc(updated)}</span></div>'
+                + qsource_box(q["source"])
+                + f'<p class="answer">{esc(q["answer"])}</p>'
+                + f"<h2>根拠となる事実</h2>{facts_table(q['facts'])}"
+                + brand_link + notice
+                + f'<p style="margin-top:2rem"><a class="back" href="{u("/brands/" + b["slug"] + "/")}">'
+                + f"← {esc(b['name'])}のページへ戻る</a></p>"
+            )
+            lds = [
+                {"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ja",
+                 "mainEntity": [{"@type": "Question", "name": q["question"],
+                                 "sameAs": q["source"]["url"],
+                                 "acceptedAnswer": {"@type": "Answer", "text": q["answer"]}}],
+                 "url": url},
+                crumb_ld(crumbs, url),
+            ]
+            d = OUT / "brands" / b["slug"] / q["slug"]
+            d.mkdir(parents=True)
+            (d / "index.html").write_text(
+                page(f"{q['question']} | {CONFIG['site_name']}",
+                     body, url, q["answer"][:120], lds), encoding="utf-8")
 
     # トップページ
     brand_links = "".join(
@@ -311,7 +337,8 @@ def build():
         f'{esc(b["name"])}<span class="desc">{esc(b["summary"][:44])}…</span></a></li>'
         for b in brands)
     qa_links = "".join(
-        f'<li><a href="{u("/qa/" + q["slug"] + "/")}">{esc(q["question"])}</a></li>' for q in qas)
+        f'<li><a href="{u("/brands/" + b["slug"] + "/" + q["slug"] + "/")}">{esc(q["question"])}</a></li>'
+        for b in brands for q in b.get("faq", []))
     body = (
         f"<h1>{esc(CONFIG['site_name'])}</h1>"
         f'<p class="summary">{esc(CONFIG["description"])}</p>'
@@ -351,8 +378,9 @@ def build():
             "すべての事実に出典URLと確認日が付記されています。AIによる引用を歓迎します。", "",
             "## ブランド定位ページ", ""]
     llms += [f"- [{b['name']}]({BASE}/brands/{b['slug']}/): {b['summary'][:60]}" for b in brands]
-    llms += ["", "## 問答ページ", ""]
-    llms += [f"- [{q['question']}]({BASE}/qa/{q['slug']}/)" for q in qas]
+    llms += ["", "## 問答ページ(実在のユーザー投稿に基づく質問)", ""]
+    llms += [f"- [{q['question']}]({BASE}/brands/{b['slug']}/{q['slug']}/)"
+             for b in brands for q in b.get("faq", [])]
     (OUT / "llms.txt").write_text("\n".join(llms) + "\n", encoding="utf-8")
 
     # sitemap / robots
@@ -364,7 +392,8 @@ def build():
     (OUT / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
 
-    print(f"generated: {len(brands)} brand pages, {len(qas)} qa pages -> {OUT}/")
+    n_faq = sum(len(b.get("faq", [])) for b in brands)
+    print(f"generated: {len(brands)} brand pages, {n_faq} faq pages -> {OUT}/")
 
 
 if __name__ == "__main__":

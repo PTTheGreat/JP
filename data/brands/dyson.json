@@ -70,5 +70,72 @@
       "checked": "2026-08-27"
     }
   ],
-  "related_qa": ["dyson-country", "shark-vs-dyson"]
+  "faq": [
+    {
+      "slug": "dyson-country",
+      "question": "掃除機のダイソンってどこの国のメーカーで、どこで製造しているのですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11142410196",
+        "original": "掃除機のダイソンってどこの国のメーカーでどこ製造なのですか?欧州?米国?…"
+      },
+      "answer": "ダイソンは1991年にジェームズ・ダイソン氏がイギリスで創業したメーカーです。2019年に本社機能をシンガポールへ移転したため、現在は「発祥イギリス・本社シンガポール」が正確です。製造は英国内ではなく、マレーシアやフィリピンなどアジアの自社・委託工場が中心で、一部製品には中国製もあります(製品ごとの原産国表示を参照)。研究開発は英国とシンガポールの両拠点で行われています。",
+      "facts": [
+        {
+          "label": "創業",
+          "value": "1991年、英国(ジェームズ・ダイソン氏)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "現本社",
+          "value": "シンガポール(2019年移転)",
+          "source": "Dyson 公式発表",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な製造国",
+          "value": "マレーシア・フィリピン等。一部中国製あり【要確認】",
+          "source": "製品の原産国表示",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-madeinchina",
+      "question": "ダイソンの掃除機は中国製なのですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12281111197",
+        "original": "ダイソンの掃除機は中国製なのですか?東京都赤ちゃんファーストのカタログにあるダイソンMicro1.5という品番が中国製と書かれてありま…"
+      },
+      "answer": "製品によります。ダイソンは英国発祥・本社シンガポールの企業で、製造拠点はマレーシア・フィリピンが中心ですが、一部の型番は中国の工場で製造されており、その場合は製品や外箱に「Made in China」と表示されます。「どこのブランドか」と「どこで作られたか」は別の話で、どの工場製でもダイソンの品質基準と日本での保証(基本2年)は同一です。原産国が気になる場合は、購入前に外箱の原産国表示を確認してください。",
+      "facts": [
+        {
+          "label": "ブランドの国",
+          "value": "英国発祥・本社シンガポール",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "製造国",
+          "value": "型番によりマレーシア・フィリピン・中国等【要確認】",
+          "source": "製品の原産国表示",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証",
+          "value": "製造国にかかわらず日本での保証条件は同一(基本2年)【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ]
 }
