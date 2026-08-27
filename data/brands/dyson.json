@@ -5,81 +5,16 @@
   "country": "イギリス(本社シンガポール)",
   "summary": "Dysonは1991年にジェームズ・ダイソン氏が英国で創業した家電メーカー。サイクロン掃除機、羽根のない扇風機、ヘアドライヤーなど独自技術の高価格帯製品で知られる。2019年に本社機能をシンガポールへ移転。日本法人は1998年設立と歴史が長い。",
   "sample_notice": true,
-  "facts": [
-    {
-      "label": "親会社・設立背景",
-      "value": "Dyson(1991年、英国でジェームズ・ダイソン氏が創業)。2019年に本社をシンガポールに移転。非上場の同族企業。",
-      "source": "Dyson 公式サイト 会社情報",
-      "source_url": "https://www.dyson.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "主な価格帯",
-      "value": "掃除機で5万〜12万円、ヘアケアで4万〜7万円、空調家電で4万〜10万円の高価格帯。",
-      "source": "Dyson 公式オンラインストア",
-      "source_url": "https://www.dyson.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "取扱カテゴリ",
-      "value": "コードレス掃除機、ロボット掃除機、空気清浄ファン、加湿器、ヘアドライヤー(Supersonic)、ヘアスタイラー(Airwrap)、ヘッドホンなど。",
-      "source": "Dyson 公式オンラインストア",
-      "source_url": "https://www.dyson.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本での販売チャネル",
-      "value": "公式オンラインストア、直営店(Dyson Demo)、家電量販店、百貨店、Amazon、楽天市場。",
-      "source": "Dyson 公式サイト 店舗情報",
-      "source_url": "https://www.dyson.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本法人",
-      "value": "ダイソン株式会社(東京)。1998年設立。法人番号は国税庁サイトで確認可能。【要確認】",
-      "source": "国税庁 法人番号公表サイト",
-      "source_url": "https://www.houjin-bangou.nta.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "技適(技術基準適合証明)",
-      "value": "Wi-Fi/Bluetooth搭載機(空気清浄ファン、ロボット掃除機等)は技適取得済み。型番ごとに要確認。【要確認】",
-      "source": "総務省 技術基準適合証明等の公示",
-      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "リコール履歴",
-      "value": "過去にファンヒーターの自主回収事例あり。最新状況は消費者庁リコール情報サイトで確認可能。【要確認】",
-      "source": "消費者庁 リコール情報サイト",
-      "source_url": "https://www.recall.caa.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "保証期間",
-      "value": "コードレス掃除機・ヘアケアは2年間、空調家電は2年間が基本(製品による)。【要確認】",
-      "source": "Dyson お客様サポート",
-      "source_url": "https://www.dyson.co.jp/support",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本語サポート",
-      "value": "日本語のカスタマーサポート(電話・チャット)あり。国内修理サービスセンターあり。",
-      "source": "Dyson お客様サポート",
-      "source_url": "https://www.dyson.co.jp/support",
-      "checked": "2026-08-27"
-    }
-  ],
   "faq": [
     {
       "slug": "dyson-country",
-      "question": "掃除機のダイソンってどこの国のメーカーで、どこで製造しているのですか?",
+      "question": "掃除機のダイソンはどこの国のメーカーで、どこで製造しているのですか?",
       "source": {
         "platform": "Yahoo!知恵袋",
         "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11142410196",
-        "original": "掃除機のダイソンってどこの国のメーカーでどこ製造なのですか?欧州?米国?…"
+        "original": "掃除機のダイソンってどこの国のメーカーでどこ製造なのですか?欧州?米国?"
       },
-      "answer": "ダイソンは1991年にジェームズ・ダイソン氏がイギリスで創業したメーカーです。2019年に本社機能をシンガポールへ移転したため、現在は「発祥イギリス・本社シンガポール」が正確です。製造は英国内ではなく、マレーシアやフィリピンなどアジアの自社・委託工場が中心で、一部製品には中国製もあります(製品ごとの原産国表示を参照)。研究開発は英国とシンガポールの両拠点で行われています。",
+      "answer": "ダイソンはイギリス発祥のメーカーで、現在の本社機能はシンガポールにあります。米国のメーカーではありません。1991年にジェームズ・ダイソン氏が英国で創業し、2019年に本社を移転しました。製造は英国内ではなく、マレーシアやフィリピンなどアジアの工場が中心で、型番によっては中国製もあります【要確認】。ブランドの国と製造国は別なので、原産国は外箱の表示で確認してください。日本法人は1998年設立です。",
       "facts": [
         {
           "label": "創業",
@@ -90,29 +25,36 @@
         },
         {
           "label": "現本社",
-          "value": "シンガポール(2019年移転)",
-          "source": "Dyson 公式発表",
+          "value": "シンガポール(2019年に英国から移転)",
+          "source": "Dyson 公式サイト",
           "source_url": "https://www.dyson.co.jp/",
           "checked": "2026-08-27"
         },
         {
           "label": "主な製造国",
-          "value": "マレーシア・フィリピン等。一部中国製あり【要確認】",
-          "source": "製品の原産国表示",
+          "value": "マレーシア・フィリピン等のアジア拠点が中心。一部型番は中国製【要確認】",
+          "source": "製品の原産国表示 / Dyson 公式サイト",
           "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人",
+          "value": "ダイソン株式会社(1998年設立)",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
           "checked": "2026-08-27"
         }
       ]
     },
     {
-      "slug": "dyson-madeinchina",
+      "slug": "dyson-made-in-china",
       "question": "ダイソンの掃除機は中国製なのですか?",
       "source": {
         "platform": "Yahoo!知恵袋",
         "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12281111197",
-        "original": "ダイソンの掃除機は中国製なのですか?東京都赤ちゃんファーストのカタログにあるダイソンMicro1.5という品番が中国製と書かれてありま…"
+        "original": "ダイソンの掃除機は中国製なのですか?"
       },
-      "answer": "製品によります。ダイソンは英国発祥・本社シンガポールの企業で、製造拠点はマレーシア・フィリピンが中心ですが、一部の型番は中国の工場で製造されており、その場合は製品や外箱に「Made in China」と表示されます。「どこのブランドか」と「どこで作られたか」は別の話で、どの工場製でもダイソンの品質基準と日本での保証(基本2年)は同一です。原産国が気になる場合は、購入前に外箱の原産国表示を確認してください。",
+      "answer": "型番によります。ダイソンは英国発祥・本社シンガポールの企業で、製造は海外の自社・委託工場が担っています。主力はマレーシアやフィリピンですが、一部の型番は中国の工場で生産され、その場合は外箱やカタログに中国製と表示されます【要確認】。カタログに中国製とあれば、その型番はその通りです。ただし製造国にかかわらず、日本の正規流通品であればPSEマークの表示や国内の保証条件は同じ扱いになります。",
       "facts": [
         {
           "label": "ブランドの国",
@@ -124,15 +66,572 @@
         {
           "label": "製造国",
           "value": "型番によりマレーシア・フィリピン・中国等【要確認】",
-          "source": "製品の原産国表示",
+          "source": "製品の原産国表示 / Dyson 公式サイト",
           "source_url": "https://www.dyson.co.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "保証",
-          "value": "製造国にかかわらず日本での保証条件は同一(基本2年)【要確認】",
+          "label": "国内での法規制",
+          "value": "掃除機は電気用品安全法の対象。日本正規品にはPSEマーク表示あり(製造国を問わない)",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証の扱い",
+          "value": "製造国にかかわらず日本正規品の保証条件は同一(掃除機は基本2年)【要確認】",
           "source": "Dyson お客様サポート",
           "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-warranty-basics",
+      "question": "ダイソンの掃除機の保証はどうなっていますか?高価なので故障時が心配です",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13294737623",
+        "original": "ダイソンの掃除機の保証についての質問です。値段も高く、何かあったときの保証が気になります"
+      },
+      "answer": "日本の正規品は、コードレス掃除機・ヘアケアともにメーカー保証2年が基本です(製品により異なる場合あり)【要確認】。期間内の自然故障は無償修理・交換の対象ですが、落下や水濡れなどの過失、消耗品(バッテリー・フィルター)の経年劣化は対象外となるのが一般的です【要確認】。ダイソンは国内に修理サービスセンターと日本語窓口を持ちます。保証適用にはレシート等の購入証明が前提なので必ず保管してください。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "コードレス掃除機・ヘアケアは2年間が基本(製品による)【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "国内修理サービスセンターあり",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(電話・チャット)。受付時間は公式サポートページで要確認【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "未確認 — 公式サイトで要確認",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-hairdryer-repair-cost",
+      "question": "購入から3年でダイソンのドライヤーが故障しました。修理は定額料金になるのですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13291495668",
+        "original": "3年前にダイソンドライヤーを5万で購入しましたが、故障しました。修理代は一律の22000円らしいです"
+      },
+      "answer": "修理費用の金額は本サイトでは断定できず、公式サポートで要確認です【要確認】。ヘアケア製品の保証は2年が基本のため、購入から3年経過した個体は保証外となり有償対応になります【要確認】。有償修理では箇所ごとの見積もりではなく、製品単位の定額料金(整備済品との交換を含む形)で案内される場合もあります【要確認】。購入日と型番を用意して公式サポートに確認し、金額次第では買い替えも選択肢になります。",
+      "facts": [
+        {
+          "label": "ヘアケア製品の保証期間",
+          "value": "2年間が基本(製品による)【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証外の修理費用",
+          "value": "金額は未確認 — 定額制かどうかを含め公式サポートで要確認【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理受付",
+          "value": "国内修理サービスセンター・日本語窓口(電話・チャット)で受付",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "買い替えの選択肢",
+          "value": "公式認定整備済製品の販売あり。価格は公式ストアで要確認【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-durability",
+      "question": "ダイソンの掃除機は壊れやすいのですか?数年で使えなくなったという声を見ます",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14233739339",
+        "original": "ダイソンの掃除機って壊れやすいの?12年ちょいで3台ダメになりました"
+      },
+      "answer": "壊れやすいかを裏づける公開の故障率統計は存在しないため、本サイトでは断定しません。検証できるのは制度面の事実です。日本正規品の保証は基本2年、国内に修理サービスセンターと日本語窓口があり、フィルターやバッテリーは公式ストアで継続販売されています。またバッテリーとフィルターは本来寿命のある消耗品で、年数とともに稼働時間や吸引力が落ちます。本体故障か消耗品劣化かを切り分けて相談するのが確実です。",
+      "facts": [
+        {
+          "label": "故障率の公開統計",
+          "value": "未確認 — メーカー・第三者を問わず公開された故障率統計は確認できない",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "コードレス掃除機は2年間が基本【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "フィルター・バッテリー等は公式ストアで購入可。公式認定整備済製品の販売もあり",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "過去にファンヒーターの自主回収事例あり。最新状況は消費者庁サイトで要確認【要確認】",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-parallel-import",
+      "question": "ダイソンの国内正規品と、USA正規品などの並行輸入品では何が違いますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1392387903",
+        "original": "国内正規品とUSA正規品並行輸入などとどういったちがいがあるのでしょうか?"
+      },
+      "answer": "最大の違いは、日本国内でメーカー保証と修理を受けられるかどうかです。ダイソンの保証は購入国と正規販売ルートを前提とするため、海外仕様の並行輸入品は日本では保証対象外として扱われるのが一般的です【要確認】。米国向けは120V仕様で日本の100Vでは性能が出ず、PSEマークや無線機能付き機種の技適表示がない可能性もあります。購入前に販売店へ国内正規保証の有無とPSE表示・国内窓口を確認してください。",
+      "facts": [
+        {
+          "label": "国内保証の前提",
+          "value": "日本国内の正規販売ルートで購入した製品が対象。並行輸入品は国内保証の対象外となるのが一般的【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "掃除機・空調家電は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi/Bluetooth搭載機は日本正規品で技適取得済み。海外版は未取得の可能性あり【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国内の正規販売チャネル",
+          "value": "公式オンラインストア、直営店(Dyson Demo)、家電量販店、百貨店、Amazon、楽天市場",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-support-quality",
+      "question": "ダイソンのサポートセンターは担当者によって案内が違うことがありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14305272609",
+        "original": "ダイソンのサポートセンターって人によって対応が違いますね"
+      },
+      "answer": "対応品質そのものは本サイトで評価しませんが、担当者によって案内が異なるという指摘が利用者から出ていること自体は確認できます。普遍的な傾向とまでは言えません【要確認】。制度面では、ダイソンは日本語窓口(電話・チャット)と国内修理サービスセンターを運営し、メーカー直接のやり取りが中心です。対策としては、日時・担当者名・案内内容を記録し、文面が残る手段を使い、費用や保証可否は書面で確認することが有効です。",
+      "facts": [
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(電話・チャット)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "国内修理サービスセンターあり。メーカー直接受付が中心【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対応品質の評価",
+          "value": "未確認 — 公的な満足度調査や公表統計は確認できず、本サイトでは断定しない",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-battery-replacement-cost",
+      "question": "ダイソンの掃除機のバッテリー交換にはいくらかかりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11239758001",
+        "original": "ダイソンのバッテリー交換の費用はいくらですか?"
+      },
+      "answer": "金額は本サイトでは断定できず、公式サポートで要確認です【要確認】。純正の交換用バッテリーは公式ストアで販売されていますが、費用は機種の世代と、自分で交換するか修理窓口に依頼するかで変わります。前提として、バッテリーは消耗品にあたるため経年による稼働時間の低下は保証対象外と判断されるのが一般的です【要確認】。互換バッテリーも流通しますが保証や安全面で不利になる場合があります【要確認】。",
+      "facts": [
+        {
+          "label": "交換バッテリーの価格",
+          "value": "未確認 — 機種・交換方法により異なるため公式ストア/公式サポートで要確認【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "純正品の入手性",
+          "value": "バッテリー・フィルター等の消耗品は公式ストアで購入可",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証との関係",
+          "value": "バッテリーは消耗品のため経年劣化は保証対象外となるのが一般的【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-compatible-filter",
+      "question": "ダイソンのフィルターは互換品を使っても問題ないですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13233661883",
+        "original": "ダイソンのフィルター互換品でも問題ないでしょうか?"
+      },
+      "answer": "使うかどうかは利用者の判断ですが、押さえるべき点が2つあります。1つは保証で、純正以外の部品使用に起因する不具合はメーカー保証の対象外と判断される場合があります【要確認】。もう1つは適合と性能で、フィルターは捕集性能や密閉性が本体設計と一体のため、互換品では公称値どおりにならない可能性があります【要確認】。純正は公式ストアで継続販売されており、入手性で不利になることはありません。",
+      "facts": [
+        {
+          "label": "純正フィルターの入手性",
+          "value": "フィルター・バッテリー等の消耗品は公式ストアで購入可",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "互換品と保証の関係",
+          "value": "純正以外の部品使用に起因する不具合は保証対象外となる場合あり【要確認】",
+          "source": "Dyson お客様サポート",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "互換品の性能",
+          "value": "未確認 — 互換品の捕集性能・適合性に関する公的な比較データは確認できない",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dyson-japan-market-share",
+      "question": "国内家電メーカーの掃除機が、高価なダイソンにシェアを奪われたのはなぜですか?",
+      "source": {
+        "platform": "Quora日本版",
+        "url": "https://jp.quora.com/%E5%9B%BD%E5%86%85%E5%AE%B6%E9%9B%BB%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%AE%E6%8E%83%E9%99%A4%E6%A9%9F%E3%81%8C%E9%AB%98%E4%BE%A1%E3%81%AA%E3%83%80%E3%82%A4%E3%82%BD%E3%83%B3%E3%81%AE%E6%8E%83%E9%99%A4",
+        "original": "国内家電メーカーの掃除機が高価なダイソンにシェアを奪われたのは何故ですか?"
+      },
+      "answer": "説明できるのは価格の安さではなく、製品カテゴリと販売戦略の違いです。ダイソンはサイクロン式で紙パックを不要にし、5万〜12万円という高価格帯を独自技術の訴求と直営店での実演販売で成立させました。日本法人は1998年設立と外資家電では歴史が長く、量販店・百貨店・自社ECに販路を持ちます。国内勢が軽量・静音・紙パックを重視した時期にコードレスという軸を示した点が大きいという見方もあります【要確認】。",
+      "facts": [
+        {
+          "label": "価格帯",
+          "value": "掃除機で5万〜12万円、ヘアケアで4万〜7万円の高価格帯",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "1998年(外資家電の中では日本での歴史が長い)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、直営店(Dyson Demo)、家電量販店、百貨店、Amazon、楽天市場",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国内シェア数値",
+          "value": "未確認 — 国内シェアの正確な数字は調査会社の有償データ【要確認】",
+          "source": "GfK Japan等",
+          "source_url": "https://www.gfk.com/ja/home",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "Dyson Ltd.(グループ持株会社はシンガポール)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "シンガポール(2019年に英国から移転)。発祥は英国",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "1991年",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "ジェームズ・ダイソン氏",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "非上場の同族企業",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "未確認 — 非上場のため公開情報は限定的",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 非上場のため公開情報は限定的",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "サイクロン掃除機、空調家電、ヘアケア機器。独自技術と高価格帯が特徴",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "ダイソン株式会社",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "1998年",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "東京都【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "1998年(外資家電の中では日本での歴史が長い)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "あり(Dyson Demo ストア)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、直営店、家電量販店、百貨店、Amazon、楽天市場",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(dyson.co.jp)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi/Bluetooth搭載機(空気清浄ファン等)は技適取得済み。型番ごとに要確認【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "掃除機・空調家電は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "過去にファンヒーターの自主回収事例あり。最新状況は消費者庁サイトで要確認【要確認】",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な製造国",
+          "value": "マレーシア・フィリピン等のアジア拠点が中心。一部型番は中国製【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 公表資料で要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "コードレス掃除機・ヘアケアは2年間、空調家電は2年間が基本(製品による)【要確認】",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "未確認 — 公式サイトで要確認",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "国内修理サービスセンターあり",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(電話・チャット)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "フィルター・バッテリー等は公式ストアで購入可。公式認定整備済製品の販売もあり",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "コードレス掃除機、ヘアケア機器、空調家電",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "掃除機で5万〜12万円、ヘアケアで4万〜7万円の高価格帯",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "V/Gen5(掃除機)、Supersonic(ドライヤー)、Airwrap(スタイラー)、Purifier(空気清浄)",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "SharkNinja、Panasonic、日立、マキタ、Anker Eufy",
+          "source": "Dyson 公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
           "checked": "2026-08-27"
         }
       ]

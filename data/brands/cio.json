@@ -5,85 +5,140 @@
   "country": "日本",
   "summary": "CIOは大阪府守口市発の充電器・モバイルバッテリーメーカー。2017年に設立された日本の新興企業で、小型充電器「NovaPort」シリーズがガジェット好きの間でヒット。海外ブランドと誤解されがちだが、企画・開発を日本で行う国内ブランドである。",
   "sample_notice": true,
-  "facts": [
-    {
-      "label": "親会社・設立背景",
-      "value": "株式会社CIO(日本・大阪府守口市)。2017年設立。社名はConnect International Oneの略。",
-      "source": "株式会社CIO 公式サイト 会社概要",
-      "source_url": "https://connectinternationalone.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "主な価格帯",
-      "value": "充電器・モバイルバッテリーで2,000〜10,000円前後の中価格帯。Ankerと同価格帯で競合。",
-      "source": "CIO 公式オンラインストア",
-      "source_url": "https://connectinternationalone.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "取扱カテゴリ",
-      "value": "USB充電器(NovaPortシリーズ)、モバイルバッテリー(SMARTCOBYシリーズ)、ケーブル、ワイヤレス充電器など充電関連が中心。",
-      "source": "CIO 公式オンラインストア",
-      "source_url": "https://connectinternationalone.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本での販売チャネル",
-      "value": "公式オンラインストア、Amazon、楽天市場、家電量販店、クラウドファンディング(Makuake等)での先行販売。",
-      "source": "CIO 公式サイト",
-      "source_url": "https://connectinternationalone.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本法人",
-      "value": "本体が日本法人(株式会社CIO、大阪府守口市)。法人番号は国税庁サイトで確認可能。【要確認】",
-      "source": "国税庁 法人番号公表サイト",
-      "source_url": "https://www.houjin-bangou.nta.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "技適(技術基準適合証明)",
-      "value": "ワイヤレス充電等の無線機能搭載製品は技適対象。型番ごとに総務省データベースで確認可能。【要確認】",
-      "source": "総務省 技術基準適合証明等の公示",
-      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "リコール履歴",
-      "value": "モバイルバッテリーの一部型番で自主回収の事例あり。対象型番は公式サイトと消費者庁サイトで確認可能。【要確認】",
-      "source": "消費者庁 リコール情報サイト",
-      "source_url": "https://www.recall.caa.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "保証期間",
-      "value": "多くの製品で購入から1年間。公式サイト経由の会員登録で延長される場合あり。【要確認】",
-      "source": "CIO サポート",
-      "source_url": "https://connectinternationalone.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本語サポート",
-      "value": "日本語のカスタマーサポート(国内窓口)あり。",
-      "source": "CIO サポート",
-      "source_url": "https://connectinternationalone.co.jp/",
-      "checked": "2026-08-27"
-    }
-  ],
   "faq": [
     {
-      "slug": "cio-safe",
-      "question": "CIOのモバイルバッテリーは安心ですか?Ankerの方が安全ですか?",
+      "slug": "cio-brand-country-vs-manufacturing",
+      "question": "CIOは大阪のメーカーとのことですが、デザインと企画が日本なら、製造はどこで行われているのですか?",
       "source": {
         "platform": "Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10282686965",
-        "original": "CIOのモバイルバッテリーは安心ですか?また、アンカーの方が安全ですか…"
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10276160965",
+        "original": "大阪のモバイルバッテリーを扱うCIOというメーカーは、デザインと企画は日本ですが製造はどこですか?"
       },
-      "answer": "どちらも国内正規流通の実績あるメーカーで、「一方だけが危険」という公的根拠はありません。CIOは大阪府守口市の日本企業(2017年設立)、Ankerは中国・深圳の世界最大級充電ブランド(日本法人2013年設立)です。安全性の面で重要な事実として、両社ともモバイルバッテリーの一部型番で自主回収を実施した事例があり、これはリチウムイオン電池製品全般のリスクです。電気用品安全法のPSEマーク付き正規品を選び、購入後に公式サイトで回収対象を確認するのが、どちらのブランドでも共通の安全策です。",
+      "answer": "「ブランドの国」と「製造国」は別の事実であり、CIOは日本ブランドですが、製造は海外の工場で行われているとみられます【要確認】。株式会社CIOは大阪府守口市に本社を置く2017年設立の日本法人で、充電関連機器の企画・開発・販売を国内で行っています。一方、充電器やモバイルバッテリーの量産は中国をはじめとする海外の協力工場に委託するのが業界の一般的な形で、CIOの具体的な生産委託先や製造国について公式に公表された情報は確認できていません【要確認】。なお国内流通品は電気用品安全法(PSE)の対象で、届出事業者としての安全責任は日本法人が負います。この構造は日本ブランド全般に共通します。",
+      "facts": [
+        {
+          "label": "ブランドの国",
+          "value": "日本。株式会社CIO(大阪府守口市、2017年設立)が企画・開発・販売を行う",
+          "source": "株式会社CIO 会社概要",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "製造国",
+          "value": "未確認 — 生産委託先・製造国の公式公表情報は確認できていない【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人の実在",
+          "value": "国税庁法人番号公表サイトで法人名検索により確認可能。法人番号(13桁)は未確認",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "充電器・モバイルバッテリーは電気用品安全法の対象。国内流通品にPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-company-trustworthiness",
+      "question": "モバイルバッテリーや充電器で名前をよく見るCIOという会社は、企業として信頼できますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14266890559",
+        "original": "ここ最近モバイルバッテリー、モバイル用充電器で有名になってる会社のCIOなのですが信頼できますか"
+      },
+      "answer": "少なくとも「実体のない会社ではない」ことは公的に確認できます。株式会社CIOは大阪府守口市に本社を置く2017年設立の日本法人で、国税庁の法人番号公表サイトで法人としての実在を確認できます【要確認】。社名はConnect International Oneの略です。ただし非上場のため、売上規模や従業員数といった経営情報は公開されていません。製品面では、充電器・モバイルバッテリーは電気用品安全法の対象でPSEマーク表示があり、日本語のサポート窓口と概ね1年の保証があります【要確認】。一方でモバイルバッテリーの一部型番で自主回収の事例があるため、購入後は公式サイトと消費者庁リコール情報サイトで型番を照合してください。",
+      "facts": [
+        {
+          "label": "企業情報",
+          "value": "株式会社CIO。大阪府守口市、2017年設立、非上場。社名はConnect International Oneの略",
+          "source": "株式会社CIO 会社概要",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "経営情報の公開度",
+          "value": "非上場のため年間売上規模・従業員数は公開情報なし(未確認)",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人の実在確認",
+          "value": "国税庁法人番号公表サイトで法人名検索により確認可能【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "自主回収履歴",
+          "value": "モバイルバッテリーの一部型番で自主回収の事例あり。対象型番は要照合【要確認】",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-vs-anker-charger-brand",
+      "question": "充電器はCIOとAnker、どちらのブランドを選ぶのがよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11299146816",
+        "original": "CIOとAnkerの、充電器は、どちらが良いですかね"
+      },
+      "answer": "当サイトは機種ごとの性能比較を扱わないため、ブランドレベルの事実で整理します。CIOは大阪府守口市の日本企業(2017年設立、非上場)で、企画・開発は国内、製造は海外委託とみられます【要確認】。Ankerは中国・深圳発の大手充電ブランドで、日本法人は2013年設立です。価格帯は2,000〜10,000円前後でほぼ重複し、どちらも国内正規流通・日本語サポート窓口・PSEマーク付き製品という点は共通です。保証はCIOが多くの製品で1年、会員登録で延長される場合があり【要確認】、Ankerの条件は公式サイトで要確認【要確認】。両社ともモバイルバッテリーの自主回収事例があります。実測性能の比較はmy-best等の専門メディアを参照してください。",
+      "facts": [
+        {
+          "label": "企業",
+          "value": "CIO: 日本・大阪府守口市(2017年設立、非上場) / Anker: 中国・深圳、日本法人は2013年設立",
+          "source": "両社公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "価格帯",
+          "value": "両社とも2,000〜10,000円前後で重複",
+          "source": "Anker Japan 公式サイト",
+          "source_url": "https://www.ankerjapan.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証",
+          "value": "CIOは多くの製品で1年、会員登録で延長の場合あり【要確認】。Ankerの条件は公式サイトで要確認【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "自主回収事例",
+          "value": "両社ともモバイルバッテリーの自主回収事例あり【要確認】",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-brand-comparison-anker-elecom-ugreen",
+      "question": "モバイルバッテリーや充電器のメーカーとして、Anker・エレコム・UGREEN・CIOはブランドとしてどう違いますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12329648767",
+        "original": "モバイルバッテリーと充電器のメーカーでおすすめありますか?Anker・エレコム・UGREEN・CIO"
+      },
+      "answer": "「どれが最良か」は用途次第ですが、ブランド属性なら客観的に比較できます。CIOは大阪府守口市の日本企業(2017年設立・非上場)で、企画・開発は国内、製造は海外委託とみられます【要確認】。Ankerは中国・深圳発で日本法人は2013年設立。エレコムとUGREENの企業国籍・設立年・上場状況は各社公式情報での確認が必要です【要確認】。いずれも国内正規流通品は電気用品安全法(PSE)の対象で、日本語サポート窓口を持ちます【要確認】。価格帯は2,000〜10,000円前後で大きく重なります。選ぶ際は保証期間と延長条件、問い合わせ窓口の所在、リコール告知の体制を各社公式サイトで比較するのが確実です。実測比較はmy-best等の専門メディアへ。",
       "facts": [
         {
           "label": "CIO",
-          "value": "日本・大阪府守口市。2017年設立",
+          "value": "日本・大阪府守口市。2017年設立、非上場。競合はAnker、UGREEN、エレコム等",
           "source": "株式会社CIO 会社概要",
           "source_url": "https://connectinternationalone.co.jp/",
           "checked": "2026-08-27"
@@ -96,8 +151,412 @@
           "checked": "2026-08-27"
         },
         {
-          "label": "回収事例",
-          "value": "両社とも一部型番で自主回収の事例あり【要確認】",
+          "label": "エレコム・UGREEN",
+          "value": "未確認 — 企業国籍・設立年・上場状況は各社公式情報および法人番号公表サイトで要確認【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "充電器・モバイルバッテリーは全社共通で電気用品安全法の対象。国内流通品にPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-battery-safety-vs-anker",
+      "question": "CIOのモバイルバッテリーは安全ですか?Ankerの方が安全だという見方は正しいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10282686965",
+        "original": "CIOのモバイルバッテリーは安心ですか?また、アンカーの方が安全ですか?"
+      },
+      "answer": "「一方だけが危険」とする公的根拠はありません。両社とも国内正規流通の実績があり、モバイルバッテリーは電気用品安全法の対象でPSEマーク表示が求められます。重要なのは、リチウムイオン電池製品の発火リスクが特定ブランド固有ではなく業界共通だという点です。実際、CIO・Ankerの双方でモバイルバッテリーの一部型番について自主回収の事例があります【要確認】。したがって安全策は両ブランド共通で、PSEマーク付きの正規流通品を選ぶこと、購入後に公式サイトと消費者庁リコール情報サイトで型番を照合すること、膨張・異常発熱・異臭があれば直ちに使用を中止することの3点になります。",
+      "facts": [
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "モバイルバッテリーは電気用品安全法の対象。製品にPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "自主回収事例",
+          "value": "CIO・Anker双方でモバイルバッテリーの自主回収事例あり。ブランド固有のリスクではない【要確認】",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "企業",
+          "value": "CIO: 日本・大阪府守口市(2017年設立) / Anker: 中国・深圳、日本法人2013年設立",
+          "source": "Anker Japan 公式サイト",
+          "source_url": "https://www.ankerjapan.com/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-smartcoby-recall",
+      "question": "発火により自主回収となったCIOのモバイルバッテリー「SMARTCOBY」について、どう確認・対応すればよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12312904282",
+        "original": "発火によって自主回収となったモバイルバッテリー『CIO SMARTCOBY』について"
+      },
+      "answer": "まず行うべきは手元の製品の型番照合と、対象なら直ちに使用を止めることです。CIOはモバイルバッテリーの一部型番について自主回収を実施した事例があり、対象範囲・対象型番・回収方法は公式サイトの告知と消費者庁リコール情報サイトの両方で確認できます【要確認】。手順は、本体やパッケージに記載された型番とロット番号を控え、両サイトの掲載情報と照合すること。対象に該当した場合は充電と使用を直ちに中止し、告知された返送・交換の指示に従ってください。対象外でも、膨張・異常発熱・異臭があれば使用を止めます。リチウムイオン電池の発火リスクはブランドを問わない業界共通の問題であり、軽視すべきではありません。",
+      "facts": [
+        {
+          "label": "自主回収履歴",
+          "value": "モバイルバッテリーの一部型番で自主回収の事例あり。対象型番は公式サイトと消費者庁サイトで要確認【要確認】",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対象型番の確認方法",
+          "value": "本体・パッケージの型番とロット番号を控え、消費者庁リコール情報サイトと公式サイトの告知で照合する【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対象製品ライン",
+          "value": "SMARTCOBY / SMARTCOBY Proはモバイルバッテリーの主要製品ライン。個別型番の該当有無は要照合【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "規制上の位置づけ",
+          "value": "モバイルバッテリーは電気用品安全法の対象。リチウムイオン電池は航空機持ち込み制限も適用される",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-charger-durability",
+      "question": "CIOの充電器は壊れやすいというのは本当ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14309387269",
+        "original": "CIOの充電器は壊れやすいというのは本当ですか?"
+      },
+      "answer": "「壊れやすい」と断定できる公開データはありません。メーカー別の故障率統計は公表されておらず、当サイトでも確認できていません【要確認】。検証できるのは制度面の事実です。CIOの保証は多くの製品で購入から1年間、公式サイトの会員登録で延長される場合があります【要確認】。対応は修理ではなく交換が中心とされ【要確認】、日本語のサポート窓口があります。ケーブル等は公式ストアで個別購入が可能です。一方で、利用者から耐久性を指摘する声が見られるのも事実です。実務的には、注文履歴やレシートなど購入証明を保管し、不具合が出たら保証期間内に早めに申告することが最も有効な対処になります。",
+      "facts": [
+        {
+          "label": "故障率の公開統計",
+          "value": "メーカー別の公開された故障率統計は存在しない(未確認)",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "多くの製品で購入から1年間。会員登録で延長される場合あり【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "交換対応が中心【要確認】。日本語サポート窓口あり",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "部品・消耗品",
+          "value": "ケーブル等は公式ストアで個別購入可",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-battery-self-discharge",
+      "question": "CIOのモバイルバッテリーの評価は良いのでしょうか?放電しやすいという話は本当ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14317385669",
+        "original": "CIOモバイルバッテリー評価は良いのでしょうか?放電しやすいのでしょうか?"
+      },
+      "answer": "自己放電のしやすさをブランド単位で示す公開データはなく、「CIOだから放電が早い」と断定することはできません【要確認】。リチウムイオン電池は保管温度や経年によって自然放電が進むため、ブランド差より使用・保管条件の影響が大きい場合もあります【要確認】。確認できるのは制度面の事実で、保証は多くの製品で購入から1年(会員登録で延長の場合あり)【要確認】、対応は交換中心とされ【要確認】、日本語サポート窓口があります。一方で、利用者から放電や電池持ちに関する指摘が見られるのも事実です。購入直後に満充電後の減り方を確認し、明らかな異常があれば保証期間内に申告してください。実測比較はmy-best等の専門メディアへ。",
+      "facts": [
+        {
+          "label": "自己放電の公開データ",
+          "value": "ブランド別の自己放電率を示す公開データは未確認【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "多くの製品で購入から1年間。会員登録で延長される場合あり【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "交換対応が中心【要確認】。日本語サポート窓口あり",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "SMARTCOBY、SMARTCOBY Pro(モバイルバッテリー)、NovaPort(充電器)",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-warranty-replacement-process",
+      "question": "CIOのモバイルバッテリーが購入から半年で故障し交換になりました。保証と手続きはどうなっていますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14300368399",
+        "original": "CIOのモバイルバッテリーが購入から半年で故障し交換することになりました"
+      },
+      "answer": "購入から半年であれば保証期間内である可能性が高く、交換対応となるのが同社の一般的な流れです。CIOの保証は多くの製品で購入から1年間で、公式サイトの会員登録により延長される場合があります【要確認】。対応は修理より交換が中心とされ【要確認】、窓口は日本語です。なお、個別の事例からブランド全体の故障率を判断することはできず、公開された故障率統計も存在しません【要確認】。手続きでは、注文履歴やレシートなど購入日の証明、本体の型番、症状の記録(写真を含む)を用意し、やり取りをメール等の書面で残すと、交換品の保証起算日や送料負担の扱いを後から確認しやすくなります。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "多くの製品で購入から1年間。会員登録で延長される場合あり【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対応形態",
+          "value": "修理ではなく交換対応が中心【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換品の保証起算日・送料負担",
+          "value": "未確認 — 公式サポートへの問い合わせで要確認【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "故障率の公開統計",
+          "value": "メーカー別の公開された故障率統計は存在しない(未確認)",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "cio-support-response",
+      "question": "CIOのサポート対応(問い合わせへの回答)はどのような体制ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12317826677",
+        "original": "CIO製品について問い合わせをしたことがある方に質問です(サポート対応について)"
+      },
+      "answer": "サポート品質について公的な評価や統計は存在しません。利用者からは対応を評価する声と不満を示す声の双方が見られ、当サイトはどちらが一般的とも断定しません。確認できる事実は、株式会社CIOが大阪府守口市の日本法人であり日本語の問い合わせ窓口を持つこと、保証は多くの製品で購入から1年(会員登録で延長の場合あり)【要確認】、対応は修理ではなく交換が中心とされること【要確認】です。受付時間は公式サポートページで要確認【要確認】。実用的な備えとして、購入日の証明と型番を控え、問い合わせはメールなど記録が残る手段で行い、回答内容と対応期限を書面で確認しておくとよいでしょう。",
+      "facts": [
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(国内窓口)",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対応形態",
+          "value": "修理ではなく交換対応が中心【要確認】。保証は多くの製品で1年【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 消費者庁・経済産業省の公表資料で要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "株式会社CIO",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "大阪府守口市",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "2017年",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "未確認 — 公式会社概要で要確認",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "非上場",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "未確認 — 公開資料で要確認",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 非上場のため公開情報なし",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "充電関連機器の企画・開発・販売。社名はConnect International Oneの略",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "本体が日本法人(株式会社CIO、大阪府守口市)",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "2017年",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "大阪府守口市",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "国内発祥のため該当なし",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "未確認 — 公式サイトで要確認",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、Amazon、楽天市場、家電量販店、クラウドファンディング(Makuake等)での先行販売",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(国内企業のため日本語が主言語)",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "ワイヤレス充電等の無線機能搭載製品は技適対象。型番ごとに総務省DBで確認可能【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "充電器・モバイルバッテリーは電気用品安全法の対象。製品にPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "モバイルバッテリーの一部型番で自主回収の事例あり。対象型番は公式サイトと消費者庁サイトで要確認【要確認】",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "リチウムイオン電池の航空機持ち込み制限が適用される",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 消費者庁・経済産業省の公表資料で要確認",
           "source": "消費者庁 リコール情報サイト",
           "source_url": "https://www.recall.caa.go.jp/",
           "checked": "2026-08-27"
@@ -105,34 +564,81 @@
       ]
     },
     {
-      "slug": "cio-vs-anker",
-      "question": "AnkerのモバイルバッテリーとCIOのモバイルバッテリー、どっちがいいですか?",
-      "source": {
-        "platform": "Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13293594003",
-        "original": "アンカーのモバイルバッテリーとCIOのモバイルバッテリーどっちがいいですか?"
-      },
-      "answer": "ブランドレベルの違いで選べます。CIOは大阪発の日本企業(2017年設立)で、小型化と多ポート同時給電の配分制御など尖った仕様が強み。Ankerは中国・深圳の世界最大級充電器ブランド(2011年創業)で、生産規模による品質安定性、長い保証、日本法人による手厚いサポートが強みです。価格帯はほぼ同じ。「最新の小型・高機能を試したい」ならCIO、「定番の安心感と保証重視」ならAnkerという選び方が実態に合います。どちらも国内正規流通・日本語サポートがあり、モバイルバッテリーの自主回収事例が双方にある点も共通です。",
+      "title": "保証・アフターサービス",
       "facts": [
         {
-          "label": "企業",
-          "value": "CIO: 日本・大阪(2017年) / Anker: 中国・深圳(2011年)",
-          "source": "両社公式サイト",
+          "label": "保証期間",
+          "value": "多くの製品で購入から1年間。会員登録で延長される場合あり【要確認】",
+          "source": "株式会社CIO 公式サイト",
           "source_url": "https://connectinternationalone.co.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "価格帯",
-          "value": "両社とも2,000〜10,000円前後で重複",
-          "source": "両社公式ストア",
-          "source_url": "https://www.ankerjapan.com/",
+          "label": "延長保証制度",
+          "value": "公式サイト経由の会員登録による延長あり【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "回収事例",
-          "value": "両社ともモバイルバッテリーの自主回収事例あり【要確認】",
-          "source": "消費者庁 リコール情報サイト",
-          "source_url": "https://www.recall.caa.go.jp/",
+          "label": "修理体制",
+          "value": "交換対応が中心【要確認】",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(国内窓口)",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "ケーブル等は公式ストアで個別購入可",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "USB充電器、モバイルバッテリー",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "2,000〜10,000円前後。Ankerと同価格帯",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "NovaPort(充電器)、SMARTCOBY(モバイルバッテリー)、SMARTCOBY Pro",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "Anker、UGREEN、エレコム、AUKEY、Belkin",
+          "source": "株式会社CIO 公式サイト",
+          "source_url": "https://connectinternationalone.co.jp/",
           "checked": "2026-08-27"
         }
       ]

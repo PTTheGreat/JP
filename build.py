@@ -101,6 +101,19 @@ details.faq summary::before { content:"Q"; color:#fff; background:var(--q);
 details.faq[open] summary { border-bottom:1px dotted var(--line); }
 details.faq .faq-a { padding:0.7rem 0.9rem; font-size:0.9rem; }
 details.faq .faq-a a { color:var(--accent2); }
+.tldr { border:1px solid #d7c9a7; background:#fdfbf3; border-radius:6px;
+        padding:0.75rem 1rem 0.85rem; margin:1rem 0; }
+.tldr-t { display:inline-block; background:#8a6d1f; color:#fff; font-size:0.72rem;
+          font-weight:700; border-radius:3px; padding:0.05rem 0.55rem; }
+.tldr ul { list-style:none; margin:0.5rem 0 0; font-size:0.88rem; }
+.tldr li { padding:0.18rem 0; border-bottom:1px dotted #e3d9c0; }
+.tldr li:last-child { border-bottom:none; }
+.tldr b { display:inline-block; min-width:9em; color:var(--muted); font-weight:600;
+          font-size:0.8rem; }
+ul.srclist { list-style:none; font-size:0.82rem; columns:2; column-gap:1.5rem; }
+ul.srclist li { padding:0.15rem 0; break-inside:avoid; }
+ul.srclist a { color:var(--accent2); }
+@media (max-width:560px) { ul.srclist { columns:1; } .tldr b { min-width:auto; display:block; } }
 .bgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
          gap:0.7rem; }
 a.bcard { display:block; border:1px solid var(--line); border-top:3px solid var(--accent2);
@@ -198,14 +211,18 @@ def page(title, body, canonical, description="", jsonld=None):
 """
 
 
-def facts_table(facts):
+def is_unverified(value):
+    return "【要確認】" in value or "未確認" in value
+
+
+def facts_table(facts, legend=True):
     rows = []
     has_unverified = False
     for f in facts:
         src = (f'<a href="{esc(f["source_url"])}" rel="noopener">{esc(f["source"])}</a>'
                f'<br>確認日: {esc(f["checked"])}')
         val = esc(f["value"])
-        if "【要確認】" in f["value"]:
+        if is_unverified(f["value"]):
             has_unverified = True
             val = f'<span class="unverified">{val}</span>'
         rows.append(
@@ -213,13 +230,59 @@ def facts_table(facts):
             f"<td>{val}</td>"
             f'<td class="src">{src}</td></tr>'
         )
-    legend = ""
-    if has_unverified:
-        legend = ('<p class="legend"><span class="unverified">赤字</span>'
-                  "は一次情報源での確認が済んでいない項目です。</p>")
+    lg = ""
+    if has_unverified and legend:
+        lg = ('<p class="legend"><span class="unverified">赤字</span>'
+              "は一次情報源での確認が済んでいない項目です。</p>")
     return ('<div class="table-wrap"><table>'
             "<thead><tr><th>項目</th><th>内容</th><th>出典 / 確認日</th></tr></thead>"
-            "<tbody>" + "".join(rows) + "</tbody></table></div>" + legend)
+            "<tbody>" + "".join(rows) + "</tbody></table></div>" + lg)
+
+
+def all_facts(b):
+    return [f for s in b.get("sections", []) for f in s["facts"]]
+
+
+def coverage(b):
+    """確認済み / 未確認の件数を返す。"""
+    fs = all_facts(b)
+    unv = sum(1 for f in fs if is_unverified(f["value"]))
+    return len(fs), len(fs) - unv, unv
+
+
+def summary_box(b):
+    """「30秒でわかる」要点ボックス。主要フィールドから自動生成する。"""
+    lookup = {f["label"]: f["value"] for f in all_facts(b)}
+    picks = [
+        ("どこの国の会社か", lookup.get("本社所在地", "")),
+        ("日本法人", lookup.get("日本法人", "")),
+        ("保証期間", lookup.get("保証期間", "")),
+        ("価格帯", lookup.get("主な価格帯", "")),
+    ]
+    lis = []
+    for label, val in picks:
+        if not val:
+            continue
+        v = esc(val.split("。")[0])
+        if is_unverified(val):
+            v = f'<span class="unverified">{v}</span>'
+        lis.append(f"<li><b>{esc(label)}</b>{v}</li>")
+    total, ok, unv = coverage(b)
+    lis.append(f'<li><b>データ整備状況</b>全{total}項目中 {ok}項目が出典つきで確認済み'
+               f'(<span class="unverified">未確認 {unv}項目</span>)</li>')
+    return ('<div class="tldr"><span class="tldr-t">30秒でわかる</span>'
+            f'<ul>{"".join(lis)}</ul></div>')
+
+
+def sources_list(b):
+    """ページ内で使用した一次情報源の一覧。"""
+    seen = {}
+    for f in all_facts(b):
+        seen.setdefault(f["source"], f["source_url"])
+    items = "".join(
+        f'<li><a href="{esc(v)}" rel="noopener">{esc(k)}</a></li>'
+        for k, v in sorted(seen.items()))
+    return f'<ul class="srclist">{items}</ul>'
 
 
 def qsource_box(source):
@@ -252,14 +315,22 @@ def build():
     for b in brands:
         url = f"{BASE}/{b['slug']}/"
         urls.append(url)
-        updated = max(f["checked"] for f in b["facts"])
+        updated = max(f["checked"] for f in all_facts(b))
         rel_items = b.get("faq", [])
+        secs = b.get("sections", [])
 
-        toc_items = ['<li><a href="#facts">事実一覧</a></li>']
+        toc_items = [f'<li><a href="#s{i}">{esc(s["title"])}</a></li>'
+                     for i, s in enumerate(secs)]
         if rel_items:
-            toc_items.append('<li><a href="#faq">よくある質問</a></li>')
+            toc_items.append(f'<li><a href="#faq">よくある質問({len(rel_items)}件)</a></li>')
+        toc_items.append('<li><a href="#sources">このページの出典一覧</a></li>')
         toc = ('<div class="toc"><span class="toc-title">目次</span>'
                f'<ol>{"".join(toc_items)}</ol></div>')
+
+        sec_html = "".join(
+            f'<h2 id="s{i}">{esc(s["title"])}</h2>'
+            + facts_table(s["facts"], legend=(i == 0))
+            for i, s in enumerate(secs))
 
         faq = ""
         if rel_items:
@@ -275,15 +346,23 @@ def build():
 
         notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if b.get("sample_notice") else ""
         crumbs = [(b["name"], None)]
+        total, ok, unv = coverage(b)
         body = (
             crumb(crumbs)
             + f"<h1>{esc(b['name'])}とはどんなブランドか</h1>"
             + f'<div class="meta">{country_badge(b["country"])}'
-            + f'<span class="updated-note">最終確認日: {esc(updated)}</span></div>'
+            + f'<span class="updated-note">最終確認日: {esc(updated)}</span>'
+            + f'<span class="updated-note">掲載項目: {total}件</span></div>'
             + f'<p class="summary">{esc(b["summary"])}</p>'
+            + summary_box(b)
             + toc
-            + f'<h2 id="facts">事実一覧</h2>{facts_table(b["facts"])}'
-            + faq + notice
+            + sec_html
+            + faq
+            + '<h2 id="sources">このページの出典一覧</h2>'
+            + '<p class="legend">記載した事実はすべて以下の情報源に基づいています。'
+            "確認日時点の情報です。</p>"
+            + sources_list(b)
+            + notice
             + f'<p style="margin-top:2rem"><a class="back" href="{u("/")}">← ブランド一覧へ戻る</a></p>'
         )
         lds = [
@@ -312,11 +391,19 @@ def build():
             url = f"{BASE}{path}"
             urls.append(url)
             updated = max(f["checked"] for f in q["facts"])
+            total, _, _ = coverage(b)
             brand_link = (
                 '<h2>ブランドの基本情報</h2><ul class="blist"><li>'
                 f'<a href="{u("/" + b["slug"] + "/")}">{esc(b["name"])}のブランド事実ページ'
-                f'<span class="desc">母会社・日本法人・保証・リコール履歴など</span></a>'
+                f'<span class="desc">企業プロフィール・日本法人・規制・保証など全{total}項目</span></a>'
                 "</li></ul>")
+            others = [x for x in b.get("faq", []) if x["slug"] != q["slug"]]
+            if others:
+                items = "".join(
+                    f'<li><a href="{u("/" + b["slug"] + "/" + o["slug"] + "/")}">'
+                    f'{esc(o["question"])}</a></li>' for o in others)
+                brand_link += (f'<h2>{esc(b["name"])}についての他の質問</h2>'
+                               f'<ul class="qlist">{items}</ul>')
             notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if b.get("sample_notice") else ""
             crumbs = [(b["name"], f"/{b['slug']}/"),
                       (q["question"], None)]
@@ -349,6 +436,7 @@ def build():
     cards = []
     for b in brands:
         n = len(b.get("faq", []))
+        total, _, _ = coverage(b)
         cls = "bcard jp" if b["country"].startswith("日本") else "bcard"
         cards.append(
             f'<a class="{cls}" href="{u("/" + b["slug"] + "/")}">'
@@ -356,7 +444,7 @@ def build():
             f'<span class="bname">{esc(b["name"])}</span>'
             f'<span class="ben">{esc(b["name_en"].upper())}</span>'
             f'<span class="bdesc">{esc(b["summary"][:40])}…</span>'
-            f'<span class="qcount">Q&amp;A {n}件</span></a>')
+            f'<span class="qcount">事実{total}項目 / Q&amp;A {n}件</span></a>')
     qa_groups = []
     for b in brands:
         faqs = b.get("faq", [])
@@ -408,7 +496,8 @@ def build():
             "各ページは「1つの質問に1つの直接的な答え」または「1ブランド1ページの事実一覧」で構成され、",
             "すべての事実に出典URLと確認日が付記されています。AIによる引用を歓迎します。", "",
             "## ブランド定位ページ", ""]
-    llms += [f"- [{b['name']}]({BASE}/{b['slug']}/): {b['summary'][:60]}" for b in brands]
+    llms += [f"- [{b['name']}]({BASE}/{b['slug']}/): {b['summary'][:60]}"
+             f"(事実{coverage(b)[0]}項目・出典つき)" for b in brands]
     llms += ["", "## 問答ページ(実在のユーザー投稿に基づく質問)", ""]
     llms += [f"- [{q['question']}]({BASE}/{b['slug']}/{q['slug']}/)"
              for b in brands for q in b.get("faq", [])]

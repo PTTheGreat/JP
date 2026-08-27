@@ -5,134 +5,591 @@
   "country": "中国",
   "summary": "Roborockは中国・北京発のロボット掃除機専業ブランド。2014年創業でXiaomiエコシステム出身、現在は上海証券取引所STAR市場の上場企業。日本ではロボット掃除機市場の主要プレイヤーの一つで、水拭き両用の上位機種に強い。",
   "sample_notice": true,
-  "facts": [
-    {
-      "label": "親会社・設立背景",
-      "value": "北京石頭世紀科技(Beijing Roborock Technology)。2014年創業。Xiaomiエコシステム企業として出発し、2020年に上海STAR市場上場。",
-      "source": "Roborock 公式サイト 会社情報",
-      "source_url": "https://www.roborock.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "主な価格帯",
-      "value": "ロボット掃除機で3万〜20万円超。全自動ドック付きの上位機種が中心。",
-      "source": "Roborock 公式サイト 製品一覧",
-      "source_url": "https://www.roborock.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "取扱カテゴリ",
-      "value": "ロボット掃除機(吸引・水拭き)、コードレススティック掃除機、洗浄乾燥機など。",
-      "source": "Roborock 公式サイト 製品一覧",
-      "source_url": "https://www.roborock.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本での販売チャネル",
-      "value": "Amazon、楽天市場、家電量販店(ビックカメラ・ヨドバシ等)、公式オンラインストア。",
-      "source": "Roborock 公式サイト 取扱店",
-      "source_url": "https://www.roborock.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本法人",
-      "value": "日本法人(ロボロックジャパン)による販売・サポート体制あり。参入初期はSB C&S(ソフトバンクグループ)が国内総代理店。【要確認】",
-      "source": "国税庁 法人番号公表サイト",
-      "source_url": "https://www.houjin-bangou.nta.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "技適(技術基準適合証明)",
-      "value": "Wi-Fi搭載機のため日本正規品は技適取得済み。型番ごとに総務省データベースで確認可能。【要確認】",
-      "source": "総務省 技術基準適合証明等の公示",
-      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "リコール履歴",
-      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
-      "source": "消費者庁 リコール情報サイト",
-      "source_url": "https://www.recall.caa.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "保証期間",
-      "value": "本体1年間のメーカー保証が基本。販売店独自の延長保証に対応する場合あり。【要確認】",
-      "source": "Roborock サポート",
-      "source_url": "https://www.roborock.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本語サポート",
-      "value": "日本語のカスタマーサポートあり。国内修理受付窓口あり。アプリは日本語対応。",
-      "source": "Roborock サポート",
-      "source_url": "https://www.roborock.jp/",
-      "checked": "2026-08-27"
-    }
-  ],
   "faq": [
     {
-      "slug": "roborock-vs-roomba",
-      "question": "ロボロックとルンバどっちがオススメですか?",
+      "slug": "roborock-non-china-options",
+      "question": "国産メーカー、または中国以外のメーカーのロボット掃除機という選択肢はありますか?",
       "source": {
         "platform": "Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13279277408",
-        "original": "ロボロックとルンバどっちがオススメですか??"
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13314475093",
+        "original": "国産のメーカーor中国以外のメーカーでおすすめのロボット掃除機はありますか?"
       },
-      "answer": "ブランドレベルの事実で比較すると:Roborockは中国・北京の上場企業(2014年創業)で、吸引と水拭きの一体型が主力、日本では大手量販店で正規流通し国内サポートがあります。ルンバの米iRobot社は1990年創業のロボット掃除機の草分けですが、近年は中国勢との競争で業績が悪化し、経営再建が報じられています。水拭きまで1台で済ませたいならRoborock型、吸引特化の実績と枯れた安定性ならルンバという構図です。機種ごとの吸引力・清掃力の実測はmy-best等の評測メディアを参照してください。",
+      "answer": "中国以外の選択肢は限られます。ロボット掃除機はRoborockやエコバックスなど中国メーカーが技術・シェアの両面で主導し、日本の大手家電メーカーは撤退・縮小が進んでいます(パナソニックのRULOは生産終了)【要確認】。中国以外では米iRobot(ルンバ)や米SharkNinja、日本ブランドではアイリスオーヤマ等がありますが、日本ブランドでも製造は中国等への委託が一般的です【要確認】。「本社の国」「製造国」「データの取扱い」を分けて考え、懸念がどれかを決めてから絞り込むのが現実的です。",
+      "facts": [
+        {
+          "label": "国内大手の状況",
+          "value": "パナソニックRULOは生産終了。国内大手は撤退・縮小傾向【要確認】",
+          "source": "各社公式発表・報道",
+          "source_url": "https://panasonic.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "中国以外の主な選択肢",
+          "value": "iRobot(米)、SharkNinja(米)、アイリスオーヤマ(日)等",
+          "source": "iRobot 公式サイト",
+          "source_url": "https://www.irobot-jp.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "市場動向",
+          "value": "ロボット掃除機は中国メーカーがシェア・技術で主導。具体的なシェア数値は本サイト未取得【要確認】",
+          "source": "市場調査会社統計【要確認】",
+          "source_url": "https://www.idc.com/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-chinese-makers-trend",
+      "question": "最近はルンバより中国メーカーのロボット掃除機の方が良いと聞きますが、本当ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11326138436",
+        "original": "最近はルンバより中国のメーカーが良いって聞くのですが"
+      },
+      "answer": "ブランドの勢力図としては、そう言われる背景に一定の事実があります。Roborockやエコバックスなど中国メーカーは水拭き一体型や全自動ドックを先行して量産し、市場を機能・シェアの両面で主導しているとされます【要確認】。一方ルンバのiRobotは1990年創業のパイオニアですが、近年は業績が悪化し経営再建が報じられています【要確認】。ただし中国メーカーと一括りにはできず、日本法人の有無、保証年数、修理・消耗品の供給体制は企業ごとに異なります。",
       "facts": [
         {
           "label": "Roborock",
-          "value": "中国・北京。2014年創業、上海STAR上場。水拭き一体型が主力",
+          "value": "中国・北京。2014年創業、上海証券取引所STAR市場に上場。水拭き一体型が主力",
           "source": "Roborock 公式サイト",
           "source_url": "https://www.roborock.jp/",
           "checked": "2026-08-27"
         },
         {
           "label": "iRobot(ルンバ)",
-          "value": "米国。1990年創業。近年業績悪化・経営再建の報道あり【要確認】",
+          "value": "米国。1990年創業。近年は業績悪化・経営再建が報道されている【要確認】",
           "source": "iRobot 公式サイト・報道",
           "source_url": "https://www.irobot-jp.com/",
           "checked": "2026-08-27"
         },
         {
-          "label": "日本サポート",
-          "value": "両社とも国内正規流通・日本語サポートあり",
-          "source": "各社公式サイト",
+          "label": "市場動向",
+          "value": "中国メーカーが主導とされるが、具体的なシェア数値は本サイト未取得【要確認】",
+          "source": "市場調査会社統計【要確認】",
+          "source_url": "https://www.idc.com/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-vs-roomba-choice",
+      "question": "Roborockとルンバは、ブランドとしてどちらを選ぶ判断材料がありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11299707631",
+        "original": "ロボロックとルンバどっちがおすすめですか?"
+      },
+      "answer": "ブランド事実で整理すると判断材料は分かれます。Roborockは中国・北京で2014年創業、上海STAR市場の上場企業で、決算が公開されるため経営状況を外部から確認できます。日本では正規流通し、国内の修理受付窓口と日本語サポートがあります。iRobot(ルンバ)は米国1990年創業のパイオニアで日本での販売・サポート実績は長いものの、近年は業績悪化と経営再建が報じられています【要確認】。サポート継続性は各社の企業情報を、清掃性能はmy-best等の評測メディアの実測を見て判断してください。",
+      "facts": [
+        {
+          "label": "Roborock",
+          "value": "中国・北京。2014年創業、上海STAR市場上場(2020年)。ロボット掃除機専業",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "iRobot(ルンバ)",
+          "value": "米国。1990年創業。近年は業績悪化・経営再建が報道されている【要確認】",
+          "source": "iRobot 公式サイト・報道",
+          "source_url": "https://www.irobot-jp.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本でのサポート",
+          "value": "両社とも国内正規流通・日本語サポートあり。Roborockは国内に修理受付窓口あり",
+          "source": "Roborock 公式サイト",
           "source_url": "https://www.roborock.jp/",
           "checked": "2026-08-27"
         }
       ]
     },
     {
-      "slug": "roborock-domestic",
-      "question": "国産メーカーか中国以外のメーカーでおすすめのロボット掃除機はありますか?",
+      "slug": "roborock-vs-ecovacs",
+      "question": "Roborockとエコバックスは、ブランドとしてどのような違いがありますか?",
       "source": {
         "platform": "Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13314475093",
-        "original": "国産のメーカーor中国以外のメーカーでおすすめのロボット掃除機はありますか?"
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13256422408",
+        "original": "ロボロックとエコバックスはどっちがいいですか?"
       },
-      "answer": "選択肢は少ないのが実情です。ロボット掃除機市場は現在、Roborock、エコバックス、Xiaomi等の中国メーカーが技術・シェアの両面で主導しており、日本の大手家電メーカーは撤退・縮小しています(パナソニックのRULOは生産終了)。中国以外の主な選択肢は、米iRobot(ルンバ)、米SharkNinja、アイリスオーヤマ等の国内ブランド(ただし製造は中国委託が多い)です。「ブランドの国」と「製造国」「データの取扱い」は別の問題なので、懸念が具体的に何か(製造品質か、データか)を切り分けて選ぶのが合理的です。",
+      "answer": "本サイトは機種性能の比較を扱わないため、ブランド層の事実で整理します。両社とも中国発のロボット掃除機の主要メーカーで、日本語公式サイトと国内サポート体制を持ちます。Roborockは2014年創業の北京企業で上海STAR市場に上場し、ロボット掃除機専業に近い構成です。エコバックスは中国の企業で、掃除機のほか窓拭きロボット等も展開しています【要確認】。判断材料は保証期間、修理窓口、消耗品の入手性、アプリとクラウドの提供継続です。清掃力の実測比較はmy-best等の評測メディアを参照してください。",
       "facts": [
         {
-          "label": "国内大手の状況",
-          "value": "パナソニックRULOは生産終了。大手は撤退・縮小傾向【要確認】",
-          "source": "各社公式発表・報道",
-          "source_url": "https://panasonic.jp/",
+          "label": "Roborock",
+          "value": "中国・北京。2014年創業、上海STAR市場上場。ロボット掃除機専業",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "中国以外の選択肢",
-          "value": "iRobot(米)、SharkNinja(米)、アイリスオーヤマ(日)等",
-          "source": "各社公式サイト",
+          "label": "ECOVACS(エコバックス)",
+          "value": "中国発のロボット掃除機メーカー。日本語公式サイトあり。創業年・本社所在地は本サイト未確認【要確認】",
+          "source": "ECOVACS Japan 公式サイト",
+          "source_url": "https://www.ecovacs.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "Roborockの保証・修理",
+          "value": "本体1年間のメーカー保証が基本【要確認】。国内に修理受付窓口あり",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-vs-anker-eufy",
+      "question": "RoborockとAnker(Eufy)は、ブランドとしてどう違いますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11308089596",
+        "original": "掃除ロボットでAnkerとRoborockのどちらがいいかで迷っています"
+      },
+      "answer": "企業としての性格が異なります。Roborockは2014年創業の中国・北京企業で、ロボット掃除機を主力とする専業に近いメーカーであり、上海STAR市場に上場しているため決算を外部から確認できます。Anker(Eufy)は中国・深圳のAnker Innovationsのホーム系ブランドで、日本法人による国内サポート体制がある点が特徴です【要確認】。価格帯はRoborockが上位機中心で高め、Eufyは中位価格帯に厚みがある傾向です【要確認】。",
+      "facts": [
+        {
+          "label": "Roborock",
+          "value": "中国・北京。2014年創業、上海STAR市場上場。ロボット掃除機専業",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "Roborockの価格帯",
+          "value": "3万〜20万円超。全自動ドック付き上位機種が中心",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "Anker(Eufy)の法人情報",
+          "value": "日本法人の名称・所在地・設立年は国税庁法人番号公表サイトで確認可能。本サイトでは未取得【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-warranty-period",
+      "question": "Roborockの「初期不良15日間」とメーカー保証期間はどう違うのですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14320718454",
+        "original": "ロボロックのメーカー保証期間、初期不良は15日間と公式ホームページに書いてありますが"
+      },
+      "answer": "「初期不良対応」と「メーカー保証」は別の制度です。初期不良期間は購入直後に交換で対応する短い窓口で、この期間が過ぎても本体のメーカー保証は継続するのが一般的です。Roborockの本体保証は1年間が基本とされています【要確認】。ただし年数やバッテリー・ドックなど部位ごとの扱いは製品や購入時期で異なるため、同梱の保証書と公式サポートページの記載が優先します。実際の日数と範囲は販売店と公式サポートの双方に確認するのが確実です。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "本体1年間のメーカー保証が基本【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "販売店独自の延長保証に対応する場合あり",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "初期不良期間の位置づけ",
+          "value": "初期不良対応とメーカー保証の関係の詳細は公開情報では確認できない【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-battery-replacement-cost",
+      "question": "Roborockのバッテリー交換をメーカーに依頼すると費用はいくらですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14290967634",
+        "original": "ロボロックのバッテリー交換をメーカーに依頼すると費用はいくらくらいですか?"
+      },
+      "answer": "具体的な金額は公開情報では確認できません。Roborockはバッテリー交換の料金表を公式サイトで一般公開しておらず【要確認】、費用は機種、保証期間内か否か、純正部品の在庫状況で変わります。本サイトでは推測の金額は掲載しません。確認方法は、公式サポート窓口に型番・シリアル番号・購入日を伝えて見積もりを依頼することです。保証期間内でも消耗品扱いの部品は有償となる場合があります【要確認】。非純正バッテリーは安全上のリスクと保証失効の可能性があります。",
+      "facts": [
+        {
+          "label": "バッテリー交換費用",
+          "value": "未確認 — 公式サイトに料金表の公開は確認できない。公式サポートへの見積もり依頼が必要【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "国内に修理受付窓口あり",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "ブラシ・フィルター・モップ等は公式・Amazon等で購入可。バッテリーの一般販売可否は未確認【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-where-to-buy",
+      "question": "Roborockはどこで買うべきですか?ネットの価格差は何が理由ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11272478936",
+        "original": "ロボロックどこで買うか。ネットで価格を見ると差があります"
+      },
+      "answer": "価格差の主な理由は販売経路と、日本正規品かどうかです。Roborockの日本での正規流通は、公式オンラインストア、Amazon、楽天市場、ビックカメラ・ヨドバシ等の家電量販店です。極端に安い出品は並行輸入品・旧モデル・再生品の場合があり、日本仕様でないと技適やPSEの表示、日本語サポート、メーカー保証の対象外になる恐れがあります。購入前に正規販売店か、保証書が日本国内向けか、型番が日本モデルかを確認してください。技適は総務省のデータベースで検索できます。",
+      "facts": [
+        {
+          "label": "販売チャネル",
+          "value": "Amazon、楽天市場、家電量販店(ビックカメラ・ヨドバシ等)、公式オンラインストア",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi搭載のため日本正規品は技適取得済み。型番ごとに総務省DBで確認可能【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "充電ドック・電源は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-manufacturer-continuity-risk",
+      "question": "メーカーが経営危機に陥った場合、ロボット掃除機のセキュリティやサービスはどうなりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12317302072",
+        "original": "ルンバのアイロボット社が倒産危機にありますが、倒産したらセキュリティはどうなるのでしょうか"
+      },
+      "answer": "最初に影響が出るのはクラウドに依存した機能です。ロボット掃除機はアプリ操作、マップ保存、音声連携をメーカーのサーバー経由で行う設計が一般的で、サービスが停止すれば本体は動いてもスマホ連携やマップ管理が使えなくなる可能性があります。より実質的なリスクは、脆弱性が見つかってもファームウェア更新が提供されなくなることです。iRobotについては業績悪化と経営再建が報じられている段階で【要確認】、サービス停止の公表は確認できません【要確認】。",
+      "facts": [
+        {
+          "label": "iRobotの経営状況",
+          "value": "近年の業績悪化・経営再建が報道されている【要確認】。サービス停止の公表は確認できない【要確認】",
+          "source": "iRobot 公式サイト・報道",
           "source_url": "https://www.irobot-jp.com/",
           "checked": "2026-08-27"
         },
         {
-          "label": "市場動向",
-          "value": "ロボット掃除機は中国メーカーがシェア・技術で主導",
-          "source": "市場調査会社統計【要確認】",
-          "source_url": "https://www.idc.com/",
+          "label": "クラウド依存",
+          "value": "アプリ操作・マップ保存・音声連携はメーカーのサーバーに依存する設計が一般的",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "更新停止のリスク",
+          "value": "ファームウェア更新が提供されなくなると脆弱性が放置される。IoT機器共通の課題として公的機関が注意喚起している",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "推奨される確認事項",
+          "value": "サポート期間やサービス終了時の方針の公表状況は各社で異なる【要確認】",
+          "source": "総務省 IoTセキュリティ対策",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "roborock-first-purchase-trust",
+      "question": "初めてのロボット掃除機は、ルンバとRoborockのどちらのブランドを信頼すべきですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14257435369",
+        "original": "ルンバとロボロック、初めてのロボット掃除機はどちらのブランドを信頼すべきですか"
+      },
+      "answer": "初めての1台なら、性能よりも「サポートが続くか」を軸にすると判断しやすくなります。Roborockは2014年創業の中国・北京企業で上海STAR市場に上場しており、決算が公開されるため経営状況を確認でき、日本には正規流通と修理受付窓口があります。iRobot(ルンバ)は1990年創業の米国のパイオニアで日本での実績は長いものの、近年は業績悪化が報じられています【要確認】。実店舗で相談できるか、消耗品を長く買えるかを比べ、清掃性能はmy-best等の評測メディアを参照してください。",
+      "facts": [
+        {
+          "label": "Roborock",
+          "value": "中国・北京。2014年創業、上海STAR市場上場(2020年)。国内に修理受付窓口あり",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "iRobot(ルンバ)",
+          "value": "米国。1990年創業。近年は業績悪化・経営再建が報道されている【要確認】",
+          "source": "iRobot 公式サイト・報道",
+          "source_url": "https://www.irobot-jp.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "Roborockはブラシ・フィルター・モップ等を公式・Amazon等で購入可",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "Roborockは本体1年間のメーカー保証が基本【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "北京石頭世紀科技股份有限公司(Beijing Roborock Technology)",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "中国・北京市",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "2014年",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "昌敬(チャン・ジン)氏",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "上海証券取引所 科創板(STAR Market)に上場(2020年)",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "未確認 — 上場企業の年次報告書で要取得",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 年次報告書で要取得",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "ロボット掃除機専業。Xiaomiエコシステム企業として出発し独立ブランド化",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "日本法人による販売・サポート体制あり【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "未確認 — 国税庁法人番号公表サイトで要確認",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "未確認 — 要確認",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "2017年頃(当初はSB C&Sが国内総代理店)【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "なし(量販店・オンライン流通が中心)",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "Amazon、楽天市場、家電量販店(ビックカメラ・ヨドバシ等)、公式オンラインストア",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(roborock.jp)",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi搭載のため日本正規品は技適取得済み。型番ごとに総務省DBで確認可能【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "充電ドック・電源は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "室内カメラ搭載機は個人情報保護法上の配慮が必要(第三者の映り込み等)",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 公表資料で要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "本体1年間のメーカー保証が基本【要確認】",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "販売店独自の延長保証に対応する場合あり",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "国内に修理受付窓口あり",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり。アプリも日本語対応",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "ブラシ・フィルター・モップ等の消耗品は公式・Amazon等で購入可",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "ロボット掃除機(吸引・水拭き一体型)",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "3万〜20万円超。全自動ドック付き上位機種が中心",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "S系(旗艦)、Q系(中位)、コードレススティック掃除機",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "iRobot(ルンバ)、エコバックス、Anker Eufy、Panasonic、SwitchBot",
+          "source": "Roborock 公式サイト",
+          "source_url": "https://www.roborock.jp/",
           "checked": "2026-08-27"
         }
       ]

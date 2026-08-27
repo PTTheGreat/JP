@@ -5,106 +5,333 @@
   "country": "中国",
   "summary": "DJIは中国・深圳のドローン・映像機器メーカー。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア首位。日本ではドローンのほか、ジンバルカメラ(Osmoシリーズ)やアクションカメラでも高いシェアを持つ。東京に日本法人がある。",
   "sample_notice": true,
-  "facts": [
-    {
-      "label": "親会社・設立背景",
-      "value": "DJI(大疆創新科技、中国・深圳)。2006年に汪滔氏が香港科技大学在学中に創業。非上場。",
-      "source": "DJI 公式サイト 会社情報",
-      "source_url": "https://www.dji.com/jp/company",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "主な価格帯",
-      "value": "ドローンで4万〜50万円超、ジンバル・アクションカメラで2万〜8万円前後。",
-      "source": "DJI 公式ストア",
-      "source_url": "https://store.dji.com/jp",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "取扱カテゴリ",
-      "value": "ドローン、ジンバルカメラ(Osmo Pocket)、アクションカメラ(Osmo Action)、スタビライザー、ポータブル電源、農業用ドローンなど。",
-      "source": "DJI 公式ストア",
-      "source_url": "https://store.dji.com/jp",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本での販売チャネル",
-      "value": "公式オンラインストア、正規代理店、家電量販店、Amazon、カメラ専門店。",
-      "source": "DJI 公式サイト 正規販売店",
-      "source_url": "https://www.dji.com/jp",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本法人",
-      "value": "DJI JAPAN株式会社(東京)。法人番号は国税庁サイトで確認可能。【要確認】",
-      "source": "国税庁 法人番号公表サイト",
-      "source_url": "https://www.houjin-bangou.nta.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "技適(技術基準適合証明)",
-      "value": "日本正規品は技適取得済み。海外版ドローンは技適未取得の場合があり電波法違反となるおそれ。型番ごとに要確認。",
-      "source": "総務省 技術基準適合証明等の公示",
-      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "規制上の注意",
-      "value": "100g以上のドローンは航空法の規制対象で、国土交通省への機体登録が必要。飛行場所・方法にも制限あり。",
-      "source": "国土交通省 無人航空機の飛行ルール",
-      "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "リコール履歴",
-      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
-      "source": "消費者庁 リコール情報サイト",
-      "source_url": "https://www.recall.caa.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "保証期間",
-      "value": "本体1年間が基本。有償の延長保証・交換サービス「DJI Care Refresh」あり。",
-      "source": "DJI サポート",
-      "source_url": "https://www.dji.com/jp/support",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本語サポート",
-      "value": "日本語のカスタマーサポートあり。国内修理受付あり。",
-      "source": "DJI サポート",
-      "source_url": "https://www.dji.com/jp/support",
-      "checked": "2026-08-27"
-    }
-  ],
   "faq": [
     {
-      "slug": "dji-about",
-      "question": "DJIという中国のメーカーについて詳しく教えてください",
+      "slug": "dji-company-overview",
+      "question": "DJIという中国のメーカーはどのような企業ですか?",
       "source": {
         "platform": "Yahoo!知恵袋",
         "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10316238400",
-        "original": "DJIと言う中国のメーカーについて詳しい方教えて下さい。アク…"
+        "original": "DJIと言う中国のメーカーについて詳しい方教えて下さい"
       },
-      "answer": "DJIは中国・深圳に本社を置くドローン・映像機器メーカーです。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア首位です。東京に日本法人「DJI JAPAN株式会社」があり、日本語サポートと国内修理に対応しています。日本正規品は技適を取得済みですが、海外版のドローンには技適未取得のものがあるため、購入時は国内正規品かどうかの確認が重要です。",
+      "answer": "DJIは中国・深圳に本社を置くドローン・映像機器メーカーです。正式社名はSZ DJI Technology Co., Ltd.(深圳市大疆創新科技有限公司)で、2006年に汪滔(フランク・ワン)氏が創業しました。民生用ドローンで世界シェア首位とされ、Osmoシリーズのジンバル・アクションカメラや農業用ドローンにも展開しています。非上場のため売上高や従業員数の公開は限定的です。日本には「DJI JAPAN株式会社」があり、日本語サポートと国内修理受付に対応しています。日本正規品は技適取得済みですが、海外版は未取得の場合があります。",
       "facts": [
         {
-          "label": "本社",
-          "value": "中国・深圳。2006年創業、非上場",
+          "label": "正式社名・創業",
+          "value": "SZ DJI Technology Co., Ltd.(深圳市大疆創新科技有限公司)。2006年創業、創業者は汪滔(フランク・ワン)氏",
           "source": "DJI 公式サイト",
           "source_url": "https://www.dji.com/jp/company",
           "checked": "2026-08-27"
         },
         {
+          "label": "上場状況",
+          "value": "非上場。売上高・従業員数は公開情報では確認できない",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
           "label": "日本法人",
-          "value": "DJI JAPAN株式会社(東京)",
+          "value": "DJI JAPAN株式会社(東京)。法人番号・設立年は国税庁法人番号公表サイトで要確認【要確認】",
           "source": "国税庁 法人番号公表サイト",
           "source_url": "https://www.houjin-bangou.nta.go.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "技適",
-          "value": "日本正規品は取得済み。海外版は未取得の場合あり",
+          "label": "主な事業領域",
+          "value": "民生用ドローンで世界シェア首位。ジンバル・アクションカメラ、農業用・産業用ドローンへ展開",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-us-restrictions",
+      "question": "アメリカがDJI製ドローンを規制して使わなくなったというのは本当ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12269027247",
+        "original": "DJIは中国の有名ドローンメーカーですが、最近アメリカも規制でこのメーカーのドローン使用しなくなったというのは本当でしょうか"
+      },
+      "answer": "米国で政府調達からの排除等の措置が取られている点は事実ですが、「アメリカ全体で使用禁止」と断定できるかは公開情報からは確認できません【要確認】。措置の中心は連邦政府機関の調達・運用や特定の補助対象からの除外であり、民間の一般利用まで一律に禁止されているかは各時点の法令で個別確認が必要です【要確認】。日本国内では民間利用に対する同種の禁止措置は確認されていません【要確認】。ただし日本では航空法により100g以上の機体に機体登録とリモートID搭載が義務づけられており、国内独自のルールが適用されます。",
+      "facts": [
+        {
+          "label": "海外での規制動向",
+          "value": "米国では政府調達からの排除等の措置が取られている。適用範囲は時点により変動するため要確認【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本国内の措置",
+          "value": "民間利用に対する同種の禁止措置は確認されていない【要確認】",
+          "source": "総務省",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本で適用される規制",
+          "value": "100g以上のドローンは航空法の対象。国交省への機体登録とリモートID搭載が義務(2022年6月〜)",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-app-security",
+      "question": "DJIの製品とアプリの安全性はどう考えればいいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11308788506",
+        "original": "DJIの製品とアプリの安全性について質問です"
+      },
+      "answer": "公開情報から整理できる事実は3点です。第一に、米国では政府調達からの排除等の措置があります。第二に、日本国内では民間利用に対する同種の禁止措置は確認されていません【要確認】。第三に、日本正規品は技適・PSEなど製品側の国内法規制に適合しています。一方、アプリが取得する権限や通信データの送信先といった実装の詳細は公開情報だけでは検証できません【要確認】。インストール時の権限要求とプライバシーポリシーを確認し、業務利用や勤務先の端末に導入する場合は会社のIT規程に従って判断してください。",
+      "facts": [
+        {
+          "label": "海外での規制動向",
+          "value": "米国では政府調達からの排除等の措置がある。日本国内の民間利用に対する同種の禁止措置は確認されていない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "製品側の法適合",
+          "value": "日本正規品は技適取得済み。海外版は未取得の場合あり",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "アプリの権限・通信内容",
+          "value": "公開情報だけでは検証できない【要確認】。権限要求とプライバシーポリシーの確認、業務利用時は勤務先のIT規程に従うことが基本",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-osmo-pocket-alternatives",
+      "question": "DJI Osmo Pocket 3のような製品で、国産や他の海外ブランドの選択肢はありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11298710486",
+        "original": "DJI osmo pocket3を買おうと思ったのですが、中国製という所が少し気になっています。国産か他の海外製で似たような製品はないのでしょうか"
+      },
+      "answer": "小型ジンバル一体型カメラで、日本メーカーによる直接的な代替製品は公開情報では確認できません【要確認】。ブランドで見ると日本市場でのDJIの主な競合はGoPro(米国・2002年創業)、Insta360(中国・2015年創業)、Sony(日本)です。小型Vlogカメラに近いのはInsta360のGOシリーズですが、同社も中国企業です。Sonyに同型のジンバル一体機があるかは要確認です【要確認】。なお製造国にかかわらず日本正規品は技適・PSEに適合しています。機種ごとの実写比較は専門メディアをご参照ください。",
+      "facts": [
+        {
+          "label": "日本での主な競合ブランド",
+          "value": "GoPro、Insta360、Autel Robotics、Sony(Airpeak・産業用)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "GoPro",
+          "value": "米国企業・2002年創業。日本では日本法人によるサポート体制",
+          "source": "GoPro 日本公式ストア",
+          "source_url": "https://jp.shop.gopro.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "Insta360",
+          "value": "中国・深圳のArashi Vision社のブランド。2015年創業、小型VlogカメラのGOシリーズを展開",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国産の同等品",
+          "value": "小型ジンバル一体型カメラの日本メーカー製代替品は公開情報では確認できない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-overseas-purchase-japan-use",
+      "question": "中国で購入したDJI製ドローンを日本に持ち帰って使えますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13185105503",
+        "original": "DJI製ドローンを中国で購入した場合、日本に持ち帰って使用できますか"
+      },
+      "answer": "海外版をそのまま日本国内で飛ばすと法令違反となるおそれがあります。理由は2点です。第一に電波法で、操縦や映像伝送に電波を使う機器は技術基準適合証明(技適)が必要です。技適未取得の無線機器を国内で使用すると電波法違反となるおそれがあり罰則の対象です。海外版は未取得の場合があるため型番ごとの確認が必要です。第二に航空法で、100g以上の機体は購入国を問わず国交省への機体登録とリモートID搭載が義務です。加えて海外購入品は国内の保証・修理の対象外となる場合があります【要確認】。",
+      "facts": [
+        {
+          "label": "技適(電波法)",
+          "value": "技適未取得の無線機器を日本国内で使用すると電波法違反となるおそれがあり、罰則の対象。海外版は未取得の場合あり",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "機体登録(航空法)",
+          "value": "100g以上のドローンは購入国を問わず国交省への機体登録とリモートID搭載が義務(2022年6月〜)",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "飛行ルール",
+          "value": "DID上空・空港周辺・150m以上・夜間・目視外等は許可承認が必要。申請はDIPSから",
+          "source": "国土交通省 飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証・修理",
+          "value": "国内での保証・修理対応は日本正規品が前提。海外購入品の扱いは公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-listing-status",
+      "question": "中国のドローン企業DJIは株式を上場していますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11292798006",
+        "original": "中国のドローン企業、DJIは上場してますか？"
+      },
+      "answer": "DJIは非上場です。中国・深圳に本社を置く未上場企業で、株式市場で売買できる銘柄としては公開されていません。非上場のため売上高・利益・従業員数といった財務情報の公開は限定的です。日本の証券会社を通じて「DJI株」として購入できる商品があるかも公開情報では確認できません【要確認】。なお同じ深圳のカメラメーカーでも、Insta360を展開する影石創新は2025年に上海証券取引所の科創板(STAR Market)へ上場しており、上場状況は企業ごとに異なります。",
+      "facts": [
+        {
+          "label": "上場状況",
+          "value": "非上場",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "財務情報の公開",
+          "value": "売上規模・従業員数は未確認 — 非上場のため公開情報が限定的",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "参考:同業他社",
+          "value": "Insta360(影石創新)は2025年に上海証券取引所 科創板(STAR Market)へ上場",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-personal-import",
+      "question": "DJIの日本未発売ドローンを個人輸入した場合、日本国内で使えますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14245145374",
+        "original": "DJIの日本未発売のドローンを個人輸入した場合、使えますか"
+      },
+      "answer": "輸入や所持自体は可能ですが、そのまま国内で飛ばせるとは限りません。電波を使う機器は電波法上の技適が必要で、技適未取得の無線機器を日本国内で使用すると電波法違反となるおそれがあり罰則の対象です。日本未発売モデルは技適未取得のことが多いため、総務省の技適検索で型番ごとに確認してください。さらに100g以上の機体は航空法により国交省への機体登録とリモートID搭載が義務で、DID上空・空港周辺・夜間等はDIPSでの許可承認が必要です。国内の修理・保証の対象外となる場合もあります【要確認】。",
+      "facts": [
+        {
+          "label": "技適(電波法)",
+          "value": "技適未取得の無線機器を日本国内で使用すると電波法違反となるおそれがあり、罰則の対象。型番ごとに公示を要確認",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "機体登録(航空法)",
+          "value": "100g以上は国交省への機体登録とリモートID搭載が義務。輸入品も対象",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "許可・承認の申請",
+          "value": "DID上空・空港周辺・150m以上・夜間等はDIPS(ドローン情報基盤システム)でオンライン申請",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国内サポートの可否",
+          "value": "日本未発売モデルの国内修理・保証対応可否は未確認 — 公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-official-repair",
+      "question": "DJI製品を公式に修理に出したいのですが、日本では修理を受け付けていますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13324912368",
+        "original": "DJIのオンライン修理について質問です。公式の修理に出したいのですが"
+      },
+      "answer": "DJIは日本国内での修理受付に対応しており、公式サポートページから申し込む流れが基本です。日本法人「DJI JAPAN株式会社」があり、日本語サポート窓口も用意されています。保証は本体1年間が基本で、有償の「DJI Care Refresh」(交換サービス)もあります。ただし修理費用の目安・所要日数・集荷手順・受付時間は機種や症状で異なり、公開情報から一律には示せません【要確認】。公式サポートページで機種とシリアル番号を指定して確認してください。並行輸入品や海外版は国内修理の対象外となる場合があります【要確認】。",
+      "facts": [
+        {
+          "label": "修理体制",
+          "value": "国内修理受付あり。申込は公式サポートページから",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "本体1年間が基本。有償の延長サービス「DJI Care Refresh」(交換サービス)あり",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理費用・納期・受付時間",
+          "value": "未確認 — 機種・症状により異なり、公開情報では一律に示せない。公式サポートページで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人",
+          "value": "DJI JAPAN株式会社。日本語サポート窓口あり",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-price-drop-reason",
+      "question": "DJIのドローンが安く販売されていることがあるのはなぜですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11163640751",
+        "original": "DJIのドローン、最近安売りしていますが何故ですか？？"
+      },
+      "answer": "値下げの理由をDJIが公式に説明した情報は確認できません【要確認】。公開情報から確認できる構造的な事実は2点です。第一に、販売チャネルが公式ストア、正規代理店、家電量販店、Amazonなど複数にわたり、価格は販売店ごとに設定されます。第二に、同社は複数の製品ラインを並行展開しており、世代交代時に旧モデルの店頭価格が変動することがあります【要確認】。具体的な値下げ幅や価格推移は公開情報では確認できません【要確認】。極端に安い個体は並行輸入品の可能性があり、技適と国内保証の確認が必要です。",
+      "facts": [
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、正規代理店、家電量販店、カメラ専門店、Amazon。価格は販売店ごとに設定",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "値下げの理由",
+          "value": "公式な説明は公開情報では確認できない。値下げ幅・価格推移も未確認【要確認】",
+          "source": "DJI 公式ストア",
+          "source_url": "https://store.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "安価な個体の注意点",
+          "value": "並行輸入品・海外版は技適未取得の場合があり、国内保証の対象外となることがある【要確認】",
           "source": "総務省 技術基準適合証明等の公示",
           "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
           "checked": "2026-08-27"
@@ -112,34 +339,278 @@
       ]
     },
     {
-      "slug": "dji-drone-rules",
-      "question": "免許不要のドローンはどこまで飛行可能ですか?飛行に際し申請や連絡など何が必要ですか?",
+      "slug": "dji-japan-drone-makers",
+      "question": "日本から世界的なドローンメーカーが出てこないのはなぜですか?",
       "source": {
         "platform": "Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10293764745",
-        "original": "免許不要のドローンはどこまで飛行可能ですか?飛行に際し申請や連絡など何…"
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11260171271",
+        "original": "なぜ日本から、世界的なドローン・メーカーが出てこないのですか？"
       },
-      "answer": "自由には飛ばせません。重量100g以上のドローンは航空法の規制対象で、国土交通省への機体登録とリモートID搭載が必要です。人口集中地区(DID)上空、空港周辺、150m以上の高度、夜間・目視外飛行などは原則として許可・承認が必要です。DJI Mini系(249g)も100g以上なので登録が必要です。飛ばせる場所は国土地理院の地図やドローン情報基盤システム(DIPS)で確認できます。違反には罰則があります。",
+      "answer": "理由を説明する公的な分析は公開情報では確認できないため、当サイトでは推測しません【要確認】。確認できる事実は次のとおりです。民生用ドローンでは中国・深圳のDJIが世界シェア首位とされ、日本市場でも海外ブランドの製品が中心です。日本メーカーではSonyが産業用のAirpeak等で参入していますが、民生機で世界的なシェアを持つ日本ブランドは確認されていません【要確認】。また日本では2022年6月から100g以上の機体に登録とリモートID搭載が義務ですが、制度が国内メーカーの育成に与えた影響を示す公開データはありません【要確認】。",
       "facts": [
         {
-          "label": "機体登録",
-          "value": "100g以上は国交省への登録+リモートID義務(2022年〜)",
+          "label": "世界シェア",
+          "value": "民生用ドローンではDJI(中国・深圳)が世界シェア首位とされる。具体的なシェア率は公開情報では確認できない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本市場の主要ブランド",
+          "value": "DJI、GoPro、Autel Robotics、Sony(Airpeak・産業用)。民生機で世界的シェアを持つ日本ブランドは確認されていない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本の制度",
+          "value": "100g以上の機体は国交省への登録とリモートID搭載が義務(2022年6月〜)。制度と国内メーカー育成の関係を示す公開データは未確認【要確認】",
           "source": "国土交通省 無人航空機登録制度",
           "source_url": "https://www.mlit.go.jp/koku/drone/",
           "checked": "2026-08-27"
-        },
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
         {
-          "label": "飛行制限",
-          "value": "DID上空・空港周辺・150m以上・夜間等は許可承認が必要",
-          "source": "国土交通省 飛行ルール",
-          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "label": "正式社名",
+          "value": "SZ DJI Technology Co., Ltd.(深圳市大疆創新科技有限公司)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
           "checked": "2026-08-27"
         },
         {
-          "label": "申請窓口",
-          "value": "DIPS(ドローン情報基盤システム)でオンライン申請",
-          "source": "国土交通省 DIPS",
-          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "label": "本社所在地",
+          "value": "中国・深圳市",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "2006年",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "汪滔(フランク・ワン)氏。香港科技大学在学中に創業",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "非上場",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "未確認 — 非上場のため公開情報は限定的",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 非上場のため公開情報なし",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "民生用ドローンで世界シェア首位。ジンバル・アクションカメラ、農業用ドローン、産業用途へ展開",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "DJI JAPAN株式会社",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "未確認 — 国税庁法人番号公表サイトで要確認",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "東京都【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "未確認 — 公式発表で要確認",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "正規代理店・認定ストアあり",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、正規代理店、家電量販店、カメラ専門店、Amazon",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(dji.com/jp)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "日本正規品は技適取得済み。海外版ドローンは技適未取得の場合があり、使用すると電波法違反となるおそれ",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "バッテリー・充電器は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "100g以上のドローンは航空法の規制対象。国土交通省への機体登録とリモートID搭載が義務(2022年6月〜)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "海外での規制動向",
+          "value": "米国では政府調達からの排除等の措置が取られている。日本国内での民間利用に対する同種の禁止措置は確認されていない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "本体1年間が基本",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "有償の「DJI Care Refresh」あり(交換サービス)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "国内修理受付あり",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "プロペラ・バッテリー等は公式ストア・代理店で購入可",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "ドローン、ジンバルカメラ、アクションカメラ",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "ドローンで4万〜50万円超、カメラ類で2万〜8万円前後",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "Mini/Air/Mavic(民生ドローン)、Osmo Pocket/Action(カメラ)、Ronin(スタビライザー)、Agras(農業)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "GoPro、Insta360、Autel Robotics、Sony(Airpeak・産業用)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
           "checked": "2026-08-27"
         }
       ]

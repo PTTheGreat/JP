@@ -75,6 +75,19 @@ details.faq summary::before { content:"Q"; color:#fff; background:var(--q);
 details.faq[open] summary { border-bottom:1px dotted var(--line); }
 details.faq .faq-a { padding:0.7rem 0.9rem; font-size:0.9rem; }
 details.faq .faq-a a { color:var(--accent2); }
+.tldr { border:1px solid #d7c9a7; background:#fdfbf3; border-radius:6px;
+        padding:0.75rem 1rem 0.85rem; margin:1rem 0; }
+.tldr-t { display:inline-block; background:#8a6d1f; color:#fff; font-size:0.72rem;
+          font-weight:700; border-radius:3px; padding:0.05rem 0.55rem; }
+.tldr ul { list-style:none; margin:0.5rem 0 0; font-size:0.88rem; }
+.tldr li { padding:0.18rem 0; border-bottom:1px dotted #e3d9c0; }
+.tldr li:last-child { border-bottom:none; }
+.tldr b { display:inline-block; min-width:9em; color:var(--muted); font-weight:600;
+          font-size:0.8rem; }
+ul.srclist { list-style:none; font-size:0.82rem; columns:2; column-gap:1.5rem; }
+ul.srclist li { padding:0.15rem 0; break-inside:avoid; }
+ul.srclist a { color:var(--accent2); }
+@media (max-width:560px) { ul.srclist { columns:1; } .tldr b { min-width:auto; display:block; } }
 .bgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
          gap:0.7rem; }
 a.bcard { display:block; border:1px solid var(--line); border-top:3px solid var(--accent2);

@@ -5,101 +5,619 @@
   "country": "中国",
   "summary": "Insta360は中国・深圳のArashi Vision(影石創新)が展開するカメラブランド。2015年に劉靖康氏が創業し、360度カメラで世界シェア首位。日本ではアクションカメラ・Vlogカメラでも人気が高く、X(旧Twitter)やYouTubeでの作例投稿が多い。",
   "sample_notice": true,
-  "facts": [
-    {
-      "label": "親会社・設立背景",
-      "value": "Arashi Vision(影石創新科技、中国・深圳)。2015年に劉靖康氏が創業。2025年に上海STAR市場に上場。",
-      "source": "Insta360 公式サイト 会社情報",
-      "source_url": "https://www.insta360.com/jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "主な価格帯",
-      "value": "アクションカメラ・360度カメラで3万〜8万円前後、プロ向け機材は10万円超。",
-      "source": "Insta360 公式ストア",
-      "source_url": "https://store.insta360.com/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "取扱カテゴリ",
-      "value": "360度カメラ(Xシリーズ)、アクションカメラ(Aceシリーズ)、Vlogカメラ(GO)、ジンバル(Flow)、ウェブカメラなど。",
-      "source": "Insta360 公式ストア",
-      "source_url": "https://store.insta360.com/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本での販売チャネル",
-      "value": "公式オンラインストア、Amazon、家電量販店、カメラ専門店。国内正規代理店経由の流通あり。",
-      "source": "Insta360 公式サイト",
-      "source_url": "https://www.insta360.com/jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本法人",
-      "value": "日本での販売・サポートは国内正規代理店(アーチサイト等)が担う体制。日本法人の有無は国税庁サイトで要確認。【要確認】",
-      "source": "国税庁 法人番号公表サイト",
-      "source_url": "https://www.houjin-bangou.nta.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "技適(技術基準適合証明)",
-      "value": "Wi-Fi/Bluetooth搭載のため日本正規品は技適取得済み。並行輸入品は型番ごとに要確認。【要確認】",
-      "source": "総務省 技術基準適合証明等の公示",
-      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "リコール履歴",
-      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
-      "source": "消費者庁 リコール情報サイト",
-      "source_url": "https://www.recall.caa.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "保証期間",
-      "value": "本体1年間のメーカー保証が基本。有償の追加保証「Insta360 Care」あり。【要確認】",
-      "source": "Insta360 サポート",
-      "source_url": "https://www.insta360.com/jp/support",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本語サポート",
-      "value": "日本語のカスタマーサポート・公式サイト・アプリあり。修理は代理店経由または国際対応。【要確認】",
-      "source": "Insta360 サポート",
-      "source_url": "https://www.insta360.com/jp/support",
-      "checked": "2026-08-27"
-    }
-  ],
   "faq": [
     {
-      "slug": "insta360-vs-gopro",
-      "question": "Insta360とGoPro、どっちを選べばいいですか?レビューを見ても決められません",
+      "slug": "insta360-is-japanese-company",
+      "question": "Insta360は日本の会社ですか?(深圳嵐ビジョン株式会社という表記について)",
       "source": {
         "platform": "Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10305756745",
-        "original": "insta360とGOproどっちでもいいですか?いろんな人のレビュー…"
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11318260041",
+        "original": "instaは、日本の会社ですか？(深圳嵐ビジョン株式会社)"
       },
-      "answer": "GoProは2002年創業の米国企業でアクションカメラの草分け、Insta360は2015年創業の中国企業で360度カメラから成長した後発ブランドです。ブランドレベルの違いは3点:(1)Insta360は360度撮影を核に「撮ってから構図を決める」編集体験を強みにし、GoProは伝統的なアクションカメラの画質・堅牢性を強みにする。(2)企業規模と勢いでは近年Insta360が急成長し2025年に上場、GoProは業績面で苦戦が続く。(3)日本でのサポートはGoProが日本法人、Insta360が代理店中心という体制の違いがある。どちらも日本正規品は技適取得済みです。",
+      "answer": "Insta360は日本の会社ではありません。中国・深圳のArashi Vision Inc.(影石創新科技股份有限公司)が展開するカメラブランドで、2015年に劉靖康氏が創業し、2025年に上海証券取引所の科創板(STAR Market)へ上場しています。「深圳嵐ビジョン株式会社」という表記は社名のArashi Vision(嵐=Arashi)を日本語に置き換えたものと考えられますが、同名の法人が日本に登記されているかは国税庁の法人番号公表サイトで確認が必要です【要確認】。日本での販売・サポートは正規代理店経由が中心とされます【要確認】。",
       "facts": [
         {
-          "label": "創業",
-          "value": "GoPro: 2002年・米国 / Insta360: 2015年・中国深圳",
+          "label": "正式社名",
+          "value": "Arashi Vision Inc.(影石創新科技股份有限公司)。本社は中国・深圳市",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業・上場",
+          "value": "2015年創業(創業者は劉靖康氏)。2025年に上海証券取引所 科創板(STAR Market)へ上場",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人",
+          "value": "未確認 — 国内正規代理店経由の体制。日本法人の有無・法人番号は国税庁サイトで要確認【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-app-security",
+      "question": "Insta360の編集アプリに安全性の問題はありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14292966384",
+        "original": "insta360の編集アプリの危険性について"
+      },
+      "answer": "日本の公的機関がInsta360のアプリの危険性を指摘した公表情報は確認できません【要確認】。整理できる事実は3点です。第一に、Insta360は中国・深圳のArashi Vision社のブランドで、2025年に中国国内で上場した企業です。第二に、日本国内で同社製品やアプリの民間利用を禁止する措置は確認されていません【要確認】。第三に、アプリの権限や通信データの送信先といった詳細は公開情報だけでは検証できません【要確認】。権限要求とプライバシーポリシーを確認し、勤務先の端末に入れる場合は会社のIT規程に従ってください。",
+      "facts": [
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 日本の公表資料では確認できない【要確認】",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "企業背景",
+          "value": "中国・深圳のArashi Vision Inc.のブランド。2025年に上海証券取引所 科創板へ上場",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "アプリの権限・通信内容",
+          "value": "公開情報だけでは検証できない【要確認】。権限要求とプライバシーポリシーの確認、業務端末では勤務先のIT規程に従うことが基本",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-app-requirement",
+      "question": "Insta360のカメラは専用アプリが必須ですか?(GO 3Sを購入した場合)",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11310095071",
+        "original": "Insta360のアプリについて質問です。GO3sを購入したのですが"
+      },
+      "answer": "Insta360製品は専用アプリと組み合わせて使う設計が基本とされ、初期設定・ファームウェア更新・編集機能の多くがアプリ側にあります【要確認】。アプリは日本語対応で、対応機種やダウンロード先は公式サポートページから確認できます。ただしアカウント登録が必須か、本体単体でどこまで使えるかは機種やファームウェアにより異なり、公開情報から一律には断定できません【要確認】。個別機種の操作手順は日本語対応の公式サポート窓口への問い合わせが確実です。機種別の操作解説は専門メディアをご参照ください。",
+      "facts": [
+        {
+          "label": "アプリの位置づけ",
+          "value": "初期設定・ファームウェア更新・編集の多くを専用アプリが担う設計とされる【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語対応",
+          "value": "公式サイト・アプリともに日本語対応。日本語サポート窓口あり",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "アカウント登録の要否",
+          "value": "未確認 — 機種・ファームウェアにより異なり、公開情報では一律に断定できない【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-vs-ricoh-theta-brand",
+      "question": "中国のInsta360と日本のリコー(THETA)は、ブランドとしてどう違いますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10263173220",
+        "original": "中国のinsta360は日本のリコー(theta)と比べて、どうですか"
+      },
+      "answer": "ブランドとしての違いは企業背景と日本でのサポート体制です。Insta360は中国・深圳のArashi Vision(影石創新)が2015年に立ち上げたブランドで、360度カメラで世界シェア首位とされ、2025年に上海証券取引所の科創板へ上場しました。THETAは日本のリコーの360度カメラで、国内メーカーとして日本語サポートと国内修理体制を自社で持ちます。Insta360の日本での修理は正規代理店経由が中心とされ、日本法人の有無は確認できません【要確認】。実機性能の比較は専門メディアの実測レビューをご参照ください。",
+      "facts": [
+        {
+          "label": "Insta360の企業背景",
+          "value": "中国・深圳のArashi Vision Inc.。2015年創業、2025年に上海STAR Marketへ上場。360度カメラで世界シェア首位とされる",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "RICOH THETA",
+          "value": "日本のリコーが展開する360度カメラブランド。国内メーカーによる日本語サポート・国内修理体制",
+          "source": "RICOH THETA 公式サイト",
+          "source_url": "https://theta360.com/ja/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "Insta360の日本サポート体制",
+          "value": "正規代理店経由または国際対応とされる【要確認】。日本法人の有無は国税庁サイトで要確認",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "技適",
+          "value": "日本正規品は技適取得済み。並行輸入品は型番ごとに要確認【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-gopro-brand-difference",
+      "question": "Insta360とGoProは、ブランドとしてどこが違いますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12277744852",
+        "original": "インスタ360と、GoProの違いってなんですか？おすすめはどっちですか"
+      },
+      "answer": "ブランド単位で見ると、違いは企業背景・製品領域・日本のサポート体制の3点です。GoProは2002年創業の米国企業でNASDAQ上場、Insta360は2015年創業の中国・深圳の企業で2025年に上海証券取引所の科創板へ上場しました。製品領域はGoProがアクションカメラ中心、Insta360は360度カメラを起点にアクション・Vlog・スマホジンバルへ広げています。日本のサポートはGoProが日本法人、Insta360が正規代理店中心とされます【要確認】。機種ごとの実写比較は専門メディアをご参照ください。",
+      "facts": [
+        {
+          "label": "創業・上場",
+          "value": "GoPro: 2002年・米国・NASDAQ上場 / Insta360: 2015年・中国深圳・2025年に上海STAR Market上場",
           "source": "両社公式サイト",
           "source_url": "https://www.insta360.com/jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "上場状況",
-          "value": "GoPro: NASDAQ / Insta360: 上海STAR(2025年)",
-          "source": "各取引所公表情報",
-          "source_url": "https://www.insta360.com/jp/",
+          "label": "製品領域",
+          "value": "GoProはアクションカメラ中心 / Insta360は360度カメラのXシリーズを起点にAce・GO・Flowへ展開",
+          "source": "GoPro 日本公式ストア",
+          "source_url": "https://jp.shop.gopro.com/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本サポート体制",
           "value": "GoPro: 日本法人 / Insta360: 正規代理店中心【要確認】",
-          "source": "両社公式サポートページ",
+          "source": "Insta360 公式サポート",
           "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国内法規への適合",
+          "value": "いずれも日本正規品は技適取得済み。バッテリー・充電器はPSE(電気用品安全法)の対象",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-repair-after-warranty",
+      "question": "Insta360 X5が破損した場合、どこで修理してもらえますか?保証期間が切れた後はどうなりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12320470122",
+        "original": "ネットで購入したInsta360X5がもし破損したらどこで見てもらえるのでしょうか？保証書の有効期限が切れたら"
+      },
+      "answer": "まず公式サポート窓口への問い合わせが基本です。Insta360は本体1年間のメーカー保証が基本とされ【要確認】、有償の延長サービス「Insta360 Care」もあります。修理は正規代理店経由または国際対応での受付とされ【要確認】、日本国内に自社の修理拠点があるかは公開情報では確認できません【要確認】。保証期間が切れた後に有償修理を受け付けるか、費用や納期の目安も確認できないため、公式サポートページに機種名とシリアル番号を添えて問い合わせてください。並行輸入品は保証対象外となる場合があります。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "本体1年間のメーカー保証が基本【要確認】",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証",
+          "value": "有償の「Insta360 Care」あり",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "代理店経由または国際対応【要確認】。国内自社修理拠点の有無は未確認",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証切れ後の有償修理",
+          "value": "未確認 — 受付可否・費用・納期は公開情報では確認できない。公式サポートで要確認【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-retail-stores-japan",
+      "question": "Insta360製品を実店舗で扱っているところはどのくらいありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13299546908",
+        "original": "実店舗でinsta360を取り扱っているところはどれぐらいありますか？"
+      },
+      "answer": "Insta360製品は日本国内で家電量販店やカメラ専門店を中心に流通しています。同社は日本に直営店を持たず、公式オンラインストア、Amazon、家電量販店、カメラ専門店が主な販売チャネルです。全国の取扱店舗数や店舗リストは公開情報では確認できません【要確認】。実機に触れられるかは店舗規模や時期で差があるため、来店前に各店舗へ在庫・展示状況を問い合わせることをおすすめします。店頭購入時も、技適マークやPSEマークの表示、正規販売店の表記で日本正規品かを確認できます。",
+      "facts": [
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、Amazon、家電量販店、カメラ専門店",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "なし(代理店・量販店流通が中心)。全国の取扱店舗数・店舗リストは公開情報では確認できない【要確認】",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "正規品の見分け方",
+          "value": "技適マークの表示で確認可能。型番ごとの公示は総務省の技適検索で照会できる",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-official-store-payment",
+      "question": "Insta360公式ストアでのクレジットカード決済について教えてください",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11317065746",
+        "original": "インスタ360公式ストアでのクレジット決済について質問です"
+      },
+      "answer": "Insta360は日本語の公式オンラインストアを用意しており、オンライン購入に対応しています。ただし利用できるカードブランド、3Dセキュアの要否、決済が海外事業者扱いとなり海外事務手数料の対象になるかは公開情報では確認できません【要確認】。決済エラーもカード会社側の海外取引制限や限度額など複数の原因が考えられ、当サイトでは特定できません【要確認】。日本語対応の公式サポート窓口に注文番号とエラー表示を添えて問い合わせるのが確実です。国内販売店でも正規品を購入できます。",
+      "facts": [
+        {
+          "label": "公式オンラインストア",
+          "value": "日本語公式サイト(insta360.com/jp)あり。オンライン購入に対応",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "対応カードブランド・手数料",
+          "value": "未確認 — 利用可能ブランド、3Dセキュアの要否、海外事務手数料の有無は公開情報では確認できない【要確認】",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "問い合わせ窓口",
+          "value": "日本語サポート窓口あり(公式サイト・アプリ日本語対応)",
+          "source": "Insta360 公式サポート",
+          "source_url": "https://www.insta360.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "代替の購入ルート",
+          "value": "Amazon、家電量販店、カメラ専門店などの国内販売店でも正規品を購入可能",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-flow2-pro-giteki",
+      "question": "Insta360 Flow 2 Proに技適マークは必要ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13311726543",
+        "original": "『Insta360 Flow2 Pro』は技適マークが必須の製品でしょうか"
+      },
+      "answer": "BluetoothやWi-Fiなど無線機能を搭載する機器は、日本国内で使用する場合に技術基準適合証明(技適)が必要です。Flowシリーズはスマホとの無線接続を前提とする製品のため、無線機能を搭載していれば技適の対象です【要確認】。技適未取得の無線機器を日本国内で使用すると電波法違反となるおそれがあり、罰則の対象となり得ます。日本正規品は技適取得済みとされますが、Flow 2 Pro個別の型番の公示は総務省の技適検索で確認してください【要確認】。並行輸入品・海外版は日本向け認証がない場合があります。",
+      "facts": [
+        {
+          "label": "技適の要否",
+          "value": "Bluetooth/Wi-Fi等の無線機能を搭載する機器は日本国内での使用に技適が必要。Flow 2 Proの搭載状況・型番の公示は総務省の技適検索で要確認【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "違反時の扱い",
+          "value": "技適未取得の無線機器を日本国内で使用すると電波法違反となるおそれがあり、罰則の対象となり得る",
+          "source": "総務省",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "正規品と並行輸入品",
+          "value": "日本正規品は技適取得済み。並行輸入品・海外版は型番ごとに要確認【要確認】",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "内蔵バッテリー・充電器は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-link-work-pc",
+      "question": "Insta360 Linkを会社のノートPCで使っても問題ありませんか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10286733150",
+        "original": "Insta360 Linkについてお聞きします。会社ノートPCに使っても大丈夫でしょうか"
+      },
+      "answer": "技術的な可否より先に、勤務先のIT規程の確認が必要です。Insta360 LinkはUSB接続のウェブカメラで、AI追尾などの機能を使うにはPC用の専用ソフトを導入する構成とされています【要確認】。会社貸与のPCでは外部デバイスの接続やドライバ・ソフトのインストールが情報システム部門の承認事項である場合が多いため、社内規程に従ってください。ブランド面では、Insta360は中国・深圳のArashi Vision社のブランドで、日本国内で同社製品の民間利用を禁止する措置は確認されていません【要確認】。",
+      "facts": [
+        {
+          "label": "製品構成",
+          "value": "USB接続のウェブカメラ。機能を活用するにはPC用専用ソフトの導入が前提とされる【要確認】",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "業務端末での利用",
+          "value": "外部デバイス接続とソフト導入は勤務先のIT規程・情報システム部門の承認に従うことが基本",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本国内の規制状況",
+          "value": "同社製品の民間利用を禁止・制限する措置は確認されていない【要確認】",
+          "source": "総務省",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "海外の動向",
+          "value": "米国では政府調達で中国製機器を制限する措置が取られている分野がある。対象範囲・時点は要確認【要確認】",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "Arashi Vision Inc.(影石創新科技股份有限公司)",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "中国・深圳市",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "2015年",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "劉靖康(リウ・ジンカン)氏",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "上海証券取引所 科創板(STAR Market)に上場(2025年)",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "未確認 — 上場資料で要取得",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 上場資料で要取得",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "360度カメラで世界シェア首位。アクションカメラ、Vlogカメラ、ジンバルへ展開",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "未確認 — 国内正規代理店(アーチサイト等)経由の体制。日本法人の有無は国税庁サイトで要確認",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "未確認 — 要確認",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "未確認 — 要確認",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "未確認 — 公式発表で要確認",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "なし(代理店・量販店流通が中心)",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、Amazon、家電量販店、カメラ専門店",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(insta360.com/jp)",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi/Bluetooth搭載のため日本正規品は技適取得済み。並行輸入品は型番ごとに要確認【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "バッテリー・充電器は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "360度カメラでの公共空間撮影は肖像権・迷惑防止条例に留意が必要",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 公表資料で要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "本体1年間のメーカー保証が基本【要確認】",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "有償の「Insta360 Care」あり",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "代理店経由または国際対応【要確認】",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(公式サイト・アプリ日本語対応)",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "レンズガード・バッテリー等は公式ストアで購入可",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "360度カメラ、アクションカメラ",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "3万〜8万円前後。プロ向け機材は10万円超",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "Xシリーズ(360度)、Aceシリーズ(アクション)、GO(小型Vlog)、Flow(スマホジンバル)",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "GoPro、DJI、Ricoh THETA、Sony",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
           "checked": "2026-08-27"
         }
       ]

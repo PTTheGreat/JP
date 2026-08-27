@@ -5,114 +5,216 @@
   "country": "アメリカ",
   "summary": "SharkNinjaは米国マサチューセッツ州発の家電メーカー。掃除機の「Shark」とキッチン家電の「Ninja」の2ブランドを展開し、ニューヨーク証券取引所上場。日本では2018年に本格参入し、コードレス掃除機や調理家電で急速にシェアを拡大している。",
   "sample_notice": true,
-  "facts": [
-    {
-      "label": "親会社・設立背景",
-      "value": "SharkNinja, Inc.(米国マサチューセッツ州)。前身は1994年設立のEuro-Pro。2023年にニューヨーク証券取引所上場(ティッカー: SN)。",
-      "source": "SharkNinja 公式サイト(投資家情報)",
-      "source_url": "https://sharkninja.com/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "主な価格帯",
-      "value": "掃除機で2万〜7万円、調理家電で1万〜5万円前後。ダイソンより安価な価格設定が特徴。",
-      "source": "Shark Japan / Ninja Japan 公式サイト",
-      "source_url": "https://www.shark.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "取扱カテゴリ",
-      "value": "Shark: コードレス掃除機、ロボット掃除機、ヘアドライヤー。Ninja: ブレンダー、エアフライヤー、アイスクリームメーカー、電気調理鍋など。",
-      "source": "Shark Japan / Ninja Japan 公式サイト",
-      "source_url": "https://www.shark.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本での販売チャネル",
-      "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販。",
-      "source": "Shark Japan 公式サイト",
-      "source_url": "https://www.shark.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本法人",
-      "value": "シャークニンジャジャパン(東京)による販売・サポート体制。2018年日本参入。法人番号は国税庁サイトで確認可能。【要確認】",
-      "source": "国税庁 法人番号公表サイト",
-      "source_url": "https://www.houjin-bangou.nta.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "技適(技術基準適合証明)",
-      "value": "Wi-Fi搭載機(ロボット掃除機等)は日本正規品で技適取得済み。型番ごとに要確認。【要確認】",
-      "source": "総務省 技術基準適合証明等の公示",
-      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "リコール履歴",
-      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
-      "source": "消費者庁 リコール情報サイト",
-      "source_url": "https://www.recall.caa.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "保証期間",
-      "value": "製品により1〜2年間のメーカー保証。公式ストア購入で延長される場合あり。【要確認】",
-      "source": "Shark Japan サポート",
-      "source_url": "https://www.shark.co.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本語サポート",
-      "value": "日本語のカスタマーサポート(電話・メール)あり。国内修理・交換対応あり。",
-      "source": "Shark Japan サポート",
-      "source_url": "https://www.shark.co.jp/",
-      "checked": "2026-08-27"
-    }
-  ],
   "faq": [
     {
-      "slug": "shark-vs-dyson",
-      "question": "ダイソンとシャークの掃除機だったらどっちがいいですか?",
+      "slug": "sharkninja-country",
+      "question": "掃除機のシャーク(Shark)はどこの国の会社ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14233417219",
+        "original": "シャーク(掃除機)は何処の国の会社ですか?"
+      },
+      "answer": "Sharkはアメリカの家電メーカー、SharkNinja, Inc.のブランドです。本社は米国マサチューセッツ州ニーダムにあり、2023年からニューヨーク証券取引所に上場しています。前身は1994年設立のEuro-Proで、清掃家電のSharkと調理家電のNinjaの2ブランドを展開しています。日本には2018年に本格参入し、日本語の公式サイトと国内のサポート・修理窓口があります。なお生産は海外の委託工場が中心とみられます【要確認】。",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "SharkNinja, Inc.",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "米国マサチューセッツ州ニーダム",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "ニューヨーク証券取引所に上場(2023年、ティッカー: SN)",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "2018年",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-foreign-brand-reliability",
+      "question": "Sharkはどこの国の製品で、外国製という点で信頼性はどう考えればよいですか?",
+      "source": {
+        "platform": "Quora日本版",
+        "url": "https://jp.quora.com/Shark%E3%81%A8%E3%81%84%E3%81%86%E6%8E%83%E9%99%A4%E6%A9%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%A7%E3%81%99%E3%81%8C-%E3%81%93%E3%81%AE%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AE",
+        "original": "「Shark」という掃除機についてですが、このメーカーはどこの国の製品でしょうか?外国製だと信頼性はどのようなものでしょうか?"
+      },
+      "answer": "Sharkは米国マサチューセッツ州に本社を置くSharkNinja社のブランドです。外国製だから信頼性が低いとは言えず、確認すべきはブランド層の事実です。日本で正規流通する掃除機は電気用品安全法の対象でPSEマークが表示され、Wi-Fi搭載機は技適の対象になります。同社は2023年にNYSE上場した企業で、日本には2018年参入、日本語窓口と国内修理体制、消耗品の公式販売があります。個別の耐久性は公開統計がないため保証と部品供給で判断してください。",
+      "facts": [
+        {
+          "label": "本社・上場",
+          "value": "米国マサチューセッツ州ニーダム。2023年NYSE上場(ティッカー: SN)",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "掃除機・調理家電は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi搭載機(ロボット掃除機等)は日本正規品で技適取得済み。型番ごとに要確認【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本でのサポート体制",
+          "value": "日本語窓口(電話・メール)あり、国内修理・交換対応あり",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-brand-name",
+      "question": "掃除機の「シャーク」と「シャークニンジャ」は同じ会社ですか?ニンジャは忍者が由来ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12316708537",
+        "original": "掃除機のシャークとシャークニンジャって同じですか?ニンジャって忍者からきてるのですか?"
+      },
+      "answer": "同じ会社です。社名がSharkNinja, Inc.で、Sharkは掃除機などの清掃家電、Ninjaはブレンダーやエアフライヤーなどの調理家電に使うブランド名です。日本でもshark.co.jpとninja.co.jpの2サイトに分かれていますが、運営元は同一企業でサポートも同じ会社が担います。前身は1994年設立のEuro-Proで、後に2つの主力ブランド名を組み合わせた現社名になりました。Ninjaが日本の忍者に由来するかは公式の説明が未確認です【要確認】。",
+      "facts": [
+        {
+          "label": "社名とブランドの関係",
+          "value": "SharkNinja, Inc. が社名。Sharkは清掃家電、Ninjaは調理家電のブランド名",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "前身のEuro-Proが1994年設立",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(shark.co.jp / ninja.co.jp の2サイト、運営元は同一)",
+          "source": "Ninja 公式サイト",
+          "source_url": "https://www.ninja.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "ブランド名「Ninja」の由来",
+          "value": "未確認 — 公式による由来の説明は確認できない【要確認】",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-value-vs-japanese-brands",
+      "question": "シャークの掃除機は何が特徴ですか?日本メーカーと同スペックで安いのですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13271508198",
+        "original": "シャークの掃除機って何がいいのでしょうか?他の日本メーカーと同スペックで安いのでしょうか?"
+      },
+      "answer": "本サイトは機種ごとの性能比較を行いませんが、ブランド層の特徴は価格帯と販売チャネルにあります。Sharkの掃除機は概ね2万〜7万円で、ダイソンの5万〜12万円より低い価格帯です。日本メーカーと同スペックで安いかは機種次第のため断定できません【要確認】。米国発の後発として2018年に日本参入し、量販店・通販が中心です。保証は製品により1〜2年【要確認】。実測比較はmy-best等の専門メディアを参照してください。",
+      "facts": [
+        {
+          "label": "主な価格帯",
+          "value": "掃除機で2万〜7万円、調理家電で1万〜5万円前後",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "製品により1〜2年間。公式ストア購入で延長される場合あり【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "Dyson、Panasonic、日立、アイリスオーヤマ等",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-vs-dyson",
+      "question": "ダイソンとシャークの掃除機ではどちらを選ぶべきですか?",
       "source": {
         "platform": "Yahoo!知恵袋",
         "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11260149171",
-        "original": "ダイソンとシャークの掃除機だったらどっちがいいですか? - それぞれメリットデメリット教えて欲しいです"
+        "original": "ダイソンとシャークの掃除機だったらどっちがいいですか?"
       },
-      "answer": "ブランドレベルの違いは3点です。(1)出自と価格戦略:Dysonは英国発(現本社シンガポール)の独自技術・高価格路線で5万〜12万円、Sharkは米国発の「高機能を手頃に」路線で2万〜7万円と、Sharkが概ね3〜5割安い。(2)日本での歴史:Dysonの日本法人は1998年設立と長く直営店やサービスセンターが充実、Sharkは2018年参入の後発で量販店・通販中心。(3)保証:Dysonは2年保証が基本、Sharkは製品により1〜2年。吸引力や使い勝手は機種ごとの比較になるため、my-best等の実測レビューを参照するのが適切です。当サイトは機種比較ではなくブランド事実の比較を提供します。",
+      "answer": "ブランド層の違いは3点です。(1)価格戦略:Dysonは英国発(現本社シンガポール)の高価格路線で5万〜12万円、SharkNinjaは米国発で2万〜7万円と概ね3〜5割安い。(2)日本での体制:Dysonは日本法人1998年設立で直営店と国内サービスセンターを持ち、Sharkは2018年参入の後発で量販店・通販中心。(3)保証:Dysonは2年が基本、Sharkは製品により1〜2年【要確認】。機種性能の比較はmy-best等の実測レビューを参照してください。",
       "facts": [
         {
           "label": "価格帯",
           "value": "Dyson: 5万〜12万円 / Shark: 2万〜7万円",
           "source": "両社公式ストア",
-          "source_url": "https://www.dyson.co.jp/",
+          "source_url": "https://www.shark.co.jp/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本での歴史",
           "value": "Dyson日本法人1998年設立 / Shark 2018年参入",
           "source": "両社公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "source_url": "https://www.dyson.co.jp/",
           "checked": "2026-08-27"
         },
         {
           "label": "保証",
-          "value": "Dyson: 2年基本 / Shark: 1〜2年(製品による)【要確認】",
+          "value": "Dyson: 2年が基本 / Shark: 1〜2年(製品による)【要確認】",
           "source": "両社サポートページ",
           "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売・サービス体制",
+          "value": "Dysonは直営店と国内サービスセンターあり / Sharkは直営店なし、量販店・通販中心【要確認】",
+          "source": "両社公式サイト",
+          "source_url": "https://www.shark.co.jp/",
           "checked": "2026-08-27"
         }
       ]
     },
     {
-      "slug": "shark-share",
-      "question": "外資系メーカーのSharkは、掃除機のシェアでダイソンを超えますか?",
+      "slug": "sharkninja-market-share",
+      "question": "外資系メーカーのSharkは、掃除機のシェアでダイソンを抜くことがありますか?",
       "source": {
         "platform": "Yahoo!知恵袋",
         "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13299922133",
-        "original": "ダイソンに次ぐ外資系メーカーのShark。掃除機のシェアでダイソン…"
+        "original": "ダイソンに次ぐ外資系メーカーのShark。掃除機のシェアでダイソンを抜くことはあるのでしょうか"
       },
-      "answer": "将来のシェアは断定できませんが、判断材料となる事実は次の通りです。Sharkは米SharkNinja社のブランドで、日本参入は2018年とダイソン(日本法人1998年)より20年遅い後発ですが、ダイソンより3〜5割安い価格帯と自動ゴミ収集ドック等の使い勝手で家電量販店での存在感を急速に高めています。SharkNinja本体は2023年NYSE上場で業績を公開しており、成長率は決算で確認できます。国内シェアの正確な数字は調査会社(GfK等)の有償データのため、本サイトでは断定しません。",
+      "answer": "将来のシェアは断定できませんが、判断材料は整理できます。Sharkは米SharkNinja社のブランドで、日本参入は2018年とダイソン(日本法人1998年設立)より20年遅い後発です。一方でダイソンより3〜5割安い価格帯と、量販店・通販の広い販路で存在感を高めています。同社は2023年にNYSE上場しており成長率は決算資料で確認できます。ただし国内シェアの正確な数値は調査会社の有償データのため、本サイトでは数字を示しません【要確認】。",
       "facts": [
         {
           "label": "日本参入",
@@ -129,10 +231,421 @@
           "checked": "2026-08-27"
         },
         {
-          "label": "シェア数値",
-          "value": "国内シェアの正確な数字は調査会社の有償データ【要確認】",
+          "label": "上場状況",
+          "value": "ニューヨーク証券取引所に上場(2023年、ティッカー: SN)。業績は決算資料で確認可能",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国内シェア数値",
+          "value": "未確認 — 国内シェアの正確な数字は調査会社の有償データ【要確認】",
           "source": "GfK Japan等",
           "source_url": "https://www.gfk.com/ja/home",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-official-store-warranty",
+      "question": "シャークの掃除機は公式サイトで買うと保証が長く、量販店だと安い場合、どちらを選ぶべきですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12318568282",
+        "original": "シャークの掃除機を公式サイトから買うとメーカー保証が3年付きます。同じ掃除機をケーズデンキで4000円安く見つけました"
+      },
+      "answer": "分かれ目は価格差と保証年数のどちらを取るかです。SharkNinjaは購入チャネルにより保証期間が異なる場合があり、公式ストア購入時に標準保証を延長する運用が案内されることがあります【要確認】。量販店では製品により1〜2年の標準保証が基本で、差は量販店独自の延長保証で埋められることもあります。確認手順は、公式サイトで延長の条件(購入者登録の要否等)を読み、量販店で標準年数と延長料金・免責を聞き、差額と比較することです。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "製品により1〜2年間のメーカー保証。公式ストア購入で延長される場合あり【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "公式ストア購入時の延長あり。対象製品・年数・購入者登録の要否は公式サイトで要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "量販店の独自延長保証",
+          "value": "未確認 — 量販店ごとの制度のため、料金・免責範囲は各店で要確認",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-repair-process",
+      "question": "シャークの掃除機を修理に出すとどのような流れになりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14249189499",
+        "original": "shark掃除機の修理に出された方、いらっしゃいますか"
+      },
+      "answer": "個々の体験談は扱いませんが、制度面の事実は確認できます。SharkNinjaは日本国内に修理・交換の窓口を持ち、日本語サポート(電話・メール)を提供しています。運用としては部品単位の修理ではなく、本体交換や代替品送付という形で処理される場合があります【要確認】。流れや送料負担、保証期間内外の費用は公式サポートで要確認です【要確認】。連絡時は型番・購入日・購入店と症状を整理し、購入証明を保管してください。",
+      "facts": [
+        {
+          "label": "修理体制",
+          "value": "国内修理・交換対応あり",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(電話・メール)。受付時間は公式サポートページで要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理費用・送料負担",
+          "value": "未確認 — 保証期間内外の扱いを含め公式サポートで要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "製品により1〜2年間【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-noise-durability",
+      "question": "購入から3年のシャークの掃除機で音や振動が大きくなりました。壊れやすいのでしょうか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10323999415",
+        "original": "シャークの掃除機、購入してから3年程です。音が大きく振動もします"
+      },
+      "answer": "壊れやすいかを示す公開の故障率統計はないため、本サイトでは断定しません。確認できるのは制度面の事実です。日本での保証は製品により1〜2年で、購入から3年なら通常は期間外となり有償対応です【要確認】。国内に修理・交換窓口があり、消耗品は公式ストアで買えます。またブラシロール・フィルター・バッテリーは寿命のある消耗品で、巻き付きや目詰まりは異音や振動の一般的な要因です。まず清掃と絡まり除去を試してください。",
+      "facts": [
+        {
+          "label": "故障率の公開統計",
+          "value": "未確認 — メーカー・第三者を問わず公開された故障率統計は確認できない",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "製品により1〜2年間。3年経過品は通常保証期間外【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "フィルター・ブラシ等は公式ストアで購入可",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-filter-availability",
+      "question": "シャークの掃除機の交換フィルターはどこで買えますか?量販店では見かけません",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11273599821",
+        "original": "シャークの掃除機のフィルター、家電量販店では見かけません"
+      },
+      "answer": "純正の交換用フィルターやブラシは、Sharkの公式オンラインストアで販売されています。量販店の店頭では国内メーカーほど消耗品の在庫が置かれていない場合がありますが、これは日本参入が2018年と後発で、販路が公式EC・量販店・通販中心という事情によるものです【要確認】。公式ストアのほかAmazonや楽天の公式出店で型番対応品を探すのが確実です。互換品使用に起因する不具合は保証対象外となる場合があります【要確認】。",
+      "facts": [
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "フィルター・ブラシ等は公式ストアで購入可",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "量販店店頭での消耗品在庫",
+          "value": "未確認 — 店舗ごとの取り扱いのため各店で要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "互換品と保証の関係",
+          "value": "純正以外の消耗品使用に起因する不具合は保証対象外となる場合あり【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "SharkNinja, Inc.",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "米国マサチューセッツ州ニーダム",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "前身のEuro-Proが1994年設立",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "マーク・ローゼンツヴァイク氏(Euro-Pro)【要確認】",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "ニューヨーク証券取引所に上場(2023年、ティッカー: SN)",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "未確認 — 上場企業の年次報告書で要取得",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 年次報告書で要取得",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "清掃家電(Shark)とキッチン家電(Ninja)の2ブランドを展開",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "シャークニンジャジャパン株式会社【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "未確認 — 国税庁法人番号公表サイトで要確認",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "東京都【要確認】",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "2018年",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "なし(量販店・通販が中心)【要確認】",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(shark.co.jp / ninja.co.jp)",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi搭載機(ロボット掃除機等)は日本正規品で技適取得済み。型番ごとに要確認【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "掃除機・調理家電は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "調理家電は食品衛生法に基づく材質基準が適用される",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 公表資料で要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "製品により1〜2年間のメーカー保証。公式ストア購入で延長される場合あり【要確認】",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "公式ストア購入時の延長あり【要確認】",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "国内修理・交換対応あり",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(電話・メール)",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "フィルター・ブラシ等は公式ストアで購入可",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "Shark: コードレス掃除機 / Ninja: 調理家電",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "掃除機で2万〜7万円、調理家電で1万〜5万円前後",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "Shark EVOPOWER/detect(掃除機)、Shark Beauty(ヘアケア)、Ninja Creami、Ninja エアフライヤー",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "Dyson、Panasonic、日立、アイリスオーヤマ、T-fal、レコルト",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
           "checked": "2026-08-27"
         }
       ]

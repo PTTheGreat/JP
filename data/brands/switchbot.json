@@ -5,139 +5,596 @@
   "country": "中国",
   "summary": "SwitchBotは中国・深圳のWOAN Technologyが展開するスマートホームブランド。物理スイッチを押す「ボット」から始まり、スマートロック、カーテン、ハブ、見守りカメラなど後付けスマートホーム機器で日本市場での存在感が大きい。東京に日本法人がある。",
   "sample_notice": true,
-  "facts": [
-    {
-      "label": "親会社・設立背景",
-      "value": "WOAN Technology(深圳市悟空智能科技、中国・深圳)。2015年頃創業。クラウドファンディング発のスマートホーム企業。",
-      "source": "SwitchBot 公式サイト 会社情報",
-      "source_url": "https://www.switchbot.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "主な価格帯",
-      "value": "単品2,000〜10,000円前後、スマートロック等で1〜3万円。後付け型で初期投資が小さいのが特徴。",
-      "source": "SwitchBot 公式オンラインストア",
-      "source_url": "https://www.switchbot.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "取扱カテゴリ",
-      "value": "スマートスイッチ、スマートロック、カーテン自動化、ハブ(リモコン)、温湿度計、見守りカメラ、ロボット掃除機など。",
-      "source": "SwitchBot 公式オンラインストア",
-      "source_url": "https://www.switchbot.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本での販売チャネル",
-      "value": "公式オンラインストア、Amazon、楽天市場、Yahoo!ショッピング、家電量販店。",
-      "source": "SwitchBot 公式サイト",
-      "source_url": "https://www.switchbot.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本法人",
-      "value": "SWITCHBOT株式会社(東京)。日本市場向けの販売・サポートを担当。法人番号は国税庁サイトで確認可能。【要確認】",
-      "source": "国税庁 法人番号公表サイト",
-      "source_url": "https://www.houjin-bangou.nta.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "技適(技術基準適合証明)",
-      "value": "Bluetooth/Wi-Fi搭載製品は日本正規品で技適取得済み。型番ごとに総務省データベースで確認可能。【要確認】",
-      "source": "総務省 技術基準適合証明等の公示",
-      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "リコール履歴",
-      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
-      "source": "消費者庁 リコール情報サイト",
-      "source_url": "https://www.recall.caa.go.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "保証期間",
-      "value": "多くの製品で購入から1年間。公式ストア購入で延長される場合あり。【要確認】",
-      "source": "SwitchBot サポート",
-      "source_url": "https://www.switchbot.jp/",
-      "checked": "2026-08-27"
-    },
-    {
-      "label": "日本語サポート",
-      "value": "日本語のカスタマーサポート(メール・チャット)あり。アプリも日本語完全対応。",
-      "source": "SwitchBot サポート",
-      "source_url": "https://www.switchbot.jp/",
-      "checked": "2026-08-27"
-    }
-  ],
   "faq": [
     {
-      "slug": "switchbot-security",
-      "question": "SwitchBotって危険性あるんですか?盗聴とかそういったリスクはあるんでしょうか",
+      "slug": "switchbot-country-of-origin",
+      "question": "SwitchBot(スイッチボット)をつくった企業はどこの国の企業ですか?",
       "source": {
-        "platform": "Quora(日本語版)",
-        "url": "https://jp.quora.com/SwitchBot%E3%81%A3%E3%81%A6%E5%8D%B1%E9%99%BA%E6%80%A7%E3%81%82%E3%82%8B%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B-%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%A6%E3%81%A9%E3%81%86%E3%81%93%E3%81%86%E3%81%A7%E3%81%AF",
-        "original": "SwitchBotって危険性あるんですか?使っていてどうこうではなく、例えば盗聴とかそういったリスクはあるんでしょうか。"
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11248605836",
+        "original": "「スイッチボット」をつくった企業はどこの国の企業ですか?"
       },
-      "answer": "SwitchBot製品が他社のスマートホーム機器と比べて特別に危険という公的な根拠は現時点でありません。2025年にはアプリの脆弱性が外部研究者から報告され、修正版が公開されました。脆弱性が見つかること自体は全てのIoT機器で起こることで、重要なのは修正が迅速かどうかです。通信の暗号化や二段階認証は提供されています。カメラ・マイク搭載機を寝室に置かない、二段階認証を有効にする、ファームウェアを最新に保つ、といった基本対策でリスクは大きく下げられます。",
+      "answer": "中国企業です。SwitchBotブランドを展開するのは中国・深圳市に本社を置くWOAN Technology(深圳市悟空智能科技有限公司)で、後付け型のスマートホーム機器を主力としています。日本市場向けにはSWITCHBOT株式会社という日本法人があり、日本語の公式サイト、サポート窓口、保証対応はこの法人が担っています。日本法人の設立年や法人番号は国税庁の法人番号公表サイトで確認できますが、本サイトでは未取得です【要確認】。なお「ブランドの国」と「製造国」「データの保管先」は別の論点です。",
       "facts": [
+        {
+          "label": "正式社名",
+          "value": "WOAN Technology(深圳市悟空智能科技有限公司)",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "中国・深圳市",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人",
+          "value": "SWITCHBOT株式会社。法人番号・設立年は未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-japanese-alternatives",
+      "question": "SwitchBotのような製品を出している日本の企業はありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14283966994",
+        "original": "スイッチボットみたいな日本の企業はありますか?"
+      },
+      "answer": "あります。代表的なのは、スマートリモコン「Nature Remo」のNature株式会社と、スマートロック「SESAME」のCANDY HOUSEです。いずれも日本に拠点を持ち、日本語サポートと国内保証を自社で行っています。ただしSwitchBotのように、ボット・カーテン・ハブ・カメラまでを一社のエコシステムで網羅するラインアップではなく、カテゴリごとに得意分野が分かれます。両社の資本構成や規模の詳細は公開情報が限られます【要確認】。",
+      "facts": [
+        {
+          "label": "国内の同種ブランド",
+          "value": "Nature Remo(Nature株式会社)、SESAME(CANDY HOUSE)などが該当",
+          "source": "Nature 公式サイト",
+          "source_url": "https://nature.global/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "SwitchBotの国内競合",
+          "value": "Nature Remo(日本)、SESAME/CANDY HOUSE、Aqara、TP-Link Tapo",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人実在の確認方法",
+          "value": "各社の法人格・所在地は国税庁法人番号公表サイトで法人名検索により確認可能。本サイトでは未取得【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-hacking-risk",
+      "question": "SwitchBotのようなスマートホーム機器はハッキングされたら危険ではないですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13275047238",
+        "original": "スイッチボットとかってハッキングされたらやばくないですか?"
+      },
+      "answer": "リスクはゼロではありませんが、運用側の対策で実用上のレベルまで下げられます。SwitchBot固有の重大被害が公的機関から注意喚起された事例は確認できていません【要確認】が、2025年にはアプリの脆弱性が外部研究者から報告され、修正版が公開されました。脆弱性の発見自体はIoT機器全般で起こることで、重要なのは修正の速さと利用者側の運用です。二段階認証の有効化、使い回さないパスワード、アプリとファームウェアの最新化、共有アカウントの棚卸しが有効で、玄関の鍵やカメラから優先して見直してください。",
+      "facts": [
+        {
+          "label": "脆弱性対応",
+          "value": "2025年にiOS/Androidアプリの脆弱性報告を受け修正版を公開済み",
+          "source": "SwitchBot 公式お知らせ",
+          "source_url": "https://www.switchbot.jp/pages/switchbot-app-vulnerability-fix202507",
+          "checked": "2026-08-27"
+        },
         {
           "label": "公的な注意喚起",
           "value": "SwitchBot固有の重大インシデントの公表事例は確認されていない【要確認】",
-          "source": "IPA・NISC等の公表情報",
+          "source": "IPA 情報処理推進機構",
           "source_url": "https://www.ipa.go.jp/",
           "checked": "2026-08-27"
         },
         {
           "label": "セキュリティ機能",
-          "value": "通信暗号化・二段階認証を提供",
+          "value": "通信の暗号化・二段階認証を提供",
           "source": "SwitchBot 公式サイト",
           "source_url": "https://www.switchbot.jp/",
           "checked": "2026-08-27"
         },
         {
           "label": "推奨対策",
-          "value": "IoT機器一般の対策(認証強化・最新FW維持)が総務省から公表されている",
+          "value": "認証強化・最新ファームウェア維持などIoT機器共通の対策が総務省から公表されている",
           "source": "総務省 IoTセキュリティ対策",
           "source_url": "https://www.soumu.go.jp/",
-          "checked": "2026-08-27"
-        },
-        {
-          "label": "脆弱性対応",
-          "value": "2025年にアプリ脆弱性の報告を受け修正版を公開",
-          "source": "SwitchBot 公式お知らせ",
-          "source_url": "https://www.switchbot.jp/pages/switchbot-app-vulnerability-fix202507",
           "checked": "2026-08-27"
         }
       ]
     },
     {
-      "slug": "switchbot-unknown-device",
-      "question": "アプリに知らないSwitchBotデバイスが表示されるのはなぜ?乗っ取られていますか?",
+      "slug": "switchbot-camera-hacking-check",
+      "question": "見守りカメラを買いましたが、ハッキングされていないか確認する方法はありますか?",
       "source": {
         "platform": "Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10281622495",
-        "original": "SwitchBotについて質問です。今朝、知らないSwitchBotが…"
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14247254749",
+        "original": "見守りカメラを買ったのですがハッキングされてないかなどと考えるようになりました"
       },
-      "answer": "多くの場合、近隣の住戸にあるSwitchBot機器がBluetoothの探索範囲に入って見えているだけで、乗っ取りではありません。SwitchBotのBluetooth機器は電波が届く範囲でアプリの検索結果に表示されることがありますが、あなたのアカウントに追加されない限り操作履歴・データにはアクセスされません。逆に自分の機器を近隣から見えにくくするには、パスワード設定(ボット・ロック等で可能)と、ハブ経由運用にすることが有効です。身に覚えのない機器が「自分のアカウント内」に追加されている場合のみ、パスワード変更と二段階認証の設定を行ってください。",
+      "answer": "まず設定の点検から始めてください。ネットワークカメラ全般に不正アクセスの事例はあり、原因の多くは機器への侵入ではなくアカウントの乗っ取りやパスワードの使い回しです。確認すべきは、(1)パスワードを他サービスと共有していないか、(2)二段階認証が有効か、(3)過去に共有したアカウントが残っていないか、(4)アプリとファームウェアが最新か、(5)ログイン履歴や操作履歴に不審な記録がないか、の5点です。形跡があれば履歴を添えて公式サポートへ相談してください。",
       "facts": [
         {
-          "label": "Bluetooth仕様",
-          "value": "電波範囲内の機器は未ペアリングでも検索に表示されることがある",
-          "source": "SwitchBot サポート",
+          "label": "セキュリティ機能",
+          "value": "通信の暗号化・二段階認証を提供",
+          "source": "SwitchBot 公式サイト",
           "source_url": "https://www.switchbot.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "操作可否",
-          "value": "アカウントに追加されない限り遠隔操作・データ閲覧は不可【要確認】",
-          "source": "SwitchBot サポート",
+          "label": "推奨対策",
+          "value": "IoT機器共通の対策(パスワード使い回し回避・認証強化・最新FW維持)が総務省から公表されている",
+          "source": "総務省 IoTセキュリティ対策",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談先",
+          "value": "不正アクセスが疑われる場合はIPAの情報セキュリティ相談窓口等の公的窓口が利用できる【要確認】",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "ログの確認可否",
+          "value": "アプリ上で操作履歴・ログイン履歴を確認できる範囲は製品により異なる【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-lock-unauthorized-unlock",
+      "question": "SwitchBotロックを他人に解錠されました。どう対処すればよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14294284009",
+        "original": "スイッチボットロックを他人に解錠されました"
+      },
+      "answer": "不正解錠が疑われる場合は、解錠権限の遮断を最優先で進めてください。(1)アプリの解錠履歴で日時と操作元(どのアカウント・どの手段か)を記録、(2)パスワードを直ちに変更し二段階認証を有効化、(3)ファミリー共有・ゲストパスコード・NFCカード・指紋など登録済みの解錠手段を全件確認し不明なものを削除、(4)必要なら本体を初期化して再登録、(5)物理鍵や合鍵の所在も確認、の順です。第三者の侵入の可能性があるなら住居侵入等にあたり得るため、警察への相談と履歴を添えたサポートへの連絡を並行してください。",
+      "facts": [
+        {
+          "label": "解錠手段の管理",
+          "value": "ファミリー共有・パスコード・NFCカード・指紋等の登録内容はアプリから確認・削除できる【要確認】",
+          "source": "SwitchBot 公式サイト",
           "source_url": "https://www.switchbot.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "対策",
-          "value": "デバイスのパスワード設定・二段階認証が利用可能",
+          "label": "アカウント保護",
+          "value": "二段階認証を提供。パスワード変更と併せて実施が推奨される",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談先",
+          "value": "不正アクセスの相談はIPAの公的窓口、侵入被害の可能性がある場合は警察への相談が想定される【要確認】",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "賃貸物件での留意点",
+          "value": "スマートロックは法令上の資格要件はないが、賃貸では管理会社の許可・報告が必要な場合がある",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-phone-support",
+      "question": "SwitchBotのカスタマーサポートに電話は繋がりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14301259239",
+        "original": "スイッチボットのカスタマーサポートの電話って繋がることあるんですか?"
+      },
+      "answer": "公開情報で確認できる範囲では、SwitchBotの日本語サポートはメールとアプリ内チャットが中心です。一般ユーザー向けの電話窓口が常設されているかは公式サイトの記載からは確認できません【要確認】。「繋がるか」以前に電話受付の有無自体が未確認であり、接続率のような数値も公開されていないため本サイトでは断定しません。実務的には、アプリ内チャットまたは公式サポートフォームから、製品型番・購入日・注文番号・症状が分かる動画を添えて連絡するのが最短です。",
+      "facts": [
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(メール・チャット)。アプリも日本語完全対応",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "電話窓口の有無",
+          "value": "一般ユーザー向け電話窓口の常設は公開情報では確認できない【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-warranty-registration",
+      "question": "SwitchBotの製品保証は、購入時の製品登録がないと受けられないのですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12312784037",
+        "original": "Switchbotの製品保証についてです。購入した際に製品登録した記憶があるのですが"
+      },
+      "answer": "保証の起点は原則として「購入日を証明できること」で、製品登録の有無だけで決まるものではありません。SwitchBot製品の保証期間は多くが購入から1年間で、公式ストア購入時に延長される場合があります【要確認】。登録記録が見つからなくても、注文履歴やレシートなど購入日が分かる書類があれば申請できるのが一般的です【要確認】。登録状況はアプリのアカウント情報や確認メールで照会でき、不明なら型番と購入日を伝えてサポートに確認するのが確実です。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "多くの製品で購入から1年間。公式ストア購入で延長される場合あり【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "交換対応が中心【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "製品登録と保証の関係",
+          "value": "登録が保証の絶対条件かどうかは公開情報では確認できない。購入証明の保管が確実【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-vs-nature-remo",
+      "question": "SwitchBotとNature Remo(ネイチャーリモ)はブランドとしてどう違いますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12297537167",
+        "original": "SwitchBotとネイチャーリモで迷っています"
+      },
+      "answer": "ブランドの成り立ちが違います。SwitchBotは中国・深圳のWOAN Technologyのブランドで、日本法人SWITCHBOT株式会社があり、リモコンに加えロック・カーテン・カメラまで自社エコシステムで揃うのが特徴です。Nature Remoは日本のNature株式会社のブランドで、スマートリモコンとエネルギー関連に軸足があり、開発もサポートも国内体制です。機器を1つのアプリで増やしたいならSwitchBot、日本企業による開発・サポートを重視するならNatureという整理です。",
+      "facts": [
+        {
+          "label": "SwitchBot",
+          "value": "中国・深圳のWOAN Technology。日本法人SWITCHBOT株式会社あり。ロック・カーテン・カメラ等まで展開",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "Nature Remo",
+          "value": "日本のNature株式会社のブランド。スマートリモコンとエネルギー領域が中心",
+          "source": "Nature 公式サイト",
+          "source_url": "https://nature.global/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人情報の確認方法",
+          "value": "両社の日本法人の所在地・設立年は国税庁法人番号公表サイトで確認可能。本サイトでは未取得【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-eavesdropping-risk",
+      "question": "SwitchBotに盗聴などのリスクはありますか?",
+      "source": {
+        "platform": "Quora(日本語版)",
+        "url": "https://jp.quora.com/SwitchBot%E3%81%A3%E3%81%A6%E5%8D%B1%E9%99%BA%E6%80%A7%E3%81%82%E3%82%8B%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B-%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%A6%E3%81%A9%E3%81%86%E3%81%93%E3%81%86%E3%81%A7%E3%81%AF",
+        "original": "SwitchBotって危険性あるんですか?使っていてどうこうではなく、例えば盗聴とかそういったリスクはあるんでしょうか。"
+      },
+      "answer": "マイクやカメラを搭載しない機器(ボット、温湿度計、カーテン等)では、盗聴は原理的に起こりません。関係するのは見守りカメラなど音声・映像を扱う機種で、想定される経路はアカウントの乗っ取りとアプリ・ファームウェアの脆弱性です。2025年にはアプリの脆弱性が報告され、修正版が公開されました。SwitchBot固有の盗聴被害が公的機関から公表された事例は確認できていません【要確認】。対策は二段階認証の有効化、パスワードの使い回し回避、最新版の維持です。",
+      "facts": [
+        {
+          "label": "対象機器の切り分け",
+          "value": "マイク・カメラ非搭載機(ボット・温湿度計・カーテン等)は音声取得の機能自体を持たない",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "脆弱性対応",
+          "value": "2025年にアプリ脆弱性の報告を受け修正版(v9.13以降)を公開済み",
+          "source": "SwitchBot 公式お知らせ",
+          "source_url": "https://www.switchbot.jp/pages/switchbot-app-vulnerability-fix202507",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的な注意喚起",
+          "value": "SwitchBot固有の盗聴被害に関する公的な公表事例は確認されていない【要確認】",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-wifi-password-safety",
+      "question": "SwitchBotアプリでWi-Fiパスワードの入力を求められますが、安全ですか?",
+      "source": {
+        "platform": "教えて!goo",
+        "url": "https://oshiete.goo.ne.jp/qa/12293628.html",
+        "original": "アプリ「switchbot」でWi-Fiパスワードを求められることの安全性"
+      },
+      "answer": "Wi-Fiパスワードの入力自体は、Wi-Fi対応IoT機器のセットアップでは一般的な手順です。機器がルーターに接続するにはSSIDとパスワードが必要で、スマホからBluetooth等で機器へ渡す構成が標準的だからです。したがって求められること自体は異常ではありません。ただし、その資格情報がどう暗号化され、メーカーのクラウドに送信・保存されるかまでは公開情報から確認できません【要確認】。気になる場合はIoT専用SSIDやゲストネットワークに接続させる運用で影響範囲を限定できます。",
+      "facts": [
+        {
+          "label": "設定手順の一般性",
+          "value": "Wi-Fi対応IoT機器はセットアップ時にSSIDとパスワードの入力を必要とするのが一般的",
+          "source": "総務省 IoTセキュリティ対策",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "資格情報の取扱い",
+          "value": "暗号化方式やクラウドへの送信・保存の有無は公開情報では確認できない【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "推奨される運用",
+          "value": "ネットワーク分離やパスワード管理などIoT機器共通の対策が公的機関から公表されている",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "WOAN Technology(深圳市悟空智能科技有限公司)",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "中国・深圳市",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "2015年頃【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "未確認 — 公式会社情報で要確認",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "非上場【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "未確認 — 公開資料なし",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 非上場のため公開情報なし",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "後付け型スマートホーム機器。クラウドファンディング発の製品開発が起点",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "SWITCHBOT株式会社",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "未確認 — 国税庁法人番号公表サイトで要確認",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "東京都【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "未確認 — 公式発表で要確認",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "なし(オンラインおよび量販店流通が中心)",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、Amazon、楽天市場、Yahoo!ショッピング、家電量販店",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(switchbot.jp)",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Bluetooth/Wi-Fi搭載製品は日本正規品で技適取得済み。型番ごとに総務省DBで確認可能【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "ハブ・電源アダプタ等は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "スマートロックは法令上の資格要件なし。ただし賃貸物件では管理会社の許可が必要な場合がある",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "セキュリティ上の公表事案",
+          "value": "2025年にiOS/Androidアプリの脆弱性が外部研究者から報告され、修正版(v9.13以降)を公開済み",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "多くの製品で購入から1年間。公式ストア購入で延長される場合あり【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "公式ストア購入時の延長あり【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "交換対応が中心【要確認】",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(メール・チャット)。アプリも日本語完全対応",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 公式サポートページで要確認",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "電池・粘着テープ等の消耗品は公式ストアで購入可",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "スマートスイッチ(ボット)、スマートロック、ハブ、カーテン自動化",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "単品2,000〜10,000円前後、スマートロック等で1〜3万円",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "SwitchBot ボット、ハブ、スマートロック、カーテン、温湿度計、見守りカメラ、ロボット掃除機",
+          "source": "SwitchBot 公式サイト",
+          "source_url": "https://www.switchbot.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "Nature Remo(日本)、SESAME/CANDY HOUSE、Aqara、TP-Link Tapo",
           "source": "SwitchBot 公式サイト",
           "source_url": "https://www.switchbot.jp/",
           "checked": "2026-08-27"

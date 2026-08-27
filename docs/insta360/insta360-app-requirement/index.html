@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insta360のカメラは専用アプリが必須ですか?(GO 3Sを購入した場合) | ブランドファクト</title>
+<meta name="description" content="Insta360製品は専用アプリと組み合わせて使う設計が基本とされ、初期設定・ファームウェア更新・編集機能の多くがアプリ側にあります【要確認】。アプリは日本語対応で、対応機種やダウンロード先は公式サポートページから確認できます。ただしアカウ">
+<link rel="canonical" href="https://ptthegreat.github.io/PS-test/insta360/insta360-app-requirement/">
+<style>
+:root { --fg:#222; --muted:#707070; --line:#dcdcdc; --accent:#b71c1c;
+        --accent2:#1a237e; --bg:#fff; --bg2:#f7f7f5; --q:#b71c1c; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html { font-size:15px; }
+body { font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",
+       "Yu Gothic Medium","Meiryo",sans-serif; color:var(--fg);
+       background:var(--bg); line-height:1.85; }
+main { max-width:760px; margin:0 auto; padding:0 1rem 3rem; }
+header.site { background:var(--bg); border-bottom:3px solid var(--accent); }
+header.site .inner { max-width:760px; margin:0 auto; padding:0.7rem 1rem; }
+header.site a.logo { color:var(--fg); text-decoration:none; font-weight:800;
+                     font-size:1.15rem; letter-spacing:0.02em; }
+header.site .tag { color:var(--muted); font-size:0.72rem; display:block; }
+nav.crumb { font-size:0.75rem; color:var(--muted); padding:0.6rem 0 0; }
+nav.crumb a { color:var(--accent2); text-decoration:none; }
+nav.crumb span.sep { margin:0 0.35rem; }
+h1 { font-size:1.45rem; line-height:1.5; margin:0.7rem 0 0.3rem; font-weight:800; }
+.meta { font-size:0.75rem; color:var(--muted); margin-bottom:1rem;
+        display:flex; gap:0.8rem; flex-wrap:wrap; align-items:center; }
+.badge { display:inline-block; font-size:0.72rem; font-weight:700; color:#fff;
+         background:var(--accent2); border-radius:3px; padding:0.05rem 0.5rem; }
+.badge.jp { background:var(--accent); }
+h2 { font-size:1.08rem; margin:2rem 0 0.7rem; padding:0.35rem 0.6rem;
+     background:var(--bg2); border-left:5px solid var(--accent); font-weight:700; }
+p.answer { background:#fdf6f6; border:1px solid #ecd5d5; border-radius:6px;
+           padding:0.9rem 1rem 0.9rem 1rem; margin:0.3rem 0 1rem; }
+p.answer::before { content:"結論"; display:inline-block; background:var(--accent);
+           color:#fff; font-size:0.72rem; font-weight:700; border-radius:3px;
+           padding:0.02rem 0.5rem; margin-right:0.5rem; vertical-align:0.1em; }
+p.summary { margin-bottom:0.8rem; }
+.toc { border:1px solid var(--line); border-radius:6px; background:var(--bg2);
+       padding:0.7rem 1rem; margin:1rem 0; font-size:0.85rem; }
+.toc .toc-title { font-weight:700; font-size:0.8rem; color:var(--muted); }
+.toc ol { margin:0.2rem 0 0 1.3rem; }
+.toc a { color:var(--accent2); text-decoration:none; }
+.table-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:0.86rem; line-height:1.6; }
+th, td { text-align:left; padding:0.5rem 0.6rem; border:1px solid var(--line);
+         vertical-align:top; }
+thead th { background:var(--bg2); color:var(--fg); font-size:0.8rem; }
+tbody th { background:var(--bg2); white-space:nowrap; font-weight:600;
+           width:9.5em; }
+td.src { font-size:0.75rem; color:var(--muted); }
+td.src a { color:var(--accent2); }
+ul.qlist { list-style:none; }
+ul.qlist li { border-bottom:1px dotted var(--line); }
+ul.qlist a { display:flex; gap:0.55rem; padding:0.6rem 0.2rem; color:var(--fg);
+             text-decoration:none; align-items:baseline; }
+ul.qlist a::before { content:"Q"; color:#fff; background:var(--q); font-weight:800;
+             font-size:0.78rem; border-radius:3px; padding:0 0.42rem; flex:none; }
+ul.qlist a:hover { color:var(--accent); }
+ul.blist { list-style:none; }
+ul.blist li { border-bottom:1px dotted var(--line); }
+ul.blist a { display:flex; gap:0.6rem; padding:0.6rem 0.2rem; color:var(--fg);
+             text-decoration:none; align-items:baseline; flex-wrap:wrap; }
+ul.blist a:hover { color:var(--accent); }
+ul.blist .desc { color:var(--muted); font-size:0.8rem; }
+details.faq { border:1px solid var(--line); border-radius:6px; margin:0.5rem 0;
+              background:var(--bg); }
+details.faq summary { cursor:pointer; padding:0.6rem 0.8rem; font-weight:700;
+              font-size:0.92rem; list-style:none; display:flex; gap:0.55rem;
+              align-items:baseline; }
+details.faq summary::before { content:"Q"; color:#fff; background:var(--q);
+              font-weight:800; font-size:0.78rem; border-radius:3px;
+              padding:0 0.42rem; flex:none; }
+details.faq[open] summary { border-bottom:1px dotted var(--line); }
+details.faq .faq-a { padding:0.7rem 0.9rem; font-size:0.9rem; }
+details.faq .faq-a a { color:var(--accent2); }
+.tldr { border:1px solid #d7c9a7; background:#fdfbf3; border-radius:6px;
+        padding:0.75rem 1rem 0.85rem; margin:1rem 0; }
+.tldr-t { display:inline-block; background:#8a6d1f; color:#fff; font-size:0.72rem;
+          font-weight:700; border-radius:3px; padding:0.05rem 0.55rem; }
+.tldr ul { list-style:none; margin:0.5rem 0 0; font-size:0.88rem; }
+.tldr li { padding:0.18rem 0; border-bottom:1px dotted #e3d9c0; }
+.tldr li:last-child { border-bottom:none; }
+.tldr b { display:inline-block; min-width:9em; color:var(--muted); font-weight:600;
+          font-size:0.8rem; }
+ul.srclist { list-style:none; font-size:0.82rem; columns:2; column-gap:1.5rem; }
+ul.srclist li { padding:0.15rem 0; break-inside:avoid; }
+ul.srclist a { color:var(--accent2); }
+@media (max-width:560px) { ul.srclist { columns:1; } .tldr b { min-width:auto; display:block; } }
+.bgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
+         gap:0.7rem; }
+a.bcard { display:block; border:1px solid var(--line); border-top:3px solid var(--accent2);
+          border-radius:6px; padding:0.65rem 0.8rem 0.75rem; text-decoration:none;
+          color:var(--fg); background:var(--bg); }
+a.bcard.jp { border-top-color:var(--accent); }
+a.bcard:hover { background:var(--bg2); }
+.bcard .bname { font-weight:800; font-size:1.02rem; display:block; margin:0.3rem 0 0; }
+.bcard .ben { color:var(--muted); font-size:0.7rem; letter-spacing:0.05em; }
+.bcard .bdesc { font-size:0.76rem; color:var(--muted); line-height:1.65;
+                display:block; margin-top:0.35rem; }
+.bcard .qcount { display:inline-block; margin-top:0.45rem; font-size:0.7rem;
+                 color:var(--accent2); border:1px solid var(--line); border-radius:3px;
+                 padding:0 0.4rem; }
+.qgroup { margin:1.3rem 0 0.1rem; font-size:0.88rem; font-weight:700; }
+.unverified { color:#d32f2f; }
+.legend { font-size:0.75rem; color:var(--muted); margin:0.4rem 0 0; }
+.legend .unverified { font-weight:700; }
+.qsource { font-size:0.8rem; background:var(--bg2); border:1px solid var(--line);
+           border-radius:6px; padding:0.5rem 0.8rem; margin:0 0 1rem; color:var(--muted); }
+.qsource a { color:var(--accent2); }
+.notice { font-size:0.75rem; color:var(--muted); border:1px dashed var(--line);
+          border-radius:6px; padding:0.55rem 0.8rem; margin:1.5rem 0 0;
+          background:var(--bg2); }
+footer { border-top:1px solid var(--line); margin-top:2rem; background:var(--bg2); }
+footer .inner { max-width:760px; margin:0 auto; padding:1.2rem 1rem 2.5rem;
+                color:var(--muted); font-size:0.75rem; }
+footer a { color:var(--accent2); }
+a.back { color:var(--accent2); font-size:0.85rem; text-decoration:none; }
+.updated-note { font-size:0.75rem; color:var(--muted); }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ja", "mainEntity": [{"@type": "Question", "name": "Insta360のカメラは専用アプリが必須ですか?(GO 3Sを購入した場合)", "sameAs": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11310095071", "acceptedAnswer": {"@type": "Answer", "text": "Insta360製品は専用アプリと組み合わせて使う設計が基本とされ、初期設定・ファームウェア更新・編集機能の多くがアプリ側にあります【要確認】。アプリは日本語対応で、対応機種やダウンロード先は公式サポートページから確認できます。ただしアカウント登録が必須か、本体単体でどこまで使えるかは機種やファームウェアにより異なり、公開情報から一律には断定できません【要確認】。個別機種の操作手順は日本語対応の公式サポート窓口への問い合わせが確実です。機種別の操作解説は専門メディアをご参照ください。"}}], "url": "https://ptthegreat.github.io/PS-test/insta360/insta360-app-requirement/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://ptthegreat.github.io/PS-test/"}, {"@type": "ListItem", "position": 2, "name": "Insta360(インスタ360)", "item": "https://ptthegreat.github.io/PS-test/insta360/"}, {"@type": "ListItem", "position": 3, "name": "Insta360のカメラは専用アプリが必須ですか?(GO 3Sを購入した場合)", "item": "https://ptthegreat.github.io/PS-test/insta360/insta360-app-requirement/"}]}</script>
+</head>
+<body>
+<header class="site"><div class="inner">
+<a class="logo" href="/PS-test/">ブランドファクト</a>
+<span class="tag">すべての記載に出典と確認日を明記 | ブランドの事実だけを集めるサイト</span>
+</div></header>
+<main>
+<nav class="crumb" aria-label="パンくずリスト"><a href="/PS-test/">ホーム</a><span class="sep">›</span><a href="/PS-test/insta360/">Insta360(インスタ360)</a><span class="sep">›</span>Insta360のカメラは専用アプリが必須ですか?(GO 3Sを購入した場合)</nav><h1>Insta360のカメラは専用アプリが必須ですか?(GO 3Sを購入した場合)</h1><div class="meta"><span class="updated-note">最終確認日: 2026-08-27</span></div><p class="qsource">この質問は実際のユーザー投稿に基づいています: Yahoo!知恵袋 「Insta360のアプリについて質問です。GO3sを購入したのですが」 <a href="https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11310095071" rel="noopener nofollow">元の投稿を見る</a></p><p class="answer">Insta360製品は専用アプリと組み合わせて使う設計が基本とされ、初期設定・ファームウェア更新・編集機能の多くがアプリ側にあります【要確認】。アプリは日本語対応で、対応機種やダウンロード先は公式サポートページから確認できます。ただしアカウント登録が必須か、本体単体でどこまで使えるかは機種やファームウェアにより異なり、公開情報から一律には断定できません【要確認】。個別機種の操作手順は日本語対応の公式サポート窓口への問い合わせが確実です。機種別の操作解説は専門メディアをご参照ください。</p><h2>根拠となる事実</h2><div class="table-wrap"><table><thead><tr><th>項目</th><th>内容</th><th>出典 / 確認日</th></tr></thead><tbody><tr><th scope="row">アプリの位置づけ</th><td><span class="unverified">初期設定・ファームウェア更新・編集の多くを専用アプリが担う設計とされる【要確認】</span></td><td class="src"><a href="https://www.insta360.com/jp/support" rel="noopener">Insta360 公式サポート</a><br>確認日: 2026-08-27</td></tr><tr><th scope="row">日本語対応</th><td>公式サイト・アプリともに日本語対応。日本語サポート窓口あり</td><td class="src"><a href="https://www.insta360.com/jp/" rel="noopener">Insta360 公式サイト</a><br>確認日: 2026-08-27</td></tr><tr><th scope="row">アカウント登録の要否</th><td><span class="unverified">未確認 — 機種・ファームウェアにより異なり、公開情報では一律に断定できない【要確認】</span></td><td class="src"><a href="https://www.insta360.com/jp/support" rel="noopener">Insta360 公式サポート</a><br>確認日: 2026-08-27</td></tr></tbody></table></div><p class="legend"><span class="unverified">赤字</span>は一次情報源での確認が済んでいない項目です。</p><h2>ブランドの基本情報</h2><ul class="blist"><li><a href="/PS-test/insta360/">Insta360(インスタ360)のブランド事実ページ<span class="desc">企業プロフィール・日本法人・規制・保証など全31項目</span></a></li></ul><h2>Insta360(インスタ360)についての他の質問</h2><ul class="qlist"><li><a href="/PS-test/insta360/insta360-is-japanese-company/">Insta360は日本の会社ですか?(深圳嵐ビジョン株式会社という表記について)</a></li><li><a href="/PS-test/insta360/insta360-app-security/">Insta360の編集アプリに安全性の問題はありますか?</a></li><li><a href="/PS-test/insta360/insta360-vs-ricoh-theta-brand/">中国のInsta360と日本のリコー(THETA)は、ブランドとしてどう違いますか?</a></li><li><a href="/PS-test/insta360/insta360-gopro-brand-difference/">Insta360とGoProは、ブランドとしてどこが違いますか?</a></li><li><a href="/PS-test/insta360/insta360-repair-after-warranty/">Insta360 X5が破損した場合、どこで修理してもらえますか?保証期間が切れた後はどうなりますか?</a></li><li><a href="/PS-test/insta360/insta360-retail-stores-japan/">Insta360製品を実店舗で扱っているところはどのくらいありますか?</a></li><li><a href="/PS-test/insta360/insta360-official-store-payment/">Insta360公式ストアでのクレジットカード決済について教えてください</a></li><li><a href="/PS-test/insta360/insta360-flow2-pro-giteki/">Insta360 Flow 2 Proに技適マークは必要ですか?</a></li><li><a href="/PS-test/insta360/insta360-link-work-pc/">Insta360 Linkを会社のノートPCで使っても問題ありませんか?</a></li></ul><p class="notice">このページはサンプルコンテンツです。公開前に日本語ネイティブによる校閲と、各事実の一次情報源での再確認(【要確認】箇所)が必要です。</p><p style="margin-top:2rem"><a class="back" href="/PS-test/insta360/">← Insta360(インスタ360)のページへ戻る</a></p>
+</main>
+<footer><div class="inner">
+<p><a href="/PS-test/about/">サイトについて・運営方針</a></p>
+<p>掲載情報には出典と確認日を明記しています。誤りを見つけた場合は出典とあわせてご指摘ください。
+機種ごとの性能比較は行いません(実測レビューは専門メディアをご参照ください)。</p>
+</div></footer>
+</body>
+</html>
