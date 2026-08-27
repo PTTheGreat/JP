@@ -398,6 +398,204 @@
           "checked": "2026-08-27"
         }
       ]
+    },
+    {
+      "slug": "balmuda-topic-6201",
+      "question": "バルミューダの経営は大丈夫？2026年の業績はどうなっている？",
+      "topical": true,
+      "answer": "2026年2月10日発表の2025年12月期決算は、売上高101億1500万円（前年同期比18.8%減）、営業損益8億6600万円の赤字（前年同期は1200万円の黒字）、純損益15億9600万円の赤字（同6700万円の黒字）で減収減益となった。在庫評価損で特別損失約5億円を計上したと報じられている。2026年12月期の通期予想は売上高105億円（前期比3.8%増）、営業利益3000万円、経常利益1500万円、最終利益1000万円と黒字転換を目指す計画。ただし2026年12月期第1四半期（1〜3月）は売上高17億7500万円（前年同期比18.7%減）・最終損失2億8400万円、中間期（1〜6月）は売上高43億6500万円（同15.8%減）・営業損失3億1400万円（前年同期は3億8400万円の営業損失）と赤字が続いており、赤字幅は縮小しているものの通期黒字化の達成可否は未確認。中間決算時点で通期予想は据え置かれている。",
+      "sources": [
+        {
+          "name": "ITmedia NEWS「バルミューダ、決算赤転 純損益6700万円の黒字→15億円超の赤字に 25年12月期通期」",
+          "url": "https://www.itmedia.co.jp/news/articles/2602/10/news110.html",
+          "published": "2026-02-10"
+        },
+        {
+          "name": "日本経済新聞「バルミューダの26年12月期、最終黒字転換めざす 前期は15億円の赤字」",
+          "url": "https://www.nikkei.com/article/DGXZQOUC1072L0Q6A210C2000000/",
+          "published": "2026-02-10"
+        },
+        {
+          "name": "日本経済新聞「バルミューダの最終赤字2億8400万円 1〜3月、国内家電不調で」",
+          "url": "https://www.nikkei.com/article/DGXZQOUC158OI0V10C26A5000000/",
+          "published": "2026-05-15"
+        },
+        {
+          "name": "ITmedia NEWS「バルミューダ、赤字続くも『各段階の損益は改善』 6万円の『The Clock』は予約1000台超に」",
+          "url": "https://www.itmedia.co.jp/news/articles/2605/18/news124.html",
+          "published": "2026-05-18"
+        },
+        {
+          "name": "seventietwo「バルミューダの中間決算は『セイリング・ランタン』が海外でヒットも3億1400万円の営業赤字」",
+          "url": "https://www.seventietwo.com/ja/business/Balmuda_2026Q2_20260807",
+          "published": "2026-08-07"
+        },
+        {
+          "name": "seventietwo「バルミューダの通期決算は15億円の最終赤字 全カテゴリー二桁減が意味するもの」",
+          "url": "https://www.seventietwo.com/ja/business/Balmuda_2025FYsettlement_20260210",
+          "published": "2026-02-10"
+        }
+      ]
+    },
+    {
+      "slug": "balmuda-topic-5537",
+      "question": "BALMUDA Phoneのサポートはいつ終わる？2026年9月30日以降はどうなる？",
+      "topical": true,
+      "answer": "バルミューダは、2026年9月30日（水）をもってBALMUDA Phoneおよび関連アプリのサポート・サービス、ならびにアクセサリの販売を終了すると公表している。具体的には修理受付・サポート受付、「スケジューラ」アプリのダウンロード提供が終了する。定期的なセキュリティアップデートは2023年11月をもってすでに終了しており、本体の販売も2024年9月30日で終了している。販売終了後も端末とアプリ自体は引き続き利用できるとされているが、9月30日以降は故障しても公式の修理・交換が受けられなくなる点に注意が必要。",
+      "sources": [
+        {
+          "name": "バルミューダ ニュース「BALMUDA Phoneおよび関連アプリのサポート、アクセサリの販売終了のお知らせ」",
+          "url": "https://www.balmuda.com/jp/news/3748",
+          "published": "不明"
+        },
+        {
+          "name": "JETStream「『BALMUDA Phone』修理サポートなど2026年9月30日（水）完全終了」",
+          "url": "https://jetstream.blog/2026/07/19/balmuda-phone-support-end-2026-september-30/",
+          "published": "2026-07-19"
+        },
+        {
+          "name": "すまほん!!「終売。でもまだ使えるBALMUDA Phone、修理・交換は2026年9月末まで」",
+          "url": "https://smhn.info/202410-good-bye-balmuda-phone",
+          "published": "不明"
+        },
+        {
+          "name": "ASCII.jp「バルミューダ『BALMUDA Phone』販売終了 アフターサービスは2026年まで」",
+          "url": "https://ascii.jp/elem/000/004/219/4219572/",
+          "published": "不明"
+        },
+        {
+          "name": "BALMUDA Technologies「携帯端末事業に関するお知らせ」",
+          "url": "https://tech.balmuda.com/jp/phone/announcement/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "balmuda-topic-4639",
+      "question": "バルミューダの修理費が高い／部品がないと言われた。買い替えるしかない？",
+      "topical": true,
+      "answer": "バルミューダは公式サイトに「サポート終了製品」ページを設けており、対象製品は保守サービスの提供および補修用性能部品の供給を終了していると告知している（2025年12月時点の記載が確認されている）。修理費については、オーブンレンジ「BALMUDA The Range」が保証期間経過後に故障し約26,000円の修理見積もりを提示された、修理依頼から返却まで約2週間かかったといったユーザー投稿がYahoo!知恵袋やブログで報告されている。修理条件の詳細は公式の「修理規約」に定められている。2026年時点での機種別の部品供給終了日一覧は今回の検索では取得できず、公式ページでの個別確認が必要（未確認）。",
+      "sources": [
+        {
+          "name": "バルミューダ公式「サポート終了製品」",
+          "url": "https://www.balmuda.com/jp/support/end-of-life/",
+          "published": "不明"
+        },
+        {
+          "name": "バルミューダ公式「修理規約」",
+          "url": "https://www.balmuda.com/jp/legal/repair",
+          "published": "不明"
+        },
+        {
+          "name": "Yahoo!知恵袋「バルミューダザレンジが１年４ヶ月で壊れました。」",
+          "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12234526682",
+          "published": "不明"
+        },
+        {
+          "name": "MAISON DE お片付け「バルミューダ・オーブンレンジが故障！驚きの修理費用！」",
+          "url": "https://maison-de-okatazuke.com/2023/07/04/balmude-the-range/",
+          "published": "2023-07-04"
+        },
+        {
+          "name": "バルミューダ公式「バルミューダ サポート」",
+          "url": "https://www.balmuda.com/jp/support/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "balmuda-topic-2514",
+      "question": "バルミューダは家電をやめるの？55万円のランタンや6万円の置き時計は何の方針転換？",
+      "topical": true,
+      "answer": "バルミューダはLoveFrom（ジョナサン・アイブ氏率いるデザインスタジオ）と共同開発したポータブルLEDランタン「Sailing Lantern」を発表した。世界1000台限定、価格55万円（税込）で、日本では2025年10月27日から受付、出荷は2026年3月以降とされる。2026年3月18日には置き時計型の新製品「The Clock」（59,400円税込）を予約開始し、4月中旬から出荷開始。The Clockは当初からグローバル展開を前提に企画され、睡眠とウェルビーイングに焦点を当てた製品とされている。2026年5月の決算発表時点でThe Clockの予約は1000台超と報じられた。寺尾玄社長は、これまでの「商品バリエーション拡大・販売地域拡大」路線から、収益性の高い商品・地域に絞る方針へ転換し「人員を含めて、すべての領域において軽量化を図る」と説明しているとされる。生活家電から完全撤退するという発表は確認できていない（未確認）。",
+      "sources": [
+        {
+          "name": "バルミューダ ニュース「LoveFromとBALMUDA 共同開発による『Sailing Lantern』を発表」",
+          "url": "https://www.balmuda.com/jp/news/3184",
+          "published": "不明"
+        },
+        {
+          "name": "バルミューダ ニュース「良い時間を過ごすためのプロダクト『The Clock』を発表」",
+          "url": "https://www.balmuda.com/jp/news/3527",
+          "published": "不明"
+        },
+        {
+          "name": "マイナビニュース「時間を“体験”するバルミューダ新デバイス『The Clock』を触ってみた」",
+          "url": "https://news.mynavi.jp/article/20260318-4231962/",
+          "published": "2026-03-18"
+        },
+        {
+          "name": "日経クロストレンド「バルミューダがジョナサン・アイブと共創、55万円ランタンが好調」",
+          "url": "https://xtrend.nikkei.com/atcl/contents/18/00947/00248/",
+          "published": "不明"
+        },
+        {
+          "name": "Impress Watch「赤字拡大の『バルミューダ』 55万円のランタンで起死回生なるか」",
+          "url": "https://www.watch.impress.co.jp/docs/topic/2062928.html",
+          "published": "不明"
+        },
+        {
+          "name": "家電 Watch「バルミューダの『The Clock』は、脱・生活家電への布石なのか?【老師オグチの家電カンフー】」",
+          "url": "https://kaden.watch.impress.co.jp/docs/column/kanhoo/2097907.html",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "balmuda-topic-3815",
+      "question": "2025〜2026年にバルミューダの新しいリコールはある？自分の製品は対象？",
+      "topical": true,
+      "answer": "オーブンレンジ「BALMUDA The Range」について、誤動作によりオーブン用ヒーター管が作動した場合に発煙・発火に至る可能性があるとして、バルミューダが自主回収および製品無償交換プログラムを実施しており、消費者庁リコール情報サイトにも掲載されている。専用窓口はTEL 0120-686-919（9時〜18時、平日および土日祝）。過去には「BALMUDA The Toaster」でも無償製品交換プログラムが実施された。2025〜2026年に新たに開始されたリコール・無償点検の事例は、今回の検索では確認できなかった（未確認）。最新情報は公式の「お客様への重要なお知らせ」ページと消費者庁リコール情報サイトで要確認。",
+      "sources": [
+        {
+          "name": "消費者庁 リコール情報サイト 商品情報詳細",
+          "url": "https://www.recall.caa.go.jp/result/detail.php?rcl=00000023408",
+          "published": "不明"
+        },
+        {
+          "name": "バルミューダ公式「お客様への重要なお知らせ」",
+          "url": "https://www.balmuda.com/jp/support/notice/",
+          "published": "不明"
+        },
+        {
+          "name": "経済産業省「リコール情報」",
+          "url": "https://www.meti.go.jp/product_safety/recall/",
+          "published": "不明"
+        },
+        {
+          "name": "バルミューダ公式「製品の不具合：よくあるご質問」",
+          "url": "https://faq.balmuda.com/category/4aefbc01-e530-4a1f-8403-be15e505a2dc/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "balmuda-topic-7886",
+      "question": "バルミューダの製品が終売になると聞いたが、今使っているモデルは買えなくなる？会社の規模はどうなっている？",
+      "topical": true,
+      "answer": "バルミューダは複数商品の終売を2026年に実行する予定とされ、販売終了商品の残材処理や開発途中商品の販売停止など「商品の整理整頓」を行うと説明していると報じられている。寺尾玄社長は収益性の高い商品・地域に集中し、生活家電カテゴリーでは物流やモノづくりを含めたさらなる軽量化が必要だとしている。従業員数は2022年度第4四半期の168人から2025年度第3四半期時点で102人に減少していると報じられている。どの具体的製品が終売対象かは今回の検索では確認できず（未確認）、公式サイトの製品ページおよび決算資料で要確認。株価は2026年8月21日時点で594.0円との情報があるが、出典が株式情報サイトのため要確認。",
+      "sources": [
+        {
+          "name": "Impress Watch「赤字拡大の『バルミューダ』 55万円のランタンで起死回生なるか」",
+          "url": "https://www.watch.impress.co.jp/docs/topic/2062928.html",
+          "published": "不明"
+        },
+        {
+          "name": "seventietwo「バルミューダの通期決算は15億円の最終赤字 全カテゴリー二桁減が意味するもの」",
+          "url": "https://www.seventietwo.com/ja/business/Balmuda_2025FYsettlement_20260210",
+          "published": "2026-02-10"
+        },
+        {
+          "name": "バルミューダ株式会社 IR「経営成績」",
+          "url": "https://corp.balmuda.com/management/",
+          "published": "不明"
+        },
+        {
+          "name": "QUICK Money World「バルミューダ (6612) の株価・株式」",
+          "url": "https://moneyworld.jp/stock/6612",
+          "published": "不明"
+        }
+      ]
     }
   ],
   "sections": [
@@ -642,6 +840,24 @@
           "checked": "2026-08-27"
         }
       ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-09-30",
+      "title": "BALMUDA Phoneのサポート・アクセサリ販売が終了",
+      "body": "バルミューダは2026年9月30日をもって、BALMUDA Phoneおよび関連アプリのサポート・サービスと、アクセサリの販売を終了すると公表しています。修理受付・サポート受付、「スケジューラ」アプリのダウンロード提供が終了します。定期的なセキュリティアップデートは2023年11月に、本体販売は2024年9月30日に終了済みです。",
+      "impact": "端末自体は使い続けられますが、故障しても修理は受けられなくなり、セキュリティ更新も行われません。業務利用や決済アプリでの利用はリスクを踏まえた判断が必要です。",
+      "source": "バルミューダ 公式ニュース",
+      "source_url": "https://www.balmuda.com/jp/news/3748"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "2025年12月期決算は減収減益 — 純損益15億9600万円の赤字",
+      "body": "2026年2月10日発表の2025年12月期決算は、売上高101億1500万円(前年同期比18.8%減)、営業損益8億6600万円の赤字、純損益15億9600万円の赤字となりました。在庫評価損で特別損失を計上したと報じられています【要確認】。2026年12月期は最終黒字転換を目指す通期予想を公表しています。",
+      "impact": "上場企業のため業績は四半期ごとに公開されます。長期保有する家電のブランドとして、部品供給やサポート体制の継続性を判断する材料になります。",
+      "source": "ITmedia NEWS(2026年2月10日)",
+      "source_url": "https://www.itmedia.co.jp/news/articles/2602/10/news110.html"
     }
   ]
 }

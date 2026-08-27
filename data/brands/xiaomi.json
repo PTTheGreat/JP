@@ -356,6 +356,174 @@
           "checked": "2026-08-27"
         }
       ]
+    },
+    {
+      "slug": "xiaomi-topic-2156",
+      "question": "Xiaomiのスマホが壊れたら日本のどこで修理できる？2026年に直営の修理拠点はできた？",
+      "topical": true,
+      "answer": "シャオミは2026年2月28日、日本初の直営アフターサービス拠点「Xiaomi Service Center 秋葉原店」を開設した（発表は2026年2月20日）。所在地は東京都千代田区外神田4-6-7 カンダエイトビル1階、営業時間10時〜19時、水曜定休と報じられている。修理対象はXiaomi製スマートフォン・タブレット・ウェアラブル製品で、専門トレーニングを受けたスタッフが常駐し、1階は製品の展示・販売スペースも兼ねる。秋葉原以外の直営修理拠点や、地方在住者の送付修理の運用詳細は今回の検索では未確認。",
+      "sources": [
+        {
+          "name": "ITmedia Mobile「『Xiaomi Service Center 秋葉原店』が2月28日に誕生 修理と体験を融合」",
+          "url": "https://www.itmedia.co.jp/mobile/articles/2602/20/news081.html",
+          "published": "2026-02-20"
+        },
+        {
+          "name": "小米技術日本株式会社 プレスリリース（PR TIMES）「Xiaomi、日本市場におけるアフターサービス体制を強化」",
+          "url": "https://prtimes.jp/main/html/rd/p/000000212.000098799.html",
+          "published": "不明"
+        },
+        {
+          "name": "エルミタージュ秋葉原「Xiaomi、秋葉原に国内初の直営サービス拠点を開設」",
+          "url": "https://www.gdm.or.jp/pressrelease/2026/0220/623855",
+          "published": "2026-02-20"
+        },
+        {
+          "name": "ケータイ Watch「シャオミのサービスセンターが秋葉原に28日オープン」",
+          "url": "https://k-tai.watch.impress.co.jp/docs/review/2088056.html",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-topic-1147",
+      "question": "Xiaomiの冷蔵庫・洗濯機・エアコンは日本でいつ買えるようになる？",
+      "topical": true,
+      "answer": "2026年5月27日、シャオミ・ジャパンの呂暁露社長が、2026年下期に向けて大型家電カテゴリーの日本導入を検討していると述べたと報じられた。エアコン・冷蔵庫・洗濯機などが想定されるが、実際に投入されるモデルは公表されていない。同社長は「年内にいくつかの製品を導入したい」としつつ、リサイクルや設置サービスの体制構築が課題でハードルが高いとも述べており、2026年8月時点で日本での発売日・価格・具体的機種はいずれも未確認。中国本社は500種類以上のAIoT製品を展開し、2028年までにほぼ全ラインアップ投入を目標としているとされる。",
+      "sources": [
+        {
+          "name": "ケータイ Watch「シャオミ、大型家電を日本へ 年内の展開に向けて検討中」",
+          "url": "https://k-tai.watch.impress.co.jp/docs/news/2112252.html",
+          "published": "2026-05-27"
+        },
+        {
+          "name": "Yahoo!ニュース（ケータイ Watch配信）「シャオミ、大型家電を日本へ 年内の展開に向けて検討中」",
+          "url": "https://news.yahoo.co.jp/articles/cb245e9c5f07780fe6ee727579bdec9efc47737b",
+          "published": "2026-05-27"
+        },
+        {
+          "name": "livedoor NEWS（ケータイ Watch配信）",
+          "url": "https://news.livedoor.com/topics/detail/31386224/",
+          "published": "2026-05-27"
+        },
+        {
+          "name": "すまほん!!「【朗報】シャオミ、大型家電も日本投入か？」",
+          "url": "https://smhn.info/202605-xiaomiiiiiii",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-topic-5577",
+      "question": "Xiaomiのスマホは何年OSアップデートされる？長く使っても大丈夫？",
+      "topical": true,
+      "answer": "Xiaomiは最大6年間のセキュリティアップデート保証を打ち出しており、フラッグシップモデルではOSメジャーアップデート最大4回＋セキュリティアップデート6年、下位グレードではOS 2〜3回＋セキュリティ4年程度と機種により差があると報じられている。次期「HyperOS 3」（Android 16ベース）も順次配信予定とされる。ただし機種ごとの正確な終了時期はモデル・発売時期により異なり、日本版とグローバル版で配信タイミングが揃うかどうかは未確認。購入前に対象機種一覧で個別確認が必要。",
+      "sources": [
+        {
+          "name": "スマホダイジェスト「Xiaomi・POCO・REDMI端末のサポート終了時期一覧 最長6年以上残る機種も」",
+          "url": "https://sumahodigest.com/?p=55461",
+          "published": "不明"
+        },
+        {
+          "name": "スマホダイジェスト「Xiaomi、最大6年間のアップデート保証を発表」",
+          "url": "https://sumahodigest.com/?p=44854",
+          "published": "不明"
+        },
+        {
+          "name": "PC自由帳「AndroidスマホのOSアップデート・セキュリティアップデート期間の予定一覧【2026年8月更新】」",
+          "url": "https://pcfreebook.com/article/android-smartphone-update-schedule-list.html",
+          "published": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-topic-0385",
+      "question": "Xiaomiの日本版とグローバル版（海外版）は何が違う？2026年に買うならどっち？",
+      "topical": true,
+      "answer": "主な違いは技適マーク（技術基準適合証明）の有無、FeliCa／おサイフケータイ対応、同梱充電器のプラグ形状、メーカー保証・サポートの適用範囲とされている。技適のない機器で無線通信を行うと電波法違反になり得るため、日本国内利用では国内正規版が推奨される。グローバル版に技適が付与されるケースもあるが、その場合でもFeliCa／おサイフケータイは非搭載であると報じられている。また、Xiaomi 14T／14T Proのようにドコモ独自の5Gバンドn79に非対応の機種があり、キャリアによっては5Gのつながり方に差が出る点も指摘されている。個別機種の対応状況は要確認。",
+      "sources": [
+        {
+          "name": "モバイルの泉「【2026最新版】Xiaomi スマホ全機種一覧（日本）おサイフケータイ対応徹底比較ガイド」",
+          "url": "https://www.keitaihub.com/entry/xiaomi-smartphone-japan-2026",
+          "published": "不明"
+        },
+        {
+          "name": "AndroPlus「グローバル版Xiaomi 15やXiaomi 15 Ultraが発表 - 技適あり、FeliCaなしで日本発売か」",
+          "url": "https://androplus.jp/entry/xiaomi-15-launch-global/",
+          "published": "不明"
+        },
+        {
+          "name": "スマホバンドラボ「ドコモ利用者はXiaomiを買うな？（n79非対応問題）」",
+          "url": "https://sumahoband.com/entry/xiaomi-n79-issue/",
+          "published": "不明"
+        },
+        {
+          "name": "価格.comクチコミ掲示板「グローバル版と日本で買うものは同じですか？」",
+          "url": "https://bbs.kakaku.com/bbs/J0000044627/SortID=25792659/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-topic-7130",
+      "question": "XiaomiのEV（SU7・YU7）は日本で買える？2026年の状況は？",
+      "topical": true,
+      "answer": "シャオミの日本法人は2025年9月26日にEV「SU7」（上位モデルSU7 Ultra）を日本で初展示し、国内販売への意欲を示したと報じられた。ただし日本市場投入の時期は未定で、シャオミは2025年9月24日に中国外へのEV展開を2027年以降に開始する計画を明らかにしたとされる。中国国内ではSU7シリーズが累計30万台超を納車、YU7シリーズが20万件超の予約を獲得したと報じられている。2026年8月時点で日本での価格・発売日・販売網はいずれも未確認。将来的にはスマホ・家電・自動車を統合したエコシステムを日本でも実現したいとの意向が示されている。",
+      "sources": [
+        {
+          "name": "日本経済新聞「小米、日本でEV『SU7』を初展示 国内販売に意欲」",
+          "url": "https://www.nikkei.com/article/DGXZQOUC258J90V20C25A9000000/",
+          "published": "2025-09-01"
+        },
+        {
+          "name": "36Kr Japan「シャオミEV『SU7 Ultra』日本初披露、2027年以降にスマホ・家電・自動車の一体販売へ」",
+          "url": "https://36kr.jp/375835/",
+          "published": "不明"
+        },
+        {
+          "name": "EVsmart Park「中国で大ヒットの電気自動車『シャオミSU7』が日本上陸！ 日本発売には『もう少し時間がかかる』」",
+          "url": "https://blog.evsmart.net/electric-vehicles/xiaomi-su7-ev-japan-launch-status/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-topic-0988",
+      "question": "Xiaomiは日本でどれくらい売れている？店舗はどこまで増えた？",
+      "topical": true,
+      "answer": "シャオミは2025年内に首都圏3店舗の直営店「Xiaomi Store」を開設し、2026年3月にイオンモール鶴見緑地店（大阪・3月7日）を関西1号店として、イオンモール伊丹店（兵庫・3月14日）、イオンモール堺鉄砲町店（大阪・3月28日）など関西エリアに4店舗を順次オープンしたと報じられている。新製品投入も活発で、2026年に入りPOCO M8 5G（1月）、POCO X8 Proシリーズ（3月）、Xiaomi 17T／17T Pro（5月発表・6月4日発売）などが投入された。一方シェアについては、MM総研の2025年（暦年）調査でメーカー別総出荷台数の上位はアップル・グーグル・サムスン電子・シャープ・FCNT・京セラと報じられ、シャオミの2026年の具体的なシェア数値・順位は今回の検索では未確認（要確認）。",
+      "sources": [
+        {
+          "name": "ケータイ Watch「シャオミ、『Xiaomi Store』を関西エリアに4店舗オープン」",
+          "url": "https://k-tai.watch.impress.co.jp/docs/news/2087511.html",
+          "published": "不明"
+        },
+        {
+          "name": "ケータイ Watch「Xiaomi Store、年内に首都圏3店舗をオープン 2026年には大阪・名古屋へ」",
+          "url": "https://k-tai.watch.impress.co.jp/docs/news/2049999.html",
+          "published": "不明"
+        },
+        {
+          "name": "ケータイ Watch（インタビュー）「シャオミに聞く2026年の展望、製品ラインアップと日本市場への向き合い方」",
+          "url": "https://k-tai.watch.impress.co.jp/docs/interview/2078605.html",
+          "published": "不明"
+        },
+        {
+          "name": "ITmedia Mobile「国内スマホ出荷シェア、Googleが2位、サムスンが3位に上昇 MM総研調べ」",
+          "url": "https://www.itmedia.co.jp/mobile/articles/2511/19/news107.html",
+          "published": "2025-11-19"
+        },
+        {
+          "name": "日本経済新聞「MM総研、『2025年（暦年）国内携帯電話端末の出荷台数調査』の結果を発表」",
+          "url": "https://www.nikkei.com/article/DGXZRSP702981_S6A210C2000000/",
+          "published": "2026-02-01"
+        },
+        {
+          "name": "Xiaomi公式「Xiaomi 17T Series 新製品発売」",
+          "url": "https://www.mi.com/jp/event/xiaomi-17t-series/",
+          "published": "不明"
+        }
+      ]
     }
   ],
   "sections": [
@@ -600,6 +768,32 @@
           "checked": "2026-08-27"
         }
       ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-01",
+      "title": "改正資源有効利用促進法が全面施行 — モバイルバッテリーが「指定再資源化製品」に追加",
+      "body": "電源装置(モバイルバッテリー)、携帯電話用装置、加熱式たばこデバイスの3品目が指定再資源化製品に新たに指定され、一定規模以上のメーカー・輸入販売事業者に回収と再資源化が義務付けられます。勧告・命令の対象となる規模要件は、モバイルバッテリーで年間1,000台以上、携帯電話用装置で年間1万台以上とされています。",
+      "impact": "スマートフォン(携帯電話用装置)も対象品目です。年間1万台以上を扱うメーカー・輸入販売事業者に回収義務が生じます。Xiaomiの日本での具体的な回収窓口は公式発表で要確認【要確認】。",
+      "source": "経済産業省 GXグループ資源循環経済課「資源有効利用促進法における取組について」(2026年2月)",
+      "source_url": "https://www.jcpra.or.jp/Portals/0/resource/00oshirase/pdf/pla/li-msh20260226-6.pdf"
+    },
+    {
+      "date": "2027-07-01",
+      "title": "総務省、自治体のIT機器調達を政府認定品に限定へ（中国製機器の事実上の排除）",
+      "body": "総務省は全国の地方自治体がPC・タブレット・通信機器・サーバーなどを調達する際、経済産業省のJC-STARや国家サイバー統括室のISMAPなど政府の評価制度で認定された製品に限定する方針を固めたと報じられた。2026年6月に関連省令を改正し、2027年夏からの運用開始を見込むとされる。現時点で基準を満たす中国製機器は存在せず、ファーウェイやZTEなどの製品は自治体の調達対象から事実上除外される見通しと報じられているが、これは自治体の公的調達に関する措置であり、一般消費者がXiaomiなどの中国メーカー製スマートフォンを購入・使用することを制限するものではない。",
+      "impact": "",
+      "source": "日本経済新聞「自治体のIT機器、中国製品を排除 政府の認定品のみ使用可能に」",
+      "source_url": "https://www.nikkei.com/article/DGXZQOUA170SX0X10C26A4000000/"
+    },
+    {
+      "date": "2026-02-28",
+      "title": "日本初の直営修理拠点「Xiaomi Service Center 秋葉原店」を開設",
+      "body": "Xiaomiが日本で初となる直営のサービス拠点を秋葉原に開設したと報じられています。2026年3月には関西でも店舗展開が進んだとされます【要確認】。",
+      "impact": "これまで手薄と指摘されてきた国内サポート体制が改善する方向にあります。ただし対応可能な機種・修理内容は要確認です。",
+      "source": "報道各社(2026年2月)",
+      "source_url": "https://www.mi.com/jp/"
     }
   ]
 }

@@ -72,7 +72,7 @@
         },
         {
           "label": "自主回収の有無",
-          "value": "一部型番で実施事例あり。対象型番・時期は消費者庁サイトおよび公式サイトで要確認【要確認】",
+          "value": "2025年10月21日に4製品・計約52万台の自主回収を実施(うちA1263が約41万台)と報道。経済産業省が報告を要求したとされる【要確認】",
           "source": "消費者庁 リコール情報サイト",
           "source_url": "https://www.recall.caa.go.jp/",
           "checked": "2026-08-27"
@@ -349,6 +349,209 @@
           "checked": "2026-08-27"
         }
       ]
+    },
+    {
+      "slug": "anker-topic-6116",
+      "question": "Anker PowerCore 10000（A1263）はリコール対象ですか？いつ発表された、どれくらいの規模の回収ですか？",
+      "topical": true,
+      "answer": "2025年10月21日、アンカー・ジャパンはモバイルバッテリー「Anker PowerCore 10000」（品番A1263）を含む4製品の自主回収を発表した。報道によると対象台数はA1263が41万124台、スピーカー「Soundcore 3」（A3117）が9万1,933台、「Anker PowerConf S500」（A3305）が8,980台、「Soundcore Motion X600」（A3130、ホワイトは対象外）が1万1,200台で、合計約52万台とされる。原因は、セル製造を委託しているサプライヤーの製造工程で特定時期に電極体切断時の異物処理が適切に行われず、電池セル内に異物が混入した可能性があるため。2025年10月21日までに消費生活用製品安全法第35条第1項に基づく重大製品事故報告が計41件なされており、経済産業省はアンカー・ジャパンに対し、リチウムイオン蓄電池を使う国内販売全製品の総点検の実施、製造・品質管理体制、リコールの周知／広報の実施状況、リコールの進捗状況の4項目について報告を求めた。",
+      "sources": [
+        {
+          "name": "ITmedia NEWS",
+          "url": "https://www.itmedia.co.jp/news/article/2510/21/1251021084/",
+          "published": "2025-10-21"
+        },
+        {
+          "name": "MONOist（経産省がアンカーに報告要求）",
+          "url": "https://monoist.itmedia.co.jp/mn/articles/2510/22/news074.html",
+          "published": "2025-10-22"
+        },
+        {
+          "name": "マイナビニュース",
+          "url": "https://news.mynavi.jp/article/20251022-3576651/",
+          "published": "2025-10-22"
+        },
+        {
+          "name": "日本経済新聞（バッテリーなど約52万台自主回収 経産省が指導）",
+          "url": "https://www.nikkei.com/article/DGXZQOUC218XV0R21C25A0000000/",
+          "published": "不明"
+        },
+        {
+          "name": "Anker Japan 公式（モバイルバッテリー / スピーカー回収受付フォーム）",
+          "url": "https://www.ankerjapan.com/pages/202510-support",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "anker-topic-3529",
+      "question": "Ankerのリコール対象か調べたいのに、本体のシリアルナンバーが薄くて読めません。どうすればいいですか？",
+      "topical": true,
+      "answer": "対象確認は、Anker Japan公式の回収受付フォームに品番とシリアルナンバーを入力して行う。品番は製品本体の背面・側面・底面のいずれかに印字された「A」から始まる4桁の番号（例：A1263）。シリアルナンバーは「SN:」または「S/N:」から始まる16桁の英数字で、製品カテゴリによって印字位置が異なるとされる。グレー地に薄いグレーの極小文字で印字されていることが多く、懐中電灯やスマートフォンのライトを斜めから当てる、カメラで拡大するといった方法が読み取りのコツとして紹介されている。それでも判読できない場合は、Anker Japanのカスタマーサポートに問い合わせる方法が案内されている。なお品番が一致してもシリアルが対象範囲外なら非対象になるケースがあり、知恵袋でも同種の相談が投稿されている。",
+      "sources": [
+        {
+          "name": "Yahoo!知恵袋（製品番号がA1263で一致するが…）",
+          "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13321401378",
+          "published": "不明"
+        },
+        {
+          "name": "Impress Watch（アンカーが大規模リコール、シリアルナンバー検索に近道はないの?）",
+          "url": "https://www.watch.impress.co.jp/docs/topic/2057150.html",
+          "published": "不明"
+        },
+        {
+          "name": "ガジェ侍（Ankerリコール対象の確認方法・シリアルナンバーの場所）",
+          "url": "https://gadgetzamurai.jp/2026/02/17/%E3%80%90%E6%9C%80%E6%96%B0%E3%80%91anker%E3%83%AA%E3%82%B3%E3%83%BC%E3%83%AB%E5%AF%BE%E8%B1%A1%E3%81%AE%E7%A2%BA%E8%AA%8D%E6%96%B9%E6%B3%95%E3%81%AF%EF%BC%9F%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB",
+          "published": "2026-02-17"
+        },
+        {
+          "name": "ガジェ侍（Ankerシリアルナンバーはどこ?）",
+          "url": "https://gadgetzamurai.jp/2026/02/18/anker%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AF%E3%81%A9%E3%81%93%EF%BC%9F%E7%A2%BA%E8%AA%8D%E5%A0%B4%E6%89%80%E3%81%A8%E8%AA%AD%E3%81%BF%E6%96%B9%E3%81%AE/",
+          "published": "2026-02-18"
+        },
+        {
+          "name": "Anker Japan 公式（回収受付フォーム）",
+          "url": "https://www.ankerjapan.com/pages/202510-support",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "anker-topic-5317",
+      "question": "2026年4月の回収義務化を受けて、Ankerは古いモバイルバッテリーをどう回収してくれるのですか？他社製品も引き取ってもらえますか？",
+      "topical": true,
+      "answer": "アンカー・ジャパンは2025年12月22日から約1カ月間（2026年1月23日まで）、埼玉県内の直営店「Anker Store」3店舗で、リチウムイオン電池内蔵のモバイルバッテリーとワイヤレスイヤホンを他社製品も含めて回収する実証実験を実施した。その後2026年2月18日、リチウムイオン電池搭載製品の安全対策強化として、Anker Storeに不燃素材の回収ボックスを順次設置すると発表。あわせて2026年2月18日〜3月31日に「リイオンくん誕生記念 モバイルバッテリー買い替えキャンペーン」を実施し、2024年12月31日までに購入したAnker製モバイルバッテリー（破損・故障品を含む）を公式オンラインストアへの郵送または直営店持ち込みで回収し、30%OFFクーポンなどを提供した。このキャンペーンはAnker製品が対象で、実証実験と異なり他社製品が対象かどうかは未確認。通年サービスとしてはAnker製モバイルバッテリー／ポータブル電源の回収サービスページが用意されている。2026年4月以降の恒常的な回収体制の詳細は未確認。",
+      "sources": [
+        {
+          "name": "ITmedia Mobile（Anker Storeでモバイルバッテリーを回収 正しい廃棄方法を周知へ）",
+          "url": "https://www.itmedia.co.jp/mobile/articles/2602/19/news142.html",
+          "published": "2026-02-19"
+        },
+        {
+          "name": "AMP（アンカー・ジャパン、Anker Storeに回収ボックスを順次設置）",
+          "url": "https://ampmedia.jp/2026/02/18/anker-japan-260218/",
+          "published": "2026-02-18"
+        },
+        {
+          "name": "電ファミニコゲーマー（Ankerが不要なモバイルバッテリーの回収ボックスを順次設置へ）",
+          "url": "https://news.denfaminicogamer.jp/news/2602182d",
+          "published": "不明"
+        },
+        {
+          "name": "電ファミニコゲーマー（店舗回収の実証実験を12月22日スタート）",
+          "url": "https://news.denfaminicogamer.jp/news/251222p",
+          "published": "不明"
+        },
+        {
+          "name": "PC Watch（他社製品もOK。Ankerがモバイルバッテリを店舗回収する実証実験）",
+          "url": "https://pc.watch.impress.co.jp/docs/news/2073199.html",
+          "published": "不明"
+        },
+        {
+          "name": "Anker Japan 公式（リイオンくん誕生記念 モバイルバッテリー買い替えキャンペーン）",
+          "url": "https://www.ankerjapan.com/pages/liionkun-tradein-2026",
+          "published": "不明"
+        },
+        {
+          "name": "Anker Japan 公式（モバイルバッテリー/ポータブル電源回収サービス）",
+          "url": "https://www.ankerjapan.com/pages/recycle",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "anker-topic-2939",
+      "question": "Ankerの「Neo Lithium-ion Battery」とは何ですか？CIOなどの半固体電池とどう違うのですか？",
+      "topical": true,
+      "answer": "2026年5月27日、アンカー・ジャパンは「Anker Power Conference '26」で独自開発の電池セル「Neo Lithium-ion Battery」を発表した。製造工程での異物混入を大幅に低減したことを核とし、耐圧性・耐火性・耐貫通性を高めたとされ、釘刺し試験を100%通過するセル、難燃性の筐体、各セルを秒単位で監視するBMSの3層構造で安全性を訴求している。同社は半固体電池やナトリウムイオン電池といった代替材料について、検証試験や使用環境・廃棄ルールの基準が十分でないとして採用しない判断を示し、リチウムイオン電池自体の進化を選んだと説明している。搭載第1弾は10,000mAhの「Anker Nano Power Bank (MagGo, Plus)」で、税込11,990円で予約受付を開始し、一般発売は2026年夏を予定とされる（Qi2対応、USB-Cは最大30W出力）。",
+      "sources": [
+        {
+          "name": "気になる、記になる…",
+          "url": "https://taisy0.com/2026/05/27/223527.html",
+          "published": "2026-05-27"
+        },
+        {
+          "name": "Real Sound（Anker発表会で強調された「安全性への取り組み」）",
+          "url": "https://realsound.jp/tech/2026/05/post-2407711.html",
+          "published": "不明"
+        },
+        {
+          "name": "AndSmart（Anker Power Conference 2026 全発表まとめ）",
+          "url": "https://www.andsmart.net/post/anker-power-conference-2026",
+          "published": "不明"
+        },
+        {
+          "name": "BCN＋R",
+          "url": "https://www.bcnretail.com/news/detail/20260530_630879.html",
+          "published": "2026-05-30"
+        },
+        {
+          "name": "日本ネット経済新聞",
+          "url": "https://netkeizai.com/articles/detail/18659",
+          "published": "不明"
+        },
+        {
+          "name": "家電 Watch（Anker史上最高の安全なモバイルバッテリー、26年発売へ）",
+          "url": "https://kaden.watch.impress.co.jp/docs/news/2093544.html",
+          "published": "不明"
+        },
+        {
+          "name": "Anker Japan 公式（Anker Power Conference '26）",
+          "url": "https://www.ankerjapan.com/pages/anker-power-conference-26",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "anker-topic-4180",
+      "question": "SoundcoreやEufyのブランドはなくなるのですか？Ankerブランドに統合されるという話は本当ですか？",
+      "topical": true,
+      "answer": "2026年5月27日の「Anker Power Conference '26」で、アンカー・ジャパンはSoundcoreとEufyのブランドを年内にAnkerブランドへ統合する「ワンブランド化」と、新しいAnkerロゴを発表したと報じられている。あわせて日本国内での累計販売台数が1億台に到達し、売上高が過去最高を更新したことも公表された（具体的な売上金額は報道により表記が異なるため未確認）。統合後の既存製品の保証・サポート・アプリの扱いについては未確認。",
+      "sources": [
+        {
+          "name": "AndSmart（Ankerが「安全性の再定義」と「ワンブランド化」を宣言）",
+          "url": "https://www.andsmart.net/post/anker-power-conference-2026",
+          "published": "不明"
+        },
+        {
+          "name": "ライフハッカー・ジャパン（本日発表のAnker新製品レポート）",
+          "url": "https://www.lifehacker.jp/article/2605-lht-anker-power-conference-2026/",
+          "published": "不明"
+        },
+        {
+          "name": "Anker Japan 公式（Anker Power Conference '26）",
+          "url": "https://www.ankerjapan.com/pages/anker-power-conference-26",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "anker-topic-6787",
+      "question": "膨らんでしまったAnkerのモバイルバッテリー、燃えないごみに出してもいいですか？",
+      "topical": true,
+      "answer": "膨張・破損したモバイルバッテリーは通常の不燃ごみとして捨てることはできないと案内されている。まずリコール対象かどうかの判定が済むまでは廃棄せず、対象であればメーカーの回収受付フォームから回収を申し込む。対象外・判定不能の場合は、自治体が設置する拠点回収／回収ボックス、家電量販店やホームセンターの回収ボックス（一般社団法人JBRCの設置状況ページで確認、原則JBRC加盟メーカー製品が対象）、またはメーカー独自の回収サービスを利用する。Anker製品はAnker Japanの回収サービスで破損・故障品も受け付けるとされ、Anker Storeの回収ボックスも順次設置されている。膨張品を宅配で送る際の可否・梱包条件は各受付窓口の案内による（未確認）。",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース エキスパート（矢野きくの：リコール対象確認方法とリチウムイオン電池の廃棄方法）",
+          "url": "https://news.yahoo.co.jp/expert/articles/c523ae0adf7597a14d8ee1dfd5193ab9fbb034d5",
+          "published": "不明"
+        },
+        {
+          "name": "ケータイ Watch（2026年5月時点のリコール・回収情報まとめ）",
+          "url": "https://k-tai.watch.impress.co.jp/docs/news/2107638.html",
+          "published": "不明"
+        },
+        {
+          "name": "でんち捨てガイド（家電量販店モバイルバッテリー回収 6社比較）",
+          "url": "https://www.denchisute.jp/kaden-ryouhanten-mobile-battery-collection/",
+          "published": "不明"
+        },
+        {
+          "name": "Anker Japan 公式（回収サービス）",
+          "url": "https://www.ankerjapan.com/pages/recycle",
+          "published": "不明"
+        }
+      ]
     }
   ],
   "sections": [
@@ -593,6 +796,40 @@
           "checked": "2026-08-27"
         }
       ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-01",
+      "title": "改正資源有効利用促進法が全面施行 — モバイルバッテリーが「指定再資源化製品」に追加",
+      "body": "電源装置(モバイルバッテリー)、携帯電話用装置、加熱式たばこデバイスの3品目が指定再資源化製品に新たに指定され、一定規模以上のメーカー・輸入販売事業者に回収と再資源化が義務付けられます。勧告・命令の対象となる規模要件は、モバイルバッテリーで年間1,000台以上、携帯電話用装置で年間1万台以上とされています。",
+      "impact": "利用者は不要になったモバイルバッテリーを家庭ごみに出すのではなく、メーカーの回収ルートや自治体の回収拠点を使うことになります。各社が具体的にどの窓口で回収するかは、施行前後の公式発表で要確認【要確認】。",
+      "source": "経済産業省 GXグループ資源循環経済課「資源有効利用促進法における取組について」(2026年2月)",
+      "source_url": "https://www.jcpra.or.jp/Portals/0/resource/00oshirase/pdf/pla/li-msh20260226-6.pdf"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "2026年4月モバイルバッテリー回収義務化（改正資源有効利用促進法・指定再資源化製品への追加）",
+      "body": "2026年4月、改正資源有効利用促進法が施行され、モバイルバッテリー・携帯電話（スマートフォン）・加熱式たばこ機器の3品目が新たに「指定再資源化製品」に追加された。これにより一定台数以上を生産または輸入販売するメーカー・輸入販売事業者に、自主回収とリサイクルが法的に義務づけられる。報道によれば対象となる事業者の基準はモバイルバッテリーが年1,000台以上、スマートフォンが1万台以上、加熱式たばこ機器が30万台以上とされ、取り組みが不十分な場合は指導・勧告・社名公表・命令の対象となる。背景には、ごみ処理施設や収集車でのリチウムイオン電池の発火事故が多発していることがある。消費者側も、モバイルバッテリーを家庭ごみ（不燃ごみ等）に混ぜて出さず、メーカー・自治体・家電量販店の回収ルートに出すことが求められる。ただし4月1日に全メーカーが一斉に回収を開始するわけではなく、2026年4月以降、順次メーカーが回収の案内を行う見込みとされている。消費者個人に対する罰則の有無は未確認。",
+      "impact": "",
+      "source": "ITmedia Mobile",
+      "source_url": "https://www.itmedia.co.jp/mobile/spv/2508/14/news097.html"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "消費者庁が2026年2月にリコール対象モバイルバッテリーの火災事故情報を公表（Anker・CIO・フォースメディア/現エレコムが名指し）",
+      "body": "2026年2月6日、消費者庁がリコール（自主回収）実施中のモバイルバッテリーで火災に至る重大製品事故が報告されたとして、対象事業者と製品の情報を公表したと報じられている。名前が挙がったのはフォースメディア（現エレコム）、Anker Japan、CIOの製品。リコールを告知しても回収が進まず、市場に残った製品から火災が発生している状況が問題視されている。報道では事故件数を25件とするものがあるが、消費者庁の一次資料での件数は未確認。",
+      "impact": "",
+      "source": "AAPL Ch.",
+      "source_url": "https://applech2.com/archives/20260207-anker-elecom-cio-battery-fire-incident.html"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "モバイルバッテリーの機内持ち込み新ルール（2026年4月24日〜）と鉄道での発火対策強化",
+      "body": "2026年4月24日から、多くの航空会社でモバイルバッテリーの機内持ち込みルールが変更され、160Wh以下を2個までとする運用のほか、機内でのモバイルバッテリー本体への充電（機内コンセント／USBポートからの充電）、およびモバイルバッテリーから他機器への充電が禁止された。加えて2025年7月8日から適用されている「頭上の収納棚に入れず、異常に気づける手元で保管する」ルールも継続している。鉄道側では法規制はないものの、2025〜2026年にかけて山手線・東海道新幹線・東京メトロ日比谷線・都営新宿線などで発煙・発火事案が発生し、JRグループ5社が2026年8月までに新幹線車内へファイヤーブランケットとバケツを配備すると発表した。航空法違反時の罰則（拘禁刑・罰金）に言及する解説記事があるが、具体的な適用実績は未確認。",
+      "impact": "",
+      "source": "Anker Japan 公式オンラインストア（2026年4月から新ルール解説）",
+      "source_url": "https://www.ankerjapan.com/blogs/magazine/mobilebattery-ontheplane"
     }
   ]
 }

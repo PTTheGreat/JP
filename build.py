@@ -101,6 +101,22 @@ details.faq summary::before { content:"Q"; color:#fff; background:var(--q);
 details.faq[open] summary { border-bottom:1px dotted var(--line); }
 details.faq .faq-a { padding:0.7rem 0.9rem; font-size:0.9rem; }
 details.faq .faq-a a { color:var(--accent2); }
+.timeline { list-style:none; border-left:2px solid var(--line); margin:0.6rem 0 0 0.4rem;
+            padding-left:0; }
+.timeline li { position:relative; padding:0 0 1rem 1.1rem; }
+.timeline li::before { content:""; position:absolute; left:-6px; top:0.55rem; width:10px;
+            height:10px; border-radius:50%; background:var(--accent); }
+.tl-date { font-size:0.75rem; color:var(--muted); font-weight:700; letter-spacing:0.02em; }
+.tl-title { font-weight:700; font-size:0.95rem; display:block; margin:0.1rem 0 0.25rem; }
+.tl-body { font-size:0.86rem; }
+.tl-impact { font-size:0.82rem; background:var(--bg2); border-left:3px solid var(--accent2);
+             padding:0.35rem 0.6rem; margin:0.4rem 0 0.3rem; }
+.tl-src { font-size:0.75rem; color:var(--muted); }
+.tl-src a { color:var(--accent2); }
+.tl-brand { font-size:0.75rem; color:var(--accent2); text-decoration:none; font-weight:700; }
+.badge-new { display:inline-block; background:var(--accent); color:#fff; font-size:0.65rem;
+             font-weight:700; border-radius:3px; padding:0 0.35rem; margin-left:0.35rem;
+             vertical-align:0.12em; }
 .tldr { border:1px solid #d7c9a7; background:#fdfbf3; border-radius:6px;
         padding:0.75rem 1rem 0.85rem; margin:1rem 0; }
 .tldr-t { display:inline-block; background:#8a6d1f; color:#fff; font-size:0.72rem;
@@ -145,6 +161,8 @@ footer a { color:var(--accent2); }
 a.back { color:var(--accent2); font-size:0.85rem; text-decoration:none; }
 .updated-note { font-size:0.75rem; color:var(--muted); }
 """
+
+CHECKED_DEFAULT = "2026-08-27"
 
 SAMPLE_NOTICE = (
     "このページはサンプルコンテンツです。公開前に日本語ネイティブによる校閲と、"
@@ -274,6 +292,31 @@ def summary_box(b):
             f'<ul>{"".join(lis)}</ul></div>')
 
 
+def timeline(updates, brand_link=None):
+    """最新の動向をタイムライン表示する。updatesは日付降順で渡す。"""
+    lis = []
+    for uitem in updates:
+        impact = ""
+        if uitem.get("impact"):
+            impact = f'<p class="tl-impact"><b>影響:</b> {esc(uitem["impact"])}</p>'
+        src = ""
+        if uitem.get("source_url"):
+            src = (f'<p class="tl-src">出典: <a href="{esc(uitem["source_url"])}" '
+                   f'rel="noopener">{esc(uitem.get("source", "出典"))}</a></p>')
+        bl = ""
+        if brand_link:
+            links = " ".join(
+                f'<a class="tl-brand" href="{esc(u("/" + s + "/#updates"))}">{esc(n)} →</a>'
+                for s, n in uitem["_brands"])
+            bl = f'<p class="tl-src">関連ブランド: {links}</p>'
+        lis.append(
+            f'<li><span class="tl-date">{esc(uitem["date"])}</span>'
+            f'<span class="tl-title">{esc(uitem["title"])}</span>'
+            f'<span class="tl-body">{esc(uitem["body"])}</span>'
+            f"{impact}{src}{bl}</li>")
+    return f'<ul class="timeline">{"".join(lis)}</ul>'
+
+
 def sources_list(b):
     """ページ内で使用した一次情報源の一覧。"""
     seen = {}
@@ -285,11 +328,33 @@ def sources_list(b):
     return f'<ul class="srclist">{items}</ul>'
 
 
-def qsource_box(source):
-    orig = f"「{esc(source['original'])}」" if source.get("original") else ""
-    return ('<p class="qsource">この質問は実際のユーザー投稿に基づいています: '
-            f'{esc(source["platform"])} {orig} '
-            f'<a href="{esc(source["url"])}" rel="noopener nofollow">元の投稿を見る</a></p>')
+def qsource_box(q):
+    """質問の出所を示すボックス。実投稿ベースと時事ベースで表示を変える。"""
+    source = q.get("source")
+    if source:
+        orig = f"「{esc(source['original'])}」" if source.get("original") else ""
+        return ('<p class="qsource">この質問は実際のユーザー投稿に基づいています: '
+                f'{esc(source["platform"])} {orig} '
+                f'<a href="{esc(source["url"])}" rel="noopener nofollow">元の投稿を見る</a></p>')
+    if q.get("topical"):
+        return ('<p class="qsource">この質問は、2025年末以降に起きた制度変更・事業動向を'
+                "受けて検索が増えている話題を扱っています。根拠となる報道・公的資料は"
+                "下部の情報源一覧に記載しています。</p>")
+    return ""
+
+
+def refs_list(sources):
+    """参照した情報源(日付つき)の一覧。"""
+    items = []
+    for s in sources:
+        pub = s.get("published") or "日付不明"
+        if pub in ("不明", "", None):
+            pub = "日付不明"
+        cls = ' class="unverified"' if pub == "日付不明" else ""
+        items.append(
+            f'<li><a href="{esc(s["url"])}" rel="noopener">{esc(s["name"])}</a>'
+            f'<span{cls} style="color:var(--muted);font-size:0.78rem"> — {esc(pub)}</span></li>')
+    return f'<ul class="srclist">{"".join(items)}</ul>'
 
 
 def load_dir(subdir):
@@ -319,8 +384,12 @@ def build():
         rel_items = b.get("faq", [])
         secs = b.get("sections", [])
 
-        toc_items = [f'<li><a href="#s{i}">{esc(s["title"])}</a></li>'
-                     for i, s in enumerate(secs)]
+        ups = sorted(b.get("updates", []), key=lambda x: x["date"], reverse=True)
+        toc_items = []
+        if ups:
+            toc_items.append('<li><a href="#updates">最新の動向</a></li>')
+        toc_items += [f'<li><a href="#s{i}">{esc(s["title"])}</a></li>'
+                      for i, s in enumerate(secs)]
         if rel_items:
             toc_items.append(f'<li><a href="#faq">よくある質問({len(rel_items)}件)</a></li>')
         toc_items.append('<li><a href="#sources">このページの出典一覧</a></li>')
@@ -356,6 +425,9 @@ def build():
             + f'<p class="summary">{esc(b["summary"])}</p>'
             + summary_box(b)
             + toc
+            + (('<h2 id="updates">最新の動向</h2>'
+                '<p class="legend">このブランドに関する制度変更・事業動向の記録です。'
+                "新しい順に並んでいます。</p>" + timeline(ups)) if ups else "")
             + sec_html
             + faq
             + '<h2 id="sources">このページの出典一覧</h2>'
@@ -390,7 +462,8 @@ def build():
             path = f"/{b['slug']}/{q['slug']}/"
             url = f"{BASE}{path}"
             urls.append(url)
-            updated = max(f["checked"] for f in q["facts"])
+            updated = (max(f["checked"] for f in q["facts"])
+                       if q.get("facts") else CHECKED_DEFAULT)
             total, _, _ = coverage(b)
             brand_link = (
                 '<h2>ブランドの基本情報</h2><ul class="blist"><li>'
@@ -407,23 +480,29 @@ def build():
             notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if b.get("sample_notice") else ""
             crumbs = [(b["name"], f"/{b['slug']}/"),
                       (q["question"], None)]
+            newbadge = '<span class="badge-new">最新の話題</span>' if q.get("topical") else ""
+            facts_html = (f"<h2>根拠となる事実</h2>{facts_table(q['facts'])}"
+                          if q.get("facts") else "")
+            refs_html = (f"<h2>参照した情報源</h2>{refs_list(q['sources'])}"
+                         if q.get("sources") else "")
             body = (
                 crumb(crumbs)
-                + f"<h1>{esc(q['question'])}</h1>"
+                + f"<h1>{esc(q['question'])}{newbadge}</h1>"
                 + f'<div class="meta"><span class="updated-note">最終確認日: {esc(updated)}</span></div>'
-                + qsource_box(q["source"])
+                + qsource_box(q)
                 + f'<p class="answer">{esc(q["answer"])}</p>'
-                + f"<h2>根拠となる事実</h2>{facts_table(q['facts'])}"
+                + facts_html + refs_html
                 + brand_link + notice
                 + f'<p style="margin-top:2rem"><a class="back" href="{u("/" + b["slug"] + "/")}">'
                 + f"← {esc(b['name'])}のページへ戻る</a></p>"
             )
+            qnode = {"@type": "Question", "name": q["question"],
+                     "acceptedAnswer": {"@type": "Answer", "text": q["answer"]}}
+            if q.get("source"):
+                qnode["sameAs"] = q["source"]["url"]
             lds = [
                 {"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ja",
-                 "mainEntity": [{"@type": "Question", "name": q["question"],
-                                 "sameAs": q["source"]["url"],
-                                 "acceptedAnswer": {"@type": "Answer", "text": q["answer"]}}],
-                 "url": url},
+                 "mainEntity": [qnode], "url": url},
                 crumb_ld(crumbs, url),
             ]
             d = OUT / b["slug"] / q["slug"]
@@ -456,10 +535,27 @@ def build():
         qa_groups.append(
             f'<p class="qgroup">{country_badge(b["country"])} {esc(b["name"])}</p>'
             f'<ul class="qlist">{items}</ul>')
+    # 全ブランド横断の最新動向(新着情報)。同じ話題は1件にまとめる。
+    merged = {}
+    for b in brands:
+        for uitem in b.get("updates", []):
+            key = (uitem["date"], uitem["title"])
+            if key not in merged:
+                merged[key] = dict(uitem, _brands=[])
+            merged[key]["_brands"].append((b["slug"], b["name"]))
+    all_ups = sorted(merged.values(), key=lambda x: x["date"], reverse=True)
+    news = ""
+    if all_ups:
+        news = ('<h2 id="news">新着情報 — ブランドをめぐる最新の動き</h2>'
+                '<p class="legend">制度変更や事業動向のうち、ブランド選びの判断に関わるものを'
+                "新しい順に掲載しています。</p>"
+                + timeline(all_ups[:8], brand_link=True))
+
     body = (
         f"<h1>{esc(CONFIG['site_name'])}</h1>"
         f'<p class="summary">{esc(CONFIG["description"])}</p>'
-        f'<h2 id="brands">ブランドから探す</h2><div class="bgrid">{"".join(cards)}</div>'
+        + news
+        + f'<h2 id="brands">ブランドから探す</h2><div class="bgrid">{"".join(cards)}</div>'
         f'<h2 id="qa">質問から探す</h2>'
         '<p class="legend">質問はYahoo!知恵袋・Quora等に実際に投稿された質問に基づいています。</p>'
         + "".join(qa_groups)

@@ -5,7 +5,10 @@ queries.json の固定クエリ集を主要AI(ChatGPT / Perplexity / Gemini)に�
 回答に自サイトのドメインが引用されたかを記録する。
 
 結果は results/YYYY-MM-DD.jsonl に1クエリ1行で追記される:
-  {"date", "provider", "query", "cited", "cited_url", "cited_snippet", "raw_answer"}
+  {"date", "provider", "group", "query", "cited", "cited_url", "cited_snippet", "raw_answer"}
+
+クエリはグループ別(brand_country / regulation など)に分かれており、
+どの領域で引用されやすいかをグループ単位で比較できる。
 
 各プロバイダのAPIキーは環境変数で渡す:
   OPENAI_API_KEY / PERPLEXITY_API_KEY / GEMINI_API_KEY
@@ -87,15 +90,28 @@ def check_citation(answer):
     return False, None, None
 
 
+def iter_queries():
+    """(group, query) を順に返す。旧形式の flat な queries にも対応する。"""
+    if "query_groups" in CFG:
+        for group, g in CFG["query_groups"].items():
+            for q in g["queries"]:
+                yield group, q
+    else:
+        for q in CFG.get("queries", []):
+            yield "default", q
+
+
 def main():
     RESULTS.mkdir(exist_ok=True)
     today = datetime.date.today().isoformat()
     out = RESULTS / f"{today}.jsonl"
+    queries = list(iter_queries())
+    stats = {}
     n_ok, n_cited = 0, 0
     with out.open("a", encoding="utf-8") as f:
         for provider in CFG["providers"]:
             ask = PROVIDERS[provider]
-            for query in CFG["queries"]:
+            for group, query in queries:
                 try:
                     answer = ask(query)
                 except Exception as e:
@@ -106,15 +122,21 @@ def main():
                 cited, url, snippet = check_citation(answer)
                 n_ok += 1
                 n_cited += cited
+                s = stats.setdefault(group, [0, 0])
+                s[0] += 1
+                s[1] += cited
                 f.write(json.dumps({
-                    "date": today, "provider": provider, "query": query,
-                    "cited": cited, "cited_url": url,
+                    "date": today, "provider": provider, "group": group,
+                    "query": query, "cited": cited, "cited_url": url,
                     "cited_snippet": snippet, "raw_answer": answer,
                 }, ensure_ascii=False) + "\n")
     if n_ok:
         print(f"done: {n_ok} answers, cited {n_cited} ({n_cited / n_ok:.0%}) -> {out}")
+        print("\nグループ別の引用率:")
+        for group, (tot, cit) in sorted(stats.items()):
+            print(f"  {group:20s} {cit}/{tot} ({cit / tot:.0%})")
     else:
-        print("no provider keys set — nothing queried. "
+        print(f"no provider keys set — {len(queries)} queries not run. "
               "Set OPENAI_API_KEY / PERPLEXITY_API_KEY / GEMINI_API_KEY.")
 
 

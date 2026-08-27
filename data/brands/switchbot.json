@@ -356,6 +356,174 @@
           "checked": "2026-08-27"
         }
       ]
+    },
+    {
+      "slug": "switchbot-topic-0147",
+      "question": "SwitchBotの製品はJC-STAR（IoTセキュリティ適合ラベル）を取得していますか？",
+      "topical": true,
+      "answer": "JC-STARはIPAが運営するIoT製品向けの任意のセキュリティラベリング制度で、★1は2025年3月25日から申請受付と適合ラベル取得製品リストの公開が始まっている。★2以上の申請は2026年1月以降開始の見込みとされ、2026年7月時点で★1適合製品は1,500製品超と説明されている。SwitchBot（Wonderlabs）製品が適合ラベルを取得しているかは、今回の調査ではIPAの取得製品一覧を直接確認できず未確認。確認する場合はIPAの「適合ラベル取得製品」ページで製品名・事業者名を検索するのが確実。",
+      "sources": [
+        {
+          "name": "IPA「セキュリティ要件適合評価及びラベリング制度（JC-STAR）」",
+          "url": "https://www.ipa.go.jp/security/jc-star/index.html",
+          "published": "不明"
+        },
+        {
+          "name": "IPA「適合ラベル取得製品」一覧",
+          "url": "https://www.ipa.go.jp/security/jc-star/list/index.html",
+          "published": "不明"
+        },
+        {
+          "name": "経済産業省 METI Journal ONLINE「IoT機器のセキュリティ、JC-STARラベリング制度の『★』の数で見える化」",
+          "url": "https://journal.meti.go.jp/policy/202606/46798/",
+          "published": "不明"
+        },
+        {
+          "name": "Impress DCROSS「IoT機器のセキュリティ要件を認証する『JC-STAR』を政府・民間の調達基準に」",
+          "url": "https://dcross.impress.co.jp/docs/column/column20251111/004405.html",
+          "published": "2025-11-11"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-topic-2102",
+      "question": "SwitchBotアプリに脆弱性があったと聞きましたが、私のデータは漏れていませんか？",
+      "topical": true,
+      "answer": "SwitchBot公式サイトに「SwitchBotアプリ脆弱性修正」の告知ページが公開されている（URLに202507が含まれ、2025年7月の告知とみられる）。告知では、iOS/Android版アプリのV6.24からV9.12に該当する脆弱性により、一部のユーザーデータがアプリのログファイルに保存される可能性があったと説明されている。これらの情報は通常ユーザー端末内のみに保存され外部からアクセスされることはなく、本件に起因する情報漏洩や不正利用の事例は確認されていないとされている。対処としてはアプリを最新版に更新することが基本だが、告知ページ本文を直接取得できなかったため、正確な公開日と推奨手順は公式ページで要確認。",
+      "sources": [
+        {
+          "name": "SwitchBot公式「【お知らせ】SwitchBotアプリ脆弱性修正」",
+          "url": "https://www.switchbot.jp/pages/switchbot-app-vulnerability-fix202507",
+          "published": "不明"
+        },
+        {
+          "name": "prefetch.jp「SwitchBotは危険？『やばい』と言われる理由を実体験で検証｜乗っ取りは？」",
+          "url": "https://prefetch.jp/article/switchbot-risk",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-topic-6426",
+      "question": "顔認証で開く「SwitchBot ロック Vision / Vision Pro」は日本でいつ買えますか？顔データは安全ですか？",
+      "topical": true,
+      "answer": "「SwitchBot ロック Vision」「SwitchBot ロック Vision Pro」は2026年5月中旬に米国SwitchBot公式サイトに登場し、米国で予約販売が開始されたと報じられている（Visionが170ドル、Vision Proが230ドル）。3D構造化光による顔認証を採用し、約2万個の赤外線ポイントで3D顔マップを作成、Vision Proは手のひら静脈認証と半導体式指紋認証にも対応すると報じられている。日本での正式発売は2026年7月時点で未発表とされ、現状日本の公式サイトには「SwitchBot ドアロックUltra 顔認証セット」が掲載されている。顔・静脈データの保存場所や処理方法についてSwitchBotの公式な説明は今回の調査では未確認で、2026年7月公布の改正個人情報保護法では特定生体個人情報の取り扱いに関する掲示・周知が求められる方向とされている。",
+      "sources": [
+        {
+          "name": "ギズモード・ジャパン「スマートロック市場ですすむ生体認証。SwitchBotが新型ロックを発表」",
+          "url": "https://www.gizmodo.jp/article/switchbots-newest-smart-lock-has-more-biometrics-than-you-can-shake-a-stick-at/",
+          "published": "不明"
+        },
+        {
+          "name": "Yahoo!ニュース（CNET Japan）「手ぶらで玄関解錠、SwitchBot新型スマートロックは顔認証と静脈認証に対応」",
+          "url": "https://news.yahoo.co.jp/articles/e2c4b88e5117000eb4dcab491b284dcf87e4687d",
+          "published": "不明"
+        },
+        {
+          "name": "気になる、記になる…「SwitchBotの新型スマートロック『SwitchBot Lock Vision』と『SwitchBot Lock Vision Pro』、米国で予約販売開始 - 日本ではまだ未公開」",
+          "url": "https://taisy0.com/2026/05/16/223119.html",
+          "published": "2026-05-16"
+        },
+        {
+          "name": "SwitchBot公式「SwitchBot ドアロックUltra 顔認証セット」",
+          "url": "https://www.switchbot.jp/products/switchbot-lock-ultra-vision-combo",
+          "published": "不明"
+        },
+        {
+          "name": "jetstream.blog「新世代！『SwitchBot ロックVision/Vision Pro』デバイス一覧登場」",
+          "url": "https://jetstream.blog/2026/03/16/switchbot-lock-vision-next-generation/",
+          "published": "2026-03-16"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-topic-4266",
+      "question": "SwitchBotがもし撤退・サービス終了したら、買った機器は使えなくなりますか？",
+      "topical": true,
+      "answer": "Belkinはスマートホームデバイス「Wemo」のテクニカルサポートを2026年1月31日で打ち切ると発表し、リモートアクセス、Amazon Alexa／Google Homeとの音声アシスタント連携、Wemoモバイルアプリでの制御などクラウド依存機能が無効化されると報じられた（対象27製品、Threadベースの4製品を除く）。米国ではサービス終了後もコア機能の動作を保証すべきというガイドライン制定を求める動きも報じられている。SwitchBotについては、サービス終了やクラウド停止の予定に関する公式発表は今回の調査では確認できず未確認。一般論として、クラウド／アプリ経由の遠隔操作・オートメーション・音声連携は事業者のサーバー稼働が前提となる点は共通する。",
+      "sources": [
+        {
+          "name": "INTERNET Watch やじうまWatch「Belkin、スマートホームデバイスから撤退。2026年1月でのサポート打ち切りを表明し、波紋」",
+          "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2031597.html",
+          "published": "不明"
+        },
+        {
+          "name": "BigGo ニュース「Belkin が Wemo クラウドサービスを終了、大部分のスマートホームデバイスが使用不能に」",
+          "url": "https://biggo.jp/news/202507110115_Belkin_Shutting_Down_Wemo_Cloud_Services",
+          "published": "2025-07-11"
+        },
+        {
+          "name": "INTERNET Watch やじうまWatch「スマートデバイスはサービス終了後もコア機能の動作を保証すべし！ 米国でガイドライン制定を求める動き」",
+          "url": "https://internet.watch.impress.co.jp/docs/yajiuma/1621752.html",
+          "published": "不明"
+        },
+        {
+          "name": "DIY Smart Matter「クラウドが止まった時のスマートホーム」",
+          "url": "https://diysmartmatter.com/archives/317",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-topic-8096",
+      "question": "SwitchBotの新しいロボット掃除機「K11+ Pro」はどんな製品で、いくらですか？",
+      "topical": true,
+      "answer": "「SwitchBot ロボット掃除機 K11+ Pro」は2026年6月29日にSwitchBot公式サイトに掲載され、2026年7月1日に正式発表されたと報じられている。公式価格は税込59,800円で、本体サイズは約24.8（幅）×9.2（高さ）cm、最大吸引力は12,000Pa、静音モード時の運転音は約45dBと報じられている。カラーは「アイボリー」と「ブラック」の2色展開で、ブラックは2026年8月12日にAmazon.co.jpで税込59,799円で発売されたと報じられている。SwitchBotは2026年6〜7月にK11+ Proを含む5モデル（Relay Switch 1、Smart Circulator 2 Pro、Exterior Light、RGBICWW シーリングライト等）を正式発表したとされる。",
+      "sources": [
+        {
+          "name": "jetstream.blog「59800円&アイボリー！『SwitchBot ロボット掃除機 K11+ Pro』」",
+          "url": "https://jetstream.blog/2026/06/29/switchbot-robot-vacuum-cleaner-k11-pro-official/",
+          "published": "2026-06-29"
+        },
+        {
+          "name": "jetstream.blog「『SwitchBot ロボット掃除機 K11+ Pro』ブラック、Amazonで発売」",
+          "url": "https://jetstream.blog/2026/08/13/switchbot-robot-vacuum-cleaner-k11-pro-black-amazon-launch/",
+          "published": "2026-08-13"
+        },
+        {
+          "name": "価格.com 新製品ニュース「SwitchBot、吸引力12000Paの小型ロボット掃除機『K11+ Pro』」",
+          "url": "https://news.kakaku.com/prdnews/cd=kaden/ctcd=2130/id=157253/",
+          "published": "不明"
+        },
+        {
+          "name": "jetstream.blog「SwitchBot新製品5モデル正式発表【2026年6～7月】」",
+          "url": "https://jetstream.blog/2026/07/01/switchbot-5-new-products-june-july-2026/",
+          "published": "2026-07-01"
+        },
+        {
+          "name": "価格.com「SwitchBot K11+ Pro W3004100 [アイボリー] 価格比較」",
+          "url": "https://kakaku.com/item/K0001792556/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "switchbot-topic-2608",
+      "question": "SwitchBotは中国メーカーですが、家の中のデータが中国に送られる心配はありませんか？",
+      "topical": true,
+      "answer": "SwitchBotを開発・販売するWonderlabs, Inc.は本社が中国広東省深圳市にあると複数の解説記事で説明されている。解説記事ではAmazon Web Services（AWS）のサーバーを利用し通信は暗号化されているとされているが、これらは第三者ブログの記述であり一次情報としては未確認【要確認】。SwitchBot製品からの個人情報漏洩・プライバシー侵害の報道は今回の調査では確認できなかった。一方、公式には2025年7月にアプリの脆弱性修正の告知が出ており、スマートロックや見守りカメラなど生活に直結する製品では二段階認証・強固なパスワード・共有権限の見直し・アプリ更新が推奨されている。",
+      "sources": [
+        {
+          "name": "SwitchBot公式「【お知らせ】SwitchBotアプリ脆弱性修正」",
+          "url": "https://www.switchbot.jp/pages/switchbot-app-vulnerability-fix202507",
+          "published": "不明"
+        },
+        {
+          "name": "prefetch.jp「SwitchBotは危険？『やばい』と言われる理由を実体験で検証｜乗っ取りは？」",
+          "url": "https://prefetch.jp/article/switchbot-risk",
+          "published": "不明"
+        },
+        {
+          "name": "パーシーのガジェブロ「『switchbot 危険性 中国』の噂は本当？サーバー所在地とセキュリティ対策で安全性を検証」",
+          "url": "https://do-maga-blog.com/%E3%80%8Cswitchbot-%E5%8D%B1%E9%99%BA%E6%80%A7-%E4%B8%AD%E5%9B%BD%E3%80%8D%E3%81%AE%E5%99%82%E3%81%AF%E6%9C%AC%E5%BD%93%EF%BC%9F%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%89%80%E5%9C%A8%E5%9C%B0%E3%81%A8/",
+          "published": "不明"
+        },
+        {
+          "name": "スマ育ラボ「SwitchBotは中国製だけど大丈夫？危険性とセキュリティを徹底解説」",
+          "url": "https://sumaiku.com/safety/",
+          "published": "不明"
+        }
+      ]
     }
   ],
   "sections": [
@@ -600,6 +768,32 @@
           "checked": "2026-08-27"
         }
       ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2025-03-25",
+      "title": "IoTセキュリティ適合性評価制度「JC-STAR」が★2以上へ拡大し、政府調達基準に採用",
+      "body": "経済産業省の「IoT製品に対するセキュリティ適合性評価制度構築方針」（2024年8月公表）に基づきIPAが運用する任意制度「JC-STAR」は、★1の申請受付と適合ラベル取得製品リスト公開を2025年3月25日に開始した。★2以上の申請は2026年1月以降に開始される見込みとされ、2026年2月にIPAが「通信機器 ★3セキュリティ要件」を公開、2026年7月にも通信機器★3およびネットワークカメラ★3の要件が更新されたと報じられている。2026年7月時点で★1適合製品は1,500製品超とされ、政府調達での活用が決定していると解説されている。SwitchBotおよびRoborockの製品が適合ラベルを取得しているかは、IPAの取得製品一覧を直接確認できず未確認。",
+      "impact": "",
+      "source": "IPA 独立行政法人情報処理推進機構「セキュリティ要件適合評価及びラベリング制度（JC-STAR）」",
+      "source_url": "https://www.ipa.go.jp/security/jc-star/index.html"
+    },
+    {
+      "date": "2025-12-14",
+      "title": "iRobot（ルンバ）が米連邦破産法11条を申請し中国PICEA傘下へ ― ロボット掃除機の勢力図が確定的に変化",
+      "body": "米iRobotは2025年12月14日に米連邦破産法第11条（チャプター11）の適用を申請し、製造委託先である中国・深圳のPICEA（杉川機器人／ピセアグループ）系の傘下に入ると報じられている【要確認】。裁判所の承認を経て2026年2月までに手続きを終える見通しと報道されている。アイロボットジャパンは2025年12月時点で、日本国内の販売・サービス・サポート・製品保証・アプリはこれまで通り継続すると説明したと報じられている。中国企業が家庭内データを保有する企業を完全買収することへの懸念が指摘されているとの報道もある【要確認】。",
+      "impact": "",
+      "source": "日本経済新聞「ルンバの米アイロボット、破産法申請 中国企業傘下に」",
+      "source_url": "https://www.nikkei.com/article/DGXZQOGN152UY0V11C25A2000000/"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "2026年の改正個人情報保護法が公布 ― 生体データ・カメラ機器の規律強化と越境移転",
+      "body": "改正個人情報保護法は2026年7月17日に公布され、施行は公布日から2年を超えない範囲内で政令で定めるとされている（＝2028年7月17日までに施行）と解説されている。改正では「特定生体個人情報」の取り扱いに関する規律が設けられ、監視カメラやセンサー等の機器の周辺に、当該情報を取り扱っている旨および利用停止請求等の手段を分かりやすく掲示するなど周知の徹底が求められると説明されている。また外国にある第三者への個人データ移転（越境移転）に関する規定も含まれる。スマートロックの顔認証・静脈認証や見守りカメラを扱うメーカーへの実務上の影響が想定されるが、SwitchBot・Roborock各社の具体的な対応方針は未確認。",
+      "impact": "",
+      "source": "のぞみ総合法律事務所「2026年（令和8年）改正個人情報保護法の概要（第1回）」",
+      "source_url": "https://www.nozomisogo.gr.jp/newsletter/13819"
     }
   ]
 }

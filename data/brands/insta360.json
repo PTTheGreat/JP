@@ -377,6 +377,209 @@
           "checked": "2026-08-27"
         }
       ]
+    },
+    {
+      "slug": "insta360-topic-6369",
+      "question": "Insta360 X6はX5から買い替える価値がありますか？日本での価格はいくらですか？",
+      "topical": true,
+      "answer": "Insta360は2026年8月に新フラッグシップ360度カメラ「X6」を日本で発表・発売した。ソニーと共同開発したデュアル1/1.1型センサーを搭載し、8K撮影に対応、本体重量は約195gと報じられている。価格は標準版118,000円、Essentialキット135,000円との記載があるが、公式ストア表記の最新価格は変動する可能性があるため未確認。ITmedia PC USERは「X5から買い替える価値はあるか」という比較記事を2026年8月14日付で掲載している。",
+      "sources": [
+        {
+          "name": "Insta360 Japan プレスリリース(PR TIMES)",
+          "url": "https://prtimes.jp/main/html/rd/p/000000172.000052813.html",
+          "published": "不明"
+        },
+        {
+          "name": "デジカメ Watch(Impress)",
+          "url": "https://dc.watch.impress.co.jp/docs/news/2132389.html",
+          "published": "不明"
+        },
+        {
+          "name": "ITmedia PC USER",
+          "url": "https://www.itmedia.co.jp/pcuser/amp/2608/14/news030.html",
+          "published": "2026-08-14"
+        },
+        {
+          "name": "re-earth-tv",
+          "url": "https://re-earth-tv.com/review/2026/08/13/insta360-x6-specs-price-x5-comparison/",
+          "published": "2026-08-13"
+        },
+        {
+          "name": "MoguLive",
+          "url": "https://www.moguravr.com/insta360-x6-8k-360-camera/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-topic-0185",
+      "question": "Insta360の新ドローン「Antigravity A1」は、日本の規制の中でちゃんと飛ばせるのですか？249gなら登録不要ですか？",
+      "topical": true,
+      "answer": "Insta360の新ドローンブランド「Antigravity」の8K 360度全景ドローン「A1」は、日本で2025年12月18日に発売され、価格は209,000円からと報じられている。ITmediaは2025年12月23日付で「ドローン規制が厳しい日本でなぜ発売するのか」という背景記事を掲載している。日本の航空法では本体+バッテリー100g以上の機体はDIPS 2.0への登録・登録記号表示・リモートID搭載が義務であり、249gクラスでも「登録不要」にはならない点が各解説記事の共通見解。加えて2026年7月14日施行の小型無人機等飛行禁止法改正では100g未満機も対象で周辺1,000mが飛行禁止となるため、機体重量だけで判断はできない。A1の技適取得状況の一次情報は今回の調査では確認できなかった【要確認】。",
+      "sources": [
+        {
+          "name": "ITmedia PC USER",
+          "url": "https://www.itmedia.co.jp/pcuser/articles/2512/23/news054.html",
+          "published": "2025-12-23"
+        },
+        {
+          "name": "Insta360 Japan プレスリリース(PR TIMES)",
+          "url": "https://prtimes.jp/main/html/rd/p/000000112.000052813.html",
+          "published": "不明"
+        },
+        {
+          "name": "Insta360 公式ブログ(Antigravity A1 発表)",
+          "url": "https://www.insta360.com/blog-jp/AntigravityA1",
+          "published": "不明"
+        },
+        {
+          "name": "Insta360 公式ブログ(Antigravity ブランド誕生)",
+          "url": "https://www.insta360.com/blog-jp/Antigravityjp",
+          "published": "不明"
+        },
+        {
+          "name": "建設ITブログ",
+          "url": "https://ken-it.world/it/2026/01/360-cam-drone.html",
+          "published": "不明"
+        },
+        {
+          "name": "re-earth-tv(2026年7月14日施行の飛行禁止法改正)",
+          "url": "https://re-earth-tv.com/review/2026/07/15/drone-regulation-2026-july14-1000m/",
+          "published": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-topic-6801",
+      "question": "Antigravity A1はDJIと違って米国の規制を受けないのですか？なぜですか？",
+      "topical": true,
+      "answer": "海外メディアは、AntigravityがA1に米Ambarella社のCV5チップを採用したことがFCCのCovered List更新との関係で有利に働いたと報じ、A1は「輸入・流通・販売・運用が制限なく継続している」というAntigravity側の説明を伝えている。2026年1月にはA1の米国での取扱店拡大とセールが報じられた。ただし、FCCの2025年12月22日の公示は「外国製UASおよび重要部品」全般を対象としており、A1が具体的にどの根拠で対象外・適用除外となっているのかについて、FCC一次資料での確認は今回の調査では行えていない【要確認】。米国市場の話であり、日本での販売可否とは別問題である点に注意。",
+      "sources": [
+        {
+          "name": "DRONELIFE(Ambarella CV5 / Antigravity A1 / FCC Covered List)",
+          "url": "https://dronelife.com/2026/01/05/ambarella-cv5-antigravity-a1-ces-fcc-covered-list/",
+          "published": "2026-01-05"
+        },
+        {
+          "name": "The Drone Girl",
+          "url": "https://www.thedronegirl.com/2026/01/07/antigravity-a1-chip-ambarella/",
+          "published": "2026-01-07"
+        },
+        {
+          "name": "No Film School",
+          "url": "https://nofilmschool.com/antigravity-a1-update",
+          "published": "不明"
+        },
+        {
+          "name": "DroneXL",
+          "url": "https://dronexl.co/2026/01/27/antigravity-15-off-sale-amazon/",
+          "published": "2026-01-27"
+        },
+        {
+          "name": "DroneDJ",
+          "url": "https://dronedj.com/2025/11/28/antigravity-a1-drone-launch-date/",
+          "published": "2025-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-topic-8131",
+      "question": "Insta360（影石創新）は上場後に業績が悪化していると聞きましたが、サポートや今後の製品は大丈夫ですか？",
+      "topical": true,
+      "answer": "影石創新(Insta360)は2025年6月11日に科創板へ上場した。2026年4月公表の2025年年度報告に関する中国メディア報道では、2025年の売上高97.41億元(前年比+74.76%)に対し、帰属純利益9.29億元(同-6.62%)と「増収減益」となり、粗利率も2024年52.20%から2025年45.74%へ低下したと伝えられている。2026年第1四半期の売上高は24.81億元(前年同期比+83.11%)。会社側は新製品サイクルへの戦略的投資による短期的な利益圧縮と説明していると報じられている。これらの数値は中国メディア報道ベースであり、日本法人のサポート体制への影響を示す情報は確認されていない【要確認】。",
+      "sources": [
+        {
+          "name": "腾讯新闻(年報分析)",
+          "url": "https://view.inews.qq.com/a/20260429A07T5D00",
+          "published": "2026-04-29"
+        },
+        {
+          "name": "影石創新科技股份有限公司 2025年年度報告(PDF)",
+          "url": "https://stockmc.xueqiu.com/202604/688775_20260429_Z01R.pdf",
+          "published": "2026-04-29"
+        },
+        {
+          "name": "新浪財経",
+          "url": "https://finance.sina.com.cn/wm/2026-06-01/doc-inhzwuht2437991.shtml",
+          "published": "2026-06-01"
+        },
+        {
+          "name": "腾讯新闻/21财经(全景相机十年後の成長課題)",
+          "url": "https://news.qq.com/rain/a/20260812A0CUMY00",
+          "published": "2026-08-12"
+        },
+        {
+          "name": "MoneyWeekly",
+          "url": "https://m.moneyweekly.com.cn/MoneyNews/news_22980.html",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-topic-3667",
+      "question": "Insta360を海外通販や並行輸入で安く買っても大丈夫ですか？保証や技適はどうなりますか？",
+      "topical": true,
+      "answer": "並行輸入品は日本国内の正規保証の対象外となる場合があり、初期不良・故障時に国内サポートセンターでの修理・交換が受けられず、海外発送が必要になることがあると複数の解説記事が指摘している。Insta360 Careや延長保証の対象外になる場合があるとの記載もある。Insta360は日本向けに公式ストアと2年間延長保証を提供している。加えて無線機能を持つ製品は技適マークがなければ国内で電波を発射できず、電波法違反となり得る点は総務省の技適Q&Aで確認できる。個別機種の技適取得状況は購入前に本体表示や正規代理店で確認する必要がある。",
+      "sources": [
+        {
+          "name": "Insta360 公式ストア(2年間カメラ保証)",
+          "url": "https://store.insta360.com/product/warranty_service?X-Country=JP",
+          "published": "不明"
+        },
+        {
+          "name": "ONとOFF(販売店比較)",
+          "url": "https://delicious-delivery.com/insta360/bestdeal/",
+          "published": "不明"
+        },
+        {
+          "name": "ONとOFF(公式ストアのメリット)",
+          "url": "https://delicious-delivery.com/insta360/officialstoremerit/",
+          "published": "不明"
+        },
+        {
+          "name": "総務省 電波利用ポータル(技適マークのQ&A)",
+          "url": "https://www.tele.soumu.go.jp/j/adm/monitoring/summary/qa/giteki_mark/",
+          "published": "不明"
+        },
+        {
+          "name": "Insta360 公式ストア 楽天市場店(延長保証)",
+          "url": "https://item.rakuten.co.jp/insta360-shop2/insta360-warranty/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "insta360-topic-7628",
+      "question": "360度カメラはInsta360 X6とDJI Osmo 360のどちらを買うべきですか？",
+      "topical": true,
+      "answer": "DJIは2025年8月に360度カメラ「Osmo 360」を投入し、Insta360の主力領域に参入した。日本の比較記事では、Osmo 360は軽量・マグネット式マウント・8K/50fps対応、Insta360 X5はレンズ交換対応と連続撮影時間の長さ、X6はデュアル1/1.1型センサーによる暗所性能と処理性能の向上が特徴として整理されている。中国メディアの報道では2026年第1四半期の全景カメラ世界出荷が前年同期比50%超増、Insta360が首位を維持しつつDJIが新規参入したとされるが、具体的なシェア数値の一次情報は未確認。",
+      "sources": [
+        {
+          "name": "パノラマログ(Insta360 X5とDJI Osmo 360 17の違い)",
+          "url": "https://ryo-simplediary.com/2025/08/08/%E3%80%90%E6%AF%94%E8%BC%83%E3%80%91insta360-x5%E3%81%A8dji-osmo-360-%E3%80%8C17%E3%81%AE%E9%81%95%E3%81%84%E3%80%8D/",
+          "published": "2025-08-08"
+        },
+        {
+          "name": "パノラマログ(360度カメラ4種比較)",
+          "url": "https://ryo-simplediary.com/2025/10/28/%E3%80%90360%E3%82%AB%E3%83%A1%E3%83%A9%EF%BC%94%E7%A8%AE%E6%AF%94%E8%BC%83%E3%80%91insta360-x5%EF%BC%8Fx4-air%EF%BC%8Fx4%EF%BC%8Fdji-osmo-360/",
+          "published": "2025-10-28"
+        },
+        {
+          "name": "MONKEY HEAVEN(バイク用途比較)",
+          "url": "https://monkeyheaven.jp/osmo360_vs_insta360x5/",
+          "published": "不明"
+        },
+        {
+          "name": "moto-auc(最新360度カメラ比較)",
+          "url": "https://www.moto-auc.com/report/column/360dji-osmo-360-vs-insta360-x5",
+          "published": "不明"
+        },
+        {
+          "name": "腾讯新闻/21财经(全景カメラ市場動向)",
+          "url": "https://news.qq.com/rain/a/20260812A0CUMY00",
+          "published": "2026-08-12"
+        }
+      ]
     }
   ],
   "sections": [
@@ -621,6 +824,24 @@
           "checked": "2026-08-27"
         }
       ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2025-12-22",
+      "title": "米FCCが「外国製UAS(無人航空機システム)全般」とDJI・Autel製品をCovered Listに追加(施行済み)",
+      "body": "米連邦通信委員会(FCC)の公共安全・国土安全保障局は2025年12月22日、2025年度国防権限法(FY25 NDAA)の規定に基づき、DJIおよびAutel Roboticsの通信・映像監視機器を、さらに想定を超える範囲として「外国製UASおよびUASの重要部品」全般をCovered Listに追加した。NDAAが定めた安全保障審査の期限(2025年12月23日)までに指定機関による審査が完了しなかったことが直接の引き金と報じられている。Covered List入りの効果は「新規の機器認証(equipment authorization)が取得できない」ことであり、米当局・法律事務所の解説によれば、既にFCC認証済みのモデルの輸入・販売・使用そのものを禁止するものではない。2026年1月7日にはBlue UASリスト掲載機やBuy American適合の「国内製品」を2027年1月1日まで暫定的に適用除外とする公示が出たが、DJI・Autel製品はこの除外に含まれていないと報じられている。",
+      "impact": "",
+      "source": "DRONELIFE",
+      "source_url": "https://dronelife.com/2025/12/22/fcc-adds-foreign-made-drones-and-components-to-covered-list-citing-national-security-risks/"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "小型無人機等飛行禁止法の改正 ― 対象施設周辺の飛行禁止範囲が「おおむね300m」から「おおむね1,000m」へ拡大(2026年7月14日施行)",
+      "body": "小型無人機等飛行禁止法の改正法が2026年6月17日に成立、6月24日公布、2026年7月14日に施行されたと複数のドローン事業者・スクールが解説している。対象施設の敷地・区域(レッドゾーン)の外側の周辺地域(イエローゾーン)が、従来のおおむね300mからおおむね1,000mへ拡大された。この法律は航空法と異なり100g未満の機体も対象になる点、および2026年7月14日以降はイエローゾーンでの違法飛行そのものが直接処罰の対象になる点が実務上の注意点として挙げられている。罰則水準について「レッドゾーンで1年以下の拘禁刑または50万円以下の罰金」との解説があるが、条文の一次情報での確認は未実施【要確認】。",
+      "impact": "",
+      "source": "スカイピーク(note)",
+      "source_url": "https://note.com/skypeak_drone/n/ne8dda0adf075"
     }
   ]
 }
