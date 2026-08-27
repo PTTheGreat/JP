@@ -114,6 +114,8 @@
 - [DJIのドローンが木に引っかかって回収できません。保証や保険でどこまでカバーされますか?](https://ptthegreat.github.io/PS-test/dji/dji-drone-stuck-in-tree-coverage/)
 - [DJI製品の修理費用の目安を知りたいのですが、送る前に見積もりは分かりますか?](https://ptthegreat.github.io/PS-test/dji/dji-repair-cost-estimate-process/)
 - [DJI Care Refreshでフライトバッテリーも新品に交換してもらえますか?](https://ptthegreat.github.io/PS-test/dji/dji-care-refresh-battery-coverage/)
+- [自宅の庭など私有地であれば、DJIのドローンは許可なしで飛ばせますか?](https://ptthegreat.github.io/PS-test/dji/dji-private-land-permission/)
+- [2026年7月から重要施設まわりの飛行禁止範囲が1,000mに広がったそうですが、これまで飛ばしていた場所も再確認が必要ですか?](https://ptthegreat.github.io/PS-test/dji/dji-2026-flight-ban-1000m-practice/)
 - [掃除機のダイソンはどこの国のメーカーで、どこで製造しているのですか?](https://ptthegreat.github.io/PS-test/dyson/dyson-country/)
 - [ダイソンの掃除機は中国製なのですか?](https://ptthegreat.github.io/PS-test/dyson/dyson-made-in-china/)
 - [ダイソンの掃除機の保証はどうなっていますか?高価なので故障時が心配です](https://ptthegreat.github.io/PS-test/dyson/dyson-warranty-basics/)
