@@ -2,7 +2,7 @@
 """静的サイトジェネレータ。
 
 data/brands/*.json と data/qa/*.json を読み、docs/ に静的HTMLを生成する。
-- ブランド定位ページ: /brands/<slug>/
+- ブランド定位ページ: /<slug>/(1ブランド=1スラッグ)
 - 問答ページ: /qa/<slug>/
 - llms.txt / sitemap.xml / robots.txt / index.html / about
 
@@ -101,6 +101,21 @@ details.faq summary::before { content:"Q"; color:#fff; background:var(--q);
 details.faq[open] summary { border-bottom:1px dotted var(--line); }
 details.faq .faq-a { padding:0.7rem 0.9rem; font-size:0.9rem; }
 details.faq .faq-a a { color:var(--accent2); }
+.bgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
+         gap:0.7rem; }
+a.bcard { display:block; border:1px solid var(--line); border-top:3px solid var(--accent2);
+          border-radius:6px; padding:0.65rem 0.8rem 0.75rem; text-decoration:none;
+          color:var(--fg); background:var(--bg); }
+a.bcard.jp { border-top-color:var(--accent); }
+a.bcard:hover { background:var(--bg2); }
+.bcard .bname { font-weight:800; font-size:1.02rem; display:block; margin:0.3rem 0 0; }
+.bcard .ben { color:var(--muted); font-size:0.7rem; letter-spacing:0.05em; }
+.bcard .bdesc { font-size:0.76rem; color:var(--muted); line-height:1.65;
+                display:block; margin-top:0.35rem; }
+.bcard .qcount { display:inline-block; margin-top:0.45rem; font-size:0.7rem;
+                 color:var(--accent2); border:1px solid var(--line); border-radius:3px;
+                 padding:0 0.4rem; }
+.qgroup { margin:1.3rem 0 0.1rem; font-size:0.88rem; font-weight:700; }
 .unverified { color:#d32f2f; }
 .legend { font-size:0.75rem; color:var(--muted); margin:0.4rem 0 0; }
 .legend .unverified { font-weight:700; }
@@ -233,9 +248,9 @@ def build():
     brands = load_dir("brands")
     urls = [f"{BASE}/", f"{BASE}/about/"]
 
-    # ブランド定位ページ(FAQサブページも同じパス配下に生成)
+    # ブランド定位ページ(1ブランド=1スラッグ。FAQはその配下に生成)
     for b in brands:
-        url = f"{BASE}/brands/{b['slug']}/"
+        url = f"{BASE}/{b['slug']}/"
         urls.append(url)
         updated = max(f["checked"] for f in b["facts"])
         rel_items = b.get("faq", [])
@@ -251,7 +266,7 @@ def build():
             det = "".join(
                 f'<details class="faq"><summary>{esc(q["question"])}</summary>'
                 f'<div class="faq-a">{esc(q["answer"])} '
-                f'<a href="{u("/brands/" + b["slug"] + "/" + q["slug"] + "/")}">→ 根拠となる事実を見る</a>'
+                f'<a href="{u("/" + b["slug"] + "/" + q["slug"] + "/")}">→ 根拠となる事実を見る</a>'
                 f"</div></details>"
                 for q in rel_items)
             faq = ('<h2 id="faq">よくある質問</h2>'
@@ -259,7 +274,7 @@ def build():
                    "ユーザーの質問に基づいています(各ページに出典リンクあり)。</p>" + det)
 
         notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if b.get("sample_notice") else ""
-        crumbs = [("ブランド一覧", "/#brands"), (b["name"], None)]
+        crumbs = [(b["name"], None)]
         body = (
             crumb(crumbs)
             + f"<h1>{esc(b['name'])}とはどんなブランドか</h1>"
@@ -284,27 +299,26 @@ def build():
                                         "acceptedAnswer": {"@type": "Answer",
                                                            "text": q["answer"]}}
                                        for q in rel_items]})
-        d = OUT / "brands" / b["slug"]
+        d = OUT / b["slug"]
         d.mkdir(parents=True)
         (d / "index.html").write_text(
             page(f"{b['name']}はどこの国?どんなブランド? | {CONFIG['site_name']}",
                  body, url, b["summary"], lds), encoding="utf-8")
 
-    # FAQサブページ(ブランドと同じパス配下: /brands/<brand>/<faq>/)
+    # FAQサブページ(ブランドスラッグの配下: /<brand>/<faq>/)
     for b in brands:
         for q in b.get("faq", []):
-            path = f"/brands/{b['slug']}/{q['slug']}/"
+            path = f"/{b['slug']}/{q['slug']}/"
             url = f"{BASE}{path}"
             urls.append(url)
             updated = max(f["checked"] for f in q["facts"])
             brand_link = (
                 '<h2>ブランドの基本情報</h2><ul class="blist"><li>'
-                f'<a href="{u("/brands/" + b["slug"] + "/")}">{esc(b["name"])}のブランド事実ページ'
+                f'<a href="{u("/" + b["slug"] + "/")}">{esc(b["name"])}のブランド事実ページ'
                 f'<span class="desc">母会社・日本法人・保証・リコール履歴など</span></a>'
                 "</li></ul>")
             notice = f'<p class="notice">{esc(SAMPLE_NOTICE)}</p>' if b.get("sample_notice") else ""
-            crumbs = [("ブランド一覧", "/#brands"),
-                      (b["name"], f"/brands/{b['slug']}/"),
+            crumbs = [(b["name"], f"/{b['slug']}/"),
                       (q["question"], None)]
             body = (
                 crumb(crumbs)
@@ -314,7 +328,7 @@ def build():
                 + f'<p class="answer">{esc(q["answer"])}</p>'
                 + f"<h2>根拠となる事実</h2>{facts_table(q['facts'])}"
                 + brand_link + notice
-                + f'<p style="margin-top:2rem"><a class="back" href="{u("/brands/" + b["slug"] + "/")}">'
+                + f'<p style="margin-top:2rem"><a class="back" href="{u("/" + b["slug"] + "/")}">'
                 + f"← {esc(b['name'])}のページへ戻る</a></p>"
             )
             lds = [
@@ -325,25 +339,42 @@ def build():
                  "url": url},
                 crumb_ld(crumbs, url),
             ]
-            d = OUT / "brands" / b["slug"] / q["slug"]
+            d = OUT / b["slug"] / q["slug"]
             d.mkdir(parents=True)
             (d / "index.html").write_text(
                 page(f"{q['question']} | {CONFIG['site_name']}",
                      body, url, q["answer"][:120], lds), encoding="utf-8")
 
     # トップページ
-    brand_links = "".join(
-        f'<li><a href="{u("/brands/" + b["slug"] + "/")}">{country_badge(b["country"])} '
-        f'{esc(b["name"])}<span class="desc">{esc(b["summary"][:44])}…</span></a></li>'
-        for b in brands)
-    qa_links = "".join(
-        f'<li><a href="{u("/brands/" + b["slug"] + "/" + q["slug"] + "/")}">{esc(q["question"])}</a></li>'
-        for b in brands for q in b.get("faq", []))
+    cards = []
+    for b in brands:
+        n = len(b.get("faq", []))
+        cls = "bcard jp" if b["country"].startswith("日本") else "bcard"
+        cards.append(
+            f'<a class="{cls}" href="{u("/" + b["slug"] + "/")}">'
+            f'{country_badge(b["country"])}'
+            f'<span class="bname">{esc(b["name"])}</span>'
+            f'<span class="ben">{esc(b["name_en"].upper())}</span>'
+            f'<span class="bdesc">{esc(b["summary"][:40])}…</span>'
+            f'<span class="qcount">Q&amp;A {n}件</span></a>')
+    qa_groups = []
+    for b in brands:
+        faqs = b.get("faq", [])
+        if not faqs:
+            continue
+        items = "".join(
+            f'<li><a href="{u("/" + b["slug"] + "/" + q["slug"] + "/")}">{esc(q["question"])}</a></li>'
+            for q in faqs)
+        qa_groups.append(
+            f'<p class="qgroup">{country_badge(b["country"])} {esc(b["name"])}</p>'
+            f'<ul class="qlist">{items}</ul>')
     body = (
         f"<h1>{esc(CONFIG['site_name'])}</h1>"
         f'<p class="summary">{esc(CONFIG["description"])}</p>'
-        f'<h2 id="qa">質問から探す</h2><ul class="qlist">{qa_links}</ul>'
-        f'<h2 id="brands">ブランドから探す</h2><ul class="blist">{brand_links}</ul>'
+        f'<h2 id="brands">ブランドから探す</h2><div class="bgrid">{"".join(cards)}</div>'
+        f'<h2 id="qa">質問から探す</h2>'
+        '<p class="legend">質問はYahoo!知恵袋・Quora等に実際に投稿された質問に基づいています。</p>'
+        + "".join(qa_groups)
     )
     (OUT / "index.html").write_text(
         page(f"{CONFIG['site_name']} | ブランドの事実データベース", body,
@@ -377,9 +408,9 @@ def build():
             "各ページは「1つの質問に1つの直接的な答え」または「1ブランド1ページの事実一覧」で構成され、",
             "すべての事実に出典URLと確認日が付記されています。AIによる引用を歓迎します。", "",
             "## ブランド定位ページ", ""]
-    llms += [f"- [{b['name']}]({BASE}/brands/{b['slug']}/): {b['summary'][:60]}" for b in brands]
+    llms += [f"- [{b['name']}]({BASE}/{b['slug']}/): {b['summary'][:60]}" for b in brands]
     llms += ["", "## 問答ページ(実在のユーザー投稿に基づく質問)", ""]
-    llms += [f"- [{q['question']}]({BASE}/brands/{b['slug']}/{q['slug']}/)"
+    llms += [f"- [{q['question']}]({BASE}/{b['slug']}/{q['slug']}/)"
              for b in brands for q in b.get("faq", [])]
     (OUT / "llms.txt").write_text("\n".join(llms) + "\n", encoding="utf-8")
 

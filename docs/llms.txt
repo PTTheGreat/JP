@@ -7,35 +7,35 @@
 
 ## ブランド定位ページ
 
-- [Anker(アンカー)](https://ptthegreat.github.io/PS-test/brands/anker/): Ankerは中国・深圳発の充電関連機器ブランド。元Googleエンジニアが2011年に創業し、日本ではアンカー・ジャパン
-- [BALMUDA(バルミューダ)](https://ptthegreat.github.io/PS-test/brands/balmuda/): BALMUDAは東京発の家電ブランド。2003年に寺尾玄氏が創業し、スチームトースター「BALMUDA The Toas
-- [CIO(シーアイオー)](https://ptthegreat.github.io/PS-test/brands/cio/): CIOは大阪府守口市発の充電器・モバイルバッテリーメーカー。2017年に設立された日本の新興企業で、小型充電器「Nova
-- [DJI(ディージェーアイ)](https://ptthegreat.github.io/PS-test/brands/dji/): DJIは中国・深圳のドローン・映像機器メーカー。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア
-- [Dyson(ダイソン)](https://ptthegreat.github.io/PS-test/brands/dyson/): Dysonは1991年にジェームズ・ダイソン氏が英国で創業した家電メーカー。サイクロン掃除機、羽根のない扇風機、ヘアドラ
-- [Insta360(インスタ360)](https://ptthegreat.github.io/PS-test/brands/insta360/): Insta360は中国・深圳のArashi Vision(影石創新)が展開するカメラブランド。2015年に劉靖康氏が創業
-- [Roborock(ロボロック)](https://ptthegreat.github.io/PS-test/brands/roborock/): Roborockは中国・北京発のロボット掃除機専業ブランド。2014年創業でXiaomiエコシステム出身、現在は上海証券
-- [SharkNinja(シャークニンジャ)](https://ptthegreat.github.io/PS-test/brands/sharkninja/): SharkNinjaは米国マサチューセッツ州発の家電メーカー。掃除機の「Shark」とキッチン家電の「Ninja」の2ブ
-- [SwitchBot(スイッチボット)](https://ptthegreat.github.io/PS-test/brands/switchbot/): SwitchBotは中国・深圳のWOAN Technologyが展開するスマートホームブランド。物理スイッチを押す「ボッ
-- [Xiaomi(シャオミ)](https://ptthegreat.github.io/PS-test/brands/xiaomi/): Xiaomiは中国・北京発の総合エレクトロニクスブランド。2010年に雷軍(レイ・ジュン)氏が創業し、スマートフォンで世
+- [Anker(アンカー)](https://ptthegreat.github.io/PS-test/anker/): Ankerは中国・深圳発の充電関連機器ブランド。元Googleエンジニアが2011年に創業し、日本ではアンカー・ジャパン
+- [BALMUDA(バルミューダ)](https://ptthegreat.github.io/PS-test/balmuda/): BALMUDAは東京発の家電ブランド。2003年に寺尾玄氏が創業し、スチームトースター「BALMUDA The Toas
+- [CIO(シーアイオー)](https://ptthegreat.github.io/PS-test/cio/): CIOは大阪府守口市発の充電器・モバイルバッテリーメーカー。2017年に設立された日本の新興企業で、小型充電器「Nova
+- [DJI(ディージェーアイ)](https://ptthegreat.github.io/PS-test/dji/): DJIは中国・深圳のドローン・映像機器メーカー。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア
+- [Dyson(ダイソン)](https://ptthegreat.github.io/PS-test/dyson/): Dysonは1991年にジェームズ・ダイソン氏が英国で創業した家電メーカー。サイクロン掃除機、羽根のない扇風機、ヘアドラ
+- [Insta360(インスタ360)](https://ptthegreat.github.io/PS-test/insta360/): Insta360は中国・深圳のArashi Vision(影石創新)が展開するカメラブランド。2015年に劉靖康氏が創業
+- [Roborock(ロボロック)](https://ptthegreat.github.io/PS-test/roborock/): Roborockは中国・北京発のロボット掃除機専業ブランド。2014年創業でXiaomiエコシステム出身、現在は上海証券
+- [SharkNinja(シャークニンジャ)](https://ptthegreat.github.io/PS-test/sharkninja/): SharkNinjaは米国マサチューセッツ州発の家電メーカー。掃除機の「Shark」とキッチン家電の「Ninja」の2ブ
+- [SwitchBot(スイッチボット)](https://ptthegreat.github.io/PS-test/switchbot/): SwitchBotは中国・深圳のWOAN Technologyが展開するスマートホームブランド。物理スイッチを押す「ボッ
+- [Xiaomi(シャオミ)](https://ptthegreat.github.io/PS-test/xiaomi/): Xiaomiは中国・北京発の総合エレクトロニクスブランド。2010年に雷軍(レイ・ジュン)氏が創業し、スマートフォンで世
 
 ## 問答ページ(実在のユーザー投稿に基づく質問)
 
-- [Ankerはどこの国の企業ですか?](https://ptthegreat.github.io/PS-test/brands/anker/anker-country/)
-- [モバイルバッテリーのAnkerは信用できますか?中国製というのが気になります](https://ptthegreat.github.io/PS-test/brands/anker/anker-trust/)
-- [バルミューダのトースターは値段に対して買う価値ありますか?](https://ptthegreat.github.io/PS-test/brands/balmuda/balmuda-worth/)
-- [バルミューダの家電はデザイン重視で、機能が少ない割に強気の価格設定なのはなぜですか?](https://ptthegreat.github.io/PS-test/brands/balmuda/balmuda-price/)
-- [CIOのモバイルバッテリーは安心ですか?Ankerの方が安全ですか?](https://ptthegreat.github.io/PS-test/brands/cio/cio-safe/)
-- [AnkerのモバイルバッテリーとCIOのモバイルバッテリー、どっちがいいですか?](https://ptthegreat.github.io/PS-test/brands/cio/cio-vs-anker/)
-- [DJIという中国のメーカーについて詳しく教えてください](https://ptthegreat.github.io/PS-test/brands/dji/dji-about/)
-- [免許不要のドローンはどこまで飛行可能ですか?飛行に際し申請や連絡など何が必要ですか?](https://ptthegreat.github.io/PS-test/brands/dji/dji-drone-rules/)
-- [掃除機のダイソンってどこの国のメーカーで、どこで製造しているのですか?](https://ptthegreat.github.io/PS-test/brands/dyson/dyson-country/)
-- [ダイソンの掃除機は中国製なのですか?](https://ptthegreat.github.io/PS-test/brands/dyson/dyson-madeinchina/)
-- [Insta360とGoPro、どっちを選べばいいですか?レビューを見ても決められません](https://ptthegreat.github.io/PS-test/brands/insta360/insta360-vs-gopro/)
-- [ロボロックとルンバどっちがオススメですか?](https://ptthegreat.github.io/PS-test/brands/roborock/roborock-vs-roomba/)
-- [国産メーカーか中国以外のメーカーでおすすめのロボット掃除機はありますか?](https://ptthegreat.github.io/PS-test/brands/roborock/roborock-domestic/)
-- [ダイソンとシャークの掃除機だったらどっちがいいですか?](https://ptthegreat.github.io/PS-test/brands/sharkninja/shark-vs-dyson/)
-- [外資系メーカーのSharkは、掃除機のシェアでダイソンを超えますか?](https://ptthegreat.github.io/PS-test/brands/sharkninja/shark-share/)
-- [SwitchBotって危険性あるんですか?盗聴とかそういったリスクはあるんでしょうか](https://ptthegreat.github.io/PS-test/brands/switchbot/switchbot-security/)
-- [アプリに知らないSwitchBotデバイスが表示されるのはなぜ?乗っ取られていますか?](https://ptthegreat.github.io/PS-test/brands/switchbot/switchbot-unknown-device/)
-- [なぜXiaomiなどの中国企業のスマホは高スペックでもあんなに安いのですか?](https://ptthegreat.github.io/PS-test/brands/xiaomi/xiaomi-cheap/)
-- [Xiaomiのスマホって安全なのでしょうか。中国に情報が流出しそうで怖いです](https://ptthegreat.github.io/PS-test/brands/xiaomi/xiaomi-safety/)
+- [Ankerはどこの国の企業ですか?](https://ptthegreat.github.io/PS-test/anker/anker-country/)
+- [モバイルバッテリーのAnkerは信用できますか?中国製というのが気になります](https://ptthegreat.github.io/PS-test/anker/anker-trust/)
+- [バルミューダのトースターは値段に対して買う価値ありますか?](https://ptthegreat.github.io/PS-test/balmuda/balmuda-worth/)
+- [バルミューダの家電はデザイン重視で、機能が少ない割に強気の価格設定なのはなぜですか?](https://ptthegreat.github.io/PS-test/balmuda/balmuda-price/)
+- [CIOのモバイルバッテリーは安心ですか?Ankerの方が安全ですか?](https://ptthegreat.github.io/PS-test/cio/cio-safe/)
+- [AnkerのモバイルバッテリーとCIOのモバイルバッテリー、どっちがいいですか?](https://ptthegreat.github.io/PS-test/cio/cio-vs-anker/)
+- [DJIという中国のメーカーについて詳しく教えてください](https://ptthegreat.github.io/PS-test/dji/dji-about/)
+- [免許不要のドローンはどこまで飛行可能ですか?飛行に際し申請や連絡など何が必要ですか?](https://ptthegreat.github.io/PS-test/dji/dji-drone-rules/)
+- [掃除機のダイソンってどこの国のメーカーで、どこで製造しているのですか?](https://ptthegreat.github.io/PS-test/dyson/dyson-country/)
+- [ダイソンの掃除機は中国製なのですか?](https://ptthegreat.github.io/PS-test/dyson/dyson-madeinchina/)
+- [Insta360とGoPro、どっちを選べばいいですか?レビューを見ても決められません](https://ptthegreat.github.io/PS-test/insta360/insta360-vs-gopro/)
+- [ロボロックとルンバどっちがオススメですか?](https://ptthegreat.github.io/PS-test/roborock/roborock-vs-roomba/)
+- [国産メーカーか中国以外のメーカーでおすすめのロボット掃除機はありますか?](https://ptthegreat.github.io/PS-test/roborock/roborock-domestic/)
+- [ダイソンとシャークの掃除機だったらどっちがいいですか?](https://ptthegreat.github.io/PS-test/sharkninja/shark-vs-dyson/)
+- [外資系メーカーのSharkは、掃除機のシェアでダイソンを超えますか?](https://ptthegreat.github.io/PS-test/sharkninja/shark-share/)
+- [SwitchBotって危険性あるんですか?盗聴とかそういったリスクはあるんでしょうか](https://ptthegreat.github.io/PS-test/switchbot/switchbot-security/)
+- [アプリに知らないSwitchBotデバイスが表示されるのはなぜ?乗っ取られていますか?](https://ptthegreat.github.io/PS-test/switchbot/switchbot-unknown-device/)
+- [なぜXiaomiなどの中国企業のスマホは高スペックでもあんなに安いのですか?](https://ptthegreat.github.io/PS-test/xiaomi/xiaomi-cheap/)
+- [Xiaomiのスマホって安全なのでしょうか。中国に情報が流出しそうで怖いです](https://ptthegreat.github.io/PS-test/xiaomi/xiaomi-safety/)
