@@ -1,0 +1,74 @@
+{
+  "slug": "insta360",
+  "name": "Insta360(インスタ360)",
+  "name_en": "Insta360",
+  "country": "中国",
+  "summary": "Insta360は中国・深圳のArashi Vision(影石創新)が展開するカメラブランド。2015年に劉靖康氏が創業し、360度カメラで世界シェア首位。日本ではアクションカメラ・Vlogカメラでも人気が高く、X(旧Twitter)やYouTubeでの作例投稿が多い。",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "親会社・設立背景",
+      "value": "Arashi Vision(影石創新科技、中国・深圳)。2015年に劉靖康氏が創業。2025年に上海STAR市場に上場。",
+      "source": "Insta360 公式サイト 会社情報",
+      "source_url": "https://www.insta360.com/jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "主な価格帯",
+      "value": "アクションカメラ・360度カメラで3万〜8万円前後、プロ向け機材は10万円超。",
+      "source": "Insta360 公式ストア",
+      "source_url": "https://store.insta360.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "取扱カテゴリ",
+      "value": "360度カメラ(Xシリーズ)、アクションカメラ(Aceシリーズ)、Vlogカメラ(GO)、ジンバル(Flow)、ウェブカメラなど。",
+      "source": "Insta360 公式ストア",
+      "source_url": "https://store.insta360.com/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本での販売チャネル",
+      "value": "公式オンラインストア、Amazon、家電量販店、カメラ専門店。国内正規代理店経由の流通あり。",
+      "source": "Insta360 公式サイト",
+      "source_url": "https://www.insta360.com/jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本法人",
+      "value": "日本での販売・サポートは国内正規代理店(アーチサイト等)が担う体制。日本法人の有無は国税庁サイトで要確認。【要確認】",
+      "source": "国税庁 法人番号公表サイト",
+      "source_url": "https://www.houjin-bangou.nta.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "技適(技術基準適合証明)",
+      "value": "Wi-Fi/Bluetooth搭載のため日本正規品は技適取得済み。並行輸入品は型番ごとに要確認。【要確認】",
+      "source": "総務省 技術基準適合証明等の公示",
+      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "リコール履歴",
+      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
+      "source": "消費者庁 リコール情報サイト",
+      "source_url": "https://www.recall.caa.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "保証期間",
+      "value": "本体1年間のメーカー保証が基本。有償の追加保証「Insta360 Care」あり。【要確認】",
+      "source": "Insta360 サポート",
+      "source_url": "https://www.insta360.com/jp/support",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本語サポート",
+      "value": "日本語のカスタマーサポート・公式サイト・アプリあり。修理は代理店経由または国際対応。【要確認】",
+      "source": "Insta360 サポート",
+      "source_url": "https://www.insta360.com/jp/support",
+      "checked": "2026-08-27"
+    }
+  ],
+  "related_qa": ["insta360-country", "insta360-gopro"]
+}

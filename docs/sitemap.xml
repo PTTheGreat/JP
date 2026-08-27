@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://example.jp/</loc></url>
+<url><loc>https://example.jp/about/</loc></url>
 <url><loc>https://example.jp/brands/anker/</loc></url>
 <url><loc>https://example.jp/brands/balmuda/</loc></url>
+<url><loc>https://example.jp/brands/cio/</loc></url>
+<url><loc>https://example.jp/brands/dji/</loc></url>
+<url><loc>https://example.jp/brands/dyson/</loc></url>
+<url><loc>https://example.jp/brands/insta360/</loc></url>
+<url><loc>https://example.jp/brands/roborock/</loc></url>
+<url><loc>https://example.jp/brands/sharkninja/</loc></url>
+<url><loc>https://example.jp/brands/switchbot/</loc></url>
+<url><loc>https://example.jp/brands/xiaomi/</loc></url>
 <url><loc>https://example.jp/qa/anker-country/</loc></url>
 <url><loc>https://example.jp/qa/anker-recall/</loc></url>
 <url><loc>https://example.jp/qa/balmuda-company/</loc></url>
+<url><loc>https://example.jp/qa/cio-country/</loc></url>
+<url><loc>https://example.jp/qa/cio-vs-anker/</loc></url>
+<url><loc>https://example.jp/qa/dji-country/</loc></url>
+<url><loc>https://example.jp/qa/dji-drone-rules/</loc></url>
+<url><loc>https://example.jp/qa/dyson-country/</loc></url>
+<url><loc>https://example.jp/qa/insta360-country/</loc></url>
+<url><loc>https://example.jp/qa/insta360-gopro/</loc></url>
+<url><loc>https://example.jp/qa/roborock-country/</loc></url>
+<url><loc>https://example.jp/qa/roborock-repair/</loc></url>
+<url><loc>https://example.jp/qa/shark-vs-dyson/</loc></url>
+<url><loc>https://example.jp/qa/sharkninja-country/</loc></url>
+<url><loc>https://example.jp/qa/switchbot-country/</loc></url>
+<url><loc>https://example.jp/qa/switchbot-security/</loc></url>
+<url><loc>https://example.jp/qa/xiaomi-cheap/</loc></url>
+<url><loc>https://example.jp/qa/xiaomi-country/</loc></url>
 </urlset>

@@ -1,0 +1,74 @@
+{
+  "slug": "switchbot",
+  "name": "SwitchBot(スイッチボット)",
+  "name_en": "SwitchBot",
+  "country": "中国",
+  "summary": "SwitchBotは中国・深圳のWOAN Technologyが展開するスマートホームブランド。物理スイッチを押す「ボット」から始まり、スマートロック、カーテン、ハブ、見守りカメラなど後付けスマートホーム機器で日本市場での存在感が大きい。東京に日本法人がある。",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "親会社・設立背景",
+      "value": "WOAN Technology(深圳市悟空智能科技、中国・深圳)。2015年頃創業。クラウドファンディング発のスマートホーム企業。",
+      "source": "SwitchBot 公式サイト 会社情報",
+      "source_url": "https://www.switchbot.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "主な価格帯",
+      "value": "単品2,000〜10,000円前後、スマートロック等で1〜3万円。後付け型で初期投資が小さいのが特徴。",
+      "source": "SwitchBot 公式オンラインストア",
+      "source_url": "https://www.switchbot.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "取扱カテゴリ",
+      "value": "スマートスイッチ、スマートロック、カーテン自動化、ハブ(リモコン)、温湿度計、見守りカメラ、ロボット掃除機など。",
+      "source": "SwitchBot 公式オンラインストア",
+      "source_url": "https://www.switchbot.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本での販売チャネル",
+      "value": "公式オンラインストア、Amazon、楽天市場、Yahoo!ショッピング、家電量販店。",
+      "source": "SwitchBot 公式サイト",
+      "source_url": "https://www.switchbot.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本法人",
+      "value": "SWITCHBOT株式会社(東京)。日本市場向けの販売・サポートを担当。法人番号は国税庁サイトで確認可能。【要確認】",
+      "source": "国税庁 法人番号公表サイト",
+      "source_url": "https://www.houjin-bangou.nta.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "技適(技術基準適合証明)",
+      "value": "Bluetooth/Wi-Fi搭載製品は日本正規品で技適取得済み。型番ごとに総務省データベースで確認可能。【要確認】",
+      "source": "総務省 技術基準適合証明等の公示",
+      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "リコール履歴",
+      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
+      "source": "消費者庁 リコール情報サイト",
+      "source_url": "https://www.recall.caa.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "保証期間",
+      "value": "多くの製品で購入から1年間。公式ストア購入で延長される場合あり。【要確認】",
+      "source": "SwitchBot サポート",
+      "source_url": "https://www.switchbot.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本語サポート",
+      "value": "日本語のカスタマーサポート(メール・チャット)あり。アプリも日本語完全対応。",
+      "source": "SwitchBot サポート",
+      "source_url": "https://www.switchbot.jp/",
+      "checked": "2026-08-27"
+    }
+  ],
+  "related_qa": ["switchbot-country", "switchbot-security"]
+}

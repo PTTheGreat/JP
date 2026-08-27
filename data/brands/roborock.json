@@ -1,0 +1,74 @@
+{
+  "slug": "roborock",
+  "name": "Roborock(ロボロック)",
+  "name_en": "Roborock",
+  "country": "中国",
+  "summary": "Roborockは中国・北京発のロボット掃除機専業ブランド。2014年創業でXiaomiエコシステム出身、現在は上海証券取引所STAR市場の上場企業。日本ではロボット掃除機市場の主要プレイヤーの一つで、水拭き両用の上位機種に強い。",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "親会社・設立背景",
+      "value": "北京石頭世紀科技(Beijing Roborock Technology)。2014年創業。Xiaomiエコシステム企業として出発し、2020年に上海STAR市場上場。",
+      "source": "Roborock 公式サイト 会社情報",
+      "source_url": "https://www.roborock.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "主な価格帯",
+      "value": "ロボット掃除機で3万〜20万円超。全自動ドック付きの上位機種が中心。",
+      "source": "Roborock 公式サイト 製品一覧",
+      "source_url": "https://www.roborock.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "取扱カテゴリ",
+      "value": "ロボット掃除機(吸引・水拭き)、コードレススティック掃除機、洗浄乾燥機など。",
+      "source": "Roborock 公式サイト 製品一覧",
+      "source_url": "https://www.roborock.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本での販売チャネル",
+      "value": "Amazon、楽天市場、家電量販店(ビックカメラ・ヨドバシ等)、公式オンラインストア。",
+      "source": "Roborock 公式サイト 取扱店",
+      "source_url": "https://www.roborock.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本法人",
+      "value": "日本法人(ロボロックジャパン)による販売・サポート体制あり。参入初期はSB C&S(ソフトバンクグループ)が国内総代理店。【要確認】",
+      "source": "国税庁 法人番号公表サイト",
+      "source_url": "https://www.houjin-bangou.nta.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "技適(技術基準適合証明)",
+      "value": "Wi-Fi搭載機のため日本正規品は技適取得済み。型番ごとに総務省データベースで確認可能。【要確認】",
+      "source": "総務省 技術基準適合証明等の公示",
+      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "リコール履歴",
+      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
+      "source": "消費者庁 リコール情報サイト",
+      "source_url": "https://www.recall.caa.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "保証期間",
+      "value": "本体1年間のメーカー保証が基本。販売店独自の延長保証に対応する場合あり。【要確認】",
+      "source": "Roborock サポート",
+      "source_url": "https://www.roborock.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本語サポート",
+      "value": "日本語のカスタマーサポートあり。国内修理受付窓口あり。アプリは日本語対応。",
+      "source": "Roborock サポート",
+      "source_url": "https://www.roborock.jp/",
+      "checked": "2026-08-27"
+    }
+  ],
+  "related_qa": ["roborock-country", "roborock-repair"]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "xiaomi",
+  "name": "Xiaomi(シャオミ)",
+  "name_en": "Xiaomi",
+  "country": "中国",
+  "summary": "Xiaomiは中国・北京発の総合エレクトロニクスブランド。2010年に雷軍(レイ・ジュン)氏が創業し、スマートフォンで世界シェア上位。日本には2019年に参入し、スマホのほかテレビ、ロボット掃除機、ウェアラブルなどを低〜中価格帯で展開する。",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "親会社・設立背景",
+      "value": "小米集団(Xiaomi Corporation、中国・北京)。2010年に雷軍氏が創業。2018年に香港証券取引所に上場。",
+      "source": "Xiaomi 公式サイト / 香港証券取引所",
+      "source_url": "https://www.mi.com/global/about/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "主な価格帯",
+      "value": "スマートフォンで2万〜15万円、家電・ウェアラブルは数千円〜。同スペック帯では競合より安価な傾向。",
+      "source": "Xiaomi Japan 公式サイト",
+      "source_url": "https://www.mi.com/jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "取扱カテゴリ",
+      "value": "スマートフォン、タブレット、スマートウォッチ・バンド、テレビ、ロボット掃除機、モバイルバッテリー、イヤホンなど。",
+      "source": "Xiaomi Japan 公式サイト",
+      "source_url": "https://www.mi.com/jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本での販売チャネル",
+      "value": "公式サイト、Amazon、楽天市場、家電量販店、携帯キャリア(au・ソフトバンク等)、直営店(Xiaomi Store)。",
+      "source": "Xiaomi Japan 公式サイト",
+      "source_url": "https://www.mi.com/jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本法人",
+      "value": "小米技術日本株式会社(Xiaomi Japan、東京)。2019年設立。法人番号は国税庁サイトで確認可能。【要確認】",
+      "source": "国税庁 法人番号公表サイト",
+      "source_url": "https://www.houjin-bangou.nta.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "技適(技術基準適合証明)",
+      "value": "日本で正規販売されるスマートフォン・無線機器は技適取得済み。並行輸入品は未取得の場合があるため型番ごとに要確認。",
+      "source": "総務省 技術基準適合証明等の公示",
+      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "リコール履歴",
+      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
+      "source": "消費者庁 リコール情報サイト",
+      "source_url": "https://www.recall.caa.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "保証期間",
+      "value": "スマートフォンは購入から1年間のメーカー保証が基本。【要確認】",
+      "source": "Xiaomi Japan アフターサービス",
+      "source_url": "https://www.mi.com/jp/support/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本語サポート",
+      "value": "日本語のカスタマーサポートあり。国内に修理受付窓口あり。",
+      "source": "Xiaomi Japan アフターサービス",
+      "source_url": "https://www.mi.com/jp/support/",
+      "checked": "2026-08-27"
+    }
+  ],
+  "related_qa": ["xiaomi-country", "xiaomi-cheap"]
+}

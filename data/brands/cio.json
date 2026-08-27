@@ -1,0 +1,74 @@
+{
+  "slug": "cio",
+  "name": "CIO(シーアイオー)",
+  "name_en": "CIO",
+  "country": "日本",
+  "summary": "CIOは大阪府守口市発の充電器・モバイルバッテリーメーカー。2017年に設立された日本の新興企業で、小型充電器「NovaPort」シリーズがガジェット好きの間でヒット。海外ブランドと誤解されがちだが、企画・開発を日本で行う国内ブランドである。",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "親会社・設立背景",
+      "value": "株式会社CIO(日本・大阪府守口市)。2017年設立。社名はConnect International Oneの略。",
+      "source": "株式会社CIO 公式サイト 会社概要",
+      "source_url": "https://connectinternationalone.co.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "主な価格帯",
+      "value": "充電器・モバイルバッテリーで2,000〜10,000円前後の中価格帯。Ankerと同価格帯で競合。",
+      "source": "CIO 公式オンラインストア",
+      "source_url": "https://connectinternationalone.co.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "取扱カテゴリ",
+      "value": "USB充電器(NovaPortシリーズ)、モバイルバッテリー(SMARTCOBYシリーズ)、ケーブル、ワイヤレス充電器など充電関連が中心。",
+      "source": "CIO 公式オンラインストア",
+      "source_url": "https://connectinternationalone.co.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本での販売チャネル",
+      "value": "公式オンラインストア、Amazon、楽天市場、家電量販店、クラウドファンディング(Makuake等)での先行販売。",
+      "source": "CIO 公式サイト",
+      "source_url": "https://connectinternationalone.co.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本法人",
+      "value": "本体が日本法人(株式会社CIO、大阪府守口市)。法人番号は国税庁サイトで確認可能。【要確認】",
+      "source": "国税庁 法人番号公表サイト",
+      "source_url": "https://www.houjin-bangou.nta.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "技適(技術基準適合証明)",
+      "value": "ワイヤレス充電等の無線機能搭載製品は技適対象。型番ごとに総務省データベースで確認可能。【要確認】",
+      "source": "総務省 技術基準適合証明等の公示",
+      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "リコール履歴",
+      "value": "モバイルバッテリーの一部型番で自主回収の事例あり。対象型番は公式サイトと消費者庁サイトで確認可能。【要確認】",
+      "source": "消費者庁 リコール情報サイト",
+      "source_url": "https://www.recall.caa.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "保証期間",
+      "value": "多くの製品で購入から1年間。公式サイト経由の会員登録で延長される場合あり。【要確認】",
+      "source": "CIO サポート",
+      "source_url": "https://connectinternationalone.co.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本語サポート",
+      "value": "日本語のカスタマーサポート(国内窓口)あり。",
+      "source": "CIO サポート",
+      "source_url": "https://connectinternationalone.co.jp/",
+      "checked": "2026-08-27"
+    }
+  ],
+  "related_qa": ["cio-country", "cio-vs-anker"]
+}

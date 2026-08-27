@@ -1,0 +1,12 @@
+{
+  "slug": "insta360-country",
+  "question": "Insta360はどこの国の会社ですか?",
+  "answer": "Insta360は中国・深圳のArashi Vision(影石創新)のカメラブランドです。2015年に劉靖康氏が創業し、360度カメラで世界シェア首位、2025年に上海証券取引所STAR市場に上場しています。日本ではAmazonや家電量販店・カメラ専門店で正規流通しており、日本語の公式サイト・アプリ・サポートがあります。修理などのアフターサービスは国内正規代理店経由が中心です。",
+  "brand": "insta360",
+  "sample_notice": true,
+  "facts": [
+    {"label": "本社", "value": "中国・深圳(Arashi Vision)。2025年上海STAR上場", "source": "Insta360 公式サイト", "source_url": "https://www.insta360.com/jp/", "checked": "2026-08-27"},
+    {"label": "世界シェア", "value": "360度カメラで世界首位(調査会社統計)", "source": "市場調査統計", "source_url": "https://www.insta360.com/jp/", "checked": "2026-08-27"},
+    {"label": "日本流通", "value": "正規代理店経由。日本語サポート・アプリあり", "source": "Insta360 公式サイト", "source_url": "https://www.insta360.com/jp/support", "checked": "2026-08-27"}
+  ]
+}

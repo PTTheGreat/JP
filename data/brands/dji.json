@@ -1,0 +1,81 @@
+{
+  "slug": "dji",
+  "name": "DJI(ディージェーアイ)",
+  "name_en": "DJI",
+  "country": "中国",
+  "summary": "DJIは中国・深圳のドローン・映像機器メーカー。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア首位。日本ではドローンのほか、ジンバルカメラ(Osmoシリーズ)やアクションカメラでも高いシェアを持つ。東京に日本法人がある。",
+  "sample_notice": true,
+  "facts": [
+    {
+      "label": "親会社・設立背景",
+      "value": "DJI(大疆創新科技、中国・深圳)。2006年に汪滔氏が香港科技大学在学中に創業。非上場。",
+      "source": "DJI 公式サイト 会社情報",
+      "source_url": "https://www.dji.com/jp/company",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "主な価格帯",
+      "value": "ドローンで4万〜50万円超、ジンバル・アクションカメラで2万〜8万円前後。",
+      "source": "DJI 公式ストア",
+      "source_url": "https://store.dji.com/jp",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "取扱カテゴリ",
+      "value": "ドローン、ジンバルカメラ(Osmo Pocket)、アクションカメラ(Osmo Action)、スタビライザー、ポータブル電源、農業用ドローンなど。",
+      "source": "DJI 公式ストア",
+      "source_url": "https://store.dji.com/jp",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本での販売チャネル",
+      "value": "公式オンラインストア、正規代理店、家電量販店、Amazon、カメラ専門店。",
+      "source": "DJI 公式サイト 正規販売店",
+      "source_url": "https://www.dji.com/jp",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本法人",
+      "value": "DJI JAPAN株式会社(東京)。法人番号は国税庁サイトで確認可能。【要確認】",
+      "source": "国税庁 法人番号公表サイト",
+      "source_url": "https://www.houjin-bangou.nta.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "技適(技術基準適合証明)",
+      "value": "日本正規品は技適取得済み。海外版ドローンは技適未取得の場合があり電波法違反となるおそれ。型番ごとに要確認。",
+      "source": "総務省 技術基準適合証明等の公示",
+      "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "規制上の注意",
+      "value": "100g以上のドローンは航空法の規制対象で、国土交通省への機体登録が必要。飛行場所・方法にも制限あり。",
+      "source": "国土交通省 無人航空機の飛行ルール",
+      "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "リコール履歴",
+      "value": "最新のリコール・自主回収情報は消費者庁リコール情報サイトで確認可能。【要確認】",
+      "source": "消費者庁 リコール情報サイト",
+      "source_url": "https://www.recall.caa.go.jp/",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "保証期間",
+      "value": "本体1年間が基本。有償の延長保証・交換サービス「DJI Care Refresh」あり。",
+      "source": "DJI サポート",
+      "source_url": "https://www.dji.com/jp/support",
+      "checked": "2026-08-27"
+    },
+    {
+      "label": "日本語サポート",
+      "value": "日本語のカスタマーサポートあり。国内修理受付あり。",
+      "source": "DJI サポート",
+      "source_url": "https://www.dji.com/jp/support",
+      "checked": "2026-08-27"
+    }
+  ],
+  "related_qa": ["dji-country", "dji-drone-rules"]
+}

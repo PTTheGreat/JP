@@ -9,9 +9,32 @@
 
 - [Anker(アンカー)](https://example.jp/brands/anker/): Ankerは中国・深圳発の充電関連機器ブランド。元Googleエンジニアが2011年に創業し、日本ではアンカー・ジャパン
 - [BALMUDA(バルミューダ)](https://example.jp/brands/balmuda/): BALMUDAは東京発の家電ブランド。2003年に寺尾玄氏が創業し、スチームトースター「BALMUDA The Toas
+- [CIO(シーアイオー)](https://example.jp/brands/cio/): CIOは大阪府守口市発の充電器・モバイルバッテリーメーカー。2017年に設立された日本の新興企業で、小型充電器「Nova
+- [DJI(ディージェーアイ)](https://example.jp/brands/dji/): DJIは中国・深圳のドローン・映像機器メーカー。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア
+- [Dyson(ダイソン)](https://example.jp/brands/dyson/): Dysonは1991年にジェームズ・ダイソン氏が英国で創業した家電メーカー。サイクロン掃除機、羽根のない扇風機、ヘアドラ
+- [Insta360(インスタ360)](https://example.jp/brands/insta360/): Insta360は中国・深圳のArashi Vision(影石創新)が展開するカメラブランド。2015年に劉靖康氏が創業
+- [Roborock(ロボロック)](https://example.jp/brands/roborock/): Roborockは中国・北京発のロボット掃除機専業ブランド。2014年創業でXiaomiエコシステム出身、現在は上海証券
+- [SharkNinja(シャークニンジャ)](https://example.jp/brands/sharkninja/): SharkNinjaは米国マサチューセッツ州発の家電メーカー。掃除機の「Shark」とキッチン家電の「Ninja」の2ブ
+- [SwitchBot(スイッチボット)](https://example.jp/brands/switchbot/): SwitchBotは中国・深圳のWOAN Technologyが展開するスマートホームブランド。物理スイッチを押す「ボッ
+- [Xiaomi(シャオミ)](https://example.jp/brands/xiaomi/): Xiaomiは中国・北京発の総合エレクトロニクスブランド。2010年に雷軍(レイ・ジュン)氏が創業し、スマートフォンで世
 
 ## 問答ページ
 
 - [Ankerはどこの国の会社ですか?](https://example.jp/qa/anker-country/)
 - [Ankerのモバイルバッテリーにリコール(回収)はありますか?](https://example.jp/qa/anker-recall/)
 - [BALMUDA(バルミューダ)はどんな会社ですか?](https://example.jp/qa/balmuda-company/)
+- [CIO(シーアイオー)はどこの国の会社?中国メーカー?](https://example.jp/qa/cio-country/)
+- [CIOとAnker、充電器はどちらのブランドを選ぶべき?](https://example.jp/qa/cio-vs-anker/)
+- [DJIはどこの国の会社ですか?](https://example.jp/qa/dji-country/)
+- [DJIのドローンは日本で自由に飛ばせますか?](https://example.jp/qa/dji-drone-rules/)
+- [ダイソンはどこの国の会社?イギリスではないの?](https://example.jp/qa/dyson-country/)
+- [Insta360はどこの国の会社ですか?](https://example.jp/qa/insta360-country/)
+- [Insta360とGoProはブランドとして何が違いますか?](https://example.jp/qa/insta360-gopro/)
+- [Roborock(ロボロック)はどこの国の会社ですか?](https://example.jp/qa/roborock-country/)
+- [Roborockが故障したら日本で修理できますか?](https://example.jp/qa/roborock-repair/)
+- [シャークとダイソンの掃除機、ブランドとしての違いは?](https://example.jp/qa/shark-vs-dyson/)
+- [シャーク(Shark)とニンジャ(Ninja)はどこの国のブランド?](https://example.jp/qa/sharkninja-country/)
+- [SwitchBotはどこの国の会社ですか?](https://example.jp/qa/switchbot-country/)
+- [SwitchBotのカメラやスマートロックは情報漏洩の危険がありますか?](https://example.jp/qa/switchbot-security/)
+- [Xiaomiのスマホはなぜ安い?品質は大丈夫?](https://example.jp/qa/xiaomi-cheap/)
+- [Xiaomi(シャオミ)はどこの国の会社ですか?](https://example.jp/qa/xiaomi-country/)
