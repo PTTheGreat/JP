@@ -510,7 +510,7 @@
       "slug": "dyson-topic-3556",
       "question": "ダイソンに公式の「認定整備済製品(リファービッシュ)」はありますか？公式アウトレットとは何が違いますか？",
       "topical": true,
-      "answer": "ダイソン日本公式サイトには「アウトレットセール」のページが存在し、型落ちモデルや余剰在庫の特価販売が行われていると解説されている。また御殿場・神戸三田のプレミアム・アウトレット、三井アウトレットパーク木更津、ジ アウトレット広島などに実店舗があるとする情報もある。一方で、Apple等が行うような「公式の認定整備済(リファービッシュ)製品プログラム」がダイソン日本に存在するかは、検索範囲では確認できず未確認。中古・再生品を扱う第三者業者と公式アウトレットは別物である点に注意が必要。",
+      "answer": "ダイソン公式サイトに「認定整備済製品(リファービッシュ)」という制度の記載は確認できませんでした。存在するのは「アウトレットセール」で、これは外装に難のある製品などを販売するもので、保証期間は通常の2年ではなく1年です(販売規約に明記)。つまり「公式の整備済み品を安く買う」という選択肢は、ダイソンでは正式な制度としては用意されていない、というのが公式サイト上の確認結果です。中古販売店のリファービッシュ品はメーカー保証の対象外になる点に注意してください。",
       "sources": [
         {
           "name": "ダイソン公式「アウトレットセール」",
@@ -526,6 +526,22 @@
           "name": "nami-semn.org「ダイソンアウトレットはなぜ楽天とヤフー3店舗を上手に使う必要があるのか？」",
           "url": "https://www.nami-semn.org/kadenbrand/daisonmatome/daisonoutret.html",
           "published": "不明"
+        }
+      ],
+      "facts": [
+        {
+          "label": "アウトレット品の保証",
+          "value": "通常2年のところ1年(販売規約に明記)",
+          "source": "ダイソン公式 販売規約",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "認定整備済製品制度",
+          "value": "公式サイト上に該当する制度の記載は確認できず",
+          "source": "ダイソン公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
         }
       ]
     },
@@ -618,23 +634,23 @@
         },
         {
           "label": "創業者",
-          "value": "ジェームズ・ダイソン氏",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "ジェームズ ダイソン（紙パック不要のサイクロン式掃除機を発明し自ら会社を設立）",
+          "source": "グローバルテクノロジーカンパニーとして",
+          "source_url": "https://www.dyson.co.jp/inside-dyson/who-we-are",
           "checked": "2026-08-27"
         },
         {
           "label": "上場状況",
-          "value": "非上場の同族企業",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "非上場（創業時から家族経営を維持、株主や証券取引所への報告を行わない）",
+          "source": "グローバルテクノロジーカンパニーとして",
+          "source_url": "https://www.dyson.co.jp/inside-dyson/who-we-are",
           "checked": "2026-08-27"
         },
         {
           "label": "従業員数",
-          "value": "未確認 — 非上場のため公開情報は限定的",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "約14,000人以上（約80以上の国・市場で事業展開）",
+          "source": "グローバルテクノロジーカンパニーとして",
+          "source_url": "https://www.dyson.co.jp/inside-dyson/who-we-are",
           "checked": "2026-08-27"
         },
         {
@@ -650,6 +666,13 @@
           "source": "Dyson 公式サイト",
           "source_url": "https://www.dyson.co.jp/",
           "checked": "2026-08-27"
+        },
+        {
+          "label": "公式アウトレット／認定整備済製品",
+          "value": "公式オンラインストアに「アウトレットセール」あり。アウトレット品は1年間のメーカー保証付きで、製品箱の傷・へこみ等の外傷がある場合があり外装を理由とした返品は不可。※「認定整備済（リファービッシュ）製品」制度としての明示的な記載は確認できず",
+          "source": "アウトレットセール",
+          "source_url": "https://www.dyson.co.jp/deals/clearance-sale",
+          "checked": "2026-08-27"
         }
       ]
     },
@@ -658,9 +681,9 @@
       "facts": [
         {
           "label": "日本法人",
-          "value": "ダイソン株式会社",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "value": "ダイソン株式会社（代表取締役社長：添田成久）",
+          "source": "特定商取引法に基づく表記",
+          "source_url": "https://www.dyson.co.jp/support/specified-commercial-transactions-law",
           "checked": "2026-08-27"
         },
         {
@@ -679,9 +702,9 @@
         },
         {
           "label": "日本法人所在地",
-          "value": "東京都【要確認】",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "〒102-0083 東京都千代田区麹町1-12-1 住友不動産ふくおか半蔵門ビル6F（電話 03-3238-8812）",
+          "source": "特定商取引法に基づく表記",
+          "source_url": "https://www.dyson.co.jp/support/specified-commercial-transactions-law",
           "checked": "2026-08-27"
         },
         {
@@ -693,23 +716,23 @@
         },
         {
           "label": "直営店",
-          "value": "あり(Dyson Demo ストア)",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "Dyson Demo ストアを直営。表参道店は〒107-0061 東京都港区北青山3-11-7 Ao 1階（TEL 03-5778-3595、営業11:00-20:00）。表参道店・越谷店ではコードレスクリーナーの修理相談も受付",
+          "source": "Dyson Demo ストア",
+          "source_url": "https://www.dyson.co.jp/lightboxes/shop/informationlinks/dysondemo/informationlink_dysoncare_dysondemo.aspx",
           "checked": "2026-08-27"
         },
         {
           "label": "販売チャネル",
-          "value": "公式オンラインストア、直営店、家電量販店、百貨店、Amazon、楽天市場",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "ダイソン公式オンラインストア／Dyson Demo直営店／指定家電量販店（エディオン、ケーズデンキ、上新電機、ノジマ、ビックカメラ、ヤマダ電機、ヨドバシカメラ）／百貨店・コスメセレクトショップ（大丸札幌店、髙島屋柏店、伊勢丹新宿店ほか）",
+          "source": "百貨店／コスメセレクトショップ",
+          "source_url": "https://www.dyson.co.jp/inside-dyson/dyson-demo/dyson-store-third-party",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(dyson.co.jp)",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "https://www.dyson.co.jp/（公式オンラインストアを併設）",
+          "source": "特定商取引法に基づく表記",
+          "source_url": "https://www.dyson.co.jp/support/specified-commercial-transactions-law",
           "checked": "2026-08-27"
         }
       ]
@@ -733,9 +756,9 @@
         },
         {
           "label": "リコール・自主回収履歴",
-          "value": "過去にファンヒーターの自主回収事例あり。最新状況は消費者庁サイトで要確認【要確認】",
-          "source": "消費者庁 リコール情報サイト",
-          "source_url": "https://www.recall.caa.go.jp/",
+          "value": "Dyson Hot+Cool AM04／AM05 の初期生産モデルについて、製品内部での小規模な発火事例を受け自主回収を実施（無償回収・安全対策実施のうえ返却または交換）。対象確認は本体底面の13桁シリアル番号で www.dysonrecall.com にて可能",
+          "source": "製品に関する重要なお知らせ",
+          "source_url": "https://www.dyson.co.jp/support/customer-notice",
           "checked": "2026-08-27"
         },
         {
@@ -747,9 +770,9 @@
         },
         {
           "label": "公的機関からの指摘",
-          "value": "未確認 — 公表資料で要確認",
-          "source": "消費者庁 リコール情報サイト",
-          "source_url": "https://www.recall.caa.go.jp/",
+          "value": "NITE（製品評価技術基盤機構）および消防との調査により、調査対象となった事故はいずれも第三者製の非純正バッテリーが原因の発火であったことを確認（ダイソン公式告知）",
+          "source": "お客様へ大切なお知らせ",
+          "source_url": "https://www.dyson.co.jp/support/other-notice",
           "checked": "2026-08-27"
         }
       ]
@@ -759,9 +782,9 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "コードレス掃除機・ヘアケアは2年間、空調家電は2年間が基本(製品による)【要確認】",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "掃除機・空調家電・ヘアケア製品は2年（メーカー保証）、照明製品は5年、アウトレット製品は1年（一部例外あり／専用ツール・アクセサリは対象外）。保証適用には製品登録が必要",
+          "source": "販売規約",
+          "source_url": "https://www.dyson.co.jp/support/terms-of-sale",
           "checked": "2026-08-27"
         },
         {
@@ -773,30 +796,44 @@
         },
         {
           "label": "修理体制",
-          "value": "国内修理サービスセンターあり",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "宅配業者による自宅集荷→サービスセンターで修理→自宅へ返送。保証期間中は技術料・部品代・往復運賃が無料。保証期間外は事前に修理料金を提示のうえ有償",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり(電話・チャット)",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "ダイソンお客様相談室 フリーダイヤル 0120-295-731（携帯からは 0570-073-731）、Eメール japan.helpline@dyson.com、LINE公式アカウントあり",
+          "source": "お問い合わせ",
+          "source_url": "https://www.dyson.co.jp/support/contact-us",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サポートページで要確認",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "月～日曜日および祝日 9:00～17:30（年末年始、ゴールデンウィーク等は休業の場合あり）",
+          "source": "お問い合わせ",
+          "source_url": "https://www.dyson.co.jp/support/contact-us",
           "checked": "2026-08-27"
         },
         {
           "label": "消耗品・交換部品の入手性",
-          "value": "フィルター・バッテリー等は公式ストアで購入可。公式認定整備済製品の販売もあり",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "ダイソン公式オンラインストア、お客様相談室、正規販売店で純正パーツを販売。例：V12用交換バッテリー9,900円（税込）、交換用フィルター6,600～7,700円（税込）",
+          "source": "交換用パーツ",
+          "source_url": "https://www.dyson.co.jp/spare-parts",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証の対象範囲",
+          "value": "購入日から2年以内に製造上の瑕疵が認められた場合、無償で製品・部品の交換または修理。モーターも他の部品と同様に2年保証の対象",
+          "source": "修理サービスのご案内",
+          "source_url": "https://www.dyson.co.jp/support/repairs-and-servicing-information",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "非純正部品使用時の保証",
+          "value": "部品の模倣品・非純正バッテリーを使用すると保証が無効になる可能性があり、非純正バッテリー起因の故障・事故についてダイソンは責任を負わない",
+          "source": "よくあるご質問｜交換用パーツと付属品",
+          "source_url": "https://www.dyson.co.jp/spare-parts/frequently-asked-questions",
           "checked": "2026-08-27"
         }
       ]
@@ -806,9 +843,9 @@
       "facts": [
         {
           "label": "主力カテゴリ",
-          "value": "コードレス掃除機、ヘアケア機器、空調家電",
-          "source": "Dyson 公式サイト",
-          "source_url": "https://www.dyson.co.jp/",
+          "value": "掃除機・空調家電・ヘアケア製品・照明（ほかヘッドホン等）",
+          "source": "販売規約",
+          "source_url": "https://www.dyson.co.jp/support/terms-of-sale",
           "checked": "2026-08-27"
         },
         {

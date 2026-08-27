@@ -7,15 +7,15 @@
 
 ## ブランド定位ページ
 
-- [Anker(アンカー)](https://ptthegreat.github.io/PS-test/anker/): Ankerは中国・深圳発の充電関連機器ブランド。元Googleエンジニアが2011年に創業し、日本ではアンカー・ジャパン(事実31項目・出典つき)
-- [BALMUDA(バルミューダ)](https://ptthegreat.github.io/PS-test/balmuda/): BALMUDAは東京発の家電ブランド。2003年に寺尾玄氏が創業し、スチームトースター「BALMUDA The Toas(事実31項目・出典つき)
-- [CIO(シーアイオー)](https://ptthegreat.github.io/PS-test/cio/): CIOは大阪府守口市発の充電器・モバイルバッテリーメーカー。2017年に設立された日本の新興企業で、小型充電器「Nova(事実31項目・出典つき)
-- [DJI(ディージェーアイ)](https://ptthegreat.github.io/PS-test/dji/): DJIは中国・深圳のドローン・映像機器メーカー。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア(事実31項目・出典つき)
-- [Dyson(ダイソン)](https://ptthegreat.github.io/PS-test/dyson/): Dysonは1991年にジェームズ・ダイソン氏が英国で創業した家電メーカー。サイクロン掃除機、羽根のない扇風機、ヘアドラ(事実31項目・出典つき)
-- [Insta360(インスタ360)](https://ptthegreat.github.io/PS-test/insta360/): Insta360は中国・深圳のArashi Vision(影石創新)が展開するカメラブランド。2015年に劉靖康氏が創業(事実31項目・出典つき)
-- [Roborock(ロボロック)](https://ptthegreat.github.io/PS-test/roborock/): Roborockは中国・北京発のロボット掃除機専業ブランド。2014年創業でXiaomiエコシステム出身、現在は上海証券(事実31項目・出典つき)
+- [Anker(アンカー)](https://ptthegreat.github.io/PS-test/anker/): Ankerは中国・深圳発の充電関連機器ブランド。元Googleエンジニアが2011年に創業し、日本ではアンカー・ジャパン(事実36項目・出典つき)
+- [BALMUDA(バルミューダ)](https://ptthegreat.github.io/PS-test/balmuda/): BALMUDAは東京発の家電ブランド。2003年に寺尾玄氏が創業し、スチームトースター「BALMUDA The Toas(事実33項目・出典つき)
+- [CIO(シーアイオー)](https://ptthegreat.github.io/PS-test/cio/): CIOは大阪府守口市発の充電器・モバイルバッテリーメーカー。2017年に設立された日本の新興企業で、小型充電器「Nova(事実34項目・出典つき)
+- [DJI(ディージェーアイ)](https://ptthegreat.github.io/PS-test/dji/): DJIは中国・深圳のドローン・映像機器メーカー。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア(事実32項目・出典つき)
+- [Dyson(ダイソン)](https://ptthegreat.github.io/PS-test/dyson/): Dysonは1991年にジェームズ・ダイソン氏が英国で創業した家電メーカー。サイクロン掃除機、羽根のない扇風機、ヘアドラ(事実34項目・出典つき)
+- [Insta360(インスタ360)](https://ptthegreat.github.io/PS-test/insta360/): Insta360は中国・深圳のArashi Vision(影石創新)が展開するカメラブランド。2015年に劉靖康氏が創業(事実32項目・出典つき)
+- [Roborock(ロボロック)](https://ptthegreat.github.io/PS-test/roborock/): Roborockは中国・北京発のロボット掃除機専業ブランド。2014年創業でXiaomiエコシステム出身、現在は上海証券(事実33項目・出典つき)
 - [SharkNinja(シャークニンジャ)](https://ptthegreat.github.io/PS-test/sharkninja/): SharkNinjaは米国マサチューセッツ州発の家電メーカー。掃除機の「Shark」とキッチン家電の「Ninja」の2ブ(事実31項目・出典つき)
-- [SwitchBot(スイッチボット)](https://ptthegreat.github.io/PS-test/switchbot/): SwitchBotは中国・深圳のWOAN Technologyが展開するスマートホームブランド。物理スイッチを押す「ボッ(事実31項目・出典つき)
+- [SwitchBot(スイッチボット)](https://ptthegreat.github.io/PS-test/switchbot/): SwitchBotは中国・深圳のWOAN Technologyが展開するスマートホームブランド。物理スイッチを押す「ボッ(事実33項目・出典つき)
 - [Xiaomi(シャオミ)](https://ptthegreat.github.io/PS-test/xiaomi/): Xiaomiは中国・北京発の総合エレクトロニクスブランド。2010年に雷軍(レイ・ジュン)氏が創業し、スマートフォンで世(事実31項目・出典つき)
 
 ## 問答ページ(実在のユーザー投稿に基づく質問)

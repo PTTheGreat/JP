@@ -532,9 +532,9 @@
       "facts": [
         {
           "label": "正式社名",
-          "value": "小米集団(Xiaomi Corporation)",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "Xiaomi Corporation（小米集団、香港上場親会社）",
+          "source": "Company Profile｜Xiaomi Corporation Investor Relations",
+          "source_url": "https://ir.mi.com/corporate-information/company-profile",
           "checked": "2026-08-27"
         },
         {
@@ -546,23 +546,23 @@
         },
         {
           "label": "創業年",
-          "value": "2010年",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "2010年4月",
+          "source": "Company Profile｜Xiaomi Corporation Investor Relations",
+          "source_url": "https://ir.mi.com/corporate-information/company-profile",
           "checked": "2026-08-27"
         },
         {
           "label": "創業者",
-          "value": "雷軍(レイ・ジュン)氏",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "雷軍（Lei Jun）ほか（林斌／Lin Bin が共同創業者）",
+          "source": "Lin Bin｜Board Member, Management｜Xiaomi Corporation",
+          "source_url": "https://ir.mi.com/board-member-management/lin-bin",
           "checked": "2026-08-27"
         },
         {
           "label": "上場状況",
-          "value": "香港証券取引所に上場(2018年、銘柄コード1810)",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "香港証券取引所メインボード上場（2018年7月9日上場、銘柄コード 1810.HK）",
+          "source": "Company Profile｜Xiaomi Corporation Investor Relations",
+          "source_url": "https://ir.mi.com/corporate-information/company-profile",
           "checked": "2026-08-27"
         },
         {
@@ -581,9 +581,9 @@
         },
         {
           "label": "主な事業領域",
-          "value": "スマートフォンを主軸に、IoT家電、EV(中国市場)、インターネットサービス",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "スマートフォン・スマートハードウェアを中核に、IoTプラットフォームで接続する消費者向けエレクトロニクス／スマート製造。AIoTプラットフォームの接続台数は2025年12月31日時点で10億7,920万台（スマホ・タブレット・ノートPCを除く）",
+          "source": "Company Profile｜Xiaomi Corporation Investor Relations",
+          "source_url": "https://ir.mi.com/corporate-information/company-profile",
           "checked": "2026-08-27"
         }
       ]
@@ -593,9 +593,9 @@
       "facts": [
         {
           "label": "日本法人",
-          "value": "小米技術日本株式会社(Xiaomi Japan)",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "value": "小米技術日本株式会社（Xiaomi Technology Japan Co., Ltd.）／会社登録番号 0107-01-038840",
+          "source": "特定商取引法に基づく表示｜Xiaomi 日本公式",
+          "source_url": "https://www.mi.com/jp/support/terms/general_terms/",
           "checked": "2026-08-27"
         },
         {
@@ -614,9 +614,9 @@
         },
         {
           "label": "日本法人所在地",
-          "value": "東京都【要確認】",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "東京都千代田区内幸町二丁目1番6号 日比谷パークフロント",
+          "source": "特定商取引法に基づく表示｜Xiaomi 日本公式",
+          "source_url": "https://www.mi.com/jp/support/terms/general_terms/",
           "checked": "2026-08-27"
         },
         {
@@ -628,9 +628,9 @@
         },
         {
           "label": "直営店",
-          "value": "あり。Xiaomi Store を一部都市に展開【要確認】",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "Xiaomi Store 直営店を国内展開（例：Xiaomi Store KAMEIDO CLOCK 東京、Xiaomi Store イオンレイクタウン 埼玉）。国内店舗一覧ページあり",
+          "source": "Xiaomi Store 直営店／Xiaomi Store 国内店舗一覧",
+          "source_url": "https://www.mi.com/jp/event/xiaomi-store/",
           "checked": "2026-08-27"
         },
         {
@@ -642,8 +642,8 @@
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(mi.com/jp)",
-          "source": "Xiaomi Japan 公式サイト",
+          "value": "https://www.mi.com/jp/",
+          "source": "Xiaomi 日本公式サイト",
           "source_url": "https://www.mi.com/jp/",
           "checked": "2026-08-27"
         }
@@ -694,37 +694,37 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "スマートフォンは購入から1年間のメーカー保証が基本【要確認】",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "本体1年（製品限定サービスにより1年でない場合あり）、取り外し可能なバッテリーおよび充電器は6ヶ月、取り外しができないバッテリーは1年",
+          "source": "保証｜Xiaomi Japan",
+          "source_url": "https://www.mi.com/jp/support/warranty/",
           "checked": "2026-08-27"
         },
         {
           "label": "延長保証制度",
-          "value": "未確認 — 公式サイトで要確認",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "Xiaomi Care（公式保証サービス）。落下による画面破損・水没・全損など偶発的損害を最大24ヶ月カバー、保証期間1年あたり最大2回まで利用可、免責金額あり。mi.com購入時はアクティベーション日から14日以内、Xiaomi Storeでは購入時に店頭加入",
+          "source": "Xiaomi Care 保証サービス",
+          "source_url": "https://www.mi.com/jp/event/xiaomi-care-service/",
           "checked": "2026-08-27"
         },
         {
           "label": "修理体制",
-          "value": "国内に修理受付窓口あり。キャリア購入品はキャリア窓口対応",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "Xiaomi Service Center 秋葉原店での対面修理と、郵送修理（修理返送）に対応。カスタマーサービスセンターへ電話またはメールで保証サービスを申請",
+          "source": "Xiaomi Service Center秋葉原店／修理返送の流れと注意事項",
+          "source_url": "https://www.mi.com/jp/support/service-centre/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり。日本法人が対応",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "フリーダイヤル 0120-767-378／メール service.jp@support.mi.com",
+          "source": "アフターサービスのよくあるご質問｜Xiaomi 日本公式",
+          "source_url": "https://www.mi.com/jp/service/support/aftersales.html",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サポートページで要確認",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "月曜〜日曜 9:00〜18:00（年末年始を除く）",
+          "source": "アフターサービスのよくあるご質問｜Xiaomi 日本公式",
+          "source_url": "https://www.mi.com/jp/service/support/aftersales.html",
           "checked": "2026-08-27"
         },
         {
@@ -741,9 +741,9 @@
       "facts": [
         {
           "label": "主力カテゴリ",
-          "value": "スマートフォン、スマートバンド、テレビ、ロボット掃除機",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "スマートフォン（Xiaomi／Redmi／POCO）、タブレット、テレビ・プロジェクター、掃除機（ロボット掃除機・スティック・ハンディ）、季節家電（ヒーター・扇風機・空気清浄機・加湿器）、キッチン家電、スマートホーム（カメラ・スマートロック・スマート電球）、周辺機器・ウェアラブル",
+          "source": "すべてのXiaomi製品｜Xiaomi 公式(日本)",
+          "source_url": "https://www.mi.com/jp/product-list/",
           "checked": "2026-08-27"
         },
         {
@@ -755,9 +755,9 @@
         },
         {
           "label": "主要製品ライン",
-          "value": "Xiaomi(旗艦)、Redmi(廉価)、POCO(性能重視)、Xiaomi Smart Band、Mi TV",
-          "source": "Xiaomi Japan 公式サイト",
-          "source_url": "https://www.mi.com/jp/",
+          "value": "スマートフォン：Xiaomi 15／17T シリーズ、Redmi シリーズ、POCO シリーズ。ロボット掃除機：X20 Max／X20 Pro／X20+／S20+／S20／E10／H40",
+          "source": "小米ロボット掃除機／Xiaomi 電話シリーズ｜Xiaomi 公式(日本)",
+          "source_url": "https://www.mi.com/jp/product-list/vacuum-cleaner/robot-vacuum/",
           "checked": "2026-08-27"
         },
         {

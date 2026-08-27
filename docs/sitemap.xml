@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://ptthegreat.github.io/PS-test/</loc></url>
 <url><loc>https://ptthegreat.github.io/PS-test/about/</loc></url>
+<url><loc>https://ptthegreat.github.io/PS-test/status/</loc></url>
 <url><loc>https://ptthegreat.github.io/PS-test/anker/</loc></url>
 <url><loc>https://ptthegreat.github.io/PS-test/balmuda/</loc></url>
 <url><loc>https://ptthegreat.github.io/PS-test/cio/</loc></url>
@@ -172,4 +173,5 @@
 <url><loc>https://ptthegreat.github.io/PS-test/xiaomi/xiaomi-topic-0385/</loc></url>
 <url><loc>https://ptthegreat.github.io/PS-test/xiaomi/xiaomi-topic-7130/</loc></url>
 <url><loc>https://ptthegreat.github.io/PS-test/xiaomi/xiaomi-topic-0988/</loc></url>
+<url><loc>https://ptthegreat.github.io/PS-test/status/</loc></url>
 </urlset>

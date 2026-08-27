@@ -589,36 +589,36 @@
         {
           "label": "本社所在地",
           "value": "中国・深圳市",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
           "checked": "2026-08-27"
         },
         {
           "label": "創業年",
           "value": "2006年",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
           "checked": "2026-08-27"
         },
         {
           "label": "創業者",
-          "value": "汪滔(フランク・ワン)氏。香港科技大学在学中に創業",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "Frank Wang（汪滔）",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
           "checked": "2026-08-27"
         },
         {
           "label": "上場状況",
-          "value": "非上場",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "非上場（未公開企業）",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
           "checked": "2026-08-27"
         },
         {
           "label": "従業員数",
-          "value": "未確認 — 非上場のため公開情報は限定的",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "グローバルで3,000人以上（DJI公式サイト記載値）",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
           "checked": "2026-08-27"
         },
         {
@@ -630,9 +630,9 @@
         },
         {
           "label": "主な事業領域",
-          "value": "民生用ドローンで世界シェア首位。ジンバル・アクションカメラ、農業用ドローン、産業用途へ展開",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "民生用ドローンおよびクリエイティブカメラ技術",
+          "source": "DJI ニュースルーム（企業ボイラープレート）",
+          "source_url": "https://www.dji.com/jp/newsroom/news/dji-syngentajapan",
           "checked": "2026-08-27"
         }
       ]
@@ -642,9 +642,9 @@
       "facts": [
         {
           "label": "日本法人",
-          "value": "DJI JAPAN株式会社",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "value": "DJI JAPAN株式会社（代表者：呉韜）",
+          "source": "DJI ニュースルーム（シンジェンタジャパンとの業務提携リリース）",
+          "source_url": "https://www.dji.com/jp/newsroom/news/dji-syngentajapan",
           "checked": "2026-08-27"
         },
         {
@@ -663,9 +663,9 @@
         },
         {
           "label": "日本法人所在地",
-          "value": "東京都【要確認】",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "東京都港区",
+          "source": "DJI ニュースルーム（シンジェンタジャパンとの業務提携リリース）",
+          "source_url": "https://www.dji.com/jp/newsroom/news/dji-syngentajapan",
           "checked": "2026-08-27"
         },
         {
@@ -677,23 +677,23 @@
         },
         {
           "label": "直営店",
-          "value": "正規代理店・認定ストアあり",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "国内初のショップインショップ「DJI SHOP ビックカメラ有楽町店」を12月23日（土）にオープン",
+          "source": "DJI、ビックカメラ有楽町店に国内初となるショップインショップをオープン",
+          "source_url": "https://www.dji.com/jp/newsroom/news/bigcamera",
           "checked": "2026-08-27"
         },
         {
           "label": "販売チャネル",
-          "value": "公式オンラインストア、正規代理店、家電量販店、カメラ専門店、Amazon",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "DJI公式オンラインストア、楽天市場 公式ストア、家電量販店内のショップインショップ／ブランドスペース（ビックカメラ有楽町店、ヨドバシカメラ マルチメディア梅田店 ほか）",
+          "source": "DJI JAPAN、楽天市場に公式ストアをオープン ／ ヨドバシカメラ梅田 DJIブランドスペース",
+          "source_url": "https://www.dji.com/jp/newsroom/news/rakuten-dji-store",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(dji.com/jp)",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "https://www.dji.com/jp （サポートは https://www.dji.com/support ）",
+          "source": "サポート - DJI 日本",
+          "source_url": "https://www.dji.com/support",
           "checked": "2026-08-27"
         }
       ]
@@ -724,9 +724,9 @@
         },
         {
           "label": "その他の法規制",
-          "value": "100g以上のドローンは航空法の規制対象。国土交通省への機体登録とリモートID搭載が義務(2022年6月〜)",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "航空法改正により2022年6月20日から100g以上の無人航空機の登録義務化とリモートID搭載義務化に対応。DJI Mini 4 Proは2025年5月26日に日本の第二種型式認証を取得（型式認証書番号 第6号）。認証前製造機体も「無人航空機同一性証明書」「無人航空機適合確認書」＋DJI所定の点検整備で機体認証申請が可能（検査機関は一般財団法人日本海事協会）",
+          "source": "DJI、機体認証制度への対応を拡大",
+          "source_url": "https://support.dji.com/help/content?customId=01700043696&spaceId=17&re=JP&lang=ja",
           "checked": "2026-08-27"
         },
         {
@@ -743,44 +743,51 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "本体1年間が基本",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "製品・パーツごとに異なる（アフターサービスポリシー内「パーツ別メーカー保証期間」を参照）。フライトバッテリーは12ヶ月",
+          "source": "バッテリーの膨張が発生した場合の対応方法／DJI アフターサービスのご紹介",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400007637&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
           "checked": "2026-08-27"
         },
         {
           "label": "延長保証制度",
-          "value": "有償の「DJI Care Refresh」あり(交換サービス)",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "DJI Care Refresh（1年版／2年版）。2年版の購入で通常1年のメーカー保証が2年に延長される。リフレッシュ交換は1年版で年2回、2年版で最大4回（2023年7月13日のアップグレード後）",
+          "source": "DJI Care Refresh（2年版）提供開始 ／ DJI Care Refresh 2.0",
+          "source_url": "https://store.dji.com/jp/guides/dji-care-refresh-two-years/",
           "checked": "2026-08-27"
         },
         {
           "label": "修理体制",
-          "value": "国内修理受付あり",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "オンライン修理受付サービス（配送修理）。修理品送付先は DJI JAPANカスタマーサポート 〒354-0043 埼玉県入間郡三芳町竹間沢832-6",
+          "source": "オンライン修理受付サービス申請ガイド",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043535&spaceId=17&re=JP&lang=ja&documentType=&paperDocType=ARTICLE",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "DJIカスタマーサポート 電話 03-6634-4949（ほかオンライン修理受付サービス）",
+          "source": "DJI カスタマーサポート窓口のご紹介",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043579&spaceId=17&re=JP&lang=ja",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サポートページで要確認",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "平日 10:00〜17:00（UTC+9）",
+          "source": "DJI カスタマーサポート窓口のご紹介",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043579&spaceId=17&re=JP&lang=ja",
           "checked": "2026-08-27"
         },
         {
           "label": "消耗品・交換部品の入手性",
-          "value": "プロペラ・バッテリー等は公式ストア・代理店で購入可",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "DJI公式オンラインストアでアクセサリー・コンポーネントを販売。修理パーツ価格・点検費用はサポートページで公開",
+          "source": "DJI Mavic シリーズ修理パーツ価格 ／【点検費用】【修理パーツ価格】について",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008360&spaceId=34&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "並行輸入品の保証取扱い",
+          "value": "海外製のDJI製品は事前にDJIカスタマーサポートへの相談が必要。墜落・紛失時のサポートは日本国内正規品のみ対応。DJI Care Refreshのグローバル保証は製品購入とDJI Careサービス購入が同一の国で行われていることが条件",
+          "source": "機体紛失・墜落時のサポートについて ／ DJI Care Refreshグローバル保証について",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008024&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
           "checked": "2026-08-27"
         }
       ]
@@ -804,9 +811,9 @@
         },
         {
           "label": "主要製品ライン",
-          "value": "Mini/Air/Mavic(民生ドローン)、Osmo Pocket/Action(カメラ)、Ronin(スタビライザー)、Agras(農業)",
-          "source": "DJI 公式サイト",
-          "source_url": "https://www.dji.com/jp",
+          "value": "ドローン：Mavic 3 Pro／Mini 4 Pro／Air 3S／Flip、ハンドヘルド：Osmo Pocket 3／Osmo Action 6／Osmo 360／Osmo Nano／Osmo Mobile 8／DJI Mic 3、ジンバル：RSシリーズ（RS 5、RS 4 Pro ほか）／Roninシリーズ",
+          "source": "DJI 公式サイト ハンドヘルド製品ページ",
+          "source_url": "https://www.dji.com/handheld",
           "checked": "2026-08-27"
         },
         {

@@ -560,9 +560,9 @@
       "facts": [
         {
           "label": "正式社名",
-          "value": "Anker Innovations Limited(安克創新科技股份有限公司)",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "アンカー・ジャパン株式会社",
+          "source": "Anker Japan 公式オンラインストア 特定商取引法に基づく表記",
+          "source_url": "https://www.ankerjapan.com/pages/commercial-code",
           "checked": "2026-08-27"
         },
         {
@@ -574,9 +574,9 @@
         },
         {
           "label": "創業年",
-          "value": "2011年",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "2011年（Ankerブランド創業）",
+          "source": "Ankerグループ本社「Anker Innovations」が深圳証券取引所「創業板 (ChiNext) 」へ新規上場",
+          "source_url": "https://lp.ankerjapan.com/anker-ipo",
           "checked": "2026-08-27"
         },
         {
@@ -588,9 +588,9 @@
         },
         {
           "label": "上場状況",
-          "value": "中国・深圳証券取引所 創業板に上場(2020年)",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "グループ本社 Anker Innovations が深圳証券取引所「創業板（ChiNext）」に2020年8月24日上場",
+          "source": "Ankerグループ本社「Anker Innovations」が深圳証券取引所「創業板 (ChiNext) 」へ新規上場",
+          "source_url": "https://lp.ankerjapan.com/anker-ipo",
           "checked": "2026-08-27"
         },
         {
@@ -602,16 +602,16 @@
         },
         {
           "label": "年間売上規模",
-          "value": "未確認 — 中国本体の決算資料で要取得",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "日本法人単体で2023年度（12月期）売上高494億円、前年比41%成長",
+          "source": "アンカー・ジャパン、2023年度の売上494億円を達成 前年比で41%成長",
+          "source_url": "https://corp.ankerjapan.com/posts/468",
           "checked": "2026-08-27"
         },
         {
           "label": "主な事業領域",
-          "value": "充電関連機器を主軸に、オーディオ(Soundcore)、スマートホーム(Eufy)、映像(Nebula)へ多角化",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "モバイル充電「Anker」、オーディオ「Soundcore」、スマートホーム「Eufy」、プロジェクター「Nebula」等を展開するハードウェアメーカー",
+          "source": "会社情報 - アンカー・ジャパン株式会社",
+          "source_url": "https://corp.ankerjapan.com/company",
           "checked": "2026-08-27"
         }
       ]
@@ -621,9 +621,9 @@
       "facts": [
         {
           "label": "日本法人",
-          "value": "アンカー・ジャパン株式会社",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "value": "アンカー・ジャパン株式会社（資本金3,000万円、代表取締役CEO 猿渡歩）",
+          "source": "会社情報 - アンカー・ジャパン株式会社",
+          "source_url": "https://corp.ankerjapan.com/company",
           "checked": "2026-08-27"
         },
         {
@@ -635,44 +635,51 @@
         },
         {
           "label": "日本法人設立年",
-          "value": "2013年",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "2013年1月",
+          "source": "会社情報 - アンカー・ジャパン株式会社",
+          "source_url": "https://corp.ankerjapan.com/company",
           "checked": "2026-08-27"
         },
         {
           "label": "日本法人所在地",
-          "value": "東京都【要確認】",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "〒101-0063 東京都千代田区神田淡路町2丁目101番地 ワテラスタワー9階",
+          "source": "会社情報 - アンカー・ジャパン株式会社",
+          "source_url": "https://corp.ankerjapan.com/company",
           "checked": "2026-08-27"
         },
         {
           "label": "日本参入年",
-          "value": "2013年(日本法人設立と同年)",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "2013年（日本市場進出、設立6期目の2018年に年商100億円、8年目の2020年に売上200億円突破）",
+          "source": "【Anker Japan History】オフィスの変遷で紐解くアンカー・ジャパン13年の軌跡",
+          "source_url": "https://www.ankerjapan.com/blogs/magazine/anker-japan-office",
           "checked": "2026-08-27"
         },
         {
           "label": "直営店",
-          "value": "あり。Anker Store を全国主要都市に展開",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "直営店「Anker Store」を全国展開。2026年3月に「Anker Store ルミネエスト新宿」が全国50店舗目としてオープン",
+          "source": "全国50店舗目となる「Anker Store ルミネエスト新宿」をオープン！",
+          "source_url": "https://corp.ankerjapan.com/posts/600",
           "checked": "2026-08-27"
         },
         {
           "label": "販売チャネル",
-          "value": "公式オンラインストア、Amazon、楽天市場、Yahoo!ショッピング、家電量販店、直営店、コンビニ(一部商品)",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "公式オンラインストア／直営店Anker Store／家電量販店（エディオン、ケーズデンキ、ジョーシン、ビックカメラ、ヨドバシカメラ、ヤマダデンキ）／ECモール（Amazon、楽天市場）",
+          "source": "ポータブル電源はどこで買うのがおすすめ？目的とこだわりで選ぶ最適な購入場所ガイド",
+          "source_url": "https://www.ankerjapan.com/blogs/magazine/where-buy-power",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(ankerjapan.com)",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "https://www.ankerjapan.com/（企業サイトは https://corp.ankerjapan.com/）",
+          "source": "Anker Japan 公式オンラインストア 特定商取引法に基づく表記",
+          "source_url": "https://www.ankerjapan.com/pages/commercial-code",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店（運営会社）",
+          "value": "直営店事業は「アンカー・ストア株式会社」（4月1日付で設立）が担う",
+          "source": "アンカー・ジャパン、直営店事業を担う新会社「アンカー・ストア株式会社」を4月1日付で設立",
+          "source_url": "https://corp.ankerjapan.com/posts/277",
           "checked": "2026-08-27"
         }
       ]
@@ -696,9 +703,9 @@
         },
         {
           "label": "リコール・自主回収履歴",
-          "value": "モバイルバッテリーの一部型番で自主回収の実施事例あり。対象型番・時期は消費者庁サイトおよび公式サイトで要確認【要確認】",
-          "source": "消費者庁 リコール情報サイト",
-          "source_url": "https://www.recall.caa.go.jp/",
+          "value": "2025年10月21日発表、Ankerグループ4製品の自主回収（Anker PowerCore 10000 / A1263、Soundcore 3 / A3117、Anker PowerConf S500 / A3305、Soundcore Motion X600 / A3130）。原因は電池セル製造過程の不備",
+          "source": "Ankerグループ4製品に関するお詫びと自主回収のお知らせ",
+          "source_url": "https://corp.ankerjapan.com/posts/579",
           "checked": "2026-08-27"
         },
         {
@@ -714,6 +721,27 @@
           "source": "消費者庁 リコール情報サイト",
           "source_url": "https://www.recall.caa.go.jp/",
           "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE",
+          "value": "全規制対象製品に対しPSEマーク表示を完了（2018年2月1日の経済産業省告示によりモバイルバッテリーが電気用品安全法の規制対象に）",
+          "source": "全規制対象製品に対するPSEマーク表示完了のお知らせ",
+          "source_url": "https://corp.ankerjapan.com/posts/25",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制（第三者認証）",
+          "value": "ポータブル電源が業界で初めて電気製品の第三者認証制度「Sマーク認証」を取得（PSEを補完し法令要求を上回る安全基準）",
+          "source": "Ankerのポータブル電源が、業界で初めて電気製品の安全のための第三者認証制度「Sマーク認証」を取得",
+          "source_url": "https://corp.ankerjapan.com/posts/595",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴（対象の判別条件）",
+          "value": "自主回収の対象はシリアル番号が16桁の製品。16桁でない製品は対象外",
+          "source": "モバイルバッテリー / スピーカー自主回収についてのFAQ",
+          "source_url": "https://www.ankerjapan.com/blogs/faq/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC%E8%87%AA%E4%B8%BB%E5%9B%9E%E5%8F%8E%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AEfaq",
+          "checked": "2026-08-27"
         }
       ]
     },
@@ -722,37 +750,37 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "製品により18〜24ヶ月。会員登録で延長される場合あり【要確認】",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "公式オンラインストアでの基本保証期間は注文日から18ヶ月。会員は自動で24ヶ月に延長。一部製品は24ヶ月（会員は30ヶ月）",
+          "source": "長期保証サービス | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/warranty",
           "checked": "2026-08-27"
         },
         {
           "label": "延長保証制度",
-          "value": "公式会員登録による延長あり【要確認】",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "公式会員は2020年1月1日以降に正規取扱店舗で購入したAnkerグループ製品の保証期間が6ヶ月自動延長。特別な手続き・追加費用は不要。Amazon.co.jp、楽天市場、主要家電量販店での購入も対象",
+          "source": "延長保証 | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/extended_warranty",
           "checked": "2026-08-27"
         },
         {
           "label": "修理体制",
-          "value": "修理ではなく交換対応が中心",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "Ankerグループ製品の修理等はアンカー・ジャパン100%出資の子会社「アンカー・テック株式会社」（2022年9月9日設立、神奈川県川崎市川崎区日進町7番地1 川崎日進町ビルディング12階、資本金3,000万円）が担当",
+          "source": "Ankerグループ製品の修理等を担う新会社「アンカー・テック株式会社」設立",
+          "source_url": "https://corp.ankerjapan.com/posts/373",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり(メール・電話)。日本法人が直接対応",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "Ankerカスタマーサポート 電話 03-4455-7823 / FAX 03-6280-5881 / メール support@anker.com",
+          "source": "Anker Japan 公式オンラインストア 特定商取引法に基づく表記",
+          "source_url": "https://www.ankerjapan.com/pages/commercial-code",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サイトのサポートページで要確認",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "平日9:00-17:00（年末年始を除く）。チャットサポートも同時間帯。混雑時や営業時間外はAnker AI Assistantが対応",
+          "source": "お問い合わせ | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/customer-support",
           "checked": "2026-08-27"
         },
         {
@@ -760,6 +788,13 @@
           "value": "ケーブル等の付属品は公式ストアで個別購入可",
           "source": "Anker Japan 公式サイト",
           "source_url": "https://www.ankerjapan.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制（修理規約）",
+          "value": "有償修理は「技術料＋部品代＋配送料」で配送料は顧客負担。点検で異常なしや見積後キャンセルの場合も配送料は顧客負担。修理完了日から3ヶ月以内に同症状で再故障した場合は無料で再修理",
+          "source": "修理規約 | Anker Japan 公式オンラインストア",
+          "source_url": "https://www.ankerjapan.com/pages/repair-policy",
           "checked": "2026-08-27"
         }
       ]
@@ -783,9 +818,9 @@
         },
         {
           "label": "主要製品ライン",
-          "value": "Anker(充電)、Soundcore(オーディオ)、Eufy(掃除機・スマートホーム)、Nebula(プロジェクター)、AnkerWork(会議機器)",
-          "source": "Anker Japan 公式サイト",
-          "source_url": "https://www.ankerjapan.com/",
+          "value": "Anker（モバイル充電）、Soundcore（オーディオ）、Eufy（スマートホーム）、Nebula（プロジェクター）、MACH（2023年誕生）の5ブランド",
+          "source": "アンカー・ジャパン創業10周年特設サイト",
+          "source_url": "https://www.ankerjapan.com/pages/10th-anniversary",
           "checked": "2026-08-27"
         },
         {
@@ -799,14 +834,6 @@
     }
   ],
   "updates": [
-    {
-      "date": "2026-04-01",
-      "title": "改正資源有効利用促進法が全面施行 — モバイルバッテリーが「指定再資源化製品」に追加",
-      "body": "電源装置(モバイルバッテリー)、携帯電話用装置、加熱式たばこデバイスの3品目が指定再資源化製品に新たに指定され、一定規模以上のメーカー・輸入販売事業者に回収と再資源化が義務付けられます。勧告・命令の対象となる規模要件は、モバイルバッテリーで年間1,000台以上、携帯電話用装置で年間1万台以上とされています。",
-      "impact": "利用者は不要になったモバイルバッテリーを家庭ごみに出すのではなく、メーカーの回収ルートや自治体の回収拠点を使うことになります。各社が具体的にどの窓口で回収するかは、施行前後の公式発表で要確認【要確認】。",
-      "source": "経済産業省 GXグループ資源循環経済課「資源有効利用促進法における取組について」(2026年2月)",
-      "source_url": "https://www.jcpra.or.jp/Portals/0/resource/00oshirase/pdf/pla/li-msh20260226-6.pdf"
-    },
     {
       "date": "2026-04-01",
       "title": "2026年4月モバイルバッテリー回収義務化（改正資源有効利用促進法・指定再資源化製品への追加）",

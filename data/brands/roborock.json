@@ -540,23 +540,23 @@
       "facts": [
         {
           "label": "正式社名",
-          "value": "北京石頭世紀科技股份有限公司(Beijing Roborock Technology)",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "Beijing Roborock Technology Co., Ltd.（北京石頭世紀科技）",
+          "source": "プライバシーポリシー",
+          "source_url": "https://us.roborock.com/pages/privacy-policy",
           "checked": "2026-08-27"
         },
         {
           "label": "本社所在地",
-          "value": "中国・北京市",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "中国・北京市昌平区安居路17号院3号楼10階1001室（Room 1001, Floor 10, Building 3, Yard 17, Anju Road, Changping District, Beijing）",
+          "source": "プライバシーポリシー",
+          "source_url": "https://us.roborock.com/pages/privacy-policy",
           "checked": "2026-08-27"
         },
         {
           "label": "創業年",
-          "value": "2014年",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "2014年7月",
+          "source": "Roborock社について",
+          "source_url": "https://us.roborock.com/pages/about-us",
           "checked": "2026-08-27"
         },
         {
@@ -589,9 +589,16 @@
         },
         {
           "label": "主な事業領域",
-          "value": "ロボット掃除機専業。Xiaomiエコシステム企業として出発し独立ブランド化",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "ロボット掃除機および清掃家電の研究・開発・製造。北京・上海・香港にR&Dおよび運営拠点",
+          "source": "Roborock社について",
+          "source_url": "https://us.roborock.com/pages/about-us",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "初期不良期間",
+          "value": "購入日より15日間（初期不良における交換期間）",
+          "source": "保証規定",
+          "source_url": "https://jp.roborock.com/pages/service",
           "checked": "2026-08-27"
         }
       ]
@@ -601,9 +608,9 @@
       "facts": [
         {
           "label": "日本法人",
-          "value": "日本法人による販売・サポート体制あり【要確認】",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "value": "Roborock合同会社（ロボロック合同会社）",
+          "source": "ご購入・販売店一覧",
+          "source_url": "https://jp.roborock.com/pages/shop",
           "checked": "2026-08-27"
         },
         {
@@ -636,22 +643,22 @@
         },
         {
           "label": "直営店",
-          "value": "なし(量販店・オンライン流通が中心)",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "オンライン直営ストア「Roborock Japan ダイレクト」を開設（本体・アクセサリーセットの販売、レンタルにも対応）",
+          "source": "Roborock Japanの直営ストア「Roborock Japan ダイレクト」がオープン",
+          "source_url": "https://www.roborock.jp/blogs/news/roborock%E3%83%80%E3%82%A4%E3%83%AC%E3%82%AF%E3%83%88%E3%82%B9%E3%83%88%E3%82%A2-%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
           "checked": "2026-08-27"
         },
         {
           "label": "販売チャネル",
-          "value": "Amazon、楽天市場、家電量販店(ビックカメラ・ヨドバシ等)、公式オンラインストア",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "Amazon、楽天市場、Yahoo!ショッピング、トレテク！ソフトバンクセレクション等の認定販売店・認定ストア",
+          "source": "ご購入・販売店一覧",
+          "source_url": "https://www.roborock.jp/pages/shop",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(roborock.jp)",
-          "source": "Roborock 公式サイト",
+          "value": "https://jp.roborock.com/ ／ https://www.roborock.jp/",
+          "source": "ロボット掃除機 Roborock「掃除に、知性を」 日本公式サイト",
           "source_url": "https://www.roborock.jp/",
           "checked": "2026-08-27"
         }
@@ -694,6 +701,13 @@
           "source": "消費者庁 リコール情報サイト",
           "source_url": "https://www.recall.caa.go.jp/",
           "checked": "2026-08-27"
+        },
+        {
+          "label": "データの保存先・越境移転",
+          "value": "グローバルクラウドを利用し、中国・ドイツ・ロシア・米国のデータセンターを使用。アカウント登録時に選択した国・地域に最も近いデータセンターに保存され、上記以外の地域のユーザーは管轄外のデータセンターに保存される場合がある（日本語版プライバシーポリシー、2025年3月31日更新）",
+          "source": "Roborock App プライバシーポリシー（日本語）",
+          "source_url": "https://files.roborock.com/iot/doc/os/privacy/latest/ja.html",
+          "checked": "2026-08-27"
         }
       ]
     },
@@ -702,9 +716,9 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "本体1年間のメーカー保証が基本【要確認】",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "保証書に記載された購入日から起算し、保証書記載の期間内は無償交換・修理。対象はロボット掃除機・水拭き掃除機・コードレス掃除機の本体と充電ドックの新品に限定され、アクセサリー類は対象外",
+          "source": "保証規定",
+          "source_url": "https://jp.roborock.com/pages/service",
           "checked": "2026-08-27"
         },
         {
@@ -716,9 +730,9 @@
         },
         {
           "label": "修理体制",
-          "value": "国内に修理受付窓口あり",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "無償の場合は事前にカスタマーサポートセンターへ相談のうえ、保証書を添えて着払いで送付。購入後1年以上経過した有償修理は製品預かり後に見積を算出し、見積作成時に検品費用が発生",
+          "source": "よくあるご質問 / 保証規定",
+          "source_url": "https://www.roborock.jp/pages/faq",
           "checked": "2026-08-27"
         },
         {
@@ -737,9 +751,9 @@
         },
         {
           "label": "消耗品・交換部品の入手性",
-          "value": "ブラシ・フィルター・モップ等の消耗品は公式・Amazon等で購入可",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "公式サイトにアクセサリーページがあり、メインブラシ・エアフィルター・モップ等を交換可能。アプリが各パーツの使用状況と交換時期を通知。純正品の使用を推奨",
+          "source": "アクセサリー",
+          "source_url": "https://jp.roborock.com/pages/accessories-stick",
           "checked": "2026-08-27"
         }
       ]
@@ -749,9 +763,9 @@
       "facts": [
         {
           "label": "主力カテゴリ",
-          "value": "ロボット掃除機(吸引・水拭き一体型)",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "ロボット掃除機、水拭き掃除機、コードレス掃除機",
+          "source": "保証規定",
+          "source_url": "https://jp.roborock.com/pages/service",
           "checked": "2026-08-27"
         },
         {
@@ -763,9 +777,9 @@
         },
         {
           "label": "主要製品ライン",
-          "value": "S系(旗艦)、Q系(中位)、コードレススティック掃除機",
-          "source": "Roborock 公式サイト",
-          "source_url": "https://www.roborock.jp/",
+          "value": "ロボット掃除機の Saros シリーズ、Qrevo シリーズ、Q シリーズ、S シリーズ、E シリーズ、およびスティック型水拭き掃除機（F25 Gen 2 等）",
+          "source": "Roborockロボット掃除機を比較",
+          "source_url": "https://jp.roborock.com/pages/robot-vacuum-cleaners-compare",
           "checked": "2026-08-27"
         },
         {

@@ -220,7 +220,7 @@ def page(title, body, canonical, description="", jsonld=None):
 {body}
 </main>
 <footer><div class="inner">
-<p><a href="{u('/about/')}">サイトについて・運営方針</a></p>
+<p><a href="{u('/about/')}">サイトについて・運営方針</a> ｜ <a href="{u('/status/')}">データ整備状況</a></p>
 <p>掲載情報には出典と確認日を明記しています。誤りを見つけた場合は出典とあわせてご指摘ください。
 機種ごとの性能比較は行いません(実測レビューは専門メディアをご参照ください)。</p>
 </div></footer>
@@ -317,6 +317,37 @@ def timeline(updates, brand_link=None):
     return f'<ul class="timeline">{"".join(lis)}</ul>'
 
 
+def related_brands(b, brands):
+    """「日本での主な競合」欄からサイト内に記事があるブランドを拾って相互リンクする。"""
+    txt = ""
+    for f in all_facts(b):
+        if "競合" in f["label"]:
+            txt = f["value"]
+            break
+    if not txt:
+        return ""
+    hits = []
+    for o in brands:
+        if o["slug"] == b["slug"]:
+            continue
+        keys = {o["name_en"], o["name_en"].lower()}
+        keys.add(o["name"].split("(")[0])
+        if "(" in o["name"]:
+            keys.add(o["name"].split("(")[1].rstrip(")"))
+        if any(k and k in txt for k in keys):
+            hits.append(o)
+    if not hits:
+        return ""
+    items = "".join(
+        f'<li><a href="{u("/" + o["slug"] + "/")}">{country_badge(o["country"])} '
+        f'{esc(o["name"])}<span class="desc">{esc(o["summary"][:38])}…</span></a></li>'
+        for o in hits)
+    return ('<h2 id="related">関連ブランド</h2>'
+            '<p class="legend">「日本での主な競合」に挙げたブランドのうち、'
+            "当サイトに事実ページがあるものです。</p>"
+            f'<ul class="blist">{items}</ul>')
+
+
 def sources_list(b):
     """ページ内で使用した一次情報源の一覧。"""
     seen = {}
@@ -374,7 +405,7 @@ def build():
     (OUT / ".nojekyll").write_text("")
 
     brands = load_dir("brands")
-    urls = [f"{BASE}/", f"{BASE}/about/"]
+    urls = [f"{BASE}/", f"{BASE}/about/", f"{BASE}/status/"]
 
     # ブランド定位ページ(1ブランド=1スラッグ。FAQはその配下に生成)
     for b in brands:
@@ -392,6 +423,8 @@ def build():
                       for i, s in enumerate(secs)]
         if rel_items:
             toc_items.append(f'<li><a href="#faq">よくある質問({len(rel_items)}件)</a></li>')
+        if related_brands(b, brands):
+            toc_items.append('<li><a href="#related">関連ブランド</a></li>')
         toc_items.append('<li><a href="#sources">このページの出典一覧</a></li>')
         toc = ('<div class="toc"><span class="toc-title">目次</span>'
                f'<ol>{"".join(toc_items)}</ol></div>')
@@ -430,6 +463,7 @@ def build():
                 "新しい順に並んでいます。</p>" + timeline(ups)) if ups else "")
             + sec_html
             + faq
+            + related_brands(b, brands)
             + '<h2 id="sources">このページの出典一覧</h2>'
             + '<p class="legend">記載した事実はすべて以下の情報源に基づいています。'
             "確認日時点の情報です。</p>"
@@ -563,6 +597,70 @@ def build():
     (OUT / "index.html").write_text(
         page(f"{CONFIG['site_name']} | ブランドの事実データベース", body,
              f"{BASE}/", CONFIG["description"]), encoding="utf-8")
+
+    # データ整備状況ページ
+    rows = []
+    tot_f = tot_ok = tot_faq = tot_real = 0
+    gap = {}
+    for b in brands:
+        n, ok, unv = coverage(b)
+        faqs = b.get("faq", [])
+        real = sum(1 for q in faqs if q.get("source"))
+        tot_f += n
+        tot_ok += ok
+        tot_faq += len(faqs)
+        tot_real += real
+        for f in all_facts(b):
+            if is_unverified(f["value"]):
+                gap[f["label"]] = gap.get(f["label"], 0) + 1
+        pct = round(ok / n * 100) if n else 0
+        bar = ("<span style='color:var(--accent2)'>" + "█" * round(pct / 10)
+               + "</span><span style='color:var(--line)'>" + "█" * (10 - round(pct / 10))
+               + "</span>")
+        rows.append(
+            f'<tr><th scope="row"><a href="{u("/" + b["slug"] + "/")}">{esc(b["name"])}</a></th>'
+            f"<td>{n}</td><td>{ok}</td>"
+            f'<td class="unverified">{unv}</td>'
+            f"<td>{bar} {pct}%</td>"
+            f"<td>{len(faqs)}<br><span style='font-size:0.75rem;color:var(--muted)'>"
+            f"実投稿{real} / 時事{len(faqs) - real}</span></td>"
+            f"<td>{len(b.get('updates', []))}</td></tr>")
+    gap_rows = "".join(
+        f"<tr><th scope=\"row\">{esc(k)}</th><td class=\"unverified\">{v}ブランド</td>"
+        f"<td>{'全ブランドで未確認' if v == len(brands) else ''}</td></tr>"
+        for k, v in sorted(gap.items(), key=lambda x: -x[1])[:12])
+    pct_all = round(tot_ok / tot_f * 100) if tot_f else 0
+    status_body = (
+        crumb([("データ整備状況", None)])
+        + "<h1>データ整備状況</h1>"
+        + '<p class="summary">本サイトが掲載している事実の件数と、一次情報源での'
+        "確認が済んでいる割合を公開しています。未確認の項目を隠さず件数で示すことが、"
+        "情報源としての信頼性の前提だと考えています。</p>"
+        + '<div class="tldr"><span class="tldr-t">全体</span><ul>'
+        f"<li><b>掲載ブランド</b>{len(brands)}件</li>"
+        f"<li><b>事実の項目数</b>{tot_f}項目(うち出典つきで確認済み {tot_ok}項目 = {pct_all}%)</li>"
+        f"<li><b>Q&amp;A</b>{tot_faq}件(実際のユーザー投稿ベース {tot_real}件 / "
+        f"時事ベース {tot_faq - tot_real}件)</li>"
+        f'<li><b>最終確認日</b>{CHECKED_DEFAULT}</li></ul></div>'
+        + "<h2>ブランド別</h2>"
+        + '<div class="table-wrap"><table><thead><tr><th>ブランド</th><th>項目数</th>'
+        "<th>確認済み</th><th>未確認</th><th>確認率</th><th>Q&amp;A</th><th>更新履歴</th>"
+        "</tr></thead><tbody>" + "".join(rows) + "</tbody></table></div>"
+        + "<h2>未確認が多い項目</h2>"
+        + '<p class="legend">以下は複数のブランドで一次情報源での確認が取れていない項目です。'
+        "法人番号は国税庁の法人番号公表サイトで、技適は総務省のデータベースで"
+        "個別に取得できますが、機械的な一括取得ができないため未確認のまま残っています。</p>"
+        + '<div class="table-wrap"><table><thead><tr><th>項目</th><th>未確認のブランド数</th>'
+        "<th></th></tr></thead><tbody>" + gap_rows + "</tbody></table></div>"
+    )
+    d = OUT / "status"
+    d.mkdir(parents=True)
+    (d / "index.html").write_text(
+        page(f"データ整備状況 | {CONFIG['site_name']}", status_body,
+             f"{BASE}/status/",
+             f"掲載{tot_f}項目中{tot_ok}項目が出典つきで確認済み。未確認項目も件数で公開。"),
+        encoding="utf-8")
+    urls.append(f"{BASE}/status/")
 
     # サイトについて
     about_body = (

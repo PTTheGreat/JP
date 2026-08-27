@@ -605,43 +605,43 @@
         {
           "label": "正式社名",
           "value": "バルミューダ株式会社",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "source": "特定商取引法に基づく表示｜BALMUDA（バルミューダ）公式サイト",
+          "source_url": "https://www.balmuda.com/jp/legal/deal",
           "checked": "2026-08-27"
         },
         {
           "label": "本社所在地",
-          "value": "東京都武蔵野市",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "〒180-0023 東京都武蔵野市境南町5-1-21",
+          "source": "特定商取引法に基づく表示／会社概要｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/legal/deal",
           "checked": "2026-08-27"
         },
         {
           "label": "創業年",
-          "value": "2003年",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "2003年（東京で設立）",
+          "source": "会社概要｜About｜BALMUDA（バルミューダ）公式サイト",
+          "source_url": "https://www.balmuda.com/jp/about/company-overview",
           "checked": "2026-08-27"
         },
         {
           "label": "創業者",
-          "value": "寺尾玄(てらお げん)氏",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "寺尾玄（代表取締役社長）※2003年に一人で創業",
+          "source": "企業概要｜バルミューダ株式会社 IR情報／採用情報",
+          "source_url": "https://corp.balmuda.com/corporate/",
           "checked": "2026-08-27"
         },
         {
           "label": "上場状況",
-          "value": "東京証券取引所グロース市場に上場(2020年、銘柄コード6612)",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "上場企業。2020年12月16日に東京証券取引所マザーズへ上場（証券コード：6612）※現・東証グロース市場",
+          "source": "企業概要／株式情報｜バルミューダ株式会社 IR情報",
+          "source_url": "https://corp.balmuda.com/stock/",
           "checked": "2026-08-27"
         },
         {
           "label": "従業員数",
-          "value": "未確認 — 有価証券報告書で要取得",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "100名超（公式サイト記載。2018年7月時点で100名を超えたと公表）",
+          "source": "採用情報｜About｜バルミューダ株式会社",
+          "source_url": "https://www.balmuda.com/jp/about/recruit",
           "checked": "2026-08-27"
         },
         {
@@ -653,9 +653,9 @@
         },
         {
           "label": "主な事業領域",
-          "value": "デザイン性を重視した高価格帯の生活家電。スマートフォン事業からは撤退",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "デザインとエンジニアリングの会社として、生活家電を中心とした道具の企画・設計・生産・販売。2021年にはインターネットテクノロジーを活用するブランド「BALMUDA Technologies」を立ち上げ",
+          "source": "会社概要／バルミューダについて｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/about/company-overview",
           "checked": "2026-08-27"
         }
       ]
@@ -700,22 +700,22 @@
         },
         {
           "label": "直営店",
-          "value": "あり(BALMUDA The Store 等)【要確認】",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "バルミューダ南青山店（旗艦店、2021年秋オープン）東京都港区南青山5-5-3／営業時間 11時〜19時／TEL 03-6633-9059",
+          "source": "お店でバルミューダ製品を体験｜Stores｜バルミューダ株式会社",
+          "source_url": "https://www.balmuda.com/jp/shops/",
           "checked": "2026-08-27"
         },
         {
           "label": "販売チャネル",
-          "value": "公式オンラインストア、家電量販店、百貨店、Amazon、楽天市場、直営店",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "直営店（南青山店）、公式オンラインストア、百貨店内取扱店（松屋銀座7Fテーブルジョイ）、家電量販店（ビックカメラ、ヨドバシカメラ、ノジマ、蔦屋家電 ほか）",
+          "source": "お店でバルミューダ製品を体験｜Stores｜バルミューダ株式会社",
+          "source_url": "https://www.balmuda.com/jp/shops/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(国内企業のため日本語が主言語)",
-          "source": "バルミューダ 公式サイト",
+          "value": "https://www.balmuda.com/jp/（IR情報は https://corp.balmuda.com/）",
+          "source": "BALMUDA（バルミューダ）公式サイト",
           "source_url": "https://www.balmuda.com/jp/",
           "checked": "2026-08-27"
         }
@@ -740,9 +740,9 @@
         },
         {
           "label": "リコール・自主回収履歴",
-          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
-          "source": "消費者庁 リコール情報サイト",
-          "source_url": "https://www.recall.caa.go.jp/",
+          "value": "①「バルミューダ ザ・レンジ」K04Aシリーズ（2017年10月〜2018年4月生産分）の自主回収および製品無償交換プログラム（2019年告知）②GreenFan Japan（2014年・2015年モデル）のお預かり部品交換プログラム（頭部・ポール部を支える部品の破損。現在は部品供給困難のためプログラム終了、無償回収・廃棄対応に移行）",
+          "source": "お客様への重要なお知らせ／自主回収プログラム｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/support/notice/range-program-2019/",
           "checked": "2026-08-27"
         },
         {
@@ -766,44 +766,58 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "製品により概ね1年間のメーカー保証【要確認】",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "メーカー保証は買い上げ日から1年間。バルミューダオンラインストア購入の場合は1年延長され2年間",
+          "source": "製品の保証条件について｜よくあるご質問｜バルミューダ株式会社",
+          "source_url": "https://faq.balmuda.com/answer/66f21d5fcf9a73edb8cda504/",
           "checked": "2026-08-27"
         },
         {
           "label": "延長保証制度",
-          "value": "販売店独自の延長保証に対応する場合あり",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "公式オンラインストア購入でメーカー保証1年延長（合計2年）。加えて「30日間返金保証」（2020年2月1日以降にオンラインストアで直接購入した対象製品、出荷日より30日以内の申込みが必要、日本国内在住者が対象）",
+          "source": "30日間返金保証｜BALMUDA（バルミューダ）公式サイト",
+          "source_url": "https://www.balmuda.com/jp/30-days/",
           "checked": "2026-08-27"
         },
         {
           "label": "修理体制",
-          "value": "国内修理体制あり(国内メーカーのため対応拠点が明確)",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "保証期間内外を問わず、バルミューダサポートセンターへ「Web修理受付」または電話で連絡のうえ修理申込みを行う方式",
+          "source": "修理規約｜BALMUDA（バルミューダ）公式サイト",
+          "source_url": "https://www.balmuda.com/jp/legal/repair",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "バルミューダサポートセンター フリーダイヤル 0120-686-717（IP電話等で利用できない場合は 0422-34-1705、通話料はお客様負担）。ほかにメール・チャット窓口あり",
+          "source": "特定商取引法に基づく表示｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/legal/deal",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サポートページで要確認",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "10:00〜17:00（土・日・祝日、および同社休業日を除く）",
+          "source": "お問い合わせ／サポート終了製品｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/support/contact/",
           "checked": "2026-08-27"
         },
         {
           "label": "消耗品・交換部品の入手性",
-          "value": "国内メーカーのため部品供給は比較的安定【要確認】",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "補修用性能部品の保有期間は対象製品ごとに設定され、保有期間終了をもって当該製品の修理対応は終了。一般的には生産終了後5年間、ワイヤレススピーカー M01Aシリーズは生産終了後6年",
+          "source": "修理規約／取扱説明書（M01A）｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/legal/repair",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート終了製品",
+          "value": "保守サービスの提供および補修用性能部品の供給を終了した製品の一覧を公式サイトで公開（2025年12月現在の掲載）。BALMUDA Phone および関連アプリのサポート、アクセサリの販売終了も告知済み",
+          "source": "サポート終了製品｜サポート情報｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/support/end-of-life/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "オンラインストア送料・返品条件",
+          "value": "税込3,300円以上で全国一律送料無料、3,300円未満は全国一律550円（税込）。返品・交換はスマートフォンは到着後14日以内、それ以外の商品は到着後30日以内の申出",
+          "source": "特定商取引法に基づく表示｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/legal/deal",
           "checked": "2026-08-27"
         }
       ]
@@ -813,9 +827,9 @@
       "facts": [
         {
           "label": "主力カテゴリ",
-          "value": "トースター、電気ケトル、扇風機、空気清浄機",
-          "source": "バルミューダ 公式サイト",
-          "source_url": "https://www.balmuda.com/jp/",
+          "value": "トースター、加湿器、空気清浄機、扇風機などの生活家電、およびキッチン家電（レンジ、炊飯器、ケトル等）、照明・スピーカー等",
+          "source": "会社概要／Products すべての製品｜BALMUDA公式サイト",
+          "source_url": "https://www.balmuda.com/jp/products/",
           "checked": "2026-08-27"
         },
         {

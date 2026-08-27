@@ -574,30 +574,30 @@
       "facts": [
         {
           "label": "正式社名",
-          "value": "株式会社CIO",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "株式会社CIO（シーアイオー）",
+          "source": "会社概要＋沿革 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/about/",
           "checked": "2026-08-27"
         },
         {
           "label": "本社所在地",
-          "value": "大阪府守口市",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "〒570-0028 大阪府守口市本町2丁目5-18 守口CIDビル4F",
+          "source": "会社概要＋沿革 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/about/",
           "checked": "2026-08-27"
         },
         {
           "label": "創業年",
-          "value": "2017年",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "2017年1月11日設立（大阪府守口市）。前身として2015年2月にECサイト「町のお店」を開業",
+          "source": "会社概要＋沿革 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/about/",
           "checked": "2026-08-27"
         },
         {
           "label": "創業者",
-          "value": "未確認 — 公式会社概要で要確認",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "中橋 翔大（代表取締役。2017年に株式会社CIOを創業）",
+          "source": "企業理念・代表挨拶 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/about/vision/",
           "checked": "2026-08-27"
         },
         {
@@ -623,9 +623,16 @@
         },
         {
           "label": "主な事業領域",
-          "value": "充電関連機器の企画・開発・販売。社名はConnect International Oneの略",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "充電器・モバイルバッテリーの企画・開発・製造・販売（スマートフォンアクセサリの企画・開発・製造・販売）",
+          "source": "事業部紹介 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/about/division/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の安全性の取り組み",
+          "value": "独自の安全設計思想「NovaCore」（構造安全性の数値基準管理）と「NovaSafety」（ファームウェアによる劣化検知・温度制御）、MES導入による原材料から出荷までの製造履歴の個体単位管理",
+          "source": "モバイルバッテリーの安全性と社会的責任について ─ CIOの考えと取り組み",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/safety-infmation/",
           "checked": "2026-08-27"
         }
       ]
@@ -635,9 +642,9 @@
       "facts": [
         {
           "label": "日本法人",
-          "value": "本体が日本法人(株式会社CIO、大阪府守口市)",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "value": "株式会社CIO（日本国内・大阪府守口市に本社を置く日本企業）",
+          "source": "特定商取引法に基づく表記 - CIO",
+          "source_url": "https://connectinternationalone.co.jp/guide/",
           "checked": "2026-08-27"
         },
         {
@@ -670,22 +677,22 @@
         },
         {
           "label": "直営店",
-          "value": "未確認 — 公式サイトで要確認",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "初の直営店「CIO STORE」を2025年3月6日オープン。大阪・ルクア イーレ9階 梅田 蔦屋書店内（営業時間10:30〜20:30）",
+          "source": "CIO初の直営店“CIO STORE”が2025年3月6日(木)よりOPENいたします！",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/ciostore_umeda1/",
           "checked": "2026-08-27"
         },
         {
           "label": "販売チャネル",
-          "value": "公式オンラインストア、Amazon、楽天市場、家電量販店、クラウドファンディング(Makuake等)での先行販売",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "主要販売先は株式会社ワンズ、グローバルソリューションサービス株式会社、株式会社ヨドバシカメラ、株式会社ビックカメラ、株式会社ジャストシステム、アスクル株式会社、テレニシ株式会社。2019年10月より家電量販店・ホームセンターを中心に販路拡大、現在は大手家電量販店・ホームセンター・スーパー等に展開",
+          "source": "主要販売先 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/about/partner/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(国内企業のため日本語が主言語)",
-          "source": "株式会社CIO 公式サイト",
+          "value": "https://connectinternationalone.co.jp/",
+          "source": "株式会社CIO（シーアイオー）公式HP",
           "source_url": "https://connectinternationalone.co.jp/",
           "checked": "2026-08-27"
         }
@@ -710,9 +717,9 @@
         },
         {
           "label": "リコール・自主回収履歴",
-          "value": "モバイルバッテリーの一部型番で自主回収の事例あり。対象型番は公式サイトと消費者庁サイトで要確認【要確認】",
-          "source": "消費者庁 リコール情報サイト",
-          "source_url": "https://www.recall.caa.go.jp/",
+          "value": "「SMARTCOBY Ex01 SLIM Qi2 & Cable」（型番 CIO-MB20W2C-5K-EX01 / CIO-MB20W2C-5000-EX01、ホワイト・ブラック）の一部製造ロットを自主回収。原因は電池セル負極スラリーの粘度不足によるスラリー剥離・堆積・結晶化で内部短絡の恐れ",
+          "source": "「SMARTCOBY Ex01 SLIM Qi2 & Cable」に関するお詫びと一部製造ロットにおける製品の自主回収実施について",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/smartcoby_ex01/",
           "checked": "2026-08-27"
         },
         {
@@ -728,6 +735,13 @@
           "source": "消費者庁 リコール情報サイト",
           "source_url": "https://www.recall.caa.go.jp/",
           "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴（対応内容）",
+          "value": "対象製品の保有者には「回収・返金」または後継機「SMARTCOBY Ex04 Wireless2.2 CABLE SS5K」への無償交換を案内。回収受付フォームあり",
+          "source": "「SMARTCOBY Ex01 SLIM Qi2 & Cable」をお持ちのお客様への後継機無償交換と、再購入のご案内",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/smartcoby-ex01-slim-qi2-cable_exchange-announce/",
+          "checked": "2026-08-27"
         }
       ]
     },
@@ -736,37 +750,37 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "多くの製品で購入から1年間。会員登録で延長される場合あり【要確認】",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "CIO製品の通常保証期間は1年",
+          "source": "新たなユーザーサポートとして、全CIO製品における製品延長保証サービスを開始",
+          "source_url": "https://connectinternationalone.co.jp/cionews/information/%E6%96%B0%E3%81%9F%E3%81%AA%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%81%A8%E3%81%97%E3%81%A6%E3%80%81%E5%85%A8CIO%E8%A3%BD%E5%93%81%E3%81%AB%E3%81%8A%E3%81%91/",
           "checked": "2026-08-27"
         },
         {
           "label": "延長保証制度",
-          "value": "公式サイト経由の会員登録による延長あり【要確認】",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "全CIO製品対象の製品延長保証サービス。購入から2年以内の全ての人が対象で無料、保証期間を最大2年に延長可能。会員登録後に延長保証登録が必要",
+          "source": "新たなユーザーサポートとして、全CIO製品における製品延長保証サービスを開始",
+          "source_url": "https://connectinternationalone.co.jp/mypage/extendedwarranty/",
           "checked": "2026-08-27"
         },
         {
           "label": "修理体制",
-          "value": "交換対応が中心【要確認】",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "修理ではなく交換対応。初期不良は初期不良品として交換、保証期間内の故障は同一製品もしくは在庫状況により同等品と交換",
+          "source": "お問い合わせ（個人）| 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/customer/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり(国内窓口)",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "カスタマーサポート 電話 06-6780-4095／法人・メディア専用 06-4400-2842／個人向けお問い合わせフォーム",
+          "source": "お問い合わせ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サポートページで要確認",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "カスタマーサポート 10:00〜16:00（土日祝、及び翌営業日午前を除く）。法人・メディア窓口は平日10:00〜12:00／13:00〜16:00",
+          "source": "お問い合わせ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/contact/",
           "checked": "2026-08-27"
         },
         {
@@ -774,6 +788,13 @@
           "value": "ケーブル等は公式ストアで個別購入可",
           "source": "株式会社CIO 公式サイト",
           "source_url": "https://connectinternationalone.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の保証サービス",
+          "value": "「トライアルサポート」— 対象製品で充電ができなかった場合、購入後30日以内であれば全額返金",
+          "source": "新サービス「トライアルサポート」を開始！",
+          "source_url": "https://connectinternationalone.co.jp/pages/trial_support/",
           "checked": "2026-08-27"
         }
       ]
@@ -783,16 +804,16 @@
       "facts": [
         {
           "label": "主力カテゴリ",
-          "value": "USB充電器、モバイルバッテリー",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "モバイルバッテリー、充電器（AC/USB充電器）、ワイヤレス充電器、ケーブル、ウェアラブル等",
+          "source": "製品カテゴリ一覧 | 株式会社CIO 公式HP",
+          "source_url": "https://connectinternationalone.co.jp/cioproduct/",
           "checked": "2026-08-27"
         },
         {
           "label": "主な価格帯",
-          "value": "2,000〜10,000円前後。Ankerと同価格帯",
-          "source": "株式会社CIO 公式サイト",
-          "source_url": "https://connectinternationalone.co.jp/",
+          "value": "モバイルバッテリー 約¥6,280〜¥10,980、充電器 約¥4,280〜¥12,980（例: SMARTCOBY Pro CABLE 100W 20K は希望小売価格￥10,980税込）",
+          "source": "製品カテゴリ一覧 / SMARTCOBY Pro CABLE 100W 20K",
+          "source_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb100w2c1a-20k-c/",
           "checked": "2026-08-27"
         },
         {
@@ -813,14 +834,6 @@
     }
   ],
   "updates": [
-    {
-      "date": "2026-04-01",
-      "title": "改正資源有効利用促進法が全面施行 — モバイルバッテリーが「指定再資源化製品」に追加",
-      "body": "電源装置(モバイルバッテリー)、携帯電話用装置、加熱式たばこデバイスの3品目が指定再資源化製品に新たに指定され、一定規模以上のメーカー・輸入販売事業者に回収と再資源化が義務付けられます。勧告・命令の対象となる規模要件は、モバイルバッテリーで年間1,000台以上、携帯電話用装置で年間1万台以上とされています。",
-      "impact": "利用者は不要になったモバイルバッテリーを家庭ごみに出すのではなく、メーカーの回収ルートや自治体の回収拠点を使うことになります。各社が具体的にどの窓口で回収するかは、施行前後の公式発表で要確認【要確認】。",
-      "source": "経済産業省 GXグループ資源循環経済課「資源有効利用促進法における取組について」(2026年2月)",
-      "source_url": "https://www.jcpra.or.jp/Portals/0/resource/00oshirase/pdf/pla/li-msh20260226-6.pdf"
-    },
     {
       "date": "2026-04-01",
       "title": "2026年4月モバイルバッテリー回収義務化（改正資源有効利用促進法・指定再資源化製品への追加）",

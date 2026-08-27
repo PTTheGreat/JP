@@ -193,34 +193,34 @@
         "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12320470122",
         "original": "ネットで購入したInsta360X5がもし破損したらどこで見てもらえるのでしょうか？保証書の有効期限が切れたら"
       },
-      "answer": "まず公式サポート窓口への問い合わせが基本です。Insta360は本体1年間のメーカー保証が基本とされ【要確認】、有償の延長サービス「Insta360 Care」もあります。修理は正規代理店経由または国際対応での受付とされ【要確認】、日本国内に自社の修理拠点があるかは公開情報では確認できません【要確認】。保証期間が切れた後に有償修理を受け付けるか、費用や納期の目安も確認できないため、公式サポートページに機種名とシリアル番号を添えて問い合わせてください。並行輸入品は保証対象外となる場合があります。",
+      "answer": "日本での窓口は二重構造になっています。国内総代理店は株式会社アーキサイト(東京都台東区)で、同社がメーカーサポート窓口(050-1731-8488、平日10:00-13:00 / 14:00-19:00)を担当しています。ただし修理受付そのものはInsta360公式サイトのワークオーダー経由で行う運用です。保証期間が切れた後も有償修理は受け付けられますが、金額は症状により個別見積もりとなります【要確認】。なお2026年8月8日に直営の「Insta360浅草本店」がオープンしており、対面での相談窓口も増えています。",
       "facts": [
         {
-          "label": "保証期間",
-          "value": "本体1年間のメーカー保証が基本【要確認】",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "label": "国内総代理店",
+          "value": "株式会社アーキサイト(東京都台東区)",
+          "source": "アーキサイト 公式サイト",
+          "source_url": "https://www.archisite.co.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "延長保証",
-          "value": "有償の「Insta360 Care」あり",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "label": "サポート窓口",
+          "value": "050-1731-8488 / 平日10:00-13:00・14:00-19:00",
+          "source": "アーキサイト Insta360サポート",
+          "source_url": "https://www.archisite.co.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "修理体制",
-          "value": "代理店経由または国際対応【要確認】。国内自社修理拠点の有無は未確認",
+          "label": "修理受付経路",
+          "value": "Insta360公式サイトのワークオーダー経由",
           "source": "Insta360 公式サポート",
           "source_url": "https://www.insta360.com/jp/support",
           "checked": "2026-08-27"
         },
         {
-          "label": "保証切れ後の有償修理",
-          "value": "未確認 — 受付可否・費用・納期は公開情報では確認できない。公式サポートで要確認【要確認】",
-          "source": "Insta360 公式サポート",
-          "source_url": "https://www.insta360.com/jp/support",
+          "label": "直営店",
+          "value": "Insta360浅草本店(2026年8月8日グランドオープン)",
+          "source": "Insta360 公式",
+          "source_url": "https://www.insta360.com/jp/",
           "checked": "2026-08-27"
         }
       ]
@@ -588,37 +588,37 @@
       "facts": [
         {
           "label": "正式社名",
-          "value": "Arashi Vision Inc.(影石創新科技股份有限公司)",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "影石創新科技股份有限公司（Arashi Vision Inc.）",
+          "source": "影石创新正式登陆科创板（Insta360 公式ニュース）",
+          "source_url": "https://news.insta360.com/ipo/",
           "checked": "2026-08-27"
         },
         {
           "label": "本社所在地",
-          "value": "中国・深圳市",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "中国広東省深圳市",
+          "source": "Insta360ストア について（日本語）",
+          "source_url": "https://store.insta360.com/jp/about",
           "checked": "2026-08-27"
         },
         {
           "label": "創業年",
           "value": "2015年",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "source": "影石创新正式登陆科创板（Insta360 公式ニュース）",
+          "source_url": "https://news.insta360.com/ipo/",
           "checked": "2026-08-27"
         },
         {
           "label": "創業者",
-          "value": "劉靖康(リウ・ジンカン)氏",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "劉靖康（Liu Jingkang）",
+          "source": "Insta360 - About us",
+          "source_url": "https://www.insta360.com/about",
           "checked": "2026-08-27"
         },
         {
           "label": "上場状況",
-          "value": "上海証券取引所 科創板(STAR Market)に上場(2025年)",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "上場（上海証券取引所 科創板、2025年6月11日上場、証券コード 688775.SH）",
+          "source": "影石创新正式登陆科创板（Insta360 公式ニュース）",
+          "source_url": "https://news.insta360.com/ipo/",
           "checked": "2026-08-27"
         },
         {
@@ -630,16 +630,16 @@
         },
         {
           "label": "年間売上規模",
-          "value": "未確認 — 上場資料で要取得",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "2024年 55.74億元（2022年20.41億元、2023年36.36億元、3年年平均成長率65.25%）",
+          "source": "影石创新正式登陆科创板（Insta360 公式ニュース）",
+          "source_url": "https://news.insta360.com/ipo/",
           "checked": "2026-08-27"
         },
         {
           "label": "主な事業領域",
-          "value": "360度カメラで世界シェア首位。アクションカメラ、Vlogカメラ、ジンバルへ展開",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "全天球（パノラマ）カメラ・アクションカメラおよびジンバル等の映像機器。2023年の世界パノラマカメラ市場シェアは67.2%で6年連続1位、2024年は81.7%見込み",
+          "source": "影石创新正式登陆科创板（Insta360 公式ニュース）",
+          "source_url": "https://news.insta360.com/ipo/",
           "checked": "2026-08-27"
         }
       ]
@@ -649,9 +649,9 @@
       "facts": [
         {
           "label": "日本法人",
-          "value": "未確認 — 国内正規代理店(アーチサイト等)経由の体制。日本法人の有無は国税庁サイトで要確認",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "value": "日本総代理店は株式会社アーキサイト（ARCHISITE, INC.）。Insta360のメーカーサポート窓口も同社が担当",
+          "source": "株式会社アーキサイト 会社概要 ／ お問い合わせ：Insta360",
+          "source_url": "https://archisite.co.jp/company/profile/",
           "checked": "2026-08-27"
         },
         {
@@ -663,16 +663,16 @@
         },
         {
           "label": "日本法人設立年",
-          "value": "未確認 — 要確認",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "株式会社アーキサイト：平成13年（2001年）1月18日設立",
+          "source": "株式会社アーキサイト 会社概要",
+          "source_url": "https://archisite.co.jp/company/profile/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本法人所在地",
-          "value": "未確認 — 要確認",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "株式会社アーキサイト 本社：〒110-0006 東京都台東区秋葉原5-9 明治安田生命秋葉原ビル（TEL 03-6859-0281）",
+          "source": "株式会社アーキサイト 事業拠点",
+          "source_url": "https://archisite.co.jp/company/base/",
           "checked": "2026-08-27"
         },
         {
@@ -684,23 +684,23 @@
         },
         {
           "label": "直営店",
-          "value": "なし(代理店・量販店流通が中心)",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "Insta360浅草本店（国内初のブランドストア）：東京都台東区浅草2丁目35-11 二天門前ビル、営業時間 10:00〜19:00、銀座線浅草駅から徒歩7分。2026年7月25日プレオープン、8月8日グランドオープン",
+          "source": "Insta360、国内初のブランドストアを浅草にオープン",
+          "source_url": "https://www.insta360.com/blog-jp/brand-store-asakusa",
           "checked": "2026-08-27"
         },
         {
           "label": "販売チャネル",
-          "value": "公式オンラインストア、Amazon、家電量販店、カメラ専門店",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "公式オンラインストア（store.insta360.com）、Yahoo!ショッピング公式ストア、楽天公式ストア、Amazon公式ストア、取扱家電量販店（ビックカメラ、エディオン、ヨドバシカメラ など）",
+          "source": "Insta360公式ストアがYahoo!ショッピングにオープン",
+          "source_url": "https://www.insta360.com/blog-jp/yahoojapan-html",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(insta360.com/jp)",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "https://www.insta360.com/jp/ （公式ストア：https://store.insta360.com/jp/ 、日本語ブログ：https://www.insta360.com/blog-jp/ ）",
+          "source": "Insta360 日本語公式サイト／製品サポート",
+          "source_url": "https://www.insta360.com/jp/support/product-support",
           "checked": "2026-08-27"
         }
       ]
@@ -757,30 +757,30 @@
         },
         {
           "label": "延長保証制度",
-          "value": "有償の「Insta360 Care」あり",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "延長保証（Extended Warranty）：デバイス保証を2年間に延長。Insta360 FlexiCare：2年プランで2年以内に最大4回の破損交換（1年プランは1年以内に2回）、往復送料はInsta360負担、交換手数料は製品ごとに設定（例：X4 Airは1回¥6,800）。いずれもカメラ未アクティベート、またはアクティベートから30日以内が購入条件",
+          "source": "Insta360 Coverage Plans ／ X4 Air用Insta360 FlexiCare",
+          "source_url": "https://www.insta360.com/support/care-warranty",
           "checked": "2026-08-27"
         },
         {
           "label": "修理体制",
-          "value": "代理店経由または国際対応【要確認】",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "Insta360公式サイトにログインし「Support - Repair Services」から修理依頼を申請。申込後に送付先情報がメールで案内され、指定のアフターサービス修理サービスセンターへ製品を発送。発送後は公式サイトのメンテナンス＆修理サービス画面で運送業者と送り状番号を入力",
+          "source": "Insta360 Repair Service（修理サービス）",
+          "source_url": "https://www.insta360.com/support/workorder/repair_nav",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり(公式サイト・アプリ日本語対応)",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "株式会社アーキサイト お客様コールセンター 050-1731-8488（Insta360メーカーサポート窓口）。Insta360本体もメール・LINE・日本語電話対応窓口を提供",
+          "source": "お問い合わせ：Insta360 - 株式会社アーキサイト ／ Insta360日本語での電話対応サービス開始",
+          "source_url": "https://archisite.co.jp/contacts/insta360/",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サポートページで要確認",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "10:00〜13:00／14:00〜19:00（月〜金、祝日を除く）",
+          "source": "お問い合わせ：Insta360 - 株式会社アーキサイト",
+          "source_url": "https://archisite.co.jp/contacts/insta360/",
           "checked": "2026-08-27"
         },
         {
@@ -788,6 +788,13 @@
           "value": "レンズガード・バッテリー等は公式ストアで購入可",
           "source": "Insta360 公式サイト",
           "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "並行輸入品の保証取扱い",
+          "value": "正規のInsta360製品のみ保証対象で、並行輸入品は保証対象外。保証を受けるには正規販売店または公式ストアでの購入が必要",
+          "source": "Insta360 After-Sales Policy（アフターサービスポリシー）",
+          "source_url": "https://www.insta360.com/support/aftersales",
           "checked": "2026-08-27"
         }
       ]
@@ -811,9 +818,9 @@
         },
         {
           "label": "主要製品ライン",
-          "value": "Xシリーズ(360度)、Aceシリーズ(アクション)、GO(小型Vlog)、Flow(スマホジンバル)",
-          "source": "Insta360 公式サイト",
-          "source_url": "https://www.insta360.com/jp/",
+          "value": "X5（フラッグシップ8K 360度カメラ、レンズ交換設計）、Ace Pro 2（8K AIアクションカメラ）、GO 3S（親指サイズ4Kカメラ、マグネット装着）、Flow 2シリーズ（AIスマホジンバル）、X6（8K 360度カメラ）",
+          "source": "Insta360 公式ストア 製品ページ",
+          "source_url": "https://store.insta360.com/product/x5",
           "checked": "2026-08-27"
         },
         {

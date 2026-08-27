@@ -334,34 +334,27 @@
         "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10323999415",
         "original": "シャークの掃除機、購入してから3年程です。音が大きく振動もします"
       },
-      "answer": "壊れやすいかを示す公開の故障率統計はないため、本サイトでは断定しません。確認できるのは制度面の事実です。日本での保証は製品により1〜2年で、購入から3年なら通常は期間外となり有償対応です【要確認】。国内に修理・交換窓口があり、消耗品は公式ストアで買えます。またブラシロール・フィルター・バッテリーは寿命のある消耗品で、巻き付きや目詰まりは異音や振動の一般的な要因です。まず清掃と絡まり除去を試してください。",
+      "answer": "公式オンラインストアで購入し製品登録をすると、メーカー保証2年に1年が延長されて合計3年になります。ただし重要な例外があり、リチウムイオンバッテリーとアクセサリーパックは延長の対象外です。掃除機のバッテリーは消耗部品であると同時に故障しやすい部位でもあるため、「3年保証」を理由に公式ストアを選ぶ場合は、この除外を理解した上で判断してください。量販店で安く買う場合の保証はメーカー保証2年です。差額と延長1年、そしてバッテリーが対象外である点を天秤にかけるのが実態に合った選び方です。",
       "facts": [
         {
-          "label": "故障率の公開統計",
-          "value": "未確認 — メーカー・第三者を問わず公開された故障率統計は確認できない",
-          "source": "Shark 公式サイト",
+          "label": "メーカー保証",
+          "value": "2年",
+          "source": "Shark Japan 公式サイト",
           "source_url": "https://www.shark.co.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "保証期間",
-          "value": "製品により1〜2年間。3年経過品は通常保証期間外【要確認】",
-          "source": "Shark 公式サイト",
+          "label": "公式ストア購入時",
+          "value": "製品登録により合計3年(2年+1年延長)",
+          "source": "Shark Japan 公式サイト",
           "source_url": "https://www.shark.co.jp/",
           "checked": "2026-08-27"
         },
         {
-          "label": "消耗品・交換部品の入手性",
-          "value": "フィルター・ブラシ等は公式ストアで購入可",
-          "source": "Shark 公式サイト",
+          "label": "延長保証の対象外",
+          "value": "リチウムイオンバッテリー、アクセサリーパック",
+          "source": "Shark Japan 公式サイト",
           "source_url": "https://www.shark.co.jp/",
-          "checked": "2026-08-27"
-        },
-        {
-          "label": "リコール・自主回収履歴",
-          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
-          "source": "消費者庁 リコール情報サイト",
-          "source_url": "https://www.recall.caa.go.jp/",
           "checked": "2026-08-27"
         }
       ]
@@ -603,37 +596,37 @@
         },
         {
           "label": "本社所在地",
-          "value": "米国マサチューセッツ州ニーダム",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "米国マサチューセッツ州ニーダム市 89 A Street（ボストン郊外）",
+          "source": "SharkNinja Investor FAQs",
+          "source_url": "https://ir.sharkninja.com/resources/investor-faqs/default.aspx",
           "checked": "2026-08-27"
         },
         {
           "label": "創業年",
-          "value": "前身のEuro-Proが1994年設立",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "1995年",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
           "checked": "2026-08-27"
         },
         {
           "label": "創業者",
-          "value": "マーク・ローゼンツヴァイク氏(Euro-Pro)【要確認】",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "Mark Rosensweig（マーク ローゼンズウィーグ）",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
           "checked": "2026-08-27"
         },
         {
           "label": "上場状況",
-          "value": "ニューヨーク証券取引所に上場(2023年、ティッカー: SN)",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "ニューヨーク証券取引所（NYSE）上場、ティッカー「SN」。2023年7月31日に取引開始",
+          "source": "SharkNinja Stock Info",
+          "source_url": "https://ir.sharkninja.com/stock-info/default.aspx",
           "checked": "2026-08-27"
         },
         {
           "label": "従業員数",
-          "value": "未確認 — 上場企業の年次報告書で要取得",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "世界38オフィスとボストン郊外のグローバル本社に4,000人以上",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
           "checked": "2026-08-27"
         },
         {
@@ -645,9 +638,9 @@
         },
         {
           "label": "主な事業領域",
-          "value": "清掃家電(Shark)とキッチン家電(Ninja)の2ブランドを展開",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "家庭用フロアケア（掃除機）およびキッチン家電の開発・提供。米国でSharkは掃除機シェアNo.1、Ninjaは小型キッチン家電で最も売れているブランド",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
           "checked": "2026-08-27"
         }
       ]
@@ -657,9 +650,9 @@
       "facts": [
         {
           "label": "日本法人",
-          "value": "シャークニンジャジャパン株式会社【要確認】",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "value": "シャークニンジャ株式会社（代表取締役：古屋和輝）",
+          "source": "特定商取引法に基づく表示",
+          "source_url": "https://www.shark.co.jp/deal/",
           "checked": "2026-08-27"
         },
         {
@@ -678,16 +671,16 @@
         },
         {
           "label": "日本法人所在地",
-          "value": "東京都【要確認】",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "〒105-0004 東京都港区新橋3-3-13 Tsao Hibiya 11階（電話 03-3581-3681）",
+          "source": "特定商取引法に基づく表示",
+          "source_url": "https://www.shark.co.jp/deal/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本参入年",
-          "value": "2018年",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "2018年7月（フロアケアブランドSharkのコードレススティック、ハンディ、スチームモップ等で参入）",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
           "checked": "2026-08-27"
         },
         {
@@ -699,16 +692,16 @@
         },
         {
           "label": "販売チャネル",
-          "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "Shark公式オンラインストア（direct.shark.co.jp）および全国の家電量販店。公式サイトに「取扱店を探す」ストアロケーターあり",
+          "source": "取扱店を探す",
+          "source_url": "https://shark.co.jp/storelocator/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(shark.co.jp / ninja.co.jp)",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "https://www.shark.co.jp/（ブランドサイト）、https://direct.shark.co.jp/（公式オンラインストア）、https://www.shark.co.jp/ninja/（Ninjaブランド）",
+          "source": "特定商取引法に基づく表示",
+          "source_url": "https://www.shark.co.jp/deal/",
           "checked": "2026-08-27"
         }
       ]
@@ -758,44 +751,44 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "製品により1〜2年間のメーカー保証。公式ストア購入で延長される場合あり【要確認】",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "メーカー保証2年。公式オンラインストアで購入し製品登録すると合計3年（メーカー保証2年＋公式オンラインストア保証1年）。リチウムイオンバッテリー・アクセサリーパックは保証対象外。保証期間は製品ごとに異なり取扱説明書で要確認",
+          "source": "Shark公式オンラインストア 製品ページ（保証について）",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
           "checked": "2026-08-27"
         },
         {
           "label": "延長保証制度",
-          "value": "公式ストア購入時の延長あり【要確認】",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "SharkNinja公式オンラインストアでの購入でメーカー保証期間をプラス1年延長。適用には商品到着後の製品登録が必須。バッテリー・アクセサリー等の保証対象外製品には延長は適用されない",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
           "checked": "2026-08-27"
         },
         {
           "label": "修理体制",
-          "value": "国内修理・交換対応あり",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "サービスセンターでの修理対応。電話相談 → 自宅への回収 → 修理 → 自宅へお届け、というフロー",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり(電話・メール)",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "電話 0120-522-552、お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サポートページで要確認",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "9:00～17:30（年末年始、その他大型連休等を除く）",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
           "checked": "2026-08-27"
         },
         {
           "label": "消耗品・交換部品の入手性",
-          "value": "フィルター・ブラシ等は公式ストアで購入可",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "公式オンラインストアにアクセサリー／付属品／消耗品カテゴリがあり、EVOPOWER EX用フィルター・フィルター容器、EVOROBOTサイドブラシ、EVOPOWER SYSTEM用バッテリー充電器、スチームモップ専用パッド等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
           "checked": "2026-08-27"
         }
       ]
@@ -812,16 +805,16 @@
         },
         {
           "label": "主な価格帯",
-          "value": "掃除機で2万〜7万円、調理家電で1万〜5万円前後",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "コードレススティック：CS200J 26,400円／CS601J 49,500円／CS651J 51,700円／CS851J 62,370円（税込）。スチームモップ：2-IN-1プロ 12,650円、S1000Jセット 29,700円（税込）。ヘアケア：FlexStyle HD434J 通常34,980円（税込）",
+          "source": "コードレススティック｜Shark公式オンラインストア",
+          "source_url": "https://direct.shark.co.jp/stickcleaner",
           "checked": "2026-08-27"
         },
         {
           "label": "主要製品ライン",
-          "value": "Shark EVOPOWER/detect(掃除機)、Shark Beauty(ヘアケア)、Ninja Creami、Ninja エアフライヤー",
-          "source": "SharkNinja/Shark Japan 公式サイト",
-          "source_url": "https://www.shark.co.jp/",
+          "value": "掃除機：EVOPOWER SYSTEM／EVOPOWER SYSTEM ADV／iQ／NEO／EVOFLEX（コードレススティック）、EVOPOWER EX・W35P等（ハンディ）、GENIUS スチームモップ、EVOROBOT（ロボット）。ヘアケア：Shark Beauty FlexStyle、SpeedStyle。キッチン：Ninja Blast（2024年2月）、Ninja Twisti（2024年8月）",
+          "source": "全製品｜Shark公式オンラインストア",
+          "source_url": "https://direct.shark.co.jp/collections/all",
           "checked": "2026-08-27"
         },
         {

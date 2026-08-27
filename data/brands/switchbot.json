@@ -532,9 +532,9 @@
       "facts": [
         {
           "label": "正式社名",
-          "value": "WOAN Technology(深圳市悟空智能科技有限公司)",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "Wonderlabs, Inc.（SwitchBot の開発元。アプリ上の表記は「wonderlabs, Incorporated」）",
+          "source": "SwitchBot（スイッチボット）について",
+          "source_url": "https://www.switchbot.jp/pages/about-us",
           "checked": "2026-08-27"
         },
         {
@@ -546,9 +546,9 @@
         },
         {
           "label": "創業年",
-          "value": "2015年頃【要確認】",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "公式サイトは「最初のアイディアは2015年に生まれた」と記載（法人設立年の明記はなし）",
+          "source": "SwitchBot（スイッチボット）について",
+          "source_url": "https://www.switchbot.jp/pages/about-us",
           "checked": "2026-08-27"
         },
         {
@@ -581,9 +581,9 @@
         },
         {
           "label": "主な事業領域",
-          "value": "後付け型スマートホーム機器。クラウドファンディング発の製品開発が起点",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "IoTスマートホームデバイスの企画・製造・販売（世界100以上の国・地域に展開）",
+          "source": "SwitchBot（スイッチボット）について",
+          "source_url": "https://www.switchbot.jp/pages/about-us",
           "checked": "2026-08-27"
         }
       ]
@@ -594,8 +594,8 @@
         {
           "label": "日本法人",
           "value": "SWITCHBOT株式会社",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "source": "特定商取引法に基づく表記",
+          "source_url": "https://www.switchbot.jp/pages/terms-of-service-1",
           "checked": "2026-08-27"
         },
         {
@@ -614,9 +614,9 @@
         },
         {
           "label": "日本法人所在地",
-          "value": "東京都【要確認】",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "東京都渋谷区神南1丁目11番地4号 FPG links JINNAN 8F",
+          "source": "特定商取引法に基づく表記",
+          "source_url": "https://www.switchbot.jp/pages/terms-of-service-1",
           "checked": "2026-08-27"
         },
         {
@@ -635,15 +635,15 @@
         },
         {
           "label": "販売チャネル",
-          "value": "公式オンラインストア、Amazon、楽天市場、Yahoo!ショッピング、家電量販店",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "公式サイト、Amazon（販売元「SWITCHBOT株式会社」）、楽天市場公式店、および家電量販店（ビックカメラ、ヨドバシカメラ、ヤマダデンキ、エディオン、コジマ、ジョーシン等）",
+          "source": "取り扱い店舗",
+          "source_url": "https://www.switchbot.jp/pages/where-to-buy",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語公式サイト",
-          "value": "あり(switchbot.jp)",
-          "source": "SwitchBot 公式サイト",
+          "value": "https://www.switchbot.jp/",
+          "source": "SwitchBot（スイッチボット）公式サイト",
           "source_url": "https://www.switchbot.jp/",
           "checked": "2026-08-27"
         }
@@ -686,6 +686,20 @@
           "source": "IPA 情報処理推進機構",
           "source_url": "https://www.ipa.go.jp/",
           "checked": "2026-08-27"
+        },
+        {
+          "label": "セキュリティ脆弱性への対応",
+          "value": "2025年6月10日に外部研究者からSwitchBotアプリ（iOS/Android）の脆弱性報告を受領。6月12日にログ機構を削除・改善し、アプリV9.13で修正版を6月20日にApp Store／Google Playで公開",
+          "source": "【お知らせ】SwitchBotアプリ脆弱性修正",
+          "source_url": "https://www.switchbot.jp/pages/switchbot-app-vulnerability-fix202507",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "データの保存先・越境移転",
+          "value": "収集した個人情報は日本のSwitchBot法人・関連会社・サービスプロバイダの施設で保管・処理される場合があり、越境移転時は標準契約条項の締結等の保護措置を実施すると明記",
+          "source": "AI MindClip プライバシーポリシー",
+          "source_url": "https://www.switchbot.jp/pages/ai-mindclip-privacy-policy",
+          "checked": "2026-08-27"
         }
       ]
     },
@@ -694,44 +708,44 @@
       "facts": [
         {
           "label": "保証期間",
-          "value": "多くの製品で購入から1年間。公式ストア購入で延長される場合あり【要確認】",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "メーカー保証は製品により1年または2年。公式サイト購入品は商品到着日から起算",
+          "source": "保証について",
+          "source_url": "https://www.switchbot.jp/pages/warranty-policy",
           "checked": "2026-08-27"
         },
         {
           "label": "延長保証制度",
-          "value": "公式ストア購入時の延長あり【要確認】",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "SwitchBot公式有料5年延長保証サービス（購入日から最長5年、製品と同時購入が必要）",
+          "source": "SwitchBot公式有料5年延長保証サービス",
+          "source_url": "https://www.switchbot.jp/pages/extended-warranty-service",
           "checked": "2026-08-27"
         },
         {
           "label": "修理体制",
-          "value": "交換対応が中心【要確認】",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "自社での実機点検を経て「当社の責めに帰すべき事由」と判断された場合に無償修理・交換。保証期間内でも修理の送料は顧客負担",
+          "source": "保証について",
+          "source_url": "https://www.switchbot.jp/pages/warranty-policy",
           "checked": "2026-08-27"
         },
         {
           "label": "日本語サポート窓口",
-          "value": "あり(メール・チャット)。アプリも日本語完全対応",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "電話 0120-676-162（フリーダイヤル）、メール support@switchbot.jp、アプリ内フィードバック・チャットサポート",
+          "source": "SwitchBotサポートの受付時間",
+          "source_url": "https://support.switch-bot.com/hc/ja/articles/1500012336602",
           "checked": "2026-08-27"
         },
         {
           "label": "サポート受付時間",
-          "value": "未確認 — 公式サポートページで要確認",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "11:00～13:30、14:30～23:20（土日祝・年末年始休み）",
+          "source": "SwitchBotサポートの受付時間",
+          "source_url": "https://support.switch-bot.com/hc/ja/articles/1500012336602",
           "checked": "2026-08-27"
         },
         {
           "label": "消耗品・交換部品の入手性",
-          "value": "電池・粘着テープ等の消耗品は公式ストアで購入可",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "公式サイトで純正消耗品を単体販売（例：お掃除ロボットS10/S20 交換用紙パック5枚セット、ローラーモップ2個セット）",
+          "source": "SwitchBot お掃除ロボットS10/S20 交換用紙パック(5枚セット) 消耗品 アクセサリー",
+          "source_url": "https://www.switchbot.jp/products/switchbot-dust-bag-for-floor-cleaning-robot-s10-s20",
           "checked": "2026-08-27"
         }
       ]
@@ -741,16 +755,16 @@
       "facts": [
         {
           "label": "主力カテゴリ",
-          "value": "スマートスイッチ(ボット)、スマートロック、ハブ、カーテン自動化",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "ボット（指ロボット）、見守りカメラ、カーテン、温湿度計、ロボット掃除機",
+          "source": "SwitchBot（スイッチボット）について",
+          "source_url": "https://www.switchbot.jp/pages/about-us",
           "checked": "2026-08-27"
         },
         {
           "label": "主な価格帯",
-          "value": "単品2,000〜10,000円前後、スマートロック等で1〜3万円",
-          "source": "SwitchBot 公式サイト",
-          "source_url": "https://www.switchbot.jp/",
+          "value": "約5,480円（ハブミニ）～59,800円（ロボット掃除機K11+）。カーテン3 8,980円、スマートロック 11,980円、ハブ2 9,980円、ハブ3 16,980円（いずれも税込）",
+          "source": "SwitchBot製品一覧",
+          "source_url": "https://www.switchbot.jp/collections/all",
           "checked": "2026-08-27"
         },
         {
