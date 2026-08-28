@@ -45,7 +45,7 @@ OFFICIAL = {
     "irobot": {"www.irobot-jp.com", "irobot-jp.com", "store.irobot-jp.com",
                "www.irobot.com", "irobot.com", "investor.irobot.com", "media.irobot.com"},
     "ecovacs": {"www.ecovacs.com", "ecovacs.com", "jp.ecovacs.com", "www.ecovacs.co.jp",
-                "ecovacs.co.jp", "shop.ecovacs.com"},
+                "ecovacs.co.jp", "shop.ecovacs.com", "help.ecovacs.com"},
     "nature-remo": {"nature.global", "www.nature.global", "shop.nature.global",
                     "support.nature.global"},
     "ugreen": {"jp.ugreen.com", "www.ugreen.com", "ugreen.com", "shop.ugreen.com"},
@@ -56,7 +56,9 @@ OFFICIAL = {
 GOV = {"www.houjin-bangou.nta.go.jp", "houjin-bangou.nta.go.jp", "www.nta.go.jp",
        "www.tele.soumu.go.jp", "www.soumu.go.jp", "www.meti.go.jp", "www.caa.go.jp",
        "www.recall.caa.go.jp", "www.nite.go.jp", "www.ppc.go.jp", "www.mlit.go.jp",
-       "www.ipa.go.jp", "www.jcpra.or.jp", "info.gbiz.go.jp"}
+       "www.ipa.go.jp", "www.jcpra.or.jp", "info.gbiz.go.jp",
+       # 海外の法定開示。企業自身の提出書類なので一次情報として扱う
+       "www.sec.gov", "sec.gov"}
 NEWS = {"prtimes.jp", "www.itmedia.co.jp", "ascii.jp", "news.mynavi.jp",
         "www.nikkei.com", "japan.cnet.com", "gizmodo.jp", "www.gizmodo.jp",
         "robotstart.info", "gigazine.net", "kakaku.com", "news.kakaku.com",
@@ -66,6 +68,18 @@ SUFFIX = (".impress.co.jp", ".itmedia.co.jp", ".ascii.jp", ".nikkei.com",
           ".mynavi.jp", ".go.jp")
 QA_HOSTS = {"detail.chiebukuro.yahoo.co.jp", "jp.quora.com", "oshiete.goo.ne.jp",
             "okwave.jp", "bbs.kakaku.com", "kakaku.com", "note.com", "b.hatena.ne.jp"}
+
+# 調査結果のラベル表記ゆれを標準ラベルへ寄せる
+ALIASES = {
+    "法人番号": "法人番号(13桁)",
+    "法人番号（13桁）": "法人番号(13桁)",
+    "技適": "技適(技術基準適合証明)",
+    "技適（技術基準適合証明）": "技適(技術基準適合証明)",
+    "PSE": "PSE(電気用品安全法)",
+    "PSE（電気用品安全法）": "PSE(電気用品安全法)",
+    "日本での競合": "日本での主な競合",
+    "価格帯": "主な価格帯",
+}
 
 TODAY = date.today().isoformat()
 
@@ -141,6 +155,7 @@ def main():
             kept, seen = [], set()
             for f in by_title.get(title, []):
                 label = str(f.get("label", "")).strip()
+                label = ALIASES.get(label, label)
                 value = str(f.get("value", "")).strip()
                 if not label or not value:
                     problems.append(f"[{title}] label/value欠落"); n_drop += 1; continue
