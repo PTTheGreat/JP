@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ptthegreat.github.io/JP/sitemap.xml
