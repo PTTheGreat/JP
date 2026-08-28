@@ -7,12 +7,14 @@
 """
 import json
 import os
+import re
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
 SRC = Path(os.environ.get("STAGING", "./staging")) / "official"
 BR = Path(__file__).resolve().parent.parent / "data" / "brands"
-CHK = "2026-08-27"
+CHK = os.environ.get("CHECKED_DATE") or date.today().isoformat()
 
 SECTION_KEYS = [
     ("企業プロフィール", ["社名", "本社", "創業", "設立年", "上場", "従業員", "売上",
@@ -36,6 +38,20 @@ def pick_section(label):
 
 def is_unverified(v):
     return "【要確認】" in v or "未確認" in v
+
+
+def houjin_bangou_ok(num):
+    """国税庁の検査用数字アルゴリズムで法人番号13桁を検算する。
+
+    検査用数字 = 9 - (Σ[n=1..12] Pn × Qn) mod 9
+      Pn: 下12桁の下からn桁目、Qn: n が奇数なら1・偶数なら2
+    調査結果に紛れ込んだ「桁数だけ合っている番号」を弾くための捏造対策。
+    """
+    if not re.fullmatch(r"\d{13}", num):
+        return False
+    base = num[1:]
+    tot = sum(int(base[12 - n]) * (1 if n % 2 else 2) for n in range(1, 13))
+    return int(num[0]) == 9 - tot % 9
 
 
 updated = added = skipped = 0
@@ -65,6 +81,19 @@ for p in sorted(SRC.glob("*.json")):
                 skipped += 1
                 continue
 
+            # 法人番号は検査用数字で検算し、合わないものは取り込まない
+            if "法人番号" in label and not is_unverified(value):
+                m = re.search(r"\d{13}", value)
+                if not m:
+                    log.append(f"  {slug}: 法人番号に13桁が見当たらないため除外")
+                    skipped += 1
+                    continue
+                if not houjin_bangou_ok(m.group(0)):
+                    log.append(f"  {slug}: 法人番号の検査用数字が不一致のため除外 "
+                               f"{m.group(0)}")
+                    skipped += 1
+                    continue
+
             if label in by_label:
                 sec, fact = by_label[label]
                 was_red = is_unverified(fact["value"])
@@ -90,7 +119,7 @@ for p in sorted(SRC.glob("*.json")):
 
 print(f"上書き {updated}件 / 新規追加 {added}件 / スキップ {skipped}件")
 if log:
-    print(f"\n赤字→黒字になった項目 ({len(log)}件):")
+    print(f"\n変更・除外の記録 ({len(log)}件):")
     for x in log[:40]:
         print(x)
 

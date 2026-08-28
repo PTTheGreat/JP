@@ -992,10 +992,10 @@
         },
         {
           "label": "法人番号(13桁)",
-          "value": "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。",
-          "source": "国税庁 法人番号公表サイト",
-          "source_url": "https://www.houjin-bangou.nta.go.jp/",
-          "checked": "2026-08-27"
+          "value": "1012701010928（バルミューダ株式会社／BALMUDA Inc.・東京都武蔵野市境南町5-1-21）",
+          "source": "経済産業省 gBizINFO（国税庁法人番号公表サイト由来）",
+          "source_url": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=1012701010928",
+          "checked": "2026-08-28"
         },
         {
           "label": "日本法人設立年",

@@ -32,6 +32,11 @@ FACT_HOSTS = {
     "direct.shark.co.jp", "support.switch-bot.com", "switch-bot.com",
     "files.roborock.com", "faq.balmuda.com", "support.insta360.com",
     "www.rakuten.ne.jp",
+    # 追加ブランドの公式ホスト
+    "www.irobot-jp.com", "irobot-jp.com", "store.irobot-jp.com", "www.irobot.com",
+    "jp.ecovacs.com", "www.ecovacs.co.jp", "nature.global", "shop.nature.global",
+    "jp.ugreen.com", "www.ugreen.com", "www.elecom.co.jp", "elecom-shop.jp",
+    "gopro.com", "jp.gopro.com", "jp.shop.gopro.com",
 }
 
 problems, added = [], 0

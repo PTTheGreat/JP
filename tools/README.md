@@ -13,8 +13,12 @@ python3 tools/merge_official.py   # STAGING/official/*.json  → 事実フィー
 python3 tools/merge_social.py     # STAGING/social/*.json    → 実ユーザー投稿ベースのFAQを追記
 python3 tools/merge_monthly.py    # STAGING/monthly/*.json   → 月次動向をタイムラインへ追記
 python3 tools/merge_fresh.py      # STAGING/fresh/*.json     → 制度変更等をタイムライン+時事FAQへ
+python3 tools/merge_new_brand.py  # STAGING/newbrand/*.json  → 新規ブランドを data/brands/ に作成
 python3 build.py                  # docs/ を再生成
 ```
+
+`merge_new_brand.py` だけは既存ブランドへの追記ではなく**新規ファイルの作成**を行う。
+既に同じ slug がある場合はスキップし、`--force` を付けたときだけ上書きする。
 
 ## 検証ルール(捏造対策)
 
@@ -26,6 +30,9 @@ python3 build.py                  # docs/ を再生成
 | 事実の出典URL | 各ブランド公式ドメイン、政府機関(go.jp)、主要報道機関のみ。個人ブログは事実の根拠として不可 |
 | タイムラインの日付 | `YYYY-MM-DD` 形式かつ根拠のあるものだけ。推定日付は不可 |
 | 重複 | slug・質問文・元投稿URL・タイトルで判定 |
+| 新規ブランドのセクション | 規定の5セクション名と完全一致するもののみ。それ以外は破棄 |
+| 新規ブランドの標準31項目 | 調査結果に無い項目は削除せず「未確認」で補完し、ページ上で赤字表示する |
+| 新規ブランドの公式ホスト | `merge_new_brand.py` の `OFFICIAL` に slug ごとに定義する。調査結果側からは拡張できない |
 
 ホストのホワイトリストは各スクリプト冒頭にある。正規の公式サブドメイン
 (`support.dji.com`、`faq.balmuda.com` 等)や系列メディア(`*.impress.co.jp` 等)が
