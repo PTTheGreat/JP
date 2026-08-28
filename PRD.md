@@ -190,7 +190,7 @@
 | **问答页** | 一个具体问题的完整答案 | 挂在品牌路径下,使 URL 自带品牌语义 |
 | 问题索引 | 全站有哪些问题 | — |
 | **数据整备状况** | 本站自己的数据有多少没核实 | — |
-| 关于・运营方针 | 谁在运营、按什么原则 | — |
+| 关于本站与运营方针 | 谁在运营、按什么原则 | — |
 
 ### 5.2 品牌页必备元素
 
@@ -255,7 +255,7 @@
 
 | 用途 | 允许的来源 |
 |---|---|
-| **事实** | 公的機関 → 法定開示 → ブランド公式 → プレスリリース → 报道机关 → 调查公司 |
+| **事实** | 公的机构 → 法定披露 → 品牌官方 → 新闻稿 → 报道机关 → 调查公司 |
 | **问题** | Yahoo!知恵袋、価格.com クチコミ、教えて!goo、OKWAVE、Quora日本版、note、はてブ |
 | **均不可** | 个人博客、联盟营销站、内容农场、Wikipedia、二手聚合站 |
 
@@ -319,40 +319,40 @@
 
 ### 9.1 事实的一次来源(按可信度排序)
 
-#### 一 · 日本の公的機関
+#### 一 · 日本公的机构
 
 | 机构 | 域名 | 提供什么 |
 |---|---|---|
-| 国税庁 法人番号公表サイト | `houjin-bangou.nta.go.jp` | 法人番号、登记名称・所在地 |
-| 経産省 gBizINFO | `info.gbiz.go.jp` | 同上(法人番号ベースの公的DB) |
-| 総務省 電波利用ホームページ | `tele.soumu.go.jp` | **技適**(技術基準適合証明)の型式検索 |
-| 総務省 | `soumu.go.jp` | 電波法・電気通信事業法 |
-| 経済産業省 | `meti.go.jp` | **PSE**(電安法)、リコール命令、行政指導 |
-| 消費者庁 | `caa.go.jp` / `recall.caa.go.jp` | **リコール・自主回収**、事故情報 |
-| NITE 製品評価技術基盤機構 | `nite.go.jp` | 製品事故の原因調査 |
-| 国土交通省 / DIPS | `mlit.go.jp` / `ossportal.dips.mlit.go.jp` | 航空法、ドローン登録 |
-| 個人情報保護委員会 | `ppc.go.jp` | **越境移転**、個人情報の取扱い |
-| IPA | `ipa.go.jp` | JC-STAR、脆弱性 |
-| JPCERT/CC | `jpcert.or.jp` | 脆弱性 |
-| 公正取引委員会 | `jftc.go.jp` | 優越的地位の濫用、下請法 |
-| 内閣府 / 環境省 | `cao.go.jp` / `env.go.jp` | 資源循環法など |
-| JCPRA / 家電製品協会 / JBRC | `jcpra.or.jp` / `aeha.or.jp` / `jbrc.com` | リサイクル義務 |
+| 国税庁 法人番号公表サイト | `houjin-bangou.nta.go.jp` | 法人番号、登记名称与所在地 |
+| 経産省 gBizINFO | `info.gbiz.go.jp` | 同上,以法人番号为主键的公开数据库 |
+| 総務省 電波利用ホームページ | `tele.soumu.go.jp` | **技適**(技術基準適合証明)的型号检索 |
+| 総務省 | `soumu.go.jp` | 電波法、電気通信事業法 |
+| 経済産業省 | `meti.go.jp` | **PSE**(電気用品安全法)、召回命令、行政指导 |
+| 消費者庁 | `caa.go.jp` / `recall.caa.go.jp` | **召回与自主回收**、事故信息 |
+| NITE 製品評価技術基盤機構 | `nite.go.jp` | 产品事故的原因调查 |
+| 国土交通省 / DIPS | `mlit.go.jp` / `ossportal.dips.mlit.go.jp` | 航空法、无人机登记 |
+| 個人情報保護委員会 | `ppc.go.jp` | **越境移转**、个人信息的处理 |
+| IPA | `ipa.go.jp` | JC-STAR、漏洞信息 |
+| JPCERT/CC | `jpcert.or.jp` | 漏洞信息 |
+| 公正取引委員会 | `jftc.go.jp` | 滥用优越地位、下請法(转包) |
+| 内閣府 / 環境省 | `cao.go.jp` / `env.go.jp` | 资源循环法等 |
+| JCPRA / 家電製品協会 / JBRC | `jcpra.or.jp` / `aeha.or.jp` / `jbrc.com` | 回收再利用义务 |
 
-#### 二 · 法定開示・取引所
+#### 二 · 法定披露与交易所
 
 企业自己按法律义务提交的文件,比 IR 页面更强。
 
 | 来源 | 域名 | 适用 |
 |---|---|---|
 | 米SEC EDGAR | `sec.gov` | 美国上市(GoPro、iRobot 旧) |
-| 金融庁 EDINET | `disclosure.edinet-fsa.go.jp` | **日本上市的有価証券報告書**(エレコム 等) |
+| 金融庁 EDINET | `disclosure.edinet-fsa.go.jp` | **日本上市的有価証券報告書**(ELECOM 等) |
 | 日本取引所グループ | `jpx.co.jp` | 上市状态、适时披露 |
 | 香港交易所 | `hkexnews.hk` | 港股 |
-| 上海 / 深圳証券取引所 | `sse.com.cn` / `szse.cn` | A股(Roborock・ECOVACS・UGREEN・Insta360) |
+| 上海 / 深圳証券取引所 | `sse.com.cn` / `szse.cn` | A股(Roborock、ECOVACS、UGREEN、Insta360) |
 | 巨潮資訊 | `cninfo.com.cn` | 中国上市公司法定公告 |
 | 英 Companies House | `find-and-update.company-information.service.gov.uk` | 英国法人(Dyson 等) |
 
-#### 三 · ブランド公式
+#### 三 · 品牌官方
 
 各品牌自己的域名及其**全部子域**(`support.` `help.` `corp.` `store.` `terms.` `faq.` `investor.` 等)。
 
@@ -364,7 +364,7 @@
 Ricoh THETA、アラジン、マキタ、T-fal、récolte)—— 这些都出自既有品牌的
 「日本での主な競合」字段,是最可能的下一批。
 
-#### 四 · プレスリリース配信
+#### 四 · 新闻稿发布
 
 `prtimes.jp` / `atpress.ne.jp` / `kyodonewsprwire.jp` / `businesswire.com` / `prnewswire.com`
 
@@ -374,12 +374,12 @@ Ricoh THETA、アラジン、マキタ、T-fal、récolte)—— 这些都出自
 
 | 类别 | 域名 |
 |---|---|
-| IT・家电 | `impress.co.jp`(家電/PC/AV/ケータイ/DC/Internet Watch 全系)、`itmedia.co.jp`、`ascii.jp`、`mynavi.jp`、`gizmodo.jp`、`techno-edge.net`、`gigazine.net`、`publickey1.jp`、`rbbtoday.com`、`phileweb.com`、`robotstart.info`、`moguravr.com` |
-| 综合・经济 | `nikkei.com`(xtech / xtrend 含)、`jiji.com`、`kyodo.co.jp`、`toyokeizai.net`、`diamond.jp`、`nikkan.co.jp`、`japan.cnet.com` |
+| IT 与家电 | `impress.co.jp`(家電/PC/AV/ケータイ/DC/Internet Watch 全系)、`itmedia.co.jp`、`ascii.jp`、`mynavi.jp`、`gizmodo.jp`、`techno-edge.net`、`gigazine.net`、`publickey1.jp`、`rbbtoday.com`、`phileweb.com`、`robotstart.info`、`moguravr.com` |
+| 综合与经济 | `nikkei.com`(xtech / xtrend 含)、`jiji.com`、`kyodo.co.jp`、`toyokeizai.net`、`diamond.jp`、`nikkan.co.jp`、`japan.cnet.com` |
 | 海外 | `reuters.com`、`bloomberg.com` |
 | 专门 | `drone.jp`、`dronelife.com`、`dronedj.com`、`cined.com`、`traicy.com` |
 
-#### 六 · 调查公司(份额・出货量)
+#### 六 · 调查公司(份额与出货量)
 
 `bcnretail.com`(**BCN+R ─ 日本家电量贩店 POS 份额的标准来源**)、`gfk.com`、`idc.com`、`m2ri.jp`(MM総研)
 
@@ -391,7 +391,7 @@ Ricoh THETA、アラジン、マキタ、T-fal、récolte)—— 这些都出自
 `okwave.jp` / `jp.quora.com` / `note.com` / `b.hatena.ne.jp`
 
 > `kakaku.com` 要分开看:`news.` 和 `mag.` 是编辑内容,可作事实来源;
-> `bbs.`(クチコミ掲示板)只能作问题来源。登记簿按子域区分。
+> `bbs.`(価格.com 的口碑论坛)只能作问题来源。登记簿按子域区分。
 
 ### 9.3 明确不可用
 
@@ -407,12 +407,12 @@ Ricoh THETA、アラジン、マキタ、T-fal、récolte)—— 这些都出自
 
 | 能力 | 能解决什么 | 影响的需求 |
 |---|---|---|
-| **X(旧 Twitter)接入** | 召回・故障・发售的**最早信号**通常先出现在 X。品牌官方账号的告知常比官网页面更新更快;用户的集中投诉是「時事型 FAQ」最好的选题来源 | §4.1 时事型 FAQ、§4.2 时间线时效性 |
-| **Reddit 接入** | 英语圈对同一品牌的评价,以及 r/japanlife 等在日外国人的实际售后体验。日语社区没有的视角,尤其是平行进口・保修跨境的实例 | §4.1 问题来源的多样性 |
-| **网页直接抓取(headless)** | 「特定商取引法に基づく表記」的**正文**。这是当前覆盖率最大的单一卡点 —— 页面存在,但内容进不了检索摘要 | §3.2 日本での事業体制全组 |
-| **技適検索 DB 的批量查询** | 逐型号的技適取得状况。目前几乎全品牌该字段未确认 | §3.2 規制・安全性 |
+| **X(旧 Twitter)接入** | 召回、故障、发售的**最早信号**通常先出现在 X。品牌官方账号的告知常比官网页面更新更快;用户的集中投诉是「时事型 FAQ」最好的选题来源 | §4.1 时事型 FAQ、§4.2 时间线时效性 |
+| **Reddit 接入** | 英语圈对同一品牌的评价,以及 r/japanlife 等在日外国人的实际售后体验。日语社区没有的视角,尤其是平行进口、保修跨境的实例 | §4.1 问题来源的多样性 |
+| **网页直接抓取(headless)** | 「特定商取引法に基づく表記」的**正文**。这是当前覆盖率最大的单一卡点 —— 页面存在,但内容进不了检索摘要 | §3.2「日本での事業体制」全组 |
+| **技適検索 DB 的批量查询** | 逐型号的技適取得状况。目前几乎全品牌该字段未确认 | §3.2「規制・安全性」 |
 | **国税庁法人番号 Web-API** | 法人番号的官方查询接口,替代靠检索摘要碰运气 | §3.2、§8.1 校验 |
-| **EDINET API** | 日本上市公司的有価証券報告書全文,员工数・销售额・财年一次到位 | §3.2 企業プロフィール |
+| **EDINET API** | 日本上市公司的有価証券報告書全文,员工数、销售额、财年一次到位 | §3.2「企業プロフィール」 |
 | **Google Search Console API** | 索引率指标目前无法自动采集 | §1.3 次级指标 |
 
 **接入新渠道时的规则不变**:X 和 Reddit 属于**问题来源**,与知恵袋同级 ——
@@ -475,8 +475,8 @@ Ricoh THETA、アラジン、マキタ、T-fal、récolte)—— 这些都出自
 | 差距 | 技適逐型号取得状况几乎全品牌未确认 | 総務省 DB 不支持机器批量查询 |
 | 差距 | 全站未经日语母语审校 | 上线前必须完成 |
 | 差距 | **140 条事实出处不在 §9 登记内**(94 个域名,全部集中在最早的 10 个品牌) | 这些内容早于登记簿建立。新入库的已被拦住,存量需逐条换成一次来源或删除 |
-| **主动留空** | Dyson 2026年7月・Roborock 2026年8月 时间线 | 两轮独立检索均无日期可坐实的日本市场事件 |
-| **主动留空** | Insta360・iRobot・ECOVACS 法人番号 | 登记簿中查无对应法人名,或地址不符 |
+| **主动留空** | Dyson 2026年7月、Roborock 2026年8月 时间线 | 两轮独立检索均无日期可坐实的日本市场事件 |
+| **主动留空** | Insta360、iRobot、ECOVACS 法人番号 | 登记簿中查无对应法人名,或地址不符 |
 
 ---
 
