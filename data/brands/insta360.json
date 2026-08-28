@@ -1162,12 +1162,36 @@
   ],
   "updates": [
     {
-      "date": "2025-12-22",
-      "title": "米FCCが「外国製UAS(無人航空機システム)全般」とDJI・Autel製品をCovered Listに追加(施行済み)",
-      "body": "米連邦通信委員会(FCC)の公共安全・国土安全保障局は2025年12月22日、2025年度国防権限法(FY25 NDAA)の規定に基づき、DJIおよびAutel Roboticsの通信・映像監視機器を、さらに想定を超える範囲として「外国製UASおよびUASの重要部品」全般をCovered Listに追加した。NDAAが定めた安全保障審査の期限(2025年12月23日)までに指定機関による審査が完了しなかったことが直接の引き金と報じられている。Covered List入りの効果は「新規の機器認証(equipment authorization)が取得できない」ことであり、米当局・法律事務所の解説によれば、既にFCC認証済みのモデルの輸入・販売・使用そのものを禁止するものではない。2026年1月7日にはBlue UASリスト掲載機やBuy American適合の「国内製品」を2027年1月1日まで暫定的に適用除外とする公示が出たが、DJI・Autel製品はこの除外に含まれていないと報じられている。",
+      "date": "2026-08-20",
+      "title": "単眼ジンバルカメラ「Luna Pro」を中国で発売",
+      "body": "Insta360は2026年8月20日、Luna Ultraの単眼版にあたるジンバルカメラ「Luna Pro」を中国で発表・発売した。1インチCMOSとライカ ズミクロン F1.8レンズ（35mm判換算20mm相当）を搭載し、8K/30fpsおよび4K/120fpsに対応する。中国公式ストア価格は標準セットが3,399元。この時点で日本での発売は発表されていない。",
       "impact": "",
-      "source": "DRONELIFE",
-      "source_url": "https://dronelife.com/2025/12/22/fcc-adds-foreign-made-drones-and-components-to-covered-list-citing-national-security-risks/"
+      "source": "デジカメ Watch",
+      "source_url": "https://dc.watch.impress.co.jp/docs/news/2134555.html"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "8K 360度カメラ「Insta360 X6」発表・発売",
+      "body": "Insta360 Japanは2026年8月12日、新フラッグシップとなる360度カメラ「Insta360 X6」を発表し、同日販売を開始した。デュアルのソニー製1/1.1型スクエアセンサーを搭載し、センサー面積はX5比で33%拡大、8K/30fpsの360度撮影に対応する。価格は標準版が118,000円、エッセンシャルキットが135,000円。カラーはミッドナイトブラックとアークティックホワイトの2色。",
+      "impact": "",
+      "source": "デジカメ Watch",
+      "source_url": "https://dc.watch.impress.co.jp/docs/news/2132389.html"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "「Insta360 浅草本店」グランドオープン",
+      "body": "Insta360は2026年8月8日、7月25日にソフトオープンしていた国内初のブランドストア「Insta360 浅草本店」をグランドオープンした。当日は13時から19時の営業とし、13時からハローキティを迎えたテープカットセレモニーを実施。創業者のJK Liu氏も出席した。",
+      "impact": "",
+      "source": "ドローンジャーナル（Impress）",
+      "source_url": "https://drone-journal.impress.co.jp/docs/news/1188772.html"
+    },
+    {
+      "date": "2026-07-25",
+      "title": "国内初のブランドストア「Insta360 浅草本店」がソフトオープン",
+      "body": "Insta360は2026年7月25日、日本国内初のブランドストア「Insta360 浅草本店」をソフトオープンした。所在地は東京都台東区浅草2-35-11 日天門前ビルで、銀座線浅草駅から徒歩7分。営業時間は10時から19時。360度カメラ、アクションカメラ、ジンバルカメラなど最新のコンシューマー製品を実際に試せる。",
+      "impact": "国内に実機を試せる直営拠点ができたことで、購入前の比較検討や製品相談が対面で行えるようになった。",
+      "source": "Insta360 公式ブログ",
+      "source_url": "https://www.insta360.com/blog-jp/brand-store-asakusa"
     },
     {
       "date": "2026-07-14",
@@ -1176,6 +1200,46 @@
       "impact": "",
       "source": "スカイピーク(note)",
       "source_url": "https://note.com/skypeak_drone/n/ne8dda0adf075"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "初のジンバルカメラ「Luna Ultra」日本発売",
+      "body": "Insta360 Japanは2026年6月15日、ライカと共同開発した同社初の2眼ジンバルカメラ「Insta360 Luna Ultra」を日本で発売した。望遠と広角の2眼構成で、8K動画撮影に対応する。価格は標準版が119,800円。海外では6月10日にライカ本社で正式発表され、即日発売された。",
+      "impact": "",
+      "source": "デジカメ Watch",
+      "source_url": "https://dc.watch.impress.co.jp/docs/news/2117251.html"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "DJIの特許訴訟に対し米国で反訴",
+      "body": "Insta360は2026年6月12日、DJIが6月10日に米テキサス州東部地区連邦地方裁判所へ提起した特許侵害訴訟に対し、同裁判所で反訴した。反訴ではジンバル制御アルゴリズムなどに関する米国特許5件をDJIが侵害していると主張している。両社の係争はドローン分野からハンドヘルドジンバルカメラ分野へ拡大した形となる。",
+      "impact": "現時点で日本国内での販売や既存製品のサポートに変更は告知されていない。米国での訴訟であり、日本のユーザーへの影響は現段階では確認されていない。",
+      "source": "CineD 日本版",
+      "source_url": "https://www.cined.com/jp/insta360-countersues-dji-over-luna-ultra-patent-war-asserting-five-u-s-patents/"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "「GO 3S レトロキット」発売",
+      "body": "Insta360 Japanは2026年5月15日、親指サイズのPOVカメラ「Insta360 GO 3S」にレトロビューファインダーや専用フィルターを同梱した「レトロキット」を発売した。カラーはキャンバスホワイトとクラシックレッドの2色、容量は64GBと128GBを用意する。価格は44,500円から。",
+      "impact": "",
+      "source": "Impress Watch",
+      "source_url": "https://www.watch.impress.co.jp/docs/news/2109154.html"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "2026年第1四半期決算、増収も純利益は半減",
+      "body": "Insta360を展開する影石創新科技（上海証券取引所科創板・688775）は2026年4月28日、2026年第1四半期報告を開示した。売上高は24.81億元で前年同期比83.11%増となった一方、親会社株主帰属純利益は8,462.02万元と前年同期比約52%減となり、純利率は1.31%に低下した。記憶用チップの供給逼迫による原価上昇と販売費・研究開発費の増加が要因とされる。",
+      "impact": "売上は伸びているが利益率は圧迫されている。今後の値付けやアクセサリー価格に影響が出る可能性はあるが、現時点で日本での価格改定は発表されていない。",
+      "source": "影石創新 2026年第1四半期報告（上海証券取引所開示）",
+      "source_url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260428/113c31163558436fb3f8d1cb52947aa1.PDF"
+    },
+    {
+      "date": "2025-12-22",
+      "title": "米FCCが「外国製UAS(無人航空機システム)全般」とDJI・Autel製品をCovered Listに追加(施行済み)",
+      "body": "米連邦通信委員会(FCC)の公共安全・国土安全保障局は2025年12月22日、2025年度国防権限法(FY25 NDAA)の規定に基づき、DJIおよびAutel Roboticsの通信・映像監視機器を、さらに想定を超える範囲として「外国製UASおよびUASの重要部品」全般をCovered Listに追加した。NDAAが定めた安全保障審査の期限(2025年12月23日)までに指定機関による審査が完了しなかったことが直接の引き金と報じられている。Covered List入りの効果は「新規の機器認証(equipment authorization)が取得できない」ことであり、米当局・法律事務所の解説によれば、既にFCC認証済みのモデルの輸入・販売・使用そのものを禁止するものではない。2026年1月7日にはBlue UASリスト掲載機やBuy American適合の「国内製品」を2027年1月1日まで暫定的に適用除外とする公示が出たが、DJI・Autel製品はこの除外に含まれていないと報じられている。",
+      "impact": "",
+      "source": "DRONELIFE",
+      "source_url": "https://dronelife.com/2025/12/22/fcc-adds-foreign-made-drones-and-components-to-covered-list-citing-national-security-risks/"
     }
   ]
 }

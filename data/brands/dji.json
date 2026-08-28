@@ -1141,12 +1141,28 @@
   ],
   "updates": [
     {
-      "date": "2025-12-22",
-      "title": "米FCCが「外国製UAS(無人航空機システム)全般」とDJI・Autel製品をCovered Listに追加(施行済み)",
-      "body": "米連邦通信委員会(FCC)の公共安全・国土安全保障局は2025年12月22日、2025年度国防権限法(FY25 NDAA)の規定に基づき、DJIおよびAutel Roboticsの通信・映像監視機器を、さらに想定を超える範囲として「外国製UASおよびUASの重要部品」全般をCovered Listに追加した。NDAAが定めた安全保障審査の期限(2025年12月23日)までに指定機関による審査が完了しなかったことが直接の引き金と報じられている。Covered List入りの効果は「新規の機器認証(equipment authorization)が取得できない」ことであり、米当局・法律事務所の解説によれば、既にFCC認証済みのモデルの輸入・販売・使用そのものを禁止するものではない。2026年1月7日にはBlue UASリスト掲載機やBuy American適合の「国内製品」を2027年1月1日まで暫定的に適用除外とする公示が出たが、DJI・Autel製品はこの除外に含まれていないと報じられている。",
+      "date": "2026-08-25",
+      "title": "9月2日の新製品発表を予告（発表予定）",
+      "body": "DJIは2026年8月25日、日本語サイトにティザーページを掲出し、9月2日21時（日本時間）に新製品を発表すると予告した。ティザーの内容から、中国で先行発売された360度カメラ「Osmo 360 II」のグローバル版とみられているが、正式発表前の情報であり、製品名・仕様・日本価格はいずれも確定していない。",
       "impact": "",
-      "source": "DRONELIFE",
-      "source_url": "https://dronelife.com/2025/12/22/fcc-adds-foreign-made-drones-and-components-to-covered-list-citing-national-security-risks/"
+      "source": "DRONE（ドローンメディア）",
+      "source_url": "https://drone.jp/news/20260825225725129292.html"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "360度カメラ「Osmo 360 II」を中国で発売",
+      "body": "DJIは2026年8月13日、8K/60fps撮影に対応する新型360度カメラ「Osmo 360 II」を中国公式サイトで発表・発売した。1インチ相当センサーを採用しダイナミックレンジは14.5段、レンズはユーザー交換式となった。中国価格はスタンダードキットが3,299元、パフォーマンスキットが3,999元。この時点では日本での発売時期・価格は発表されていない。",
+      "impact": "",
+      "source": "MoguLive",
+      "source_url": "https://www.moguravr.com/dji-osmo-360-ii-announced/"
+    },
+    {
+      "date": "2026-07-18",
+      "title": "二子玉川・レイクタウンにブランド体験スペース開設",
+      "body": "DJIは2026年7月18日、東京・二子玉川「蔦屋家電＋」と埼玉「イオンレイクタウンkaze」の2カ所にブランド体験スペースを同時オープンした。二子玉川では7月18日・19日に記念イベント「DJI 夏のクリエイターカーニバル」を開催し、「Osmo Pocket 4P パールホワイト」を日本初披露した。あわせて秋の表参道出店も発表された。",
+      "impact": "購入前に実機を試せる常設拠点が首都圏に増えたことで、初期不良時の相談や機種選定の下見がしやすくなる。",
+      "source": "ドローンジャーナル（Impress）",
+      "source_url": "https://drone-journal.impress.co.jp/docs/news/1188744.html"
     },
     {
       "date": "2026-07-14",
@@ -1155,6 +1171,62 @@
       "impact": "",
       "source": "スカイピーク(note)",
       "source_url": "https://note.com/skypeak_drone/n/ne8dda0adf075"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "「Osmo Pocket 4P」日本発売",
+      "body": "DJI JAPANは2026年6月29日、デュアルカメラを搭載したポケットジンバルカメラ「Osmo Pocket 4P」を日本で正式発表・発売した。17ストップのダイナミックレンジと10bit D-Log 2に対応する。価格はスタンダードコンボが99,000円、Vlogコンボが113,300円。カラーはクラシックブラックとパールホワイトの2色。",
+      "impact": "",
+      "source": "AV Watch（Impress）",
+      "source_url": "https://av.watch.impress.co.jp/docs/news/2119448.html"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Matrice 4D/4TDが第二種型式認証を取得",
+      "body": "DJI JAPANの産業用ドローン「DJI Matrice 4D」および「DJI Matrice 4TD」が2026年6月19日、国土交通大臣から第二種型式認証（型式認証書番号 第13号）を取得した。ドローンポート「DJI Dock 3」に対応する機体としては国内初の型式認証取得となる。認証機体の販売開始は2026年8月頃が予定されている。",
+      "impact": "型式認証機を使うことで、機体認証の手続き負担が軽減され、DIPSでの飛行許可・承認申請が簡素化される。認証の対象となる飛行は、①人口集中地区上空、②夜間、③目視外、④人・物件から30m未満、⑤催し場所上空の5類型。レベル3.5相当の遠隔運用を業務で計画している事業者には実務上の影響が大きい。",
+      "source": "ドローンジャーナル（Impress）",
+      "source_url": "https://drone-journal.impress.co.jp/docs/news/1188669.html"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "DJI、Insta360を米国で特許侵害提訴",
+      "body": "DJIは2026年6月10日、米テキサス州東部地区連邦地方裁判所において、Insta360のハンドヘルドジンバルカメラ「Luna」シリーズが自社の意匠特許2件と発明特許4件を侵害しているとして提訴した。提訴日はInsta360がLuna Ultraを米国で発売した当日にあたる。Insta360は6月12日に反訴している。",
+      "impact": "",
+      "source": "AAiT",
+      "source_url": "https://aait.co.jp/archives/82416"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "米FCCのCovered List再考申立、意見公募が締切",
+      "body": "米連邦通信委員会（FCC）がDJIをCovered List（規制対象リスト）に掲載した措置について、DJIが2026年1月に提出した再考申立に対するパブリックコメントの受付が2026年5月11日に締め切られた。DJIは2026年2月20日に第9巡回区連邦控訴裁判所へ提訴も行っている。FCCによる最終判断の時期は公表されていない。",
+      "impact": "これは米国内の電波認証・調達に関する手続きであり、日本国内での販売・飛行が直ちに制限されるものではない。ただし米国市場向け出荷の制約は世界全体の生産・供給計画に波及しうるため、業務利用で機体更新を計画している場合は調達時期に余裕を見ておくとよい。",
+      "source": "DroneLife（米ドローン専門メディア）",
+      "source_url": "https://dronelife.com/2026/05/05/public-comment-window-closing-fcc-weighs-dji-challenge-to-covered-list-ruling/"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "スマホジンバル「Osmo Mobile 8P」発売",
+      "body": "DJI JAPANは2026年5月7日、スマートフォン用ジンバル「Osmo Mobile 8P」を発売した。操作部が着脱式リモコン「Osmo FrameTap」として分離でき、離れた場所からの撮影や背面カメラでのセルフィー撮影に対応する。価格はスタンダードコンボが18,480円、アドバンストトラッキングコンボが25,080円、クリエイターコンボが32,780円。",
+      "impact": "",
+      "source": "トラベル Watch",
+      "source_url": "https://travel.watch.impress.co.jp/docs/news/2106379.html"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "超小型ワイヤレスマイク「DJI Mic Mini 2」発売",
+      "body": "DJI JAPANは2026年4月28日、約11gの超小型ワイヤレスマイク「DJI Mic Mini 2」を発表・発売した。2段階のノイズキャンセリングと3種の音色プリセット、最大48時間のバッテリー駆動に対応し、8色の交換式マグネットカバーが用意される。希望小売価格は1TX+1モバイルRXセットが8,580円、2TX+1RXセットが14,520円。",
+      "impact": "",
+      "source": "デジカメ Watch",
+      "source_url": "https://dc.watch.impress.co.jp/docs/news/2105504.html"
+    },
+    {
+      "date": "2025-12-22",
+      "title": "米FCCが「外国製UAS(無人航空機システム)全般」とDJI・Autel製品をCovered Listに追加(施行済み)",
+      "body": "米連邦通信委員会(FCC)の公共安全・国土安全保障局は2025年12月22日、2025年度国防権限法(FY25 NDAA)の規定に基づき、DJIおよびAutel Roboticsの通信・映像監視機器を、さらに想定を超える範囲として「外国製UASおよびUASの重要部品」全般をCovered Listに追加した。NDAAが定めた安全保障審査の期限(2025年12月23日)までに指定機関による審査が完了しなかったことが直接の引き金と報じられている。Covered List入りの効果は「新規の機器認証(equipment authorization)が取得できない」ことであり、米当局・法律事務所の解説によれば、既にFCC認証済みのモデルの輸入・販売・使用そのものを禁止するものではない。2026年1月7日にはBlue UASリスト掲載機やBuy American適合の「国内製品」を2027年1月1日まで暫定的に適用除外とする公示が出たが、DJI・Autel製品はこの除外に含まれていないと報じられている。",
+      "impact": "",
+      "source": "DRONELIFE",
+      "source_url": "https://dronelife.com/2025/12/22/fcc-adds-foreign-made-drones-and-components-to-covered-list-citing-national-security-risks/"
     }
   ]
 }
