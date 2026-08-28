@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UGREENのNAS(NASync)本体が故障した場合、データの取り出しやサポート対応はどうなるのでしょうか？ | ブランドファクト</title>
+<meta name="description" content="本体故障時の具体的な運用(修理か交換か、代替機の有無、データ復旧の可否、送料負担)については、公式サイト上で明記された情報を確認できませんでした【要確認】。窓口としては日本語のサポート窓口 support.jp@ugreen.com とUG">
+<link rel="canonical" href="https://ptthegreat.github.io/PS-test/ugreen/ugreen-nas-hardware-failure/">
+<style>
+:root { --fg:#222; --muted:#707070; --line:#dcdcdc; --accent:#b71c1c;
+        --accent2:#1a237e; --bg:#fff; --bg2:#f7f7f5; --q:#b71c1c; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html { font-size:15px; }
+body { font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",
+       "Yu Gothic Medium","Meiryo",sans-serif; color:var(--fg);
+       background:var(--bg); line-height:1.85; }
+main { max-width:760px; margin:0 auto; padding:0 1rem 3rem; }
+header.site { background:var(--bg); border-bottom:3px solid var(--accent); }
+header.site .inner { max-width:760px; margin:0 auto; padding:0.7rem 1rem; }
+header.site a.logo { color:var(--fg); text-decoration:none; font-weight:800;
+                     font-size:1.15rem; letter-spacing:0.02em; }
+header.site .tag { color:var(--muted); font-size:0.72rem; display:block; }
+nav.crumb { font-size:0.75rem; color:var(--muted); padding:0.6rem 0 0; }
+nav.crumb a { color:var(--accent2); text-decoration:none; }
+nav.crumb span.sep { margin:0 0.35rem; }
+h1 { font-size:1.45rem; line-height:1.5; margin:0.7rem 0 0.3rem; font-weight:800; }
+.meta { font-size:0.75rem; color:var(--muted); margin-bottom:1rem;
+        display:flex; gap:0.8rem; flex-wrap:wrap; align-items:center; }
+.badge { display:inline-block; font-size:0.72rem; font-weight:700; color:#fff;
+         background:var(--accent2); border-radius:3px; padding:0.05rem 0.5rem; }
+.badge.jp { background:var(--accent); }
+h2 { font-size:1.08rem; margin:2rem 0 0.7rem; padding:0.35rem 0.6rem;
+     background:var(--bg2); border-left:5px solid var(--accent); font-weight:700; }
+p.answer { background:#fdf6f6; border:1px solid #ecd5d5; border-radius:6px;
+           padding:0.9rem 1rem 0.9rem 1rem; margin:0.3rem 0 1rem; }
+p.answer::before { content:"結論"; display:inline-block; background:var(--accent);
+           color:#fff; font-size:0.72rem; font-weight:700; border-radius:3px;
+           padding:0.02rem 0.5rem; margin-right:0.5rem; vertical-align:0.1em; }
+p.summary { margin-bottom:0.8rem; }
+.toc { border:1px solid var(--line); border-radius:6px; background:var(--bg2);
+       padding:0.7rem 1rem; margin:1rem 0; font-size:0.85rem; }
+.toc .toc-title { font-weight:700; font-size:0.8rem; color:var(--muted); }
+.toc ol { margin:0.2rem 0 0 1.3rem; }
+.toc a { color:var(--accent2); text-decoration:none; }
+.table-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:0.86rem; line-height:1.6; }
+th, td { text-align:left; padding:0.5rem 0.6rem; border:1px solid var(--line);
+         vertical-align:top; }
+thead th { background:var(--bg2); color:var(--fg); font-size:0.8rem; }
+tbody th { background:var(--bg2); white-space:nowrap; font-weight:600;
+           width:9.5em; }
+td.src { font-size:0.75rem; color:var(--muted); }
+td.src a { color:var(--accent2); }
+ul.qlist { list-style:none; }
+ul.qlist li { border-bottom:1px dotted var(--line); }
+ul.qlist a { display:flex; gap:0.55rem; padding:0.6rem 0.2rem; color:var(--fg);
+             text-decoration:none; align-items:baseline; }
+ul.qlist a::before { content:"Q"; color:#fff; background:var(--q); font-weight:800;
+             font-size:0.78rem; border-radius:3px; padding:0 0.42rem; flex:none; }
+ul.qlist a:hover { color:var(--accent); }
+ul.blist { list-style:none; }
+ul.blist li { border-bottom:1px dotted var(--line); }
+ul.blist a { display:flex; gap:0.6rem; padding:0.6rem 0.2rem; color:var(--fg);
+             text-decoration:none; align-items:baseline; flex-wrap:wrap; }
+ul.blist a:hover { color:var(--accent); }
+ul.blist .desc { color:var(--muted); font-size:0.8rem; }
+h3.faq-cat { font-size:0.88rem; margin:1.3rem 0 0.5rem; color:var(--muted);
+             border-bottom:1px solid var(--line); padding-bottom:0.25rem;
+             display:flex; justify-content:space-between; align-items:baseline; }
+h3.faq-cat span { font-size:0.75rem; font-weight:400; }
+details.faq { border:1px solid var(--line); border-radius:6px; margin:0.5rem 0;
+              background:var(--bg); }
+details.faq summary { cursor:pointer; padding:0.6rem 0.8rem; font-weight:700;
+              font-size:0.92rem; list-style:none; display:flex; gap:0.55rem;
+              align-items:baseline; }
+details.faq summary::before { content:"Q"; color:#fff; background:var(--q);
+              font-weight:800; font-size:0.78rem; border-radius:3px;
+              padding:0 0.42rem; flex:none; }
+details.faq[open] summary { border-bottom:1px dotted var(--line); }
+details.faq .faq-a { padding:0.7rem 0.9rem; font-size:0.9rem; }
+details.faq .faq-a a { color:var(--accent2); }
+.timeline { list-style:none; border-left:2px solid var(--line); margin:0.6rem 0 0 0.4rem;
+            padding-left:0; }
+.timeline li { position:relative; padding:0 0 1rem 1.1rem; }
+.timeline li::before { content:""; position:absolute; left:-6px; top:0.55rem; width:10px;
+            height:10px; border-radius:50%; background:var(--accent); }
+.tl-date { font-size:0.75rem; color:var(--muted); font-weight:700; letter-spacing:0.02em; }
+.tl-title { font-weight:700; font-size:0.95rem; display:block; margin:0.1rem 0 0.25rem; }
+.tl-body { font-size:0.86rem; }
+.tl-impact { font-size:0.82rem; background:var(--bg2); border-left:3px solid var(--accent2);
+             padding:0.35rem 0.6rem; margin:0.4rem 0 0.3rem; }
+.tl-src { font-size:0.75rem; color:var(--muted); }
+.tl-src a { color:var(--accent2); }
+.tl-brand { font-size:0.75rem; color:var(--accent2); text-decoration:none; font-weight:700; }
+.badge-new { display:inline-block; background:var(--accent); color:#fff; font-size:0.65rem;
+             font-weight:700; border-radius:3px; padding:0 0.35rem; margin-left:0.35rem;
+             vertical-align:0.12em; }
+.tldr { border:1px solid #d7c9a7; background:#fdfbf3; border-radius:6px;
+        padding:0.75rem 1rem 0.85rem; margin:1rem 0; }
+.tldr-t { display:inline-block; background:#8a6d1f; color:#fff; font-size:0.72rem;
+          font-weight:700; border-radius:3px; padding:0.05rem 0.55rem; }
+.tldr ul { list-style:none; margin:0.5rem 0 0; font-size:0.88rem; }
+.tldr li { padding:0.18rem 0; border-bottom:1px dotted #e3d9c0; }
+.tldr li:last-child { border-bottom:none; }
+.tldr b { display:inline-block; min-width:9em; color:var(--muted); font-weight:600;
+          font-size:0.8rem; }
+ul.srclist { list-style:none; font-size:0.82rem; columns:2; column-gap:1.5rem; }
+ul.srclist li { padding:0.15rem 0; break-inside:avoid; }
+ul.srclist a { color:var(--accent2); }
+@media (max-width:560px) { ul.srclist { columns:1; } .tldr b { min-width:auto; display:block; } }
+.bgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
+         gap:0.7rem; }
+a.bcard { display:block; border:1px solid var(--line); border-top:3px solid var(--accent2);
+          border-radius:6px; padding:0.65rem 0.8rem 0.75rem; text-decoration:none;
+          color:var(--fg); background:var(--bg); }
+a.bcard.jp { border-top-color:var(--accent); }
+a.bcard:hover { background:var(--bg2); }
+.bcard .bname { font-weight:800; font-size:1.02rem; display:block; margin:0.3rem 0 0; }
+.bcard .ben { color:var(--muted); font-size:0.7rem; letter-spacing:0.05em; }
+.bcard .bdesc { font-size:0.76rem; color:var(--muted); line-height:1.65;
+                display:block; margin-top:0.35rem; }
+.bcard .qcount { display:inline-block; margin-top:0.45rem; font-size:0.7rem;
+                 color:var(--accent2); border:1px solid var(--line); border-radius:3px;
+                 padding:0 0.4rem; }
+.qgroup { margin:1.3rem 0 0.1rem; font-size:0.88rem; font-weight:700; }
+.unverified { color:#d32f2f; }
+.legend { font-size:0.75rem; color:var(--muted); margin:0.4rem 0 0; }
+.legend .unverified { font-weight:700; }
+.qsource { font-size:0.8rem; background:var(--bg2); border:1px solid var(--line);
+           border-radius:6px; padding:0.5rem 0.8rem; margin:0 0 1rem; color:var(--muted); }
+.qsource a { color:var(--accent2); }
+.notice { font-size:0.75rem; color:var(--muted); border:1px dashed var(--line);
+          border-radius:6px; padding:0.55rem 0.8rem; margin:1.5rem 0 0;
+          background:var(--bg2); }
+footer { border-top:1px solid var(--line); margin-top:2rem; background:var(--bg2); }
+footer .inner { max-width:760px; margin:0 auto; padding:1.2rem 1rem 2.5rem;
+                color:var(--muted); font-size:0.75rem; }
+footer a { color:var(--accent2); }
+a.back { color:var(--accent2); font-size:0.85rem; text-decoration:none; }
+.updated-note { font-size:0.75rem; color:var(--muted); }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ja", "mainEntity": [{"@type": "Question", "name": "UGREENのNAS(NASync)本体が故障した場合、データの取り出しやサポート対応はどうなるのでしょうか？", "acceptedAnswer": {"@type": "Answer", "text": "本体故障時の具体的な運用(修理か交換か、代替機の有無、データ復旧の可否、送料負担)については、公式サイト上で明記された情報を確認できませんでした【要確認】。窓口としては日本語のサポート窓口 support.jp@ugreen.com とUGREEN Support Centerがあり、まずここに問い合わせる形になります。保証面では、正規販売店で購入した製品に24ヶ月間の保証サービスが付帯します。ただし一般にNASの保証は本体のハードウェアが対象で、保存データの復旧までは保証範囲に含まれないのが通例のため、この点はUGREENでも購入前に個別確認することを強くおすすめします。実務上の備えとしては、NAS内でのRAID構成はバックアップの代替にならないため別媒体へのバックアップを併用すること、停電による障害を避けるためNASync向けに国内販売されている120W DC無停電電源装置(UPS)を併用することが有効です。"}, "sameAs": "https://bbs.kakaku.com/bbs/K0001692626/SortID=26302249/"}], "url": "https://ptthegreat.github.io/PS-test/ugreen/ugreen-nas-hardware-failure/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://ptthegreat.github.io/PS-test/"}, {"@type": "ListItem", "position": 2, "name": "UGREEN(ユーグリーン)", "item": "https://ptthegreat.github.io/PS-test/ugreen/"}, {"@type": "ListItem", "position": 3, "name": "UGREENのNAS(NASync)本体が故障した場合、データの取り出しやサポート対応はどうなるのでしょうか？", "item": "https://ptthegreat.github.io/PS-test/ugreen/ugreen-nas-hardware-failure/"}]}</script>
+</head>
+<body>
+<header class="site"><div class="inner">
+<a class="logo" href="/PS-test/">ブランドファクト</a>
+<span class="tag">すべての記載に出典と確認日を明記 | ブランドの事実だけを集めるサイト</span>
+</div></header>
+<main>
+<nav class="crumb" aria-label="パンくずリスト"><a href="/PS-test/">ホーム</a><span class="sep">›</span><a href="/PS-test/ugreen/">UGREEN(ユーグリーン)</a><span class="sep">›</span>UGREENのNAS(NASync)本体が故障した場合、データの取り出しやサポート対応はどうなるのでしょうか？</nav><h1>UGREENのNAS(NASync)本体が故障した場合、データの取り出しやサポート対応はどうなるのでしょうか？</h1><div class="meta"><span class="updated-note">最終確認日: 2026-08-28</span></div><p class="qsource">この質問は実際のユーザー投稿に基づいています: 価格.com クチコミ掲示板 「『NAS本体が故障した場合』 UGREEN NASync DXP4800 Plus UGR-NA-000002 のクチコミ掲示板」 <a href="https://bbs.kakaku.com/bbs/K0001692626/SortID=26302249/" rel="noopener nofollow">元の投稿を見る</a></p><p class="answer">本体故障時の具体的な運用(修理か交換か、代替機の有無、データ復旧の可否、送料負担)については、公式サイト上で明記された情報を確認できませんでした【要確認】。窓口としては日本語のサポート窓口 support.jp@ugreen.com とUGREEN Support Centerがあり、まずここに問い合わせる形になります。保証面では、正規販売店で購入した製品に24ヶ月間の保証サービスが付帯します。ただし一般にNASの保証は本体のハードウェアが対象で、保存データの復旧までは保証範囲に含まれないのが通例のため、この点はUGREENでも購入前に個別確認することを強くおすすめします。実務上の備えとしては、NAS内でのRAID構成はバックアップの代替にならないため別媒体へのバックアップを併用すること、停電による障害を避けるためNASync向けに国内販売されている120W DC無停電電源装置(UPS)を併用することが有効です。</p><h2>根拠となる事実</h2><div class="table-wrap"><table><thead><tr><th>項目</th><th>内容</th><th>出典 / 確認日</th></tr></thead><tbody><tr><th scope="row">保証期間</th><td>正規販売店で購入した製品に24ヶ月間の保証サービス</td><td class="src"><a href="https://jp.ugreen.com/" rel="noopener">UGREEN 日本公式サイト</a><br>確認日: 2026-08-28</td></tr><tr><th scope="row">修理体制</th><td>国内修理拠点や交換対応の詳細は公式サイトで確認できず。問い合わせ先はsupport.jp@ugreen.comおよびUGREEN Support Center</td><td class="src"><a href="https://www.support.ugreen.com/" rel="noopener">UGREEN Support Center</a><br>確認日: 2026-08-28</td></tr><tr><th scope="row">消耗品・交換部品の入手性</th><td>NASync向け周辺機器として120W DC無停電電源装置(UPS)が国内で別売</td><td class="src"><a href="https://pc.watch.impress.co.jp/docs/news/2083031.html" rel="noopener">PC Watch</a><br>確認日: 2026-08-28</td></tr></tbody></table></div><h2>ブランドの基本情報</h2><ul class="blist"><li><a href="/PS-test/ugreen/">UGREEN(ユーグリーン)のブランド事実ページ<span class="desc">企業プロフィール・日本法人・規制・保証など全32項目</span></a></li></ul><h2>UGREEN(ユーグリーン)についての他の質問</h2><ul class="qlist"><li><a href="/PS-test/ugreen/ugreen-vs-anker-charger/">充電器メーカーとしては、AnkerとUGREENのどちらの方が良いのでしょうか？</a></li><li><a href="/PS-test/ugreen/ugreen-cio-aukey-anker-choice/">充電器のメーカーはCIO・Anker・AUKEY・UGREENなど色々ありますが、やはりAnkerを選んでおけば無難でしょうか？</a></li><li><a href="/PS-test/ugreen/ugreen-is-it-safe/">Amazonでよく見かける『UGREEN』というメーカーは、安全なメーカーなのでしょうか？</a></li><li><a href="/PS-test/ugreen/ugreen-reliability-pc-power/">パソコン周りの電源機器に使いたいのですが、UGREENというメーカーの製品の信頼性はどの程度なのでしょうか？</a></li><li><a href="/PS-test/ugreen/ugreen-cable-charger-buy/">UGREENというブランドの充電器やケーブルの購入を検討していますが、買っても問題ないブランドでしょうか？</a></li><li><a href="/PS-test/ugreen/ugreen-magsafe-power-bank/">MagSafe対応のモバイルバッテリーで、AnkerとUGREENのどちらを選ぶか迷っています。判断材料はありますか？</a></li><li><a href="/PS-test/ugreen/ugreen-anker-recommendation/">AnkerとUGREENでは、結局どちらがおすすめなのでしょうか？</a></li><li><a href="/PS-test/ugreen/ugreen-amazon-review-doubt/">UGREENの充電器はAmazonでのレビュー評価が高すぎる気がするのですが、実際のところ信用できるメーカーなのでしょうか？</a></li><li><a href="/PS-test/ugreen/ugreen-nas-vs-others/">UGREENのNAS(NASync)は他社NASと比べて選ぶ価値がありますか。国内で買っても大丈夫でしょうか？</a></li></ul><p class="notice">このページはサンプルコンテンツです。公開前に日本語ネイティブによる校閲と、各事実の一次情報源での再確認(【要確認】箇所)が必要です。</p><p style="margin-top:2rem"><a class="back" href="/PS-test/ugreen/">← UGREEN(ユーグリーン)のページへ戻る</a></p>
+</main>
+<footer><div class="inner">
+<p><a href="/PS-test/about/">サイトについて・運営方針</a> ｜ <a href="/PS-test/qa/">質問インデックス</a> ｜ <a href="/PS-test/status/">データ整備状況</a></p>
+<p>掲載情報には出典と確認日を明記しています。誤りを見つけた場合は出典とあわせてご指摘ください。
+機種ごとの性能比較は行いません(実測レビューは専門メディアをご参照ください)。</p>
+</div></footer>
+</body>
+</html>

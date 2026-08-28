@@ -40,18 +40,16 @@ CANONICAL = {
     "製品ラインと価格帯": ["主力カテゴリ", "主な価格帯", "主要製品ライン", "日本での主な競合"],
 }
 
-# ブランドごとの公式ホスト。調査結果側から拡張させないため、ここで固定する。
+# ブランドごとの公式ドメイン。そのドメイン自身とサブドメインを許可する
+# (support. / help. / terms. / store. など、公式のサブドメインは多岐にわたるため)。
+# 調査結果側から拡張させないため、ここで slug ごとに固定する。
 OFFICIAL = {
-    "irobot": {"www.irobot-jp.com", "irobot-jp.com", "store.irobot-jp.com",
-               "www.irobot.com", "irobot.com", "investor.irobot.com", "media.irobot.com"},
-    "ecovacs": {"www.ecovacs.com", "ecovacs.com", "jp.ecovacs.com", "www.ecovacs.co.jp",
-                "ecovacs.co.jp", "shop.ecovacs.com", "help.ecovacs.com"},
-    "nature-remo": {"nature.global", "www.nature.global", "shop.nature.global",
-                    "support.nature.global"},
-    "ugreen": {"jp.ugreen.com", "www.ugreen.com", "ugreen.com", "shop.ugreen.com"},
-    "elecom": {"www.elecom.co.jp", "elecom.co.jp", "elecom-shop.jp", "www.elecom-shop.jp"},
-    "gopro": {"gopro.com", "www.gopro.com", "jp.gopro.com", "jp.shop.gopro.com",
-              "community.gopro.com", "investor.gopro.com"},
+    "irobot": {"irobot-jp.com", "irobot.com"},
+    "ecovacs": {"ecovacs.com", "ecovacs.co.jp"},
+    "nature-remo": {"nature.global"},
+    "ugreen": {"ugreen.com"},
+    "elecom": {"elecom.co.jp", "elecom-shop.jp"},
+    "gopro": {"gopro.com"},
 }
 GOV = {"www.houjin-bangou.nta.go.jp", "houjin-bangou.nta.go.jp", "www.nta.go.jp",
        "www.tele.soumu.go.jp", "www.soumu.go.jp", "www.meti.go.jp", "www.caa.go.jp",
@@ -88,12 +86,22 @@ def host_ok(url, slug):
     h = urlparse(url or "").netloc
     if not h:
         return False
-    return (h in OFFICIAL.get(slug, set()) or h in GOV or h in NEWS
-            or any(h.endswith(s) for s in SUFFIX))
+    if any(h == d or h.endswith("." + d) for d in OFFICIAL.get(slug, set())):
+        return True
+    return h in GOV or h in NEWS or any(h.endswith(s) for s in SUFFIX)
 
 
 def is_unverified(v):
     return "【要確認】" in v or "未確認" in v
+
+
+def houjin_bangou_ok(num):
+    """国税庁の検査用数字アルゴリズムで法人番号13桁を検算する(merge_official.py と同一)。"""
+    if not re.fullmatch(r"\d{13}", num):
+        return False
+    base = num[1:]
+    tot = sum(int(base[12 - n]) * (1 if n % 2 else 2) for n in range(1, 13))
+    return int(num[0]) == 9 - tot % 9
 
 
 def check_brand(b, problems):
@@ -161,6 +169,13 @@ def main():
                     problems.append(f"[{title}] label/value欠落"); n_drop += 1; continue
                 if label in seen:
                     problems.append(f"[{title}] ラベル重複 {label}"); n_drop += 1; continue
+                # 法人番号は検査用数字で検算し、合わないものは未確認に戻す
+                if "法人番号" in label and not is_unverified(value):
+                    m = re.search(r"\d{13}", value)
+                    if not m or not houjin_bangou_ok(m.group(0)):
+                        problems.append(f"[{title}] {label}: 検査用数字が不一致のため未確認へ "
+                                        f"{m.group(0) if m else '13桁なし'}")
+                        value = "未確認 — 国税庁法人番号公表サイトで法人名検索により取得可能。"
                 url = str(f.get("source_url", "")).strip()
                 if not host_ok(url, slug):
                     # 出典が使えない値は事実として採用せず、未確認として残す
