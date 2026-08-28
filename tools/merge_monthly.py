@@ -2,6 +2,7 @@
 """月次動向をブランドJSONのupdatesへマージする。"""
 import json
 import os, re, sys
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -28,6 +29,9 @@ for p in sorted(SRC.glob("*.json")):
                 continue
             if not re.fullmatch(r"20\d{2}-\d{2}-\d{2}", str(u.get("date", ""))):
                 problems.append(f"{tag}: 日付形式不正 {u.get('date')!r}"); skipped += 1; continue
+            if u["date"] > date.today().isoformat():
+                problems.append(f"{tag}: date が未来日付 {u['date']}。date は発表日・報道日。"
+                                "施行日や終了日は effective に入れる"); skipped += 1; continue
             if not u.get("title") or not u.get("body"):
                 problems.append(f"{tag}: title/body欠落"); skipped += 1; continue
             url = u.get("source_url", "")
@@ -37,9 +41,13 @@ for p in sorted(SRC.glob("*.json")):
             if u["title"] in seen:
                 skipped += 1; continue
             seen.add(u["title"])
-            ups.append({"date": u["date"], "title": u["title"], "body": u["body"],
-                        "impact": u.get("impact", ""), "source": u.get("source", ""),
-                        "source_url": url})
+            entry = {"date": u["date"], "title": u["title"], "body": u["body"],
+                     "impact": u.get("impact", ""), "source": u.get("source", ""),
+                     "source_url": url}
+            if u.get("effective"):
+                entry["effective"] = u["effective"]
+                entry["effective_label"] = u.get("effective_label", "施行予定")
+            ups.append(entry)
             n += 1; added += 1
         b["updates"] = sorted(ups, key=lambda x: x["date"], reverse=True)
         bp.write_text(json.dumps(b, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

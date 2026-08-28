@@ -57,16 +57,20 @@ def clean_sources(sources, slug=None):
 
 added_up = added_faq = 0
 rejected = []
+TODAY = __import__('datetime').date.today().isoformat()
 
 for p in sorted(SRC.glob("*.json")):
     data = json.loads(p.read_text(encoding="utf-8"))
 
     # 1) cross_brand_facts → updates
     for c in data.get("cross_brand_facts", []):
-        date = norm_date(c.get("effective_date")) or norm_date(
-            (clean_sources(c.get("sources")) or [{}])[0].get("published"))
-        if not date:
+        # date は「報じられた日」。effective_date は施行日なので date には使わない
+        srcs0 = clean_sources(c.get("sources"))
+        date = norm_date((srcs0 or [{}])[0].get("published"))
+        if not date or date > TODAY:
+            rejected.append(f"{c.get('topic','?')[:30]}: 報道日が取れないか未来日付")
             continue
+        effective = norm_date(c.get("effective_date"))
         srcs = clean_sources(c.get("sources"))
         for slug in c.get("affects", []):
             if slug not in BRANDS:
@@ -77,14 +81,18 @@ for p in sorted(SRC.glob("*.json")):
             title = c["topic"]
             if any(u["title"] == title for u in ups):
                 continue
-            ups.append({
+            entry = {
                 "date": date,
                 "title": title,
                 "body": c.get("summary_ja", ""),
                 "impact": c.get("impact", ""),
                 "source": srcs[0]["name"] if srcs else "",
                 "source_url": srcs[0]["url"] if srcs else "",
-            })
+            }
+            if effective and effective != date:
+                entry["effective"] = effective
+                entry["effective_label"] = "施行予定"
+            ups.append(entry)
             b["updates"] = ups
             bp.write_text(json.dumps(b, ensure_ascii=False, indent=2) + "\n",
                           encoding="utf-8")

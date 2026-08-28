@@ -198,6 +198,9 @@ def main():
             d = str(uu.get("date", ""))
             if not re.fullmatch(r"20\d{2}-\d{2}-\d{2}", d):
                 problems.append(f"{tag}: 日付形式不正 {d!r}"); continue
+            if d > TODAY:
+                problems.append(f"{tag}: date が未来日付 {d}。date は発表日・報道日。"
+                                "施行日や終了日は effective に入れる"); continue
             if not uu.get("title") or not uu.get("body"):
                 problems.append(f"{tag}: title/body欠落"); continue
             if not host_ok(uu.get("source_url", ""), slug):
@@ -206,9 +209,13 @@ def main():
             if uu["title"] in seen_t:
                 problems.append(f"{tag}: タイトル重複"); continue
             seen_t.add(uu["title"])
-            ups.append({"date": d, "title": uu["title"], "body": uu["body"],
-                        "impact": uu.get("impact", ""), "source": uu.get("source", ""),
-                        "source_url": uu["source_url"]})
+            entry = {"date": d, "title": uu["title"], "body": uu["body"],
+                     "impact": uu.get("impact", ""), "source": uu.get("source", ""),
+                     "source_url": uu["source_url"]}
+            if uu.get("effective"):
+                entry["effective"] = uu["effective"]
+                entry["effective_label"] = uu.get("effective_label", "施行予定")
+            ups.append(entry)
         ups.sort(key=lambda x: x["date"], reverse=True)
 
         out = {"slug": slug, "name": b["name"], "name_en": b["name_en"],

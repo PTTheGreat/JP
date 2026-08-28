@@ -118,6 +118,9 @@ details.faq .faq-a a { color:var(--accent2); }
 .tl-src { font-size:0.75rem; color:var(--muted); }
 .tl-src a { color:var(--accent2); }
 .tl-brand { font-size:0.75rem; color:var(--accent2); text-decoration:none; font-weight:700; }
+.tl-eff { display:inline-block; margin-left:0.5rem; font-size:0.7rem; font-weight:700;
+          color:var(--accent2); border:1px solid var(--accent2); border-radius:3px;
+          padding:0 0.35rem; vertical-align:0.08em; }
 .badge-new { display:inline-block; background:var(--accent); color:#fff; font-size:0.65rem;
              font-weight:700; border-radius:3px; padding:0 0.35rem; margin-left:0.35rem;
              vertical-align:0.12em; }
@@ -313,8 +316,12 @@ def timeline(updates, brand_link=None):
                 f'<a class="tl-brand" href="{esc(u("/" + s + "/#updates"))}">{esc(n)} →</a>'
                 for s, n in uitem["_brands"])
             bl = f'<p class="tl-src">関連ブランド: {links}</p>'
+        eff = ""
+        if uitem.get("effective"):
+            eff = (f'<span class="tl-eff">{esc(uitem["effective"])} '
+                   f'{esc(uitem.get("effective_label", "施行予定"))}</span>')
         lis.append(
-            f'<li><span class="tl-date">{esc(uitem["date"])}</span>'
+            f'<li><span class="tl-date">{esc(uitem["date"])}{eff}</span>'
             f'<span class="tl-title">{esc(uitem["title"])}</span>'
             f'<span class="tl-body">{esc(uitem["body"])}</span>'
             f"{impact}{src}{bl}</li>")
@@ -800,6 +807,15 @@ def build():
         f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
 
     n_faq = sum(len(b.get("faq", [])) for b in brands)
+    from datetime import date as _date
+    _today = _date.today().isoformat()
+    future = [(b["slug"], up["date"], up["title"])
+              for b in brands for up in b.get("updates", []) if up["date"] > _today]
+    if future:
+        print(f"警告: 更新履歴の date が未来日付になっている項目が {len(future)}件あります。"
+              "date は発表日・報道日であり、施行日や終了日は effective に入れてください。")
+        for slug, d, t in future[:10]:
+            print(f"  - {slug} {d} {t[:50]}")
     print(f"generated: {len(brands)} brand pages, {n_faq} faq pages -> {OUT}/")
 
 
