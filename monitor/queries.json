@@ -1,6 +1,6 @@
 {
   "description": "AI引用監測用の固定日本語クエリ集。毎日同じクエリで主要AIに質問し、本サイトが引用されたかを記録する。クエリは実際のユーザー投稿(Yahoo!知恵袋・Quora等)から抽出した表現に寄せている。",
-  "site_domains": ["ptthegreat.github.io/PS-test", "example.jp"],
+  "site_domains": ["ptthegreat.github.io/JP", "example.jp"],
   "providers": ["chatgpt", "perplexity", "gemini"],
   "query_groups": {
     "brand_country": {

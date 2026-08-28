@@ -105,7 +105,7 @@ python3 monitor/monitor.py
 
 ## 部署
 
-站点通过 GitHub Pages 发布:https://ptthegreat.github.io/PS-test/
+站点通过 GitHub Pages 发布:https://ptthegreat.github.io/JP/
 推送代码 → `pages.yml` 工作流自动构建并推送 `gh-pages` 分支 → Pages 自动更新。
 
 ⚠️ **样例内容未经日语母语审校,标注【要確認】的事实(法人番号、技適型号、保修期限等)需在一次来源(国税庁/総務省/消費者庁)逐条核实后方可上线。** 按说明书§6.1,所有对外内容需日语母语审校通过。
