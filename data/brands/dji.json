@@ -1,0 +1,1232 @@
+{
+  "slug": "dji",
+  "name": "DJI(ディージェーアイ)",
+  "name_en": "DJI",
+  "country": "中国",
+  "summary": "DJIは中国・深圳のドローン・映像機器メーカー。2006年に汪滔(フランク・ワン)氏が創業し、民生用ドローンで世界シェア首位。日本ではドローンのほか、ジンバルカメラ(Osmoシリーズ)やアクションカメラでも高いシェアを持つ。東京に日本法人がある。",
+  "sample_notice": true,
+  "faq": [
+    {
+      "slug": "dji-company-overview",
+      "question": "DJIという中国のメーカーはどのような企業ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10316238400",
+        "original": "DJIと言う中国のメーカーについて詳しい方教えて下さい"
+      },
+      "answer": "DJIは中国・深圳に本社を置くドローン・映像機器メーカーです。正式社名はSZ DJI Technology Co., Ltd.(深圳市大疆創新科技有限公司)で、2006年に汪滔(フランク・ワン)氏が創業しました。民生用ドローンで世界シェア首位とされ、Osmoシリーズのジンバル・アクションカメラや農業用ドローンにも展開しています。非上場のため売上高や従業員数の公開は限定的です。日本には「DJI JAPAN株式会社」があり、日本語サポートと国内修理受付に対応しています。日本正規品は技適取得済みですが、海外版は未取得の場合があります。",
+      "facts": [
+        {
+          "label": "正式社名・創業",
+          "value": "SZ DJI Technology Co., Ltd.(深圳市大疆創新科技有限公司)。2006年創業、創業者は汪滔(フランク・ワン)氏",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "非上場。売上高・従業員数は公開情報では確認できない",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人",
+          "value": "DJI JAPAN株式会社(東京)。法人番号・設立年は国税庁法人番号公表サイトで要確認【要確認】",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "民生用ドローンで世界シェア首位。ジンバル・アクションカメラ、農業用・産業用ドローンへ展開",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-us-restrictions",
+      "question": "アメリカがDJI製ドローンを規制して使わなくなったというのは本当ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12269027247",
+        "original": "DJIは中国の有名ドローンメーカーですが、最近アメリカも規制でこのメーカーのドローン使用しなくなったというのは本当でしょうか"
+      },
+      "answer": "米国で政府調達からの排除等の措置が取られている点は事実ですが、「アメリカ全体で使用禁止」と断定できるかは公開情報からは確認できません【要確認】。措置の中心は連邦政府機関の調達・運用や特定の補助対象からの除外であり、民間の一般利用まで一律に禁止されているかは各時点の法令で個別確認が必要です【要確認】。日本国内では民間利用に対する同種の禁止措置は確認されていません【要確認】。ただし日本では航空法により100g以上の機体に機体登録とリモートID搭載が義務づけられており、国内独自のルールが適用されます。",
+      "facts": [
+        {
+          "label": "海外での規制動向",
+          "value": "米国では政府調達からの排除等の措置が取られている。適用範囲は時点により変動するため要確認【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本国内の措置",
+          "value": "民間利用に対する同種の禁止措置は確認されていない【要確認】",
+          "source": "総務省",
+          "source_url": "https://www.soumu.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本で適用される規制",
+          "value": "100g以上のドローンは航空法の対象。国交省への機体登録とリモートID搭載が義務(2022年6月〜)",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-app-security",
+      "question": "DJIの製品とアプリの安全性はどう考えればいいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11308788506",
+        "original": "DJIの製品とアプリの安全性について質問です"
+      },
+      "answer": "公開情報から整理できる事実は3点です。第一に、米国では政府調達からの排除等の措置があります。第二に、日本国内では民間利用に対する同種の禁止措置は確認されていません【要確認】。第三に、日本正規品は技適・PSEなど製品側の国内法規制に適合しています。一方、アプリが取得する権限や通信データの送信先といった実装の詳細は公開情報だけでは検証できません【要確認】。インストール時の権限要求とプライバシーポリシーを確認し、業務利用や勤務先の端末に導入する場合は会社のIT規程に従って判断してください。",
+      "facts": [
+        {
+          "label": "海外での規制動向",
+          "value": "米国では政府調達からの排除等の措置がある。日本国内の民間利用に対する同種の禁止措置は確認されていない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "製品側の法適合",
+          "value": "日本正規品は技適取得済み。海外版は未取得の場合あり",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "アプリの権限・通信内容",
+          "value": "公開情報だけでは検証できない【要確認】。権限要求とプライバシーポリシーの確認、業務利用時は勤務先のIT規程に従うことが基本",
+          "source": "IPA 情報処理推進機構",
+          "source_url": "https://www.ipa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-osmo-pocket-alternatives",
+      "question": "DJI Osmo Pocket 3のような製品で、国産や他の海外ブランドの選択肢はありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11298710486",
+        "original": "DJI osmo pocket3を買おうと思ったのですが、中国製という所が少し気になっています。国産か他の海外製で似たような製品はないのでしょうか"
+      },
+      "answer": "小型ジンバル一体型カメラで、日本メーカーによる直接的な代替製品は公開情報では確認できません【要確認】。ブランドで見ると日本市場でのDJIの主な競合はGoPro(米国・2002年創業)、Insta360(中国・2015年創業)、Sony(日本)です。小型Vlogカメラに近いのはInsta360のGOシリーズですが、同社も中国企業です。Sonyに同型のジンバル一体機があるかは要確認です【要確認】。なお製造国にかかわらず日本正規品は技適・PSEに適合しています。機種ごとの実写比較は専門メディアをご参照ください。",
+      "facts": [
+        {
+          "label": "日本での主な競合ブランド",
+          "value": "GoPro、Insta360、Autel Robotics、Sony(Airpeak・産業用)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "GoPro",
+          "value": "米国企業・2002年創業。日本では日本法人によるサポート体制",
+          "source": "GoPro 日本公式ストア",
+          "source_url": "https://jp.shop.gopro.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "Insta360",
+          "value": "中国・深圳のArashi Vision社のブランド。2015年創業、小型VlogカメラのGOシリーズを展開",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国産の同等品",
+          "value": "小型ジンバル一体型カメラの日本メーカー製代替品は公開情報では確認できない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-overseas-purchase-japan-use",
+      "question": "中国で購入したDJI製ドローンを日本に持ち帰って使えますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13185105503",
+        "original": "DJI製ドローンを中国で購入した場合、日本に持ち帰って使用できますか"
+      },
+      "answer": "海外版をそのまま日本国内で飛ばすと法令違反となるおそれがあります。理由は2点です。第一に電波法で、操縦や映像伝送に電波を使う機器は技術基準適合証明(技適)が必要です。技適未取得の無線機器を国内で使用すると電波法違反となるおそれがあり罰則の対象です。海外版は未取得の場合があるため型番ごとの確認が必要です。第二に航空法で、100g以上の機体は購入国を問わず国交省への機体登録とリモートID搭載が義務です。加えて海外購入品は国内の保証・修理の対象外となる場合があります【要確認】。",
+      "facts": [
+        {
+          "label": "技適(電波法)",
+          "value": "技適未取得の無線機器を日本国内で使用すると電波法違反となるおそれがあり、罰則の対象。海外版は未取得の場合あり",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "機体登録(航空法)",
+          "value": "100g以上のドローンは購入国を問わず国交省への機体登録とリモートID搭載が義務(2022年6月〜)",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "飛行ルール",
+          "value": "DID上空・空港周辺・150m以上・夜間・目視外等は許可承認が必要。申請はDIPSから",
+          "source": "国土交通省 飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証・修理",
+          "value": "国内での保証・修理対応は日本正規品が前提。海外購入品の扱いは公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-listing-status",
+      "question": "中国のドローン企業DJIは株式を上場していますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11292798006",
+        "original": "中国のドローン企業、DJIは上場してますか？"
+      },
+      "answer": "DJIは非上場です。中国・深圳に本社を置く未上場企業で、株式市場で売買できる銘柄としては公開されていません。非上場のため売上高・利益・従業員数といった財務情報の公開は限定的です。日本の証券会社を通じて「DJI株」として購入できる商品があるかも公開情報では確認できません【要確認】。なお同じ深圳のカメラメーカーでも、Insta360を展開する影石創新は2025年に上海証券取引所の科創板(STAR Market)へ上場しており、上場状況は企業ごとに異なります。",
+      "facts": [
+        {
+          "label": "上場状況",
+          "value": "非上場",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "財務情報の公開",
+          "value": "売上規模・従業員数は未確認 — 非上場のため公開情報が限定的",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "参考:同業他社",
+          "value": "Insta360(影石創新)は2025年に上海証券取引所 科創板(STAR Market)へ上場",
+          "source": "Insta360 公式サイト",
+          "source_url": "https://www.insta360.com/jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-personal-import",
+      "question": "DJIの日本未発売ドローンを個人輸入した場合、日本国内で使えますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14245145374",
+        "original": "DJIの日本未発売のドローンを個人輸入した場合、使えますか"
+      },
+      "answer": "輸入や所持自体は可能ですが、そのまま国内で飛ばせるとは限りません。電波を使う機器は電波法上の技適が必要で、技適未取得の無線機器を日本国内で使用すると電波法違反となるおそれがあり罰則の対象です。日本未発売モデルは技適未取得のことが多いため、総務省の技適検索で型番ごとに確認してください。さらに100g以上の機体は航空法により国交省への機体登録とリモートID搭載が義務で、DID上空・空港周辺・夜間等はDIPSでの許可承認が必要です。国内の修理・保証の対象外となる場合もあります【要確認】。",
+      "facts": [
+        {
+          "label": "技適(電波法)",
+          "value": "技適未取得の無線機器を日本国内で使用すると電波法違反となるおそれがあり、罰則の対象。型番ごとに公示を要確認",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "機体登録(航空法)",
+          "value": "100g以上は国交省への機体登録とリモートID搭載が義務。輸入品も対象",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "許可・承認の申請",
+          "value": "DID上空・空港周辺・150m以上・夜間等はDIPS(ドローン情報基盤システム)でオンライン申請",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国内サポートの可否",
+          "value": "日本未発売モデルの国内修理・保証対応可否は未確認 — 公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-official-repair",
+      "question": "DJI製品を公式に修理に出したいのですが、日本では修理を受け付けていますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13324912368",
+        "original": "DJIのオンライン修理について質問です。公式の修理に出したいのですが"
+      },
+      "answer": "DJIは日本国内での修理受付に対応しており、公式サポートページから申し込む流れが基本です。日本法人「DJI JAPAN株式会社」があり、日本語サポート窓口も用意されています。保証は本体1年間が基本で、有償の「DJI Care Refresh」(交換サービス)もあります。ただし修理費用の目安・所要日数・集荷手順・受付時間は機種や症状で異なり、公開情報から一律には示せません【要確認】。公式サポートページで機種とシリアル番号を指定して確認してください。並行輸入品や海外版は国内修理の対象外となる場合があります【要確認】。",
+      "facts": [
+        {
+          "label": "修理体制",
+          "value": "国内修理受付あり。申込は公式サポートページから",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "本体1年間が基本。有償の延長サービス「DJI Care Refresh」(交換サービス)あり",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理費用・納期・受付時間",
+          "value": "未確認 — 機種・症状により異なり、公開情報では一律に示せない。公式サポートページで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人",
+          "value": "DJI JAPAN株式会社。日本語サポート窓口あり",
+          "source": "国税庁 法人番号公表サイト",
+          "source_url": "https://www.houjin-bangou.nta.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-price-drop-reason",
+      "question": "DJIのドローンが安く販売されていることがあるのはなぜですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11163640751",
+        "original": "DJIのドローン、最近安売りしていますが何故ですか？？"
+      },
+      "answer": "値下げの理由をDJIが公式に説明した情報は確認できません【要確認】。公開情報から確認できる構造的な事実は2点です。第一に、販売チャネルが公式ストア、正規代理店、家電量販店、Amazonなど複数にわたり、価格は販売店ごとに設定されます。第二に、同社は複数の製品ラインを並行展開しており、世代交代時に旧モデルの店頭価格が変動することがあります【要確認】。具体的な値下げ幅や価格推移は公開情報では確認できません【要確認】。極端に安い個体は並行輸入品の可能性があり、技適と国内保証の確認が必要です。",
+      "facts": [
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、正規代理店、家電量販店、カメラ専門店、Amazon。価格は販売店ごとに設定",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "値下げの理由",
+          "value": "公式な説明は公開情報では確認できない。値下げ幅・価格推移も未確認【要確認】",
+          "source": "DJI 公式ストア",
+          "source_url": "https://store.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "安価な個体の注意点",
+          "value": "並行輸入品・海外版は技適未取得の場合があり、国内保証の対象外となることがある【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-japan-drone-makers",
+      "question": "日本から世界的なドローンメーカーが出てこないのはなぜですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11260171271",
+        "original": "なぜ日本から、世界的なドローン・メーカーが出てこないのですか？"
+      },
+      "answer": "理由を説明する公的な分析は公開情報では確認できないため、当サイトでは推測しません【要確認】。確認できる事実は次のとおりです。民生用ドローンでは中国・深圳のDJIが世界シェア首位とされ、日本市場でも海外ブランドの製品が中心です。日本メーカーではSonyが産業用のAirpeak等で参入していますが、民生機で世界的なシェアを持つ日本ブランドは確認されていません【要確認】。また日本では2022年6月から100g以上の機体に登録とリモートID搭載が義務ですが、制度が国内メーカーの育成に与えた影響を示す公開データはありません【要確認】。",
+      "facts": [
+        {
+          "label": "世界シェア",
+          "value": "民生用ドローンではDJI(中国・深圳)が世界シェア首位とされる。具体的なシェア率は公開情報では確認できない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本市場の主要ブランド",
+          "value": "DJI、GoPro、Autel Robotics、Sony(Airpeak・産業用)。民生機で世界的シェアを持つ日本ブランドは確認されていない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本の制度",
+          "value": "100g以上の機体は国交省への登録とリモートID搭載が義務(2022年6月〜)。制度と国内メーカー育成の関係を示す公開データは未確認【要確認】",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-topic-8370",
+      "question": "アメリカでDJIが「禁止」になったと聞きましたが、日本でもDJIのドローンやカメラは買えなくなるのですか？",
+      "topical": true,
+      "answer": "米FCCは2025年12月22日、FY25 NDAAに基づきDJI・Autelの機器と外国製UAS全般をCovered Listに追加した。これは米国内で新規のFCC機器認証を取得できなくする措置であり、米国での新モデルの輸入・販売が実質的に止まる一方、既に認証済みのモデルの販売・使用まで一律に禁止するものではないと米法律事務所・業界メディアが解説している。この措置は米国の電波監理制度上の措置であり、日本国内での民間利用に対する同種の措置(DJI製品の販売禁止・使用禁止)は今回の調査では確認されていない【要確認】。実際、DJI JAPANは2026年に入っても新製品発表・展示会出展・プレスリリース配信を継続しており、日本市場からの撤退を示す公式発表は確認できなかった。",
+      "sources": [
+        {
+          "name": "DRONELIFE",
+          "url": "https://dronelife.com/2025/12/22/fcc-adds-foreign-made-drones-and-components-to-covered-list-citing-national-security-risks/",
+          "published": "2025-12-22"
+        },
+        {
+          "name": "Akin",
+          "url": "https://www.akingump.com/en/insights/alerts/fcc-adds-all-foreign-made-uas-and-uas-critical-components-to-covered-list",
+          "published": "不明"
+        },
+        {
+          "name": "FabScene",
+          "url": "https://fabscene.com/new/news/fcc-bans-foreign-drones-dji-autel-covered-list/",
+          "published": "不明"
+        },
+        {
+          "name": "DRONE PRESS(日本の調達への波及を論じた記事)",
+          "url": "https://www.drone-press.jp/drone-applications/%E3%80%90%E7%B1%B3%E5%9B%BD%E3%80%91dji%E3%83%BBautel%E3%81%AEfcc%E8%A6%8F%E5%88%B6%E8%A6%8B%E7%9B%B4%E3%81%97%E3%81%8C%E7%AF%80%E7%9B%AE%E3%80%81covered-list%E5%95%8F%E9%A1%8C%E3%81%AF%E6%97%A5/",
+          "published": "不明"
+        },
+        {
+          "name": "DJI JAPAN プレスリリース一覧(PR TIMES)",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/15765",
+          "published": "不明"
+        },
+        {
+          "name": "かわちゃドローン(note)",
+          "url": "https://note.com/kawacha_drone/n/n7c5841726f0e",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "dji-topic-8976",
+      "question": "いま持っているDJIのドローンは、この先ファームウェア更新や修理サポートが受けられなくなりますか？",
+      "topical": true,
+      "answer": "米FCCのCovered List追加は「新規の機器認証を認めない」措置であり、既存機体のファームウェア配信や修理サービスの停止を直接命じるものではないと法律事務所の解説は説明している。ただし米国内でのアップデート提供や部品供給の将来的な扱いについて、DJIから日本語での公式な包括説明は今回の調査では確認できなかった【要確認】。日本国内については、DJIのサポートページに「旧型製品のサポート終了に関するお知らせ」が掲載されており、これは製品ライフサイクルに基づく従来からの終了告知で、米国規制を理由とするものではない。日本での修理受付期間は正規代理店(セキド等)のFAQにも案内がある。",
+      "sources": [
+        {
+          "name": "DJI サポート「旧型製品のサポート終了に関するお知らせ」",
+          "url": "https://support.dji.com/help/content?customId=ja-jp03400007185&spaceId=34&re=JP&lang=ja",
+          "published": "不明"
+        },
+        {
+          "name": "DJI サポート(機体ファームウェア更新ガイド)",
+          "url": "https://support.dji.com/help/content?customId=ja-jp03400006835&spaceId=34&re=JP&lang=ja",
+          "published": "不明"
+        },
+        {
+          "name": "セキド オンラインストア FAQ(修理サポート期間)",
+          "url": "https://sekido-rc.com/blog/technical/faq_20221226_001/",
+          "published": "不明"
+        },
+        {
+          "name": "Wiley",
+          "url": "https://www.wiley.law/alert-In-Unexpected-First-of-Its-Kind-Action-FCC-Adds-All-Foreign-Produced-Uncrewed-Aircraft-Systems-and-UAS-Critical-Components-to-Covered-List",
+          "published": "不明"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/fcc-drone-ban-what-the-new-covered-list-means-for-dji-and-pilots/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "dji-topic-6569",
+      "question": "DJI Mini 5 Proは型式認証を取っていますか？型式認証済みのMini 4 Proとどちらを買うべきですか？",
+      "topical": true,
+      "answer": "DJI Mini 4 Proは日本で第二種型式認証を取得しており、国家資格保有者との組み合わせで飛行許可・承認申請の一部が不要になるとスクール各社が解説している。一方、2025年9月17日に日本発売されたDJI Mini 5 Proについては、型式認証の取得時期を「2026年春以降か」と推測する記事があるものの、取得済みであることを示す一次情報は今回の調査では確認できなかった【要確認】。カテゴリーII飛行での申請省略を重視する業務ユーザーは認証済み機体、性能を重視する場合は新型、という比較軸で正規代理店・スクールが解説記事を出している。",
+      "sources": [
+        {
+          "name": "TEAD(Mini 4 Pro 第二種型式認証)",
+          "url": "https://www.tead.co.jp/blog/dji-mini-4-pro%E3%81%8C%E3%80%8C%E7%AC%AC%E4%BA%8C%E7%A8%AE%E5%9E%8B%E5%BC%8F%E8%AA%8D%E8%A8%BC%E3%80%8D%E3%82%92%E5%8F%96%E5%BE%97%E3%80%82%E5%9B%BD%E5%AE%B6%E8%B3%87%E6%A0%BC%E4%BF%9D%E6%9C%89/",
+          "published": "不明"
+        },
+        {
+          "name": "DJI認定ストア大阪(Mini 5 Pro と Mini 4 Pro の比較)",
+          "url": "https://www.shinkudrone.com/blog/%E3%80%8C%E6%96%B0%E7%99%BA%E5%A3%B2dji-mini-5-pro%E3%80%8D%E3%80%8C%E5%9E%8B%E5%BC%8F%E8%AA%8D%E8%A8%BC%E5%8F%96%E5%BE%97%E3%83%A2%E3%83%87%E3%83%ABdji-mini-4-pro%E3%80%8D%E3%81%A9%E3%81%A1%E3%82%89/",
+          "published": "不明"
+        },
+        {
+          "name": "note(DJI Mini 5 Proの型式認証、2026年春以降か)",
+          "url": "https://note.com/real_azalea9393/n/n9dc0d2fa80ba",
+          "published": "不明"
+        },
+        {
+          "name": "セキド(Mini 5 Pro 速報レビュー)",
+          "url": "https://sekido-rc.com/blog/2025/09/17/cameradrone_0020/",
+          "published": "2025-09-17"
+        },
+        {
+          "name": "KFJドローンスクール(第二種機体認証取得機体一覧 2026年版)",
+          "url": "https://droneschool.kofuji.co.jp/drone-type2-aircraft-list-2026/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "dji-topic-5144",
+      "question": "DJI Matrice 4D / Dock 3 のドローンポート運用は、日本でも許可申請なしでできるようになったのですか？",
+      "topical": true,
+      "answer": "DJI Matrice 4D および Matrice 4TD が2026年6月19日に国土交通大臣の第二種型式認証を取得したと、ドローンジャーナル(Impress)・DRONE.jp・正規代理店セキドが報じている。DJI Dock 3 と組み合わせた遠隔運用としては日本初の型式認証取得と説明されている。型式認証機体の販売開始は2026年8月下旬ごろ、既に生産済みの機体向けの同一性確認・適合確認書類の提供は2026年8月3日開始と報じられているが、DJI公式サポートページ原文での日付確認は未実施【要確認】。なお型式認証は「飛行許可・承認申請の一部省略」を可能にするもので、すべての申請が不要になるわけではない。",
+      "sources": [
+        {
+          "name": "ドローンジャーナル(Impress)",
+          "url": "https://drone-journal.impress.co.jp/docs/news/1188669.html",
+          "published": "不明"
+        },
+        {
+          "name": "DRONE.jp",
+          "url": "https://drone.jp/news/20260625110101128554.html",
+          "published": "2026-06-25"
+        },
+        {
+          "name": "セキド オンラインストア",
+          "url": "https://sekido-rc.com/blog/2026/06/25/enterprise_0053/",
+          "published": "2026-06-25"
+        },
+        {
+          "name": "DJI サポート「DJI、機体認証制度への対応を拡大」",
+          "url": "https://support.dji.com/help/content?customId=01700043696&spaceId=17&re=JP&lang=ja",
+          "published": "不明"
+        },
+        {
+          "name": "行政書士かわさき事務所",
+          "url": "https://drone-gyosho-kawasaki.com/matrice4d-type-certification-2026/",
+          "published": "不明"
+        },
+        {
+          "name": "DJI JAPAN プレスリリース(メンテナンス・レジリエンス TOKYO 2026 出展)",
+          "url": "https://prtimes.jp/main/html/rd/p/000000433.000015765.html",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "dji-topic-2181",
+      "question": "官公庁や自治体の仕事でDJI機は使えなくなるのですか？国産ドローンに切り替える必要がありますか？",
+      "topical": true,
+      "answer": "経済産業省の無人機産業基盤強化検討会は令和7年(2025年)12月24日付で中間取りまとめを公表し、点検・物流・防犯用途を中心に2030年までに約8万台の完成機体生産体制を構築する目標を掲げている。報道では、ドローンが経済安全保障推進法の「特定重要物資」に追加指定され、研究開発・設備投資に最大50%の助成、2025年度補正予算に139億円計上、2026年に基金設置という方針が伝えられている。政府機関による中国製ドローンの新規調達厳格化は2021年度以降の流れとして解説されており、民間の業務利用まで一律に禁止する制度は今回の調査では確認されていない【要確認】。自治体案件で個別に国産機を要件化する例があるかどうかは未確認。",
+      "sources": [
+        {
+          "name": "経済産業省 無人機産業基盤強化検討会 中間取りまとめ(PDF)",
+          "url": "https://www.meti.go.jp/shingikai/mono_info_service/drone_industry/pdf/20251224_1.pdf",
+          "published": "2025-12-24"
+        },
+        {
+          "name": "NOVAIST",
+          "url": "https://novaist.jp/articles/japan-drone-2030-target/",
+          "published": "不明"
+        },
+        {
+          "name": "公明党(国産ドローンわずか3％)",
+          "url": "https://www.komei.or.jp/km/taniguchi-mutsuo-kariya/2026/01/21/%E5%9B%BD%E7%94%A3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%8F%E3%81%9A%E3%81%8B%EF%BC%93%EF%BC%85%E3%80%80%E8%BC%B8%E5%85%A5%E4%BE%9D%E5%AD%98%E3%82%92%E6%89%93%E9%96%8B%E3%81%9B%E3%82%88/",
+          "published": "2026-01-21"
+        },
+        {
+          "name": "内閣府(経済安全保障推進法 サプライチェーン強靱化 制度概要 PDF)",
+          "url": "https://www.cao.go.jp/keizai_anzen_hosho/suishinhou/supply_chain/doc/sc_gaiyou.pdf",
+          "published": "不明"
+        },
+        {
+          "name": "現代ビジネス(「ドローン敗戦」ニッポン)",
+          "url": "https://gendai.media/articles/-/168434",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "dji-topic-9889",
+      "question": "2026年のDJIの新製品は何が出ますか？9月2日の発表は何ですか？",
+      "topical": true,
+      "answer": "DRONE.jpは2026年8月25日付で、DJIが日本時間2026年9月2日21時に新製品を発表するティザーサイトを公開したと報じており、カメラ関連製品と予想している(内容は発表前のため未確認)。2026年前半にDJI JAPANから発売された主な製品としては、Osmo Pocket 4(4月22日)、Osmo Mobile 8P(5月8日発表)、Osmo Pocket 4P(6月29日)が挙げられているが、各日付の一次情報での確認は未実施【要確認】。産業機ではMatrice 400、DJI Dock 3が展示会に出展されている。",
+      "sources": [
+        {
+          "name": "DRONE.jp(9月2日新製品発表ティザー)",
+          "url": "https://drone.jp/news/20260825225725129292.html",
+          "published": "2026-08-25"
+        },
+        {
+          "name": "かわちゃドローン(note)「2026年DJI新製品の噂」",
+          "url": "https://note.com/kawacha_drone/n/n60445f11aa26",
+          "published": "不明"
+        },
+        {
+          "name": "価格.com DJI 新製品ニュース",
+          "url": "https://news.kakaku.com/prdnews/mcd=13409/",
+          "published": "不明"
+        },
+        {
+          "name": "DJI JAPAN プレスリリース(Dock 3 / Matrice 400 展示)",
+          "url": "https://prtimes.jp/main/html/rd/p/000000433.000015765.html",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "dji-comprehensive-application-renewal",
+      "question": "ドローンの包括申請(飛行許可・承認)の更新はどう進めればよいですか?期限を過ぎるとどうなりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13277635453",
+        "original": "ドローンの包括申請の更新について教えてください。※国土交通省に電話しようとしたら17時と早い時間にCloseしていた為こちらに"
+      },
+      "answer": "手続きはすべてDIPS(ドローン情報基盤システム)上で行います。前提として、DJI機を含む100g以上の無人航空機は国交省への機体登録とリモートID搭載が義務で、機体登録の有効期間は3年です。この機体登録が失効していると、飛行許可・承認の申請そのものができません。飛行許可・承認(いわゆる包括申請)にも有効期間があり、切れた場合は改めて申請が必要です。DIPS 2.0への移行後は画面構成や更新の扱いが変わっているため、更新可否・必要書類・審査日数は最新のDIPS画面と国交省の案内で確認してください【要確認】。期限が切れたまま特定飛行を行うと航空法違反となるおそれがあります。",
+      "facts": [
+        {
+          "label": "機体登録とリモートID",
+          "value": "100g以上の無人航空機は国交省への機体登録とリモートID搭載が義務(2022年6月20日〜)。機体登録の有効期間は3年で更新が必要",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "申請窓口",
+          "value": "機体登録・飛行許可承認ともDIPS(ドローン情報基盤システム)からオンライン申請",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "許可・承認が必要な飛行",
+          "value": "DID(人口集中地区)上空、空港周辺、地表・水面から150m以上、夜間、目視外、第三者や第三者の建物・車両から30m以内など",
+          "source": "国土交通省 飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "更新手続きの詳細",
+          "value": "未確認 — 更新可否・必要書類・審査日数はDIPSの最新画面と国交省の案内で要確認【要確認】",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-riverbed-park-flight-check",
+      "question": "多摩川などの河川敷や公園でDJIのドローンを飛ばしたいのですが、どこに確認すればよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13325755878",
+        "original": "聖蹟桜ヶ丘付近の多摩川の河川敷にてドローンを飛ばそうとしています。多摩川河川敷を管理している京浜河川事務所ではルールを守れば飛ばし"
+      },
+      "answer": "航空法上の可否と、土地の管理者の許可は別々に確認が必要です。まず航空法では100g以上の機体に機体登録とリモートID搭載が義務づけられ、DID(人口集中地区)上空・空港周辺・150m以上・夜間・目視外・第三者から30m以内などはDIPSでの許可承認が必要です。これに加えて、河川敷は国や自治体の河川管理事務所、都市公園は自治体の条例や公園管理者の判断に従う必要があり、条例で飛行を禁じている公園も少なくありません。個別の場所が飛ばせるかどうかを当サイトで判断することはできません。管理者への確認と、国交省・DIPS上での区域確認を必ず両方行ってください。",
+      "facts": [
+        {
+          "label": "航空法上のルール",
+          "value": "100g以上は機体登録とリモートID搭載が義務。DID上空・空港周辺・150m以上・夜間・目視外・第三者から30m以内などは許可承認が必要",
+          "source": "国土交通省 飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "土地管理者の許可",
+          "value": "航空法とは別に、河川管理者・公園管理者・私有地所有者の許可が必要。自治体の条例で公園での飛行を禁じている例がある",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "区域の確認方法",
+          "value": "DIPS(ドローン情報基盤システム)の地図で対象区域を確認したうえで申請。個別地点の可否は国交省・DIPSで要確認",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-used-drone-registration-transfer",
+      "question": "中古で買ったDJIのドローンがDIPSで機体登録できません(同じ製造番号で登録済みと出ます)。どうすればよいですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14283548549",
+        "original": "ドローンをメルカリで購入したのですが、DIPSで機体登録をしようとしたところ同（じ製造番号で登録されている）"
+      },
+      "answer": "中古機では「DIPSの機体登録」と「DJIアカウントへの紐付け」という2系統の手続きが前の所有者側に残っていることがあり、それぞれ別に解消が必要です。同一の製造番号がすでにDIPSに登録されている場合、新規登録は通りません。前所有者に登録の抹消または譲渡手続きを依頼するのが原則で、対応が取れない場合はDIPSのヘルプデスク・国交省に相談してください【要確認】。アクティベート済みの機体で「他のアカウントに紐付けられています」と表示される場合も、前所有者側での解除が前提です。DJI Care Refreshを中古機に引き継げるかは公式サポートで要確認【要確認】。購入前に両方の解除完了を出品者に確認するのが最も確実です。",
+      "facts": [
+        {
+          "label": "機体登録(航空法)",
+          "value": "100g以上は所有者ごとに国交省へ機体登録が必要。譲渡時は前所有者側での抹消・変更手続きが前提となる",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "手続きの窓口",
+          "value": "登録・変更・抹消の手続きはDIPSからオンラインで実施。個別の解消手順は国交省・DIPSで要確認【要確認】",
+          "source": "国土交通省 DIPS",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "DJIアカウントへの紐付け",
+          "value": "未確認 — 中古機の紐付け解除の手順・可否はDJI公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "DJI Care Refreshの引き継ぎ",
+          "value": "未確認 — 中古機への引き継ぎ可否は公式サポートで要確認。なおグローバル保証は製品購入とDJI Careサービス購入が同一の国で行われていることが条件",
+          "source": "DJI Care Refreshグローバル保証について",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008024&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-drone-stuck-in-tree-coverage",
+      "question": "DJIのドローンが木に引っかかって回収できません。保証や保険でどこまでカバーされますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12153939227",
+        "original": "10mある木の上にドローンが引っかかりました。どうしたら（取）ることができますか"
+      },
+      "answer": "まず前提として、DJIの公式説明では墜落・紛失時のサポートは日本国内正規品のみが対象とされています。並行輸入品や海外版は対象外となる場合があるため、購入経路の確認が先です。DJI Care Refreshは有償の交換サービスで、1年版は年2回、2年版は最大4回のリフレッシュ交換が設定されています。ただし紛失や水没がどの条件でカバーされるか、自己負担額がいくらかは機種・プランで異なり、公開情報から一律には示せません【要確認】。第三者への損害に備える賠償責任保険はDJIの保証とは別枠の商品です。なお回収のために他人の土地や樹木へ立ち入る場合は、管理者の許可が必要です。",
+      "facts": [
+        {
+          "label": "墜落・紛失時のサポート対象",
+          "value": "墜落・紛失時のサポートは日本国内正規品のみ対応。海外製のDJI製品は事前にDJIカスタマーサポートへの相談が必要",
+          "source": "機体紛失・墜落時のサポートについて",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008024&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "DJI Care Refreshの交換回数",
+          "value": "1年版は年2回、2年版は最大4回のリフレッシュ交換(2023年7月13日のアップグレード後)。2年版の購入で通常1年のメーカー保証が2年に延長",
+          "source": "DJI Care Refresh(2年版)",
+          "source_url": "https://store.dji.com/jp/guides/dji-care-refresh-two-years/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "紛失・水没時の自己負担額",
+          "value": "未確認 — 機種・プランにより異なり、公開情報では一律に示せない。公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "賠償責任保険との違い",
+          "value": "第三者への損害を補償する賠償責任保険はDJIの製品保証とは別枠の保険商品。補償内容・保険料は保険会社ごとに異なり未確認【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-repair-cost-estimate-process",
+      "question": "DJI製品の修理費用の目安を知りたいのですが、送る前に見積もりは分かりますか?",
+      "source": {
+        "platform": "価格.comクチコミ",
+        "url": "https://bbs.kakaku.com/bbs/K0001310428/SortID=24872995/",
+        "original": "『プロペラがひとつ固まって動きません、、修理代の目安は』 DJI Mini 2 のクチコミ掲示板"
+      },
+      "answer": "修理はDJIのオンライン修理受付サービス(配送修理)から申し込み、点検後に見積もりが提示される流れです。送付先はDJI JAPANカスタマーサポート(〒354-0043 埼玉県入間郡三芳町竹間沢832-6)、電話窓口は03-6634-4949で、受付は平日10:00〜17:00です。DJIは公式サポート上で機種別の修理パーツ価格と点検費用を公開しているため、申し込み前におおよその水準を確認できます。ただし実際の請求額は症状や損傷範囲によって変わり、当サイトで一律の目安は示せません【要確認】。並行輸入品・海外版は事前にDJIカスタマーサポートへ相談が必要とされています。",
+      "facts": [
+        {
+          "label": "修理の申込方法",
+          "value": "オンライン修理受付サービス(配送修理)。修理品送付先はDJI JAPANカスタマーサポート 〒354-0043 埼玉県入間郡三芳町竹間沢832-6",
+          "source": "オンライン修理受付サービス申請ガイド",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043535&spaceId=17&re=JP&lang=ja&documentType=&paperDocType=ARTICLE",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "電話窓口・受付時間",
+          "value": "DJIカスタマーサポート 03-6634-4949 / 平日10:00〜17:00(UTC+9)",
+          "source": "DJI カスタマーサポート窓口のご紹介",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043579&spaceId=17&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理パーツ価格・点検費用",
+          "value": "機種別の修理パーツ価格・点検費用がDJI公式サポートページで公開されている。個別の請求額は症状により変動し要確認【要確認】",
+          "source": "【点検費用】【修理パーツ価格】について",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008360&spaceId=34&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "並行輸入品の扱い",
+          "value": "海外製のDJI製品は事前にDJIカスタマーサポートへの相談が必要",
+          "source": "機体紛失・墜落時のサポートについて",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008024&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-care-refresh-battery-coverage",
+      "question": "DJI Care Refreshでフライトバッテリーも新品に交換してもらえますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14298747199",
+        "original": "DJIドローンのバッテリーはケアリフレッシュで新品交換できますか？"
+      },
+      "answer": "DJI Care Refreshは本体の「リフレッシュ交換」を中心とした有償サービスで、消耗品であるバッテリー単体の劣化を無償で新品化する制度とは位置づけが異なります【要確認】。一方、フライトバッテリーにはメーカー保証12か月が設定されており、膨張などの不具合はまず保証の枠組みで扱われます。Care Refreshの交換回数は1年版で年2回、2年版で最大4回、2年版の購入で通常1年のメーカー保証が2年に延長されます。バッテリーが交換対象に含まれるか、自己負担額がいくらかは機種とプランで異なるため、シリアル番号を添えて公式サポートで確認してください【要確認】。",
+      "facts": [
+        {
+          "label": "フライトバッテリーの保証期間",
+          "value": "フライトバッテリーのメーカー保証は12ヶ月。保証期間はパーツごとにアフターサービスポリシーで定められている",
+          "source": "バッテリーの膨張が発生した場合の対応方法／DJI アフターサービスのご紹介",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400007637&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "DJI Care Refreshの内容",
+          "value": "1年版は年2回、2年版は最大4回のリフレッシュ交換。2年版の購入で通常1年のメーカー保証が2年に延長",
+          "source": "DJI Care Refresh(2年版)",
+          "source_url": "https://store.dji.com/jp/guides/dji-care-refresh-two-years/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "バッテリーが交換対象に含まれるか",
+          "value": "未確認 — 機種・プランにより異なる。シリアル番号を添えてDJI公式サポートで要確認【要確認】",
+          "source": "DJI 公式サポート",
+          "source_url": "https://www.dji.com/jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換パーツの入手",
+          "value": "バッテリー等の交換パーツ・アクセサリーはDJI公式オンラインストアで購入可能",
+          "source": "DJI 公式ストア",
+          "source_url": "https://store.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-private-land-permission",
+      "question": "自宅の庭など私有地であれば、DJIのドローンは許可なしで飛ばせますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12222129207",
+        "original": "私有地（自宅の庭など）でドローンを飛ばすのは問題ないですか？"
+      },
+      "answer": "自分の土地でも「許可不要」にはなりません。航空法の規制は土地の所有者ではなく飛行の態様にかかるためです。100g以上の機体は機体登録とリモートID搭載が義務で、庭がDID(人口集中地区)内なら私有地上空でも許可が必要です。150m以上・夜間・目視外・第三者や第三者の建物から30m以内も許可承認の対象です。さらに2026年7月14日施行の改正小型無人機等飛行禁止法では対象施設の周囲おおむね1,000mが飛行禁止で、100g未満機も対象です。個別の可否はDIPSと国交省で確認してください。",
+      "facts": [
+        {
+          "label": "土地の所有と航空法は別",
+          "value": "私有地であっても航空法の規制は別に適用される。土地所有者の許可を得ても、DID上空・空港周辺・150m以上・夜間・目視外などに該当すれば国交省の許可承認が必要",
+          "source": "国土交通省 無人航空機の飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "機体登録",
+          "value": "100g以上は所有者を問わず機体登録とリモートID搭載が義務",
+          "source": "国土交通省 無人航空機登録制度",
+          "source_url": "https://www.mlit.go.jp/koku/drone/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "申請窓口",
+          "value": "許可承認の申請はDIPSからオンラインで行う",
+          "source": "国土交通省 ドローン情報基盤システム(DIPS)",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "自治体の条例",
+          "value": "公園など個別の場所では条例で飛行が禁じられている場合があり、航空法とは別に確認が必要【要確認】",
+          "source": "国土交通省 無人航空機の飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "dji-2026-flight-ban-1000m-practice",
+      "question": "2026年7月から重要施設まわりの飛行禁止範囲が1,000mに広がったそうですが、これまで飛ばしていた場所も再確認が必要ですか?",
+      "source": {
+        "platform": "note",
+        "url": "https://note.com/kawacha_drone/n/n5a07074e1901",
+        "original": "ドローンの小型無人機等飛行禁止法の改正について（重要施設周辺飛行の禁止）｜かわちゃ（かわちゃドローン）"
+      },
+      "answer": "再確認が必要です。2026年7月14日施行の改正小型無人機等飛行禁止法により、国会議事堂・防衛関係施設・空港・原子力事業所などの対象施設について、周辺地域がおおむね300mからおおむね1,000mへ拡大されました。要点は2つです。第一に、この法律は航空法と異なり100g未満の機体も対象のため、DJIの軽量機でも除外されません。第二に、施行後は周辺地域での禁止飛行が、警察官の命令を待たずに飛行行為そのものとして処罰の対象になると解説されています。過去に飛ばした場所も必ず再確認してください。",
+      "facts": [
+        {
+          "label": "改正の施行日",
+          "value": "2026年7月14日施行【要確認】",
+          "source": "国土交通省 無人航空機の飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "変更点",
+          "value": "小型無人機等飛行禁止法の対象施設周辺の飛行禁止範囲が「おおむね300m」から「おおむね1,000m」へ拡大したとされる【要確認】",
+          "source": "国土交通省 無人航空機の飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "重量による例外なし",
+          "value": "この法律は航空法と異なり100g未満の機体も対象になるとされる【要確認】",
+          "source": "国土交通省 無人航空機の飛行ルール",
+          "source_url": "https://www.mlit.go.jp/koku/koku_tk10_000003.html",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "確認方法",
+          "value": "対象施設と範囲は所管省庁の公表資料で個別に確認する必要がある。航空法側の許可承認はDIPSで手続きする",
+          "source": "国土交通省 ドローン情報基盤システム(DIPS)",
+          "source_url": "https://www.ossportal.dips.mlit.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "SZ DJI Technology Co., Ltd.(深圳市大疆創新科技有限公司)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "中国・深圳市",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "2006年",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "Frank Wang（汪滔）",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "非上場（未公開企業）",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "グローバルで3,000人以上（DJI公式サイト記載値）",
+          "source": "About Us（DJI公式 企業情報）",
+          "source_url": "https://www.dji.com/company",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 非上場のため公開情報なし",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "民生用ドローンおよびクリエイティブカメラ技術",
+          "source": "DJI ニュースルーム（企業ボイラープレート）",
+          "source_url": "https://www.dji.com/jp/newsroom/news/dji-syngentajapan",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "DJI JAPAN株式会社（代表者：呉韜）",
+          "source": "DJI ニュースルーム（シンジェンタジャパンとの業務提携リリース）",
+          "source_url": "https://www.dji.com/jp/newsroom/news/dji-syngentajapan",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "9120001179012（DJI JAPAN株式会社）",
+          "source": "経済産業省 gBizINFO（国税庁法人番号公表サイト由来）",
+          "source_url": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=9120001179012",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "未確認 — 国税庁法人番号公表サイトで要確認",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "東京都港区",
+          "source": "DJI ニュースルーム（シンジェンタジャパンとの業務提携リリース）",
+          "source_url": "https://www.dji.com/jp/newsroom/news/dji-syngentajapan",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "未確認 — 公式発表で要確認",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "国内初のショップインショップ「DJI SHOP ビックカメラ有楽町店」を12月23日（土）にオープン",
+          "source": "DJI、ビックカメラ有楽町店に国内初となるショップインショップをオープン",
+          "source_url": "https://www.dji.com/jp/newsroom/news/bigcamera",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "DJI公式オンラインストア、楽天市場 公式ストア、家電量販店内のショップインショップ／ブランドスペース（ビックカメラ有楽町店、ヨドバシカメラ マルチメディア梅田店 ほか）",
+          "source": "DJI JAPAN、楽天市場に公式ストアをオープン ／ ヨドバシカメラ梅田 DJIブランドスペース",
+          "source_url": "https://www.dji.com/jp/newsroom/news/rakuten-dji-store",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "https://www.dji.com/jp （サポートは https://www.dji.com/support ）",
+          "source": "サポート - DJI 日本",
+          "source_url": "https://www.dji.com/support",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "日本正規品は技適取得済み。海外版ドローンは技適未取得の場合があり、使用すると電波法違反となるおそれ",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "バッテリー・充電器は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "航空法改正により2022年6月20日から100g以上の無人航空機の登録義務化とリモートID搭載義務化に対応。DJI Mini 4 Proは2025年5月26日に日本の第二種型式認証を取得（型式認証書番号 第6号）。認証前製造機体も「無人航空機同一性証明書」「無人航空機適合確認書」＋DJI所定の点検整備で機体認証申請が可能（検査機関は一般財団法人日本海事協会）",
+          "source": "DJI、機体認証制度への対応を拡大",
+          "source_url": "https://support.dji.com/help/content?customId=01700043696&spaceId=17&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "海外での規制動向",
+          "value": "米国では政府調達からの排除等の措置が取られている。日本国内での民間利用に対する同種の禁止措置は確認されていない【要確認】",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "製品・パーツごとに異なる（アフターサービスポリシー内「パーツ別メーカー保証期間」を参照）。フライトバッテリーは12ヶ月",
+          "source": "バッテリーの膨張が発生した場合の対応方法／DJI アフターサービスのご紹介",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400007637&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "DJI Care Refresh（1年版／2年版）。2年版の購入で通常1年のメーカー保証が2年に延長される。リフレッシュ交換は1年版で年2回、2年版で最大4回（2023年7月13日のアップグレード後）",
+          "source": "DJI Care Refresh（2年版）提供開始 ／ DJI Care Refresh 2.0",
+          "source_url": "https://store.dji.com/jp/guides/dji-care-refresh-two-years/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "オンライン修理受付サービス（配送修理）。修理品送付先は DJI JAPANカスタマーサポート 〒354-0043 埼玉県入間郡三芳町竹間沢832-6",
+          "source": "オンライン修理受付サービス申請ガイド",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043535&spaceId=17&re=JP&lang=ja&documentType=&paperDocType=ARTICLE",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "DJIカスタマーサポート 電話 03-6634-4949（ほかオンライン修理受付サービス）",
+          "source": "DJI カスタマーサポート窓口のご紹介",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043579&spaceId=17&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "平日 10:00〜17:00（UTC+9）",
+          "source": "DJI カスタマーサポート窓口のご紹介",
+          "source_url": "https://repair.dji.com/help/content?customId=01700043579&spaceId=17&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "DJI公式オンラインストアでアクセサリー・コンポーネントを販売。修理パーツ価格・点検費用はサポートページで公開",
+          "source": "DJI Mavic シリーズ修理パーツ価格 ／【点検費用】【修理パーツ価格】について",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008360&spaceId=34&re=JP&lang=ja",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "並行輸入品の保証取扱い",
+          "value": "海外製のDJI製品は事前にDJIカスタマーサポートへの相談が必要。墜落・紛失時のサポートは日本国内正規品のみ対応。DJI Care Refreshのグローバル保証は製品購入とDJI Careサービス購入が同一の国で行われていることが条件",
+          "source": "機体紛失・墜落時のサポートについて ／ DJI Care Refreshグローバル保証について",
+          "source_url": "https://support.dji.com/help/content?customId=ja-jp03400008024&spaceId=34&re=JP&lang=ja&documentType=artical&paperDocType=paper",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "ドローン、ジンバルカメラ、アクションカメラ",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "ドローンで4万〜50万円超、カメラ類で2万〜8万円前後",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "ドローン：Mavic 3 Pro／Mini 4 Pro／Air 3S／Flip、ハンドヘルド：Osmo Pocket 3／Osmo Action 6／Osmo 360／Osmo Nano／Osmo Mobile 8／DJI Mic 3、ジンバル：RSシリーズ（RS 5、RS 4 Pro ほか）／Roninシリーズ",
+          "source": "DJI 公式サイト ハンドヘルド製品ページ",
+          "source_url": "https://www.dji.com/handheld",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "GoPro、Insta360、Autel Robotics、Sony(Airpeak・産業用)",
+          "source": "DJI 公式サイト",
+          "source_url": "https://www.dji.com/jp",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-08-25",
+      "title": "9月2日の新製品発表を予告（発表予定）",
+      "body": "DJIは2026年8月25日、日本語サイトにティザーページを掲出し、9月2日21時（日本時間）に新製品を発表すると予告した。ティザーの内容から、中国で先行発売された360度カメラ「Osmo 360 II」のグローバル版とみられているが、正式発表前の情報であり、製品名・仕様・日本価格はいずれも確定していない。",
+      "impact": "",
+      "source": "DRONE（ドローンメディア）",
+      "source_url": "https://drone.jp/news/20260825225725129292.html"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "360度カメラ「Osmo 360 II」を中国で発売",
+      "body": "DJIは2026年8月13日、8K/60fps撮影に対応する新型360度カメラ「Osmo 360 II」を中国公式サイトで発表・発売した。1インチ相当センサーを採用しダイナミックレンジは14.5段、レンズはユーザー交換式となった。中国価格はスタンダードキットが3,299元、パフォーマンスキットが3,999元。この時点では日本での発売時期・価格は発表されていない。",
+      "impact": "",
+      "source": "MoguLive",
+      "source_url": "https://www.moguravr.com/dji-osmo-360-ii-announced/"
+    },
+    {
+      "date": "2026-07-18",
+      "title": "二子玉川・レイクタウンにブランド体験スペース開設",
+      "body": "DJIは2026年7月18日、東京・二子玉川「蔦屋家電＋」と埼玉「イオンレイクタウンkaze」の2カ所にブランド体験スペースを同時オープンした。二子玉川では7月18日・19日に記念イベント「DJI 夏のクリエイターカーニバル」を開催し、「Osmo Pocket 4P パールホワイト」を日本初披露した。あわせて秋の表参道出店も発表された。",
+      "impact": "購入前に実機を試せる常設拠点が首都圏に増えたことで、初期不良時の相談や機種選定の下見がしやすくなる。",
+      "source": "ドローンジャーナル（Impress）",
+      "source_url": "https://drone-journal.impress.co.jp/docs/news/1188744.html"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "小型無人機等飛行禁止法の改正 ― 対象施設周辺の飛行禁止範囲が「おおむね300m」から「おおむね1,000m」へ拡大(2026年7月14日施行)",
+      "body": "小型無人機等飛行禁止法の改正法が2026年6月17日に成立、6月24日公布、2026年7月14日に施行されたと複数のドローン事業者・スクールが解説している。対象施設の敷地・区域(レッドゾーン)の外側の周辺地域(イエローゾーン)が、従来のおおむね300mからおおむね1,000mへ拡大された。この法律は航空法と異なり100g未満の機体も対象になる点、および2026年7月14日以降はイエローゾーンでの違法飛行そのものが直接処罰の対象になる点が実務上の注意点として挙げられている。罰則水準について「レッドゾーンで1年以下の拘禁刑または50万円以下の罰金」との解説があるが、条文の一次情報での確認は未実施【要確認】。",
+      "impact": "",
+      "source": "スカイピーク(note)",
+      "source_url": "https://note.com/skypeak_drone/n/ne8dda0adf075"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "「Osmo Pocket 4P」日本発売",
+      "body": "DJI JAPANは2026年6月29日、デュアルカメラを搭載したポケットジンバルカメラ「Osmo Pocket 4P」を日本で正式発表・発売した。17ストップのダイナミックレンジと10bit D-Log 2に対応する。価格はスタンダードコンボが99,000円、Vlogコンボが113,300円。カラーはクラシックブラックとパールホワイトの2色。",
+      "impact": "",
+      "source": "AV Watch（Impress）",
+      "source_url": "https://av.watch.impress.co.jp/docs/news/2119448.html"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Matrice 4D/4TDが第二種型式認証を取得",
+      "body": "DJI JAPANの産業用ドローン「DJI Matrice 4D」および「DJI Matrice 4TD」が2026年6月19日、国土交通大臣から第二種型式認証（型式認証書番号 第13号）を取得した。ドローンポート「DJI Dock 3」に対応する機体としては国内初の型式認証取得となる。認証機体の販売開始は2026年8月頃が予定されている。",
+      "impact": "型式認証機を使うことで、機体認証の手続き負担が軽減され、DIPSでの飛行許可・承認申請が簡素化される。認証の対象となる飛行は、①人口集中地区上空、②夜間、③目視外、④人・物件から30m未満、⑤催し場所上空の5類型。レベル3.5相当の遠隔運用を業務で計画している事業者には実務上の影響が大きい。",
+      "source": "ドローンジャーナル（Impress）",
+      "source_url": "https://drone-journal.impress.co.jp/docs/news/1188669.html"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "DJI、Insta360を米国で特許侵害提訴",
+      "body": "DJIは2026年6月10日、米テキサス州東部地区連邦地方裁判所において、Insta360のハンドヘルドジンバルカメラ「Luna」シリーズが自社の意匠特許2件と発明特許4件を侵害しているとして提訴した。提訴日はInsta360がLuna Ultraを米国で発売した当日にあたる。Insta360は6月12日に反訴している。",
+      "impact": "",
+      "source": "AAiT",
+      "source_url": "https://aait.co.jp/archives/82416"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "米FCCのCovered List再考申立、意見公募が締切",
+      "body": "米連邦通信委員会（FCC）がDJIをCovered List（規制対象リスト）に掲載した措置について、DJIが2026年1月に提出した再考申立に対するパブリックコメントの受付が2026年5月11日に締め切られた。DJIは2026年2月20日に第9巡回区連邦控訴裁判所へ提訴も行っている。FCCによる最終判断の時期は公表されていない。",
+      "impact": "これは米国内の電波認証・調達に関する手続きであり、日本国内での販売・飛行が直ちに制限されるものではない。ただし米国市場向け出荷の制約は世界全体の生産・供給計画に波及しうるため、業務利用で機体更新を計画している場合は調達時期に余裕を見ておくとよい。",
+      "source": "DroneLife（米ドローン専門メディア）",
+      "source_url": "https://dronelife.com/2026/05/05/public-comment-window-closing-fcc-weighs-dji-challenge-to-covered-list-ruling/"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "スマホジンバル「Osmo Mobile 8P」発売",
+      "body": "DJI JAPANは2026年5月7日、スマートフォン用ジンバル「Osmo Mobile 8P」を発売した。操作部が着脱式リモコン「Osmo FrameTap」として分離でき、離れた場所からの撮影や背面カメラでのセルフィー撮影に対応する。価格はスタンダードコンボが18,480円、アドバンストトラッキングコンボが25,080円、クリエイターコンボが32,780円。",
+      "impact": "",
+      "source": "トラベル Watch",
+      "source_url": "https://travel.watch.impress.co.jp/docs/news/2106379.html"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "超小型ワイヤレスマイク「DJI Mic Mini 2」発売",
+      "body": "DJI JAPANは2026年4月28日、約11gの超小型ワイヤレスマイク「DJI Mic Mini 2」を発表・発売した。2段階のノイズキャンセリングと3種の音色プリセット、最大48時間のバッテリー駆動に対応し、8色の交換式マグネットカバーが用意される。希望小売価格は1TX+1モバイルRXセットが8,580円、2TX+1RXセットが14,520円。",
+      "impact": "",
+      "source": "デジカメ Watch",
+      "source_url": "https://dc.watch.impress.co.jp/docs/news/2105504.html"
+    },
+    {
+      "date": "2025-12-22",
+      "title": "米FCCが「外国製UAS(無人航空機システム)全般」とDJI・Autel製品をCovered Listに追加(施行済み)",
+      "body": "米連邦通信委員会(FCC)の公共安全・国土安全保障局は2025年12月22日、2025年度国防権限法(FY25 NDAA)の規定に基づき、DJIおよびAutel Roboticsの通信・映像監視機器を、さらに想定を超える範囲として「外国製UASおよびUASの重要部品」全般をCovered Listに追加した。NDAAが定めた安全保障審査の期限(2025年12月23日)までに指定機関による審査が完了しなかったことが直接の引き金と報じられている。Covered List入りの効果は「新規の機器認証(equipment authorization)が取得できない」ことであり、米当局・法律事務所の解説によれば、既にFCC認証済みのモデルの輸入・販売・使用そのものを禁止するものではない。2026年1月7日にはBlue UASリスト掲載機やBuy American適合の「国内製品」を2027年1月1日まで暫定的に適用除外とする公示が出たが、DJI・Autel製品はこの除外に含まれていないと報じられている。",
+      "impact": "",
+      "source": "DRONELIFE",
+      "source_url": "https://dronelife.com/2025/12/22/fcc-adds-foreign-made-drones-and-components-to-covered-list-citing-national-security-risks/"
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "slug": "gopro",
+  "name": "GoPro(ゴープロ)",
+  "name_en": "GoPro",
+  "country": "アメリカ",
+  "summary": "GoProは米国カリフォルニア州サンマテオに本社を置くアクションカメラメーカーで、ナスダック上場(GPRO)。HEROシリーズと360度カメラMAX2が主力で、クラウド保存とカメラ交換補償を束ねた「GoProサブスクリプション」が保証体系の中核をなす点が特徴。日本ではGoPro合同会社が登記され、2024年にSB C&Sと販売パートナーシップを結び家電量販店網での販売を強化した。近年は売上減が続き、会社売却を含む戦略的選択肢の検討が進んでいる。",
+  "sample_notice": true,
+  "faq": [
+    {
+      "slug": "gopro-subscription-used-camera-replacement",
+      "question": "中古やフリマアプリで買ったGoProでも、後からGoProサブスクリプションに加入すれば破損したときに交換してもらえますか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10246850135",
+        "original": "GoProを買ってしばらくしてサブスクを登録しても - GoProを破損しても交換してもらえるのでしょうか？メルカリで購入したGo..."
+      },
+      "answer": "結論として、GoProサブスクリプションのカメラ交換補償は「加入中であること」と「対象機種であること」が条件で、購入からの経過期間は問われません。GoPro公式の日本語FAQでは、FusionおよびHERO5以降のGoProカメラが交換対象で、2年以上前に購入したカメラでも交換サービスを利用できると案内されています。交換できるのはサブスクリプション年度あたり同一モデル最大2台までで、年度末には翌年度に使える2台分のクレジットが付与されます。手続きはGoProカスタマーサポート経由で申請し、GoProが発行する返送ラベルを使って破損したカメラを返送する必要があります(返送しないと交換は成立しません)。ただし、中古・フリマ購入品が明示的に対象と書かれた公式記載は本調査では確認できませんでした【要確認】。また盗難や紛失は「破損カメラの返送」ができないため対象外となる可能性が高い点、加入直後の利用可否など細かい条件はサブスクリプション利用規約に従います。購入前に最新の規約と対象機種リストを確認してください。",
+      "facts": [
+        {
+          "label": "延長保証制度",
+          "value": "FusionおよびHERO5以降が対象。購入から2年以上経過したカメラでも交換可能。サブスクリプション年度あたり同一モデル最大2台まで",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "修理体制",
+          "value": "交換申請はGoProカスタマーサポート経由。GoProが提供する返送ラベルで破損カメラの返送が必要",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-hero9-old-camera-repair",
+      "question": "4年ほど前に買ったGoPro HERO9が故障しました。今から修理に出すことはできますか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14300435964",
+        "original": "GoProHERO9を修理したいです。4年ほど前に買ったGoProが..."
+      },
+      "answer": "結論から言うと、GoProの公式ルートは「部品を直す修理」ではなくサブスクリプションによる「カメラ交換」が中心です。GoProサブスクリプションのカメラ交換補償はHERO5以降が対象で、購入から2年以上経過したカメラでも利用できると公式FAQに明記されています。HERO9はHERO5以降にあたるため、サブスクリプションに加入していれば交換対象になり得ます。交換はサブスクリプション年度あたり同一モデル最大2台まで、GoProカスタマーサポートに連絡して返送ラベルで破損機を返送する流れです。ただし「同一モデル」での交換となるため、生産終了世代の場合に何が送られてくるかは条件次第です【要確認】。一方、日本国内にGoProの正規修理拠点があるか、基板交換やレンズ交換といった実修理を公式に受け付けているかは本調査では確認できませんでした【要確認】。また通常の限定保証の年数も日本向けの記載を確認できていません【要確認】。まずはGoProのサポート窓口に機種とシリアルを添えて可否を照会するのが確実です。",
+      "facts": [
+        {
+          "label": "延長保証制度",
+          "value": "HERO5以降が交換対象。購入から2年以上経過したカメラでも交換サービスを利用可能",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "修理体制",
+          "value": "交換手続きはGoProカスタマーサポート経由。日本国内の修理拠点の有無は未確認",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-amazon-purchase-warranty-claim",
+      "question": "Amazonの GoPro 直営ストアで買ったカメラが半年ほどで自然故障しました。保証の申請先はAmazonとGoProのどちらですか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14264846484",
+        "original": "amazonのgopro直営で買った - ２年無料保証有りのgoproが半年程で自然故障したのでamazonに問い合わせをしたい..."
+      },
+      "answer": "結論として、販売店が付けた延長保証と、GoProのメーカー保証・サブスクリプション交換補償は別の制度なので、申請先を切り分けて考える必要があります。販売店独自の「◯年保証」は販売店側の約款に基づくため、その販売店に連絡します。一方、GoProの限定保証は GoPro Support の「Warranty Information」に規定され、サブスクリプション加入者は理由を問わないカメラ交換補償をGoProカスタマーサポート経由で申請できます。交換はFusionおよびHERO5以降が対象で、年度あたり同一モデル最大2台まで、返送ラベルによる破損機の返送が条件です。なお、GoProのメーカー限定保証の年数は日本向けの記載を本調査では確認できませんでした【要確認】。また、GoPro公式ストアでの購入分には30日間の返品・返金保証が用意されています。実務上は購入証明(注文履歴・領収書)を用意したうえで、まず販売店の保証条件を確認し、対象外ならGoProサポートに切り替えるのが早道です。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "GoProの限定保証は GoPro Support の保証情報ページに規定。公式ストア購入分には30日間の返品・返金保証あり。日本向けの限定保証年数は未確認",
+          "source": "GoPro Support 保証に関する情報",
+          "source_url": "https://community.gopro.com/s/article/Warranty-Information?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "GoProサブスクリプションの理由を問わないカメラ交換補償。年度あたり同一モデル最大2台まで",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-lens-scratch-repair",
+      "question": "GoProのレンズに傷が付いてしまいました。レンズだけの修理をGoProに依頼できますか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11172012981",
+        "original": "Goprohero5の修理について。 - ゴープロの修理をした事がある方おりますか？？修理内容はレンズの傷です。GoPro..."
+      },
+      "answer": "結論として、GoProの公式サポートは部品単位の修理ではなく本体交換を軸に運用されているため、レンズ傷のみのピンポイント修理を公式に依頼できるかは確認できていません【要確認】。現実的な選択肢は二つです。一つはGoProサブスクリプションに加入して交換補償を使う方法で、FusionおよびHERO5以降が対象、年度あたり同一モデル最大2台まで、GoProカスタマーサポートに連絡し返送ラベルで破損機を返送します。購入から2年以上経過したカメラでも対象になると公式FAQに記載があります。もう一つは、機種によって前面レンズがユーザー交換可能な「レンズカバー」構造になっている場合に、公式ストアで販売されている交換用パーツを自分で交換する方法です。GoProはHERO13 Black向けにUltra Wide Lens Mod(16,800円)やMacro Lens Mod(21,800円)などのレンズモジュラーを販売しており、アクセサリー供給自体は公式ルートで行われています。ただし機種ごとにレンズカバーが交換可能かは異なるため、型番を確認したうえでサポートに問い合わせてください。",
+      "facts": [
+        {
+          "label": "修理体制",
+          "value": "GoProカスタマーサポート経由で交換手続き。部品単位の公式修理受付は未確認",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "公式ストアでレンズモジュラー等を販売(Ultra Wide Lens Mod 16,800円、Macro Lens Mod 21,800円、NDフィルター4枚パック 12,100円)",
+          "source": "GoPro 公式ニュース HERO13 Black / HERO 発表",
+          "source_url": "https://gopro.com/ja/jp/news/gopro-announces-hero13-black-and-tiny-hero-camera",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-warranty-without-paper-certificate",
+      "question": "GoProには紙の保証書が入っていないようですが、購入を証明できればメーカー保証は受けられますか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14184370214",
+        "original": "amazonで買ったGoProは保証書がなくてもamazonで買ったことを証明できれば一年間のメーカー保証は受けれますか？ama..."
+      },
+      "answer": "結論として、GoProの保証は日本の家電で一般的な「押印済みの紙の保証書」ではなく、シリアル番号と購入証明で管理される方式です。保証の適用条件はGoPro Supportの「Warranty Information(保証に関する情報)」に規定されており、サポートへの問い合わせ時には機種・シリアル番号・購入日が分かる注文履歴や領収書の提示を求められるのが一般的です。したがって、注文履歴のスクリーンショットや領収書PDFを保存しておけば実務上は購入証明として機能します。ただし、日本向けのメーカー限定保証が何年かという具体的な記載は本調査では確認できませんでした【要確認】。加えて、正規販売店以外(いわゆる並行輸入・非正規ルート)で購入した場合の扱いは正規販売店向けの保証・返品ポリシーが別途定められており、条件が異なる可能性があります。より確実に備えたい場合は、GoProサブスクリプションの交換補償(FusionおよびHERO5以降が対象、年度あたり最大2台)を併用する選択肢もあります。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "保証条件は GoPro Support の保証情報ページに規定。日本向けの限定保証年数は未確認",
+          "source": "GoPro Support 保証に関する情報",
+          "source_url": "https://community.gopro.com/s/article/Warranty-Information?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストアのほか、2024年6月28日のSB C&Sとの販売パートナーシップにより家電量販店での取扱いを強化",
+          "source": "SB C&S プレスリリース(PR TIMES)",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000749.000022656.html",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-official-store-warranty-document",
+      "question": "GoProを公式サイトで購入したのですが、保証書はどこで確認できますか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14260497194",
+        "original": "Goproを公式サイトで購入したのですが、 - 保証書はどこにありま..."
+      },
+      "answer": "結論として、GoPro公式ストアでの購入では紙の保証書は同梱されず、アカウントの注文履歴と注文確認メールが購入証明を兼ねます。保証の内容自体はGoPro Supportの「Warranty Information(保証に関する情報)」ページに条件が記載されており、サポートに問い合わせる際は製品のシリアル番号と注文情報を伝える形になります。あわせて、GoPro公式ストアで購入した製品には30日間の返品・返金保証(Money-Back Guarantee)が設定されているため、初期不良や仕様が合わない場合はまずこちらを検討できます。なお、日本向けのメーカー限定保証の年数については本調査では公式の日本語表記を確認できませんでした【要確認】。長期の備えとしては、GoProサブスクリプション加入者向けの理由を問わないカメラ交換補償があり、FusionおよびHERO5以降が対象、サブスクリプション年度あたり同一モデル最大2台まで交換できます。注文確認メールは削除せず保管しておくことを強くおすすめします。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "保証条件は GoPro Support の保証情報ページに規定。公式ストア購入分には30日間の返品・返金保証あり",
+          "source": "GoPro Support 保証に関する情報 / Money-Back Guarantee",
+          "source_url": "https://gopro.com/en/us/legal/money-back-guarantee",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "GoProサブスクリプションの理由を問わないカメラ交換補償。FusionおよびHERO5以降が対象",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-repair-without-subscription",
+      "question": "GoProサブスクリプションに入らずに修理してもらう方法はありませんか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12304513907",
+        "original": "Goproをサブスク以外で修理してくれるところはありませんか？ - こんに..."
+      },
+      "answer": "結論として、GoProの公式ルートで最も確実な故障対応はサブスクリプションのカメラ交換補償であり、それ以外の公式修理受付が日本で提供されているかは本調査では確認できませんでした【要確認】。交換補償はFusionおよびHERO5以降が対象で、購入から2年以上経過したカメラでも利用可能、サブスクリプション年度あたり同一モデル最大2台まで交換できます。申請はGoProカスタマーサポート経由で、GoProが発行する返送ラベルにより破損したカメラを返送する必要があります。サブスクリプションを使わない場合の選択肢としては、まず購入した販売店の延長保証が生きていないかを確認すること、次にバッテリーやレンズモジュラー、マウントといったユーザー交換可能な部品であれば公式ストアでパーツを購入して自分で交換することが考えられます。GoProはHERO13 Black向けにレンズモジュラー等を公式に販売しています。なお第三者の修理業者に依頼した場合、以後のメーカー保証や交換補償の適用が受けられなくなる可能性がある点には注意してください【要確認】。",
+      "facts": [
+        {
+          "label": "修理体制",
+          "value": "交換申請はGoProカスタマーサポート経由。日本国内の公式修理拠点の有無は未確認",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "公式ストアでバッテリー、マウント、レンズモジュラー等を販売",
+          "source": "GoPro 公式ニュース HERO13 Black / HERO 発表",
+          "source_url": "https://gopro.com/ja/jp/news/gopro-announces-hero13-black-and-tiny-hero-camera",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-extended-warranty-worth-it",
+      "question": "GoProの延長保証やサブスクリプションには入っておいた方がよいのでしょうか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14181814584",
+        "original": "Goproの延長保証は入った方がいい？保証はAmazonのやつです。..."
+      },
+      "answer": "結論として、GoProはアウトドアや水中など破損リスクの高い用途で使う機材であり、かつ公式の故障対応が「交換」中心の設計になっているため、交換補償の価値は他の家電より相対的に高いといえます。GoProサブスクリプション(Premium / Premium+)には、無制限のクラウド保存・自動アップロードに加えて、理由を問わないカメラ交換補償、gopro.comでのアクセサリー最大50%オフといった特典が含まれます。交換補償はFusionおよびHERO5以降が対象で、購入から2年以上経過したカメラでも利用でき、サブスクリプション年度あたり同一モデル最大2台まで交換できます。年度末には翌年度に使える2台分のクレジットが付与されます。一方で販売店独自の延長保証は自然故障中心の設計であることが多く、落下・水没といった破損をカバーするかは各社の約款次第です。両者は排他ではないため、破損リスクが高い使い方をするならサブスクリプション、通常使用の故障に備えるなら販売店保証、という切り分けが実務的です。なお日本向けのメーカー限定保証年数は未確認です【要確認】。",
+      "facts": [
+        {
+          "label": "延長保証制度",
+          "value": "GoProサブスクリプションに無制限クラウド保存、理由を問わないカメラ交換補償、gopro.comでのアクセサリー最大50%オフが付帯。年度あたり同一モデル最大2台まで交換可能",
+          "source": "GoPro サブスクリプション / カメラの交換補償に関するよくある質問",
+          "source_url": "https://gopro.com/ja/jp/shop/subscriptions",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "保証期間",
+          "value": "GoProの限定保証条件は GoPro Support の保証情報ページに規定。日本向けの年数は未確認",
+          "source": "GoPro Support 保証に関する情報",
+          "source_url": "https://community.gopro.com/s/article/Warranty-Information?language=ja",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-vs-insta360",
+      "question": "アクションカメラを買うならGoProとInsta360のどちらがよいですか？それぞれのメリットとデメリットが知りたいです。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14314590724",
+        "original": "GoproとInsta360買うならどっち？メリット、デメリット、使..."
+      },
+      "answer": "結論として、撮りたい映像の形式とアフターサービスの考え方で選ぶのが実務的です。GoProは前方向を高画質で撮るHEROシリーズが主力で、HERO13 Blackが68,800円、小型のHEROが34,800円(いずれも発表時の日本公式価格)。360度分野ではMAX2があり、直販79,800円から、GoProはMAX2を市場唯一のTrue 8K 360度撮影対応機と説明し、レンズをユーザーが交換できる点を特徴としています。GoProの強みはマウント規格の普及度とアクセサリー供給、そしてサブスクリプションに紐づく「理由を問わないカメラ交換」という独特の保証設計です。交換はFusionおよびHERO5以降が対象で年度あたり最大2台まで、購入から2年以上経過した機体も対象になります。一方でこの交換補償はサブスクリプション加入が前提のため、ランニングコストが発生します。Insta360との画質・手ブレ補正・編集アプリの優劣については、本サイトでは一次情報に基づく比較を確認できていません【要確認】。日本での購入しやすさという点では、GoProは2024年のSB C&Sとの提携でヨドバシカメラやヤマダデンキなど量販店網での取り扱いが強化されています。",
+      "facts": [
+        {
+          "label": "主な価格帯",
+          "value": "HERO 34,800円、HERO13 Black 68,800円(発表時の日本公式価格)、MAX2 79,800円から、LIT HERO 46,800円から",
+          "source": "GoPro 公式ニュース HERO13 Black / HERO 発表、AV Watch",
+          "source_url": "https://gopro.com/ja/jp/news/gopro-announces-hero13-black-and-tiny-hero-camera",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "MAX2はTrue 8K 360度撮影に対応し、ユーザーによるレンズ交換が可能",
+          "source": "GoPro MAX2 製品ページ / デジカメ Watch",
+          "source_url": "https://gopro.com/ja/jp/shop/cameras/learn/max2/CHDHZ-311-master.html",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "GoProサブスクリプションの理由を問わないカメラ交換補償。FusionおよびHERO5以降が対象、年度あたり同一モデル最大2台まで",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "slug": "gopro-roadbike-camera-choice",
+      "question": "ロードバイクの車載撮影に使うなら、GoProとInsta360のどちらが向いていますか？",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14301785174",
+        "original": "ロードバイクにはInsta360とGoProどちらがいいですか？スマ..."
+      },
+      "answer": "結論として、前方の記録を高画質で残したいならGoProのHEROシリーズ、後から画角を決めたい・一台で全周を押さえたいなら360度カメラという選び分けになります。GoProの現行ラインでは、主力のHERO13 Blackが68,800円、小型のHEROが34,800円(いずれも発表時の日本公式価格)。360度側は2025年9月23日発表のMAX2が直販79,800円からで、True 8K 360度撮影とユーザーによるレンズ交換に対応します。ライト内蔵の小型モデルLIT HEROは46,800円からで重量は約93gと軽量です。自転車用途で重要になるマウント類やバッテリーは公式ストアで供給されており、レンズモジュラーやNDフィルターも用意されています。落車による破損が心配な場合は、GoProサブスクリプションの理由を問わないカメラ交換補償(FusionおよびHERO5以降が対象、年度あたり同一モデル最大2台まで)が実質的な破損保険として機能します。なお防水性能・バッテリー持ち・手ブレ補正の具体的な数値比較や、Insta360との優劣については本調査では一次情報を確認できていません【要確認】。",
+      "facts": [
+        {
+          "label": "主要製品ライン",
+          "value": "HERO13 Black、HERO、MAX2(True 8K 360度、レンズ交換可能)、LIT HERO(ライト内蔵・約93g)、Fluid Pro AI(ジンバル)",
+          "source": "GoPro カメラ比較 / AV Watch",
+          "source_url": "https://gopro.com/ja/jp/compare",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "公式ストアでバッテリー、マウント、レンズモジュラー、NDフィルター等を販売",
+          "source": "GoPro 公式ニュース HERO13 Black / HERO 発表",
+          "source_url": "https://gopro.com/ja/jp/news/gopro-announces-hero13-black-and-tiny-hero-camera",
+          "checked": "2026-08-28"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "GoPro, Inc.(ゴープロ)",
+          "source": "GoPro 公式「私たちはGoProです」",
+          "source_url": "https://gopro.com/ja/jp/legal/about-us",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "本社所在地",
+          "value": "米国カリフォルニア州サンマテオ(San Mateo, California)",
+          "source": "日経会社情報DIGITAL ゴープロ A[GPRO]",
+          "source_url": "https://www.nikkei.com/nkd/company/us/GPRO/",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "創業年",
+          "value": "2004年",
+          "source": "日経会社情報DIGITAL ゴープロ A[GPRO]",
+          "source_url": "https://www.nikkei.com/nkd/company/us/GPRO/",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "創業者",
+          "value": "Nicholas Woodman(ニコラス・ウッドマン、通称ニック・ウッドマン)。現在も創業者兼CEO",
+          "source": "GoPro IR「GoPro Announces Financing from Founder and CEO Nicholas Woodman」",
+          "source_url": "https://investor.gopro.com/press-releases/press-release-details/2026/GoPro-Announces-Financing-from-Founder-and-CEO-Nicholas-Woodman/default.aspx",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "上場状況",
+          "value": "米ナスダック上場(ティッカー: GPRO)。2026年5月11日に取締役会が会社売却を含む戦略的選択肢の検討プロセスを承認し、財務アドバイザーを起用。株価は1ドル未満の水準で推移しているが、上場廃止基準への抵触や上場維持通知の有無は本調査では確認できず【要確認】",
+          "source": "GoPro IR 2026年第1四半期決算リリース",
+          "source_url": "https://investor.gopro.com/press-releases/press-release-details/2026/GoPro-Announces-First-Quarter-Results/",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "従業員数",
+          "value": "未確認 — 米SECへの年次報告書(Form 10-K)の従業員数開示で確認できる",
+          "source": "未確認(GoPro IR SEC Filings)",
+          "source_url": "https://investor.gopro.com/financials-and-filings/sec-filings/default.aspx",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "2025年通期売上高 約2億200万ドル(前年比横ばい)。カメラ販売台数(sell-through)は約62.5万台で前年比19%減。営業費用は前年比9,300万ドル(26%)削減。サブスクリプション・サービス売上は1億600万ドル。2026年第2四半期売上高は1億500万ドル(前年同期比31%減)",
+          "source": "GoPro IR 2025年第4四半期・通期決算リリース / 2026年第2四半期決算リリース",
+          "source_url": "https://investor.gopro.com/press-releases/press-release-details/2026/GoPro-Announces-Fourth-Quarter-and-2025-Results/default.aspx",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "アクションカメラ(HEROシリーズ)および360度カメラ(MAX / MAX2)の開発・販売、ライフスタイルカメラ(LIT HERO)、ジンバル(Fluid Pro AI)、マウント等アクセサリー、クラウド保存とカメラ交換補償を含むGoProサブスクリプション",
+          "source": "GoPro 公式カメラ一覧 / GoPro IR 新製品3種発表リリース",
+          "source_url": "https://gopro.com/ja/jp/shop/cameras",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "GoPro合同会社(gBizINFOに法人登記あり)。ただし日本法人が日本国内の販売主体・特定商取引法上の販売業者にあたるかは本調査では確認できず【要確認】",
+          "source": "gBizINFO GoPro合同会社",
+          "source_url": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2011003006213",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "2011003006213(GoPro合同会社)",
+          "source": "gBizINFO GoPro合同会社",
+          "source_url": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2011003006213",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "未確認 — 国税庁法人番号公表サイトおよびgBizINFOの登記情報で確認できる",
+          "source": "未確認(gBizINFO)",
+          "source_url": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2011003006213",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "東京都渋谷区神宮前1丁目5番8号 神宮前タワービルディング13階【要確認 — 法人番号は公的DBで確認できたが、住所本文を出典可能ドメインのページ上で直接確認できていない】",
+          "source": "gBizINFO GoPro合同会社(要確認)",
+          "source_url": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2011003006213",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "日本参入年",
+          "value": "未確認 — GoProの日本市場向け販売開始時期を示す一次情報を確認できず",
+          "source": "一次情報での確認待ち",
+          "source_url": "https://gopro.com/ja/jp/legal/about-us",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "直営店",
+          "value": "未確認 — 日本国内のGoPro直営店の有無は確認できず。公式の店舗検索ページで取扱店を確認できる",
+          "source": "未確認(GoPro 公式 店舗検索)",
+          "source_url": "https://gopro.com/ja/jp/store-locator",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア(gopro.com/ja/jp)に加え、2024年6月28日にソフトバンクグループの流通商社SB C&Sと日本における販売パートナーシップを締結。ヨドバシカメラ・ヤマダデンキなど全国の家電量販店での取扱いを強化し、ソフトバンクショップでも直販。かつてはタジマモーターコーポレーションが日本の正規輸入販売代理店を務めた",
+          "source": "SB C&S プレスリリース(PR TIMES) / デジカメ Watch",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000749.000022656.html",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "https://gopro.com/ja/jp/(日本語)。サポートは GoPro Support Hub 日本語版(community.gopro.com)に日本語記事・Q&Aあり。なお日本語のサポート専用ドメイン gopro.co.jp の運営主体は本調査では確認できず【要確認】",
+          "source": "GoPro 公式(日本語) / GoPro Support Hub 日本語",
+          "source_url": "https://community.gopro.com/?profile.language=ja",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "未確認 — GoProのHERO/MAXシリーズはWi-Fi・Bluetoothを内蔵するため、日本国内で使用するには電波法上の技術基準適合証明等(技適マーク)が必要。個別機種の技適番号は総務省「技術基準適合証明等を受けた機器の検索」で確認できるが、本調査ではGoPro各機種の取得状況を特定できていない【要確認】",
+          "source": "総務省 電波利用ポータル 技術基準適合証明等を受けた機器の検索",
+          "source_url": "https://www.tele.soumu.go.jp/j/giteki/navi/index.htm",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "未確認 — 付属のACアダプター・充電器等が電気用品安全法の対象となるかおよびPSE表示の有無は確認できず。製品本体の表示または販売店の商品仕様で確認が必要",
+          "source": "一次情報での確認待ち",
+          "source_url": "https://gopro.com/ja/jp/legal/about-us",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 日本国内でのGoPro製品のリコール・自主回収履歴は確認できず。消費者庁リコール情報サイトおよびNITE(製品評価技術基盤機構)の事故情報データベースで確認できる",
+          "source": "一次情報での確認待ち",
+          "source_url": "https://gopro.com/ja/jp/legal/about-us",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "電波法(技適マーク。マークのない無線設備をそのまま使用すると電波法違反となる)、電気用品安全法、通信販売における特定商取引法が関係する。GoProの日本語サイト上の「特定商取引法に基づく表記」ページは本調査の検索では確認できなかった【要確認】",
+          "source": "総務省 電波利用ポータル 技適マークのQ&A",
+          "source_url": "https://www.tele.soumu.go.jp/j/adm/monitoring/summary/qa/giteki_mark/",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 日本の消費者庁・総務省・公正取引委員会等からGoProに対する行政指導・措置命令等が行われた記録は確認できず",
+          "source": "一次情報での確認待ち",
+          "source_url": "https://gopro.com/ja/jp/legal/about-us",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "データの保存先・越境移転",
+          "value": "GoProサブスクリプション(Premium / Premium+)にはGoProで撮影したコンテンツの無制限クラウド保存と自動アップロードが含まれ、Quikアプリからクラウドへ手動・自動でアップロードする。個人データの取扱いはGoProプライバシーポリシー(英語)に定められるが、具体的な保存国・サーバー所在地および日本からの越境移転の条件は本調査では本文を確認できていない【要確認】",
+          "source": "GoPro サブスクリプション / GoPro プライバシーポリシー",
+          "source_url": "https://gopro.com/en/us/legal/privacy-policy",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "未確認 — GoPro Support の「Warranty Information(保証に関する情報)」に規定されるが、日本向けの限定保証年数を本文で確認できていない【要確認】。なお公式ストア購入品には30日間の返品・返金保証(Money-Back Guarantee)がある",
+          "source": "GoPro Support 保証に関する情報 / Money-Back Guarantee",
+          "source_url": "https://community.gopro.com/s/article/Warranty-Information?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "GoProサブスクリプション(Premium / Premium+)に「理由を問わないカメラ交換補償」が付帯。FusionおよびHERO5以降のGoProカメラが対象で、購入から2年以上経過したカメラでも利用可能。交換はサブスクリプション年度あたり同一モデル最大2台まで、年度末に翌年度分として2台分のクレジットが付与される。破損したカメラはGoProが発行する返送ラベルで返送が必要",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問(GoPro Support 日本語)",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "修理体制",
+          "value": "カメラ交換の申請はGoProカスタマーサポート(gopro.com/help/ContactUs)経由で行い、GoProが提供する返送ラベルで破損カメラを返送する運用。日本国内に修理拠点や部品交換を行う正規サービスセンターがあるかは本調査では確認できず【要確認】",
+          "source": "GoPro サブスクリプションのカメラの交換補償に関するよくある質問(GoPro Support 日本語)",
+          "source_url": "https://community.gopro.com/s/article/GoPro-Subscription-Camera-Replacement-FAQ?language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "GoPro Support Hub に日本語版があり、日本語のサポート記事とユーザーQ&Aが提供されている(community.gopro.com、言語設定 ja)。日本国内の電話番号やチャット窓口の有無・番号は本調査では確認できず【要確認】",
+          "source": "GoPro Support Hub 日本語",
+          "source_url": "https://community.gopro.com/?profile.language=ja",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "未確認 — 日本語サポートの受付曜日・時間帯は確認できず。GoProの問い合わせページで確認が必要",
+          "source": "未確認(GoPro Connect / お問い合わせ)",
+          "source_url": "https://gopro.com/en/us/connect",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "公式オンラインストアでバッテリー、マウント、レンズモジュラー等を販売。HERO13 Black向けにはUltra Wide Lens Mod 16,800円、Macro Lens Mod 21,800円、NDフィルター4枚パック 12,100円が用意される(いずれも発表時の公式価格)",
+          "source": "GoPro 公式ニュース HERO13 Black / HERO 発表",
+          "source_url": "https://gopro.com/ja/jp/news/gopro-announces-hero13-black-and-tiny-hero-camera",
+          "checked": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "アクションカメラ(HEROシリーズ)、360度カメラ(MAX / MAX2)、小型ライフスタイルカメラ(LIT HERO)、ジンバル(Fluid Pro AI)、マウント・レンズモジュラー等のアクセサリー、クラウド保存とカメラ交換を含むサブスクリプション",
+          "source": "GoPro 公式カメラ一覧 / GoPro IR 新製品3種発表",
+          "source_url": "https://gopro.com/ja/jp/shop/cameras",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "小型モデルのHEROが34,800円、主力のHERO13 Blackが68,800円(いずれも発表時の日本公式価格)。360度カメラMAX2は直販サイトで79,800円から、LIT HEROは46,800円から。おおむね3万円台から8万円前後が中心で、アクセサリー同梱のCreator Editionは10万円前後まで",
+          "source": "GoPro 公式ニュース HERO13 Black / HERO 発表、AV Watch(MAX2・LIT HERO)",
+          "source_url": "https://gopro.com/ja/jp/news/gopro-announces-hero13-black-and-tiny-hero-camera",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "HERO13 Black(HBシリーズレンズ搭載の主力機)、HERO13 Black Creator Edition、HERO(小型4Kモデル)、HERO12 Black、MAX2(True 8K 360度、レンズ交換可能)、MAX(従来の360度カメラ)、LIT HERO(ライト内蔵の小型4Kカメラ、約93g)、Fluid Pro AI(AI被写体追跡ジンバル)",
+          "source": "GoPro カメラ比較 / GoPro MAX2 製品ページ / AV Watch",
+          "source_url": "https://gopro.com/ja/jp/compare",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "DJI、Insta360、Sony、Ricoh THETA(360度カメラ分野)【要確認 — 競合を名指しした一次情報は本調査では確認できず、市場カテゴリからの整理】",
+          "source": "AV Watch GoPro MAX2 / LIT HERO 発表記事(要確認)",
+          "source_url": "https://av.watch.impress.co.jp/docs/news/2049312.html",
+          "checked": "2026-08-28"
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-05-11",
+      "title": "取締役会が会社売却を含む戦略的選択肢の検討プロセスを承認",
+      "body": "GoProは2026年5月11日に2026年第1四半期決算(売上高9,900万ドル)を発表するとともに、取締役会が戦略的選択肢を検討するプロセスに着手することを承認し、財務アドバイザーを起用したことを明らかにした。同年5月には、株主価値の最大化を目的として、会社の売却の可能性を含む戦略的選択肢を評価するプロセスが取締役会により承認されている。業績面では2026年第2四半期の売上高が1億500万ドル(前年同期比31%減)、カメラ販売台数が約29万1,000台(同38%減)と減少が続いている。",
+      "impact": "将来の資本構成や事業体制が変わる可能性があり、サブスクリプション交換補償など長期契約の継続性は今後の発表を確認する必要がある。",
+      "source": "GoPro IR 2026年第1四半期決算リリース",
+      "source_url": "https://investor.gopro.com/press-releases/press-release-details/2026/GoPro-Announces-First-Quarter-Results/"
+    },
+    {
+      "date": "2026-03-05",
+      "title": "GoPro、2025年第4四半期および通期決算を発表",
+      "body": "GoProは2026年3月5日、2025年12月31日に終了した第4四半期および通期の決算を発表した。2025年通期の売上高は約2億200万ドルで前年比横ばい。カメラの販売台数(sell-through)は約62万5,000台で前年比19%減となった。一方で営業費用を前年比9,300万ドル(26%)削減し、サブスクリプションおよびサービス売上は、加入率・継続率の改善とARPU向上により1億600万ドルを維持した。ハードウェア販売の縮小をサブスクリプション収益で補う構造が鮮明になった決算である。",
+      "impact": "カメラ本体の販売が縮小する一方でサブスクリプション依存が強まり、保証・交換サービスの継続性が利用者にとっての論点となる。",
+      "source": "GoPro IR 2025年第4四半期・通期決算リリース",
+      "source_url": "https://investor.gopro.com/press-releases/press-release-details/2026/GoPro-Announces-Fourth-Quarter-and-2025-Results/default.aspx"
+    },
+    {
+      "date": "2025-09-30",
+      "title": "MAX2 のプレオーダー出荷と世界の小売販売を開始",
+      "body": "2025年9月23日に発表された360度カメラ「MAX2」について、事前予約分の出荷と小売店での全世界販売が2025年9月30日に開始された。MAX2はTrue 8K解像度の360度撮影に対応し、ユーザーがレンズを交換できるTwist-and-Go構造を採用する点が特徴で、GoProは競合機に対して21%高い解像度としている。日本の直販価格は79,800円から。GoProの360度カメラは初代MAXから世代交代し、8K世代へ移行した。",
+      "impact": "360度カメラを検討する日本のユーザーにとって、MAXからMAX2への買い替え判断のタイミングとなった。",
+      "source": "GoPro IR 新製品3種発表プレスリリース",
+      "source_url": "https://investor.gopro.com/press-releases/press-release-details/2025/GoPro-Announces-Three-New-Products---MAX2-360-Camera-with-True-8K-Resolution-and-Twist-and-Go-Replaceable-Lenses-LIT-HERO-Miniature-4K-Lifestyle-Camera-with-Built-In-Light-for-Whatever-Whenever-Capture-and-Fluid-Pro-AI-Gimbal-for-Stabilizing-GoPros-P/default.aspx"
+    },
+    {
+      "date": "2025-09-23",
+      "title": "GoPro、MAX2・LIT HERO・Fluid Pro AI の新製品3種を発表",
+      "body": "GoProは2025年9月23日、新製品3種を発表した。次世代の360度カメラ「MAX2」は直販サイトで79,800円からで、GoProは市場唯一のTrue 8K 360度ビデオ撮影対応機であり競合より21%高い解像度を実現すると説明。ユーザーによるレンズ交換(Twist-and-Go方式)とLog記録に対応する。ライトを内蔵した小型ライフスタイルカメラ「LIT HERO」は46,800円からで、4K/最大60fpsの撮影と2倍スローモーションに対応し、重量は約93g。あわせてGoProカメラやスマートフォン、コンパクトカメラを装着できるAI被写体追跡ジンバル「Fluid Pro AI」も発表された。",
+      "impact": "360度カメラ分野での競争軸が解像度とレンズ交換性に移り、GoProの製品構成がカメラ以外の周辺機器にも広がった。",
+      "source": "AV Watch / GoPro IR プレスリリース",
+      "source_url": "https://av.watch.impress.co.jp/docs/news/2049312.html"
+    },
+    {
+      "date": "2024-06-28",
+      "title": "GoPro、SB C&Sと日本における販売パートナーシップを締結",
+      "body": "GoPro, Inc.は2024年6月28日、ソフトバンクグループの流通商社であるSB C&S株式会社と日本における販売パートナーシップを締結したと発表した。この提携によりSB C&Sは、ヨドバシカメラやヤマダデンキといった大手家電量販店をはじめとする全国の店舗でのGoPro製品の取り扱いを強化する。あわせてソフトバンクショップでの直販も行われる。GoProの日本市場における販売網は、それ以前はタジマモーターコーポレーションが正規輸入販売代理店として担ってきた経緯があり、この提携は日本国内の流通体制の転換点にあたる。",
+      "impact": "量販店店頭での入手性が高まり、購入証明を伴う正規ルートでの購入がしやすくなった。",
+      "source": "SB C&S プレスリリース(PR TIMES) / デジカメ Watch",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000749.000022656.html"
+    }
+  ]
+}

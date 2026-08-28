@@ -1,0 +1,1240 @@
+{
+  "slug": "sharkninja",
+  "name": "SharkNinja(シャークニンジャ)",
+  "name_en": "SharkNinja",
+  "country": "アメリカ",
+  "summary": "SharkNinjaは米国マサチューセッツ州発の家電メーカー。掃除機の「Shark」とキッチン家電の「Ninja」の2ブランドを展開し、ニューヨーク証券取引所上場。日本では2018年に本格参入し、コードレス掃除機や調理家電で急速にシェアを拡大している。",
+  "sample_notice": true,
+  "faq": [
+    {
+      "slug": "sharkninja-country",
+      "question": "掃除機のシャーク(Shark)はどこの国の会社ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14233417219",
+        "original": "シャーク(掃除機)は何処の国の会社ですか?"
+      },
+      "answer": "Sharkはアメリカの家電メーカー、SharkNinja, Inc.のブランドです。本社は米国マサチューセッツ州ニーダムにあり、2023年からニューヨーク証券取引所に上場しています。前身は1994年設立のEuro-Proで、清掃家電のSharkと調理家電のNinjaの2ブランドを展開しています。日本には2018年に本格参入し、日本語の公式サイトと国内のサポート・修理窓口があります。なお生産は海外の委託工場が中心とみられます【要確認】。",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "SharkNinja, Inc.",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "米国マサチューセッツ州ニーダム",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "ニューヨーク証券取引所に上場(2023年、ティッカー: SN)",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "2018年",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-foreign-brand-reliability",
+      "question": "Sharkはどこの国の製品で、外国製という点で信頼性はどう考えればよいですか?",
+      "source": {
+        "platform": "Quora日本版",
+        "url": "https://jp.quora.com/Shark%E3%81%A8%E3%81%84%E3%81%86%E6%8E%83%E9%99%A4%E6%A9%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%A7%E3%81%99%E3%81%8C-%E3%81%93%E3%81%AE%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AE",
+        "original": "「Shark」という掃除機についてですが、このメーカーはどこの国の製品でしょうか?外国製だと信頼性はどのようなものでしょうか?"
+      },
+      "answer": "Sharkは米国マサチューセッツ州に本社を置くSharkNinja社のブランドです。外国製だから信頼性が低いとは言えず、確認すべきはブランド層の事実です。日本で正規流通する掃除機は電気用品安全法の対象でPSEマークが表示され、Wi-Fi搭載機は技適の対象になります。同社は2023年にNYSE上場した企業で、日本には2018年参入、日本語窓口と国内修理体制、消耗品の公式販売があります。個別の耐久性は公開統計がないため保証と部品供給で判断してください。",
+      "facts": [
+        {
+          "label": "本社・上場",
+          "value": "米国マサチューセッツ州ニーダム。2023年NYSE上場(ティッカー: SN)",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "掃除機・調理家電は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi搭載機(ロボット掃除機等)は日本正規品で技適取得済み。型番ごとに要確認【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本でのサポート体制",
+          "value": "日本語窓口(電話・メール)あり、国内修理・交換対応あり",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-brand-name",
+      "question": "掃除機の「シャーク」と「シャークニンジャ」は同じ会社ですか?ニンジャは忍者が由来ですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12316708537",
+        "original": "掃除機のシャークとシャークニンジャって同じですか?ニンジャって忍者からきてるのですか?"
+      },
+      "answer": "同じ会社です。社名がSharkNinja, Inc.で、Sharkは掃除機などの清掃家電、Ninjaはブレンダーやエアフライヤーなどの調理家電に使うブランド名です。日本でもshark.co.jpとninja.co.jpの2サイトに分かれていますが、運営元は同一企業でサポートも同じ会社が担います。前身は1994年設立のEuro-Proで、後に2つの主力ブランド名を組み合わせた現社名になりました。Ninjaが日本の忍者に由来するかは公式の説明が未確認です【要確認】。",
+      "facts": [
+        {
+          "label": "社名とブランドの関係",
+          "value": "SharkNinja, Inc. が社名。Sharkは清掃家電、Ninjaは調理家電のブランド名",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "前身のEuro-Proが1994年設立",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "あり(shark.co.jp / ninja.co.jp の2サイト、運営元は同一)",
+          "source": "Ninja 公式サイト",
+          "source_url": "https://www.ninja.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "ブランド名「Ninja」の由来",
+          "value": "未確認 — 公式による由来の説明は確認できない【要確認】",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-value-vs-japanese-brands",
+      "question": "シャークの掃除機は何が特徴ですか?日本メーカーと同スペックで安いのですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13271508198",
+        "original": "シャークの掃除機って何がいいのでしょうか?他の日本メーカーと同スペックで安いのでしょうか?"
+      },
+      "answer": "本サイトは機種ごとの性能比較を行いませんが、ブランド層の特徴は価格帯と販売チャネルにあります。Sharkの掃除機は概ね2万〜7万円で、ダイソンの5万〜12万円より低い価格帯です。日本メーカーと同スペックで安いかは機種次第のため断定できません【要確認】。米国発の後発として2018年に日本参入し、量販店・通販が中心です。保証は製品により1〜2年【要確認】。実測比較はmy-best等の専門メディアを参照してください。",
+      "facts": [
+        {
+          "label": "主な価格帯",
+          "value": "掃除機で2万〜7万円、調理家電で1万〜5万円前後",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "製品により1〜2年間。公式ストア購入で延長される場合あり【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "Dyson、Panasonic、日立、アイリスオーヤマ等",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-vs-dyson",
+      "question": "ダイソンとシャークの掃除機ではどちらを選ぶべきですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11260149171",
+        "original": "ダイソンとシャークの掃除機だったらどっちがいいですか?"
+      },
+      "answer": "ブランド層の違いは3点です。(1)価格戦略:Dysonは英国発(現本社シンガポール)の高価格路線で5万〜12万円、SharkNinjaは米国発で2万〜7万円と概ね3〜5割安い。(2)日本での体制:Dysonは日本法人1998年設立で直営店と国内サービスセンターを持ち、Sharkは2018年参入の後発で量販店・通販中心。(3)保証:Dysonは2年が基本、Sharkは製品により1〜2年【要確認】。機種性能の比較はmy-best等の実測レビューを参照してください。",
+      "facts": [
+        {
+          "label": "価格帯",
+          "value": "Dyson: 5万〜12万円 / Shark: 2万〜7万円",
+          "source": "両社公式ストア",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での歴史",
+          "value": "Dyson日本法人1998年設立 / Shark 2018年参入",
+          "source": "両社公式サイト",
+          "source_url": "https://www.dyson.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証",
+          "value": "Dyson: 2年が基本 / Shark: 1〜2年(製品による)【要確認】",
+          "source": "両社サポートページ",
+          "source_url": "https://www.dyson.co.jp/support",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売・サービス体制",
+          "value": "Dysonは直営店と国内サービスセンターあり / Sharkは直営店なし、量販店・通販中心【要確認】",
+          "source": "両社公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-market-share",
+      "question": "外資系メーカーのSharkは、掃除機のシェアでダイソンを抜くことがありますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13299922133",
+        "original": "ダイソンに次ぐ外資系メーカーのShark。掃除機のシェアでダイソンを抜くことはあるのでしょうか"
+      },
+      "answer": "将来のシェアは断定できませんが、判断材料は整理できます。Sharkは米SharkNinja社のブランドで、日本参入は2018年とダイソン(日本法人1998年設立)より20年遅い後発です。一方でダイソンより3〜5割安い価格帯と、量販店・通販の広い販路で存在感を高めています。同社は2023年にNYSE上場しており成長率は決算資料で確認できます。ただし国内シェアの正確な数値は調査会社の有償データのため、本サイトでは数字を示しません【要確認】。",
+      "facts": [
+        {
+          "label": "日本参入",
+          "value": "Shark: 2018年 / Dyson: 日本法人1998年設立",
+          "source": "両社公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "価格帯",
+          "value": "Sharkはダイソンより概ね3〜5割安い",
+          "source": "両社公式ストア",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "ニューヨーク証券取引所に上場(2023年、ティッカー: SN)。業績は決算資料で確認可能",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "国内シェア数値",
+          "value": "未確認 — 国内シェアの正確な数字は調査会社の有償データ【要確認】",
+          "source": "GfK Japan等",
+          "source_url": "https://www.gfk.com/ja/home",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-official-store-warranty",
+      "question": "シャークの掃除機は公式サイトで買うと保証が長く、量販店だと安い場合、どちらを選ぶべきですか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12318568282",
+        "original": "シャークの掃除機を公式サイトから買うとメーカー保証が3年付きます。同じ掃除機をケーズデンキで4000円安く見つけました"
+      },
+      "answer": "分かれ目は価格差と保証年数のどちらを取るかです。SharkNinjaは購入チャネルにより保証期間が異なる場合があり、公式ストア購入時に標準保証を延長する運用が案内されることがあります【要確認】。量販店では製品により1〜2年の標準保証が基本で、差は量販店独自の延長保証で埋められることもあります。確認手順は、公式サイトで延長の条件(購入者登録の要否等)を読み、量販店で標準年数と延長料金・免責を聞き、差額と比較することです。",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "製品により1〜2年間のメーカー保証。公式ストア購入で延長される場合あり【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "公式ストア購入時の延長あり。対象製品・年数・購入者登録の要否は公式サイトで要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "量販店の独自延長保証",
+          "value": "未確認 — 量販店ごとの制度のため、料金・免責範囲は各店で要確認",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-repair-process",
+      "question": "シャークの掃除機を修理に出すとどのような流れになりますか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14249189499",
+        "original": "shark掃除機の修理に出された方、いらっしゃいますか"
+      },
+      "answer": "個々の体験談は扱いませんが、制度面の事実は確認できます。SharkNinjaは日本国内に修理・交換の窓口を持ち、日本語サポート(電話・メール)を提供しています。運用としては部品単位の修理ではなく、本体交換や代替品送付という形で処理される場合があります【要確認】。流れや送料負担、保証期間内外の費用は公式サポートで要確認です【要確認】。連絡時は型番・購入日・購入店と症状を整理し、購入証明を保管してください。",
+      "facts": [
+        {
+          "label": "修理体制",
+          "value": "国内修理・交換対応あり",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "あり(電話・メール)。受付時間は公式サポートページで要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理費用・送料負担",
+          "value": "未確認 — 保証期間内外の扱いを含め公式サポートで要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証期間",
+          "value": "製品により1〜2年間【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-noise-durability",
+      "question": "購入から3年のシャークの掃除機で音や振動が大きくなりました。壊れやすいのでしょうか?",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10323999415",
+        "original": "シャークの掃除機、購入してから3年程です。音が大きく振動もします"
+      },
+      "answer": "公式オンラインストアで購入し製品登録をすると、メーカー保証2年に1年が延長されて合計3年になります。ただし重要な例外があり、リチウムイオンバッテリーとアクセサリーパックは延長の対象外です。掃除機のバッテリーは消耗部品であると同時に故障しやすい部位でもあるため、「3年保証」を理由に公式ストアを選ぶ場合は、この除外を理解した上で判断してください。量販店で安く買う場合の保証はメーカー保証2年です。差額と延長1年、そしてバッテリーが対象外である点を天秤にかけるのが実態に合った選び方です。",
+      "facts": [
+        {
+          "label": "メーカー保証",
+          "value": "2年",
+          "source": "Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公式ストア購入時",
+          "value": "製品登録により合計3年(2年+1年延長)",
+          "source": "Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証の対象外",
+          "value": "リチウムイオンバッテリー、アクセサリーパック",
+          "source": "Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-filter-availability",
+      "question": "シャークの掃除機の交換フィルターはどこで買えますか?量販店では見かけません",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11273599821",
+        "original": "シャークの掃除機のフィルター、家電量販店では見かけません"
+      },
+      "answer": "純正の交換用フィルターやブラシは、Sharkの公式オンラインストアで販売されています。量販店の店頭では国内メーカーほど消耗品の在庫が置かれていない場合がありますが、これは日本参入が2018年と後発で、販路が公式EC・量販店・通販中心という事情によるものです【要確認】。公式ストアのほかAmazonや楽天の公式出店で型番対応品を探すのが確実です。互換品使用に起因する不具合は保証対象外となる場合があります【要確認】。",
+      "facts": [
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "フィルター・ブラシ等は公式ストアで購入可",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "公式オンラインストア、家電量販店、Amazon、楽天市場、テレビ通販",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "量販店店頭での消耗品在庫",
+          "value": "未確認 — 店舗ごとの取り扱いのため各店で要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "互換品と保証の関係",
+          "value": "純正以外の消耗品使用に起因する不具合は保証対象外となる場合あり【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-topic-8787",
+      "question": "シャークの新フラッグシップ「Shark PowerClean 360 PRO」は従来モデルから何が変わりましたか？",
+      "topical": true,
+      "answer": "シャークニンジャは2026年5月21日、スティック掃除機の最上位モデル「Shark PowerClean 360 PRO」を6月4日から発売すると発表した。従来製品より吸引力を20%高め、押し引きの動作に合わせて吸い込み口のカバーが開閉することで、手前に引いたときにゴミがスムーズに取り込める構造としている。価格は99,000円(税込)と報じられている。実機の使用感については家電系メディアのレビュー記事が出ているが、耐久性に関する長期評価は未確認。",
+      "sources": [
+        {
+          "name": "日本経済新聞「シャークニンジャ、スティック掃除機の最上位モデル発売」",
+          "url": "https://www.nikkei.com/article/DGXZQOUC2137W0R20C26A5000000/",
+          "published": "不明"
+        },
+        {
+          "name": "ライフハッカー・ジャパン「コードレス掃除機、フラッグシップはどう凄い？シャーク新製品はパワー×ギミックで魅せる」",
+          "url": "https://www.lifehacker.jp/article/2605-lht-shark-powerclean-360-pro/",
+          "published": "不明"
+        },
+        {
+          "name": "家電 Watch [Sponsored]「前後左右どこからでもゴミを吸い込む! 進化を続けるシャークの最新コードレス掃除機」",
+          "url": "https://kaden.watch.impress.co.jp/docs/topic/special/2061664.html",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-topic-6036",
+      "question": "米国で報道されたNinja Foodi 圧力鍋のリコールは、日本で売っているNinja製品も対象ですか？",
+      "topical": true,
+      "answer": "SharkNinjaは、Ninjaブランドの「Foodi OP300シリーズ マルチ機能圧力鍋」について、使用中にフタが開いて高温の内容物が飛び出す恐れがあるとして、米国・カナダで200万台超の自主回収を行ったと報じられた。米国では106件のやけど被害報告があり、うち50件超が顔や身体の第2度・第3度のやけどだったとされる。対象型番はOP300、OP301、OP301A、OP302系、OP305、OP305CO、OP350COなどで、2019年初頭〜2025年春に販売された製品。対応は圧力調理機能の使用停止と無償の交換用フタの提供。日本で販売されているNinja製品が対象に含まれるかは、検索範囲では確認できず未確認(日本のNinjaは2025年11月に加熱調理家電カテゴリーへ参入した別ラインアップ)。",
+      "sources": [
+        {
+          "name": "TODAY「SharkNinja recalls 1.8 million pressure cookers after serious burns reported」",
+          "url": "https://www.today.com/food/recall/sharkninja-pressure-cooker-recall-rcna204402",
+          "published": "不明"
+        },
+        {
+          "name": "Good Morning America「Over 1.8 million Ninja Foodi pressure cookers voluntarily recalled due to potential burn hazard」",
+          "url": "https://www.goodmorningamerica.com/living/story/18-million-ninja-foodi-pressure-cookers-voluntarily-recalled-121357300",
+          "published": "不明"
+        },
+        {
+          "name": "Yahoo News「Over 2 million Ninja-branded pressure cookers are recalled after reports of serious burn injuries」",
+          "url": "https://www.yahoo.com/news/over-2-million-ninja-branded-154449034.html",
+          "published": "不明"
+        },
+        {
+          "name": "Fortune「sharkninja recall pressure cooker ninja safety hazard burn」",
+          "url": "https://fortune.com/article/sharkninja-recall-pressure-cooker-ninja-safety-hazard-burn",
+          "published": "不明"
+        },
+        {
+          "name": "MarketBeat「Over 2 Million Ninja-Branded Pressure Cookers Are Recalled...」",
+          "url": "https://www.marketbeat.com/articles/over-2-million-ninja-branded-pressure-cookers-are-recalled-after-reports-of-serious-burn-injuries-2025-05-01",
+          "published": "2025-05-01"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-topic-6206",
+      "question": "シャークが掃除機以外に出しているブロワー「Shark BlastBoss」はどんな製品ですか？いつ買えますか？",
+      "topical": true,
+      "answer": "シャークニンジャ日本法人は2026年7月9日、空気を噴き出して汚れを吹き飛ばすコードレス送風機「Shark BlastBoss コードレスブロワー」を発表した。2026年7月27日からクラウドファンディング(GREEN FUNDING)でプロジェクトが始まり、支援総額は3,500万円超と発表されている。本体重量は約660g、ブーストモード時の風速は最大85m/秒、カラーはチャコール、ブルー、グレージュ、グリーン、ピンクの5色。市場想定価格はチャコールが29,700円、その他カラーが27,500円。一般発売日は当初9月7日と報じられたが、後の情報では2026年9月25日とされており、最終日程は要確認。",
+      "sources": [
+        {
+          "name": "SharkNinja公式ニュース「屋外だけじゃない、使い道が広がるコードレスブロワー『Shark® BlastBoss コードレスブロワー』2026年7月27日(月)より、クラウドファンディングプロジェクト始動」",
+          "url": "https://www.sharkninja.jp/blogs/news/20260709-01",
+          "published": "2026-07-09"
+        },
+        {
+          "name": "SharkNinja公式ニュース「クラウドファンディングで支援総額 3,500万円超え どこでも一掃『Shark® BlastBoss コードレスブロワー』」",
+          "url": "https://www.sharkninja.jp/blogs/news/news260820-02",
+          "published": "不明"
+        },
+        {
+          "name": "家電 Watch「シャーク初のブロワー コードレスでも強力」",
+          "url": "https://kaden.watch.impress.co.jp/docs/news/2123911.html",
+          "published": "不明"
+        },
+        {
+          "name": "日本経済新聞「シャークニンジャ、ゴミ吹き飛ばすコードレス送風機 室内にも」",
+          "url": "https://www.nikkei.com/article/DGXZQOUC099T60Z00C26A7000000/",
+          "published": "不明"
+        },
+        {
+          "name": "PR TIMES シャークニンジャ合同会社(ブロワー クラウドファンディング)",
+          "url": "https://prtimes.jp/main/html/rd/p/000000059.000041047.html",
+          "published": "不明"
+        },
+        {
+          "name": "ASCII.jp「屋外だけじゃない、使い道が広がるコードレスブロワー『Shark BlastBoss コードレスブロワー』」",
+          "url": "https://ascii.jp/elem/000/004/417/4417886/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-topic-1342",
+      "question": "Ninja(ニンジャ)の調理家電が日本でも増えていますが、どんな製品が出ていますか？",
+      "topical": true,
+      "answer": "シャークニンジャは小型キッチン家電ブランド「Ninja」で加熱調理家電市場に参入し、「Ninja Crispi テーブルクッカー」「Ninja エブリデーポッシブルクッカー」「Ninja ミニエアフライヤー」の3製品を2025年11月21日から量販店・公式オンラインストア等で販売開始した。さらに、食材を入れてボタンを押すだけで刻む・加熱・かくはんを自動で行うオートスープメーカー「Ninja Soupi(スーピー) QH201J」を発表し、9月25日発売とされている(発売年は報道上2026年と読み取れるが、明記の確認は未確認)。価格の詳細は未確認。",
+      "sources": [
+        {
+          "name": "マイナビニュース「シャークニンジャが加熱調理家電に参入、テーブルクッカーやエアフライヤーなど3製品」",
+          "url": "https://news.mynavi.jp/article/20251106-3633480/",
+          "published": "2025-11-06"
+        },
+        {
+          "name": "PR TIMES シャークニンジャ合同会社「アメリカNo.1小型キッチン家電ブランド『Ninja®』加熱調理家電市場へ参入」",
+          "url": "https://prtimes.jp/main/html/rd/p/000000046.000041047.html",
+          "published": "不明"
+        },
+        {
+          "name": "ASCII.jp「アメリカNo.1小型キッチン家電ブランド『Ninja』加熱調理家電市場へ参入 革新的な3製品が登場」",
+          "url": "https://ascii.jp/elem/000/004/349/4349699/",
+          "published": "不明"
+        },
+        {
+          "name": "価格.com「Ninja、自動で刻む・加熱・かくはんを行うオートスープメーカー『Ninja Soupi』」",
+          "url": "https://news.kakaku.com/prdnews/cd=kaden/ctcd=2113/id=158353/",
+          "published": "不明"
+        },
+        {
+          "name": "macaroni「シャークニンジャから革新的な3製品が新発売！発表会レポート」",
+          "url": "https://macaro-ni.jp/173165",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-topic-8758",
+      "question": "シャークニンジャは業績好調と聞きますが、日本での値上げや製品供給に影響はありますか？",
+      "topical": true,
+      "answer": "SharkNinja(NYSE: SN)は2026年8月5日にQ2 2026決算を発表し、純売上高は前年同期比22.2%増の17.7億ドル、13四半期連続の二桁成長と報じられた。海外売上は36.6%増、米国内は15.5%増で、通期2026年ガイダンスは純売上成長率16〜17%へ上方修正された(従来11.5〜12.5%)。一方で関税はQ1 2026に「相当な逆風」となり粗利益率を押し下げたとされ、同社は中国と他国のデュアルソーシング(主力商品はすべて2工場以上で生産)や東南アジアへの生産移管、価格改定・製品仕様変更・仕入先交渉で吸収する方針を示している。通期見通しは中国・ベトナム・インドネシア・タイ・マレーシア・カンボジアの基本関税が10%で推移する前提。日本国内での具体的な値上げ実施の有無は未確認。",
+      "sources": [
+        {
+          "name": "Business Wire「SharkNinja Reports Second Quarter 2026 Results」",
+          "url": "https://www.businesswire.com/news/home/20260805010148/en/SharkNinja-Reports-Second-Quarter-2026-Results",
+          "published": "2026-08-05"
+        },
+        {
+          "name": "Investing.com「SharkNinja Q2 2026 slides: sales surge lifts outlook amid margin pressure」",
+          "url": "https://www.investing.com/news/company-news/sharkninja-q2-2026-slides-sales-surge-lifts-outlook-amid-margin-pressure-93CH-4838111",
+          "published": "不明"
+        },
+        {
+          "name": "StockTitan「SharkNinja Q2 2026 revenue up 22.2% on growth | SN Quarterly Report (10-Q)」",
+          "url": "https://www.stocktitan.net/sec-filings/SN/10-q-shark-ninja-inc-quarterly-earnings-report-5a984c3186ec.html",
+          "published": "不明"
+        },
+        {
+          "name": "Supply Chain Dive「SharkNinja leverages production flexibility to mitigate tariffs」",
+          "url": "https://www.supplychaindive.com/news/sharkninja-leverages-production-flexibility-to-mitigate-tariffs/821264/",
+          "published": "不明"
+        },
+        {
+          "name": "IndexBox「SharkNinja Adjusts Production Between China and Other Regions as Tariffs Level Out」",
+          "url": "https://www.indexbox.io/blog/sharkninjas-dual-sourcing-strategy-mitigates-tariff-impact-amid-china-trade-shifts/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-topic-5945",
+      "question": "シャークの掃除機の保証は何年ですか？公式ストアで買うと長くなるって本当？",
+      "topical": true,
+      "answer": "シャークの掃除機には購入日から2年間のメーカー保証が付き、期間内の通常使用による自然故障は原則無償修理または同等品交換の対象と案内されている。SharkNinja公式オンラインストアまたはSharkNinja公式楽天市場店で購入した場合、メーカー保証期間がプラス1年延長されるとされる。モデルや購入時期、キャンペーン・製品登録によって条件が異なるため、購入後の製品登録が推奨されている。5年保証に相当する制度は検索範囲では確認できず未確認。修理料金の相場については第三者サイトの記述しか見つからず、公式の料金表は未確認。",
+      "sources": [
+        {
+          "name": "Shark(シャーク)公式「サポート」",
+          "url": "https://www.sharkninja.jp/pages/support/",
+          "published": "不明"
+        },
+        {
+          "name": "SharkNinja公式楽天市場店「製品保証」",
+          "url": "https://www.rakuten.ne.jp/gold/shark/support/",
+          "published": "不明"
+        },
+        {
+          "name": "Power Tool Lab「シャーク掃除機の修理料金相場は？部位別目安と買い替え基準」",
+          "url": "https://www.powertool-lab.com/shark-vacuum-repair-cost/",
+          "published": "不明"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-ninja-appliance-support",
+      "question": "Ninja Blastはミキサーですか、ジューサーですか。故障したときの窓口はSharkと同じですか。",
+      "source": {
+        "platform": "価格.comクチコミ掲示板",
+        "url": "https://bbs.kakaku.com/bbs/K0001604588/SortID=25857597/",
+        "original": "『ジューサー?』 NINJA Blast BC151JPR [パッションフルーツ] のクチコミ掲示板"
+      },
+      "answer": "Ninja BlastはSharkNinjaのコードレスミキサー(ブレンダー)として販売されている製品で、果汁だけを搾り分けるジューサーとは別カテゴリの家電です。SharkとNinjaは同じSharkNinja, Inc.のブランドで、日本でも同一法人が扱っており、サポート窓口は0120-522-552(9:00〜17:30、フォームは24時間受付)が共通です。保証はメーカー保証2年で、公式オンラインストア購入＋製品登録により1年延長されますが、アクセサリーパックは対象外です。",
+      "facts": [
+        {
+          "label": "ブランドと社名の関係",
+          "value": "SharkNinja, Inc. が社名。Sharkは清掃家電、Ninjaは調理家電のブランド名",
+          "source": "SharkNinja 公式サイト",
+          "source_url": "https://sharkninja.com/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本のサポート窓口",
+          "value": "電話 0120-522-552、受付9:00〜17:30。お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証",
+          "value": "メーカー保証2年。公式オンラインストア購入＋製品登録で合計3年(アクセサリーパック等は対象外)",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "調理家電への法規制",
+          "value": "調理家電は電気用品安全法(PSE)の対象であり、食品衛生法に基づく材質基準も適用される",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-product-registration-required",
+      "question": "Sharkのメーカー保証を受けるには、必ず製品登録が必要なのですか。登録しないとどうなりますか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13295778468",
+        "original": "SHARK掃除機のメーカー保証について質問です。SHARKのメーカー保証にはシリアル番号等を入力して製品登録をするという記事を見た..."
+      },
+      "answer": "整理すると2段構えです。メーカー保証2年は購入した時点で付きます。これに加えてSharkNinja公式オンラインストア(または公式楽天市場店)で購入した場合、商品到着後の製品登録でメーカー保証がプラス1年延長され合計3年になります。つまり登録が必須なのは延長分の1年で、忘れると延長が適用されない可能性があります。ただしリチウムイオンバッテリーとアクセサリーパックは延長の対象外です。登録の可否や期限は窓口(0120-522-552)で確認し、購入証明は必ず保管してください。",
+      "facts": [
+        {
+          "label": "メーカー保証",
+          "value": "2年。公式オンラインストアで購入し製品登録すると合計3年(メーカー保証2年＋公式オンラインストア保証1年)",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証の適用条件",
+          "value": "SharkNinja公式オンラインストアでの購入が前提で、適用には商品到着後の製品登録が必須",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証の対象外",
+          "value": "リチウムイオンバッテリー、アクセサリーパックには延長は適用されない",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "問い合わせ窓口",
+          "value": "電話 0120-522-552(受付9:00〜17:30)、お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-retailer-purchase-registration",
+      "question": "家電量販店で買ったShark製品も製品登録できますか。紙の保証書が入っていないのですが大丈夫ですか。",
+      "source": {
+        "platform": "価格.comクチコミ掲示板",
+        "url": "https://bbs.kakaku.com/bbs/J0000041633/SortID=25885728/",
+        "original": "『製品保証と製品登録の方式が独特です』 Shark Clean Sense iQ+ IW3241J のクチコミ掲示板"
+      },
+      "answer": "量販店で買った製品にもメーカー保証2年は付きますが、保証を1年延長する制度は公式オンラインストア(および公式楽天市場店)での購入が前提とされており、量販店購入分の登録が延長に結びつくとは限りません【要確認】。紙の保証書が同梱されない場合、購入日を示すレシートや納品書が保証適用の根拠になるので必ず保管してください。登録の反映状況や量販店購入分の扱いは窓口(0120-522-552)で確認するのが確実です。量販店独自の長期保証は料金と免責範囲を店頭で比較してください。",
+      "facts": [
+        {
+          "label": "メーカー保証",
+          "value": "2年。購入チャネルを問わずメーカー保証が付く(製品ごとに異なるため取扱説明書で要確認)",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長1年の前提条件",
+          "value": "SharkNinja公式オンラインストアでの購入＋製品登録。量販店購入分への適用可否は未確認【要確認】",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公式楽天市場店の扱い",
+          "value": "SharkNinja公式楽天市場店での購入もメーカー保証期間プラス1年延長の対象とされる",
+          "source": "SharkNinja公式楽天市場店 製品保証",
+          "source_url": "https://www.rakuten.ne.jp/gold/shark/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "量販店の独自延長保証",
+          "value": "未確認 — 量販店ごとの制度のため、料金・免責範囲は各店で要確認",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-battery-warranty-exclusion",
+      "question": "購入から1年も経たずにバッテリーの持ちが極端に短くなりました。保証で交換してもらえますか。",
+      "source": {
+        "platform": "価格.comクチコミ掲示板",
+        "url": "https://bbs.kakaku.com/bbs/K0001232425/SortID=24895333/",
+        "original": "『8ヶ月使用でバッテリーの持ちが5秒に』 Shark EVOPOWER W25 のクチコミ掲示板"
+      },
+      "answer": "まず窓口に相談すべき事案です。ただし前提として、SharkNinjaはリチウムイオンバッテリーとアクセサリーパックを保証・延長保証の対象外としており、経年による稼働時間の低下は保証で交換される想定ではありません。一方、購入後わずかな期間で使用時間が極端に落ちる症状は経年劣化とは言えず、初期不良として扱われるかはメーカーの判断になります【要確認】。0120-522-552(9:00〜17:30)に購入日・型番・症状・購入店を伝えてください。交換用バッテリーは公式ストアで単品購入できます。",
+      "facts": [
+        {
+          "label": "バッテリーの保証上の扱い",
+          "value": "リチウムイオンバッテリー・アクセサリーパックは保証対象外(延長保証も適用されない)",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "初期不良時の判断",
+          "value": "未確認 — 短期間での性能低下を初期不良として扱うかはメーカー判断のため窓口で要確認【要確認】",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換用バッテリーの入手",
+          "value": "公式オンラインストアのアクセサリー／付属品／消耗品カテゴリでEVOPOWER SYSTEM用バッテリー・充電器等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "非純正バッテリーの安全性",
+          "value": "NITEはリチウムイオン電池搭載製品の火災事故防止に関し、非純正バッテリーのリスク理解を呼びかけている",
+          "source": "NITE 注意喚起",
+          "source_url": "https://www.nite.go.jp/jiko/chuikanki/press/2025fy/prs250626.html",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-auto-empty-dock-choice",
+      "question": "Sharkの掃除機で自動ゴミ収集ドック付きにするか迷っています。維持費や手入れはどうなりますか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10320061805",
+        "original": "シャークの掃除機で、自動収集ドックありとなしで悩んでいます。カラーの好..."
+      },
+      "answer": "維持費はドックの集塵方式で結論が変わります。フィルター式なら紙パックの買い足しは不要ですが、代わりにドック側のフィルターやスポンジの清掃・乾燥という手入れが増えます。機種により方式が異なるため、検討中の型番について公式製品ページで集塵方式と消耗品の有無を確認してください【要確認】。消耗品が必要な機種でも、フィルターやブラシ類は公式オンラインストアで単品購入できます。リチウムイオンバッテリーとアクセサリーパックは保証対象外なので、維持費と併せて見積もってください。",
+      "facts": [
+        {
+          "label": "ドックの集塵方式と消耗品",
+          "value": "未確認 — 機種により方式が異なるため、型番ごとに公式製品ページで要確認【要確認】",
+          "source": "全製品｜Shark公式オンラインストア",
+          "source_url": "https://direct.shark.co.jp/collections/all",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品の入手性",
+          "value": "公式オンラインストアにアクセサリー／付属品／消耗品カテゴリがあり、フィルター・フィルター容器・サイドブラシ等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証対象外の部品",
+          "value": "リチウムイオンバッテリー、アクセサリーパック",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談窓口",
+          "value": "電話 0120-522-552(9:00〜17:30)、お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-filter-drying-abnormal-noise",
+      "question": "フィルターとダストカップを水洗いして乾かした後、電源を入れるといつもと違う音がします。どうすればよいですか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13311800473",
+        "original": "シャークの掃除機のフィルターとダストカップを水洗いして丸1日乾かしていました。取り付けて電源を入れるといつもと違う音がして途中..."
+      },
+      "answer": "まず使用を止め、装着状態と乾燥状態を確認してください。水分が残ったまま組み付けると異音や目詰まりの原因になり、部品の装着位置がずれている場合も異音が出ます。乾燥時間や洗浄方法は機種ごとに取扱説明書で指定されているため、その指示に従ってください【要確認】。再装着しても異音が続く場合は、無理に運転せず窓口(0120-522-552、9:00〜17:30、フォームは24時間受付)に型番・購入日・症状を伝えてください。修理は電話相談→自宅への回収→修理→自宅へお届けという流れです。",
+      "facts": [
+        {
+          "label": "修理の流れ",
+          "value": "サービスセンターでの修理対応。電話相談→自宅への回収→修理→自宅へお届け",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "電話 0120-522-552、受付9:00〜17:30(年末年始・大型連休等を除く)。お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "洗浄・乾燥の指示",
+          "value": "未確認 — 機種ごとに取扱説明書の指示が異なるため製品別に要確認【要確認】",
+          "source": "Shark 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換用フィルターの入手",
+          "value": "公式オンラインストアのアクセサリーカテゴリでEVOPOWER EX用フィルター・フィルター容器等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-head-disassembly-diy",
+      "question": "Sharkのヘッドに毛が絡んでいますが分解できません。自分で分解して掃除してもよいですか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11311102001",
+        "original": "シャークスティッククリーナーの分解掃除。シャークのスティッククリーナのJ19R2623A9Z5のヘッド部分が分解できず困っ..."
+      },
+      "answer": "取扱説明書に記載のある範囲の着脱・清掃にとどめるのが基本です。手順のない部分を工具でこじ開けると破損しやすく、それに起因する故障は保証の対象外と判断されうるため【要確認】、無理な分解は避けてください。取り切れない絡まりやブラシロールが回らない状態が続く場合は、窓口(0120-522-552、9:00〜17:30)に型番と症状を伝えて相談してください。修理は電話相談→自宅への回収→修理→自宅へお届けという流れで、交換できる部品は公式ストアで単品購入できます。",
+      "facts": [
+        {
+          "label": "自己分解と保証の関係",
+          "value": "未確認 — 取扱説明書に記載のない分解に起因する破損の扱いは窓口で要確認【要確認】",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理の流れ",
+          "value": "電話相談→自宅への回収→サービスセンターで修理→自宅へお届け",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "交換部品の入手性",
+          "value": "公式オンラインストアのアクセサリー／付属品／消耗品カテゴリでサイドブラシ・フィルター・専用パッド等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "相談窓口",
+          "value": "電話 0120-522-552(9:00〜17:30)、お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "slug": "sharkninja-two-year-mark-failure",
+      "question": "購入から2年が経過したShark掃除機の調子が悪くなりました。保証はもう使えませんか。",
+      "source": {
+        "platform": "Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14324037719",
+        "original": "掃除機のシャークについて教えてください。購入して、２年が経過しました。動作させ..."
+      },
+      "answer": "購入場所で変わります。メーカー保証は2年なので、量販店などで購入した場合は2年経過時点で保証は切れています。ただしSharkNinja公式オンラインストアまたは公式楽天市場店で購入し、到着後に製品登録をしていれば1年延長され合計3年となり、まだ期間内の可能性があります。その場合もリチウムイオンバッテリーとアクセサリーパックは対象外です。保証外の修理費用は本サイトでは断定できず、公式窓口(0120-522-552)への問い合わせが必要です【要確認】。",
+      "facts": [
+        {
+          "label": "メーカー保証",
+          "value": "2年。公式オンラインストア購入＋製品登録で合計3年",
+          "source": "Shark公式オンラインストア 製品ページ(保証について)",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証の対象外",
+          "value": "リチウムイオンバッテリー、アクセサリーパック",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "保証外の修理費用",
+          "value": "未確認 — 公式の料金表は確認できず、窓口への問い合わせが必要【要確認】",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "サービスセンターでの修理対応。電話相談→自宅への回収→修理→自宅へお届け",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "企業プロフィール",
+      "facts": [
+        {
+          "label": "正式社名",
+          "value": "SharkNinja, Inc.",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "本社所在地",
+          "value": "米国マサチューセッツ州ニーダム市 89 A Street（ボストン郊外）",
+          "source": "SharkNinja Investor FAQs",
+          "source_url": "https://ir.sharkninja.com/resources/investor-faqs/default.aspx",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業年",
+          "value": "1995年",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "創業者",
+          "value": "Mark Rosensweig（マーク ローゼンズウィーグ）",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "上場状況",
+          "value": "ニューヨーク証券取引所（NYSE）上場、ティッカー「SN」。2023年7月31日に取引開始",
+          "source": "SharkNinja Stock Info",
+          "source_url": "https://ir.sharkninja.com/stock-info/default.aspx",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "従業員数",
+          "value": "世界38オフィスとボストン郊外のグローバル本社に4,000人以上",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "年間売上規模",
+          "value": "未確認 — 年次報告書で要取得",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な事業領域",
+          "value": "家庭用フロアケア（掃除機）およびキッチン家電の開発・提供。米国でSharkは掃除機シェアNo.1、Ninjaは小型キッチン家電で最も売れているブランド",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "日本での事業体制",
+      "facts": [
+        {
+          "label": "日本法人",
+          "value": "シャークニンジャ合同会社(法人格は「株式会社」ではなく合同会社)。国税庁法人番号公表サイト由来のgBizINFO上の登記所在地は東京都渋谷区桜丘町1番1号 渋谷サクラステージ SHIBUYAタワー22階",
+          "source": "経済産業省 gBizINFO（国税庁法人番号公表サイト由来）",
+          "source_url": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=4010401132981",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "法人番号(13桁)",
+          "value": "4010401132981（シャークニンジャ合同会社）",
+          "source": "経済産業省 gBizINFO（国税庁法人番号公表サイト由来）",
+          "source_url": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=4010401132981",
+          "checked": "2026-08-28"
+        },
+        {
+          "label": "日本法人設立年",
+          "value": "未確認 — 国税庁法人番号公表サイトで要確認",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本法人所在地",
+          "value": "特定商取引法に基づく表記に記載の所在地は〒105-0004 東京都港区新橋3-3-13 Tsao Hibiya 11階(電話 03-3581-3681)。登記上の本店(gBizINFO)は東京都渋谷区桜丘町1番1号 渋谷サクラステージ SHIBUYAタワー22階で、両者は異なる",
+          "source": "特定商取引法に基づく表示",
+          "source_url": "https://www.shark.co.jp/deal/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本参入年",
+          "value": "2018年7月（フロアケアブランドSharkのコードレススティック、ハンディ、スチームモップ等で参入）",
+          "source": "シャークニンジャについて",
+          "source_url": "https://www.shark.co.jp/corporate/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "直営店",
+          "value": "なし(量販店・通販が中心)【要確認】",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "販売チャネル",
+          "value": "Shark公式オンラインストア（direct.shark.co.jp）および全国の家電量販店。公式サイトに「取扱店を探す」ストアロケーターあり",
+          "source": "取扱店を探す",
+          "source_url": "https://shark.co.jp/storelocator/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語公式サイト",
+          "value": "https://www.shark.co.jp/（ブランドサイト）、https://direct.shark.co.jp/（公式オンラインストア）、https://www.shark.co.jp/ninja/（Ninjaブランド）",
+          "source": "特定商取引法に基づく表示",
+          "source_url": "https://www.shark.co.jp/deal/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "規制・安全性",
+      "facts": [
+        {
+          "label": "技適(技術基準適合証明)",
+          "value": "Wi-Fi搭載機(ロボット掃除機等)は日本正規品で技適取得済み。型番ごとに要確認【要確認】",
+          "source": "総務省 技術基準適合証明等の公示",
+          "source_url": "https://www.tele.soumu.go.jp/giteki/SearchServlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "PSE(電気用品安全法)",
+          "value": "掃除機・調理家電は電気用品安全法の対象。日本正規品にはPSEマーク表示あり",
+          "source": "経済産業省 電気用品安全法",
+          "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "リコール・自主回収履歴",
+          "value": "未確認 — 消費者庁リコール情報サイトで要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "その他の法規制",
+          "value": "調理家電は食品衛生法に基づく材質基準が適用される",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "公的機関からの指摘",
+          "value": "未確認 — 公表資料で要確認",
+          "source": "消費者庁 リコール情報サイト",
+          "source_url": "https://www.recall.caa.go.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "保証・アフターサービス",
+      "facts": [
+        {
+          "label": "保証期間",
+          "value": "メーカー保証2年。公式オンラインストアで購入し製品登録すると合計3年（メーカー保証2年＋公式オンラインストア保証1年）。リチウムイオンバッテリー・アクセサリーパックは保証対象外。保証期間は製品ごとに異なり取扱説明書で要確認",
+          "source": "Shark公式オンラインストア 製品ページ（保証について）",
+          "source_url": "https://direct.shark.co.jp/products/wv405j-outlet",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "延長保証制度",
+          "value": "SharkNinja公式オンラインストアでの購入でメーカー保証期間をプラス1年延長。適用には商品到着後の製品登録が必須。バッテリー・アクセサリー等の保証対象外製品には延長は適用されない",
+          "source": "製品ユーザー登録",
+          "source_url": "https://www.shark.co.jp/register/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "修理体制",
+          "value": "サービスセンターでの修理対応。電話相談 → 自宅への回収 → 修理 → 自宅へお届け、というフロー",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本語サポート窓口",
+          "value": "電話 0120-522-552、お問い合わせフォームは24時間受付",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "サポート受付時間",
+          "value": "9:00～17:30（年末年始、その他大型連休等を除く）",
+          "source": "サポート",
+          "source_url": "https://www.shark.co.jp/support/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "消耗品・交換部品の入手性",
+          "value": "公式オンラインストアにアクセサリー／付属品／消耗品カテゴリがあり、EVOPOWER EX用フィルター・フィルター容器、EVOROBOTサイドブラシ、EVOPOWER SYSTEM用バッテリー充電器、スチームモップ専用パッド等を単品購入可能",
+          "source": "アクセサリー｜掃除機｜付属品｜消耗品",
+          "source_url": "https://direct.shark.co.jp/accessory",
+          "checked": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "title": "製品ラインと価格帯",
+      "facts": [
+        {
+          "label": "主力カテゴリ",
+          "value": "Shark: コードレス掃除機 / Ninja: 調理家電",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主な価格帯",
+          "value": "コードレススティック：CS200J 26,400円／CS601J 49,500円／CS651J 51,700円／CS851J 62,370円（税込）。スチームモップ：2-IN-1プロ 12,650円、S1000Jセット 29,700円（税込）。ヘアケア：FlexStyle HD434J 通常34,980円（税込）",
+          "source": "コードレススティック｜Shark公式オンラインストア",
+          "source_url": "https://direct.shark.co.jp/stickcleaner",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "主要製品ライン",
+          "value": "掃除機：EVOPOWER SYSTEM／EVOPOWER SYSTEM ADV／iQ／NEO／EVOFLEX（コードレススティック）、EVOPOWER EX・W35P等（ハンディ）、GENIUS スチームモップ、EVOROBOT（ロボット）。ヘアケア：Shark Beauty FlexStyle、SpeedStyle。キッチン：Ninja Blast（2024年2月）、Ninja Twisti（2024年8月）",
+          "source": "全製品｜Shark公式オンラインストア",
+          "source_url": "https://direct.shark.co.jp/collections/all",
+          "checked": "2026-08-27"
+        },
+        {
+          "label": "日本での主な競合",
+          "value": "Dyson、Panasonic、日立、アイリスオーヤマ、T-fal、レコルト",
+          "source": "SharkNinja/Shark Japan 公式サイト",
+          "source_url": "https://www.shark.co.jp/",
+          "checked": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-08-17",
+      "title": "赤城乳業「ガリガリ君」とコラボし「Ninja Blast Max」を使ったアレンジレシピ4品を公開",
+      "body": "シャークニンジャは2026年8月17日、赤城乳業のアイス「ガリガリ君」とのコラボレーション企画『ガリガリ君で、うまさ劇変』として、コードレスミキサー「Ninja Blast Max」を使ったオリジナルアレンジレシピ4品をNinja Kitchen公式Webサイトで公開した。夏の定番アイスをミキサーでスイーツに作り変える使い方を提案する内容である。製品スペックではなく調理の用途提案を軸にした施策で、ミキサーの購入後利用シーンを広げることを狙っている。",
+      "impact": "調理家電の訴求が性能競争からレシピ提案へ移り、購入後の使用頻度を高める設計が重視されていることを示す。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000061.000041047.html"
+    },
+    {
+      "date": "2026-07-27",
+      "title": "コードレスブロワー「Shark BlastBoss」のクラウドファンディングを開始、一般発売は9月7日",
+      "body": "シャークニンジャは2026年7月27日、コードレスブロワー「Shark BlastBoss」のクラウドファンディングプロジェクトを開始した。一般発売は2026年9月7日を予定し、カラーは全5色を用意する。BlastBossは屋外の落ち葉掃除だけでなく、屋内でも気軽に使えるコンパクトさとパワーを訴求し、用途を家庭内まで広げた点を特徴とする。同社は「Shark ChillPill」に続き、新カテゴリ製品の投入時にクラウドファンディングを先行させる手法を継続している。",
+      "impact": "国内では馴染みの薄いブロワーという道具を、家庭用の掃除ツールとして再定義しようとする試みである。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000059.000041047.html"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "ノンフライヤー「Ninja Crispi」に新色4色を追加して発売",
+      "body": "シャークニンジャは2026年6月18日、ノンフライヤー「Ninja Crispi」の新色4色(ピンク、ブルー、ミント、ホワイト)を全国の家電量販店で発売した。Ninja Crispiは米国で売上No.1のノンフライヤーとして展開されている製品で、本格的な仕上がりと調理が楽しくなるデザインを訴求点としている。同社は日本市場で2025年11月に加熱調理家電カテゴリへ参入しており、Crispiのカラー拡充はその第2段階にあたる。",
+      "impact": "調理家電で色を選べることは購入動機に直結しやすく、Ninjaがキッチンのインテリア文脈にも入り込もうとしていることを示す。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000057.000041047.html"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "グランドニッコー東京 台場と快眠コラボレーションルーム「極上の快眠ステイ」を提供開始",
+      "body": "シャークニンジャは2026年6月17日、グランドニッコー東京 台場との初の快眠コラボレーションルーム『極上の快眠ステイ ～Sleep Tight in Suite～』の提供を開始した。ホテル客室にSharkの製品を導入し、宿泊体験の中で製品に触れられるようにする企画である。同社は同時期に、全国の企業・施設と連携してファン製品を導入する取り組みも進めており、店頭以外の接点で製品を体験させる施策を重ねている。",
+      "impact": "家電の購入前接点が店頭から宿泊施設などの体験の場へ広がっていることを示す事例である。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000056.000041047.html"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "最上位コードレス掃除機「Shark PowerClean 360 PRO」を発売、市場想定価格99,000円",
+      "body": "シャークニンジャは2026年6月4日、コードレススティッククリーナーの新フラッグシップモデル「Shark PowerClean 360 PRO」を全国の家電量販店、インターネットショップ、SharkNinja公式オンラインストア等で発売した。市場想定価格は99,000円。新開発モーターによるパワフルな吸引に加え、前後左右から吸引する「360°クリーニング」で従来ヘッドが苦手とした箇所に対応する。ダストカップのゴミ分離性能を高めてフィルターの目詰まりを抑え、吸引力の持続を図った。同社は日本の販売上位モデルの中で最もゴミを取り除くコードレス掃除機として位置づけている。",
+      "impact": "10万円級のプレミアム帯コードレス掃除機で、Sharkが国内上位ブランドと真正面から競合する構図が明確になった。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000053.000041047.html"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "「Shark ChillPill」を5,000台限定で一般販売開始",
+      "body": "シャークニンジャは2026年6月4日、パーソナルクーリングファン「Shark ChillPill」の一般販売を5,000台限定で開始した。クラウドファンディングと予約販売を経ての一般流通投入となる。ChillPillはファン、ミスト、冷却プレートの3方式を1台にまとめた携帯型クーリングデバイスで、屋外でも自分専用の涼しさを持ち運べる点を訴求する。数量を限定した販売形態を採り、需要を見ながら供給する構えを取った。",
+      "impact": "限定数量での一般販売は、話題性の高い季節商材を確実に売り切るための供給設計として参考になる。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000052.000041047.html"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "「Shark ChillPill」クラウドファンディングで支援総額1億1,036万円を集め予約販売を開始",
+      "body": "シャークニンジャは2026年5月22日、パーソナルクーリングファン「Shark ChillPill」の予約販売を開始した。SharkNinja公式オンラインストア、公式楽天市場店、公式ヤフーショッピング店で午前10時より予約受付を開始している。先行して「GREEN FUNDING」で実施したクラウドファンディングは2026年5月10日に募集を終了し、支援総額110,362,457円、目標達成率55,181%、支援者数5,178人を記録した。ChillPillはファン、ミスト、冷却プレートという3つの冷却手段を1台に搭載した携帯型の製品である。",
+      "impact": "猛暑対策のパーソナル冷却グッズに対する国内需要の強さが、支援実績という形で数値化された事例である。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000052.000041047.html"
+    },
+    {
+      "date": "2026-04-06",
+      "title": "羽根なしタワーファン「Shark TURBOBLADE」を発売、「FlexBreeze HydroGo」に新色4色を追加",
+      "body": "シャークニンジャは2026年4月6日、ハイパワータワーファン「Shark TURBOBLADE」を発売した。羽根のない構造ながら羽根ありファンと同等の送風距離を確保し、約20m先まで風を届ける。本体の向きを自由に変えられ、部屋中360°どこにでも送風できる点を訴求する。価格は34,980円。あわせてミスト機能付きコードレスポータブル扇風機「Shark FlexBreeze HydroGo」に、アイボリー、グリーン、ピンク、パープルの新色4色を追加した。既存のグレー、ホワイト、ブルーと合わせて計7色展開となる。HydroGoはバッテリーで最長12時間稼働する。2025年の扇風機市場参入以降、Sharkがファン領域のラインアップを継続的に広げていることを示す動きである。",
+      "impact": "掃除機ブランドとして知られたSharkが、夏季の空調・送風カテゴリでも選択肢として定着しつつあることを意味する。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000048.000041047.html"
+    },
+    {
+      "date": "2026-04-06",
+      "title": "コードレスミキサー「Ninja Blast Max」に新色4色を追加し全8色展開へ",
+      "body": "シャークニンジャは2026年3月23日に発表し、同年4月6日、コードレスミキサー「Ninja Blast Max」の新色4色(ブルー、レッド、パープル、シルバー)を発売した。既存色と合わせてカラーバリエーションは全8色となり、キッチンやライフスタイルに合わせて色を選べるようにした。Blast Maxは液体を加えずに氷を砕けるパワーを備えたコードレスミキサーで、シリーズ累計出荷台数は30万台を突破している。米国発の小型キッチン家電ブランド「Ninja」は日本参入後、ミキサーを起点にラインアップとカラー展開を拡大している。",
+      "impact": "日本の家電量販店でNinjaブランドの棚が広がり、コードレスミキサーが定番カテゴリ化していることを示す。",
+      "source": "シャークニンジャ合同会社 プレスリリース",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000041047.html"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "2026年4月からリチウムイオン電池内蔵製品の回収・リサイクルが義務化(資源有効利用促進法 政令改正)",
+      "body": "経済産業省の政令改正により、モバイルバッテリー・携帯電話・加熱式たばこが新たに「指定再資源化製品」に位置づけられ、2026年4月から事業者に回収・再資源化が義務づけられる。背景には自治体のごみ収集・処理現場でのリチウムイオン電池火災の多発がある。コードレス掃除機本体やその交換用バッテリーが今回の指定対象に含まれるかどうかは、検索範囲では未確認。",
+      "impact": "",
+      "source": "日本経済新聞「モバイルバッテリーやスマホ、回収・リサイクル義務化 26年度から」",
+      "source_url": "https://www.nikkei.com/article/DGXZQOUA128QY0S5A810C2000000/"
+    },
+    {
+      "date": "2025-06-26",
+      "title": "非純正(互換)バッテリーの発火リスクに対する公的機関の注意喚起が継続",
+      "body": "NITE(製品評価技術基盤機構)は、リチウムイオン電池搭載製品の火災事故防止に関する注意喚起の中で「非純正バッテリー」のリスク理解を呼びかけている。過去には電動工具・コードレス掃除機用の互換バッテリーによる事故が多数NITEに通知されており、いずれも製品や周囲が焼損する事故だったと報じられている。消費者庁も2025年10月にリチウムイオン電池使用製品の発火事故への注意喚起文書を出している。",
+      "impact": "",
+      "source": "NITE「『夏バテ(夏のバッテリー)』にご用心～リチウムイオン電池搭載製品の火災事故を防ぐ3つのポイント～」",
+      "source_url": "https://www.nite.go.jp/jiko/chuikanki/press/2025fy/prs250626.html"
+    }
+  ]
+}

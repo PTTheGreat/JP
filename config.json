@@ -1,0 +1,8 @@
+{
+  "site_name": "ブランドファクト",
+  "site_name_en": "Brand Facts Japan",
+  "base_url": "https://ptthegreat.github.io/JP",
+  "description": "日本市場のブランドについて、検証可能な事実だけをまとめるサイト。すべての記載に出典と確認日を明記します。",
+  "language": "ja",
+  "output_dir": "docs"
+}
