@@ -15,6 +15,9 @@ python3 tools/merge_monthly.py    # STAGING/monthly/*.json   → 月次動向を
 python3 tools/merge_fresh.py      # STAGING/fresh/*.json     → 制度変更等をタイムライン+時事FAQへ
 python3 tools/merge_new_brand.py  # STAGING/newbrand/*.json  → 新規ブランドを data/brands/ に作成
 python3 build.py                  # docs/ を再生成
+
+python3 tools/audit_sources.py    # 既存データの出典を信源登記に照らして監査
+python3 tools/audit_sources.py --list   # 該当箇所を全部出す
 ```
 
 `merge_new_brand.py` だけは既存ブランドへの追記ではなく**新規ファイルの作成**を行う。
@@ -34,17 +37,34 @@ python3 build.py                  # docs/ を再生成
 | 新規ブランドの標準31項目 | 調査結果に無い項目は削除せず「未確認」で補完し、ページ上で赤字表示する |
 | 新規ブランドの公式ホスト | `merge_new_brand.py` の `OFFICIAL` に slug ごとに定義する。調査結果側からは拡張できない |
 
-ホストのホワイトリストは各スクリプト冒頭にある。正規の公式サブドメイン
-(`support.dji.com`、`faq.balmuda.com` 等)や系列メディア(`*.impress.co.jp` 等)が
-弾かれた場合はここに追加する。
+## 信源登記(`sources.py`)
+
+出典として認めるドメインは **`tools/sources.py` に一元化**してある。以前は各スクリプトが
+自前のホワイトリストを持っていて内容がずれていたため統合した。判定は
+「登録ドメイン自身とそのサブドメイン」で行うので、`support.dji.com` や
+`faq.balmuda.com` のような公式サブドメインは自動的に通る。
+
+| 区分 | 中身 |
+|---|---|
+| `GOV` | 日本の省庁・独立行政法人(国税庁、総務省技適、経産省、消費者庁、NITE、国交省、個情委 ほか) |
+| `DISCLOSURE` | 法定開示(SEC、EDINET、JPX、HKEX、上交所・深交所、巨潮資訊、英Companies House) |
+| `PRESS` | プレスリリース配信(PR TIMES、@Press、共同PRワイヤー ほか) |
+| `MEDIA` | 報道機関(Impress系、ITmedia系、ASCII、マイナビ、日経系、CNET、東洋経済 ほか) |
+| `RESEARCH` | 調査会社(BCN+R、GfK、IDC、MM総研) |
+| `OFFICIAL` | ブランド公式。slug ごとに登録 |
+| `CANDIDATE` | 今後追加しそうなブランドの公式ドメインを先回りで登録 |
+| `QA` | 質問の出典のみ。**事実の根拠には使えない** |
+
+新ブランドを足すときは `OFFICIAL` に slug と公式ドメインを 1 行足すだけでよい。
+`kakaku.com` は子ドメインで扱いが違う(`news.`/`mag.` は事実可、`bbs.` は質問のみ)。
 
 ## 調査を依頼するときの注意
 
-- この環境ではWebFetchによる直接取得がegress proxyでブロックされる。
-  公式サイトの内容は **WebSearch の `allowed_domains` でドメインを絞る** ことで
-  検索スニペット経由で取得する。最も価値が高いのは各社の
-  **「特定商取引法に基づく表記」**ページ(法人名・所在地・代表者が法定公示される)。
-- WebSearch にはセッションあたりの回数上限がある。1セッションで10ブランド分を
-  網羅しようとすると枯渇するため、ブランドを分けて依頼する。
+- 最も価値が高いのは各社の **「特定商取引法に基づく表記」** ページ。法人名・所在地・
+  代表者が法律で公示されるため、「必ず存在し、必ず正しい」唯一のページになる。
+  次いで 会社概要 / IR → 保証・修理 → プライバシーポリシー → 重要なお知らせ。
 - 金額・台数・件数は記事に明記がある場合のみ記載させる。不明なら `【要確認】`。
   サイト側はこれを赤字表示して人間の確認待ちであることを示す。
+- 日付は出典に明記されたものだけ。曜日から年を逆算するのは推定日付にあたるので不可。
+- 出典は `sources.py` の登記内に限る。掲示板・個人ブログは事実の根拠にならない
+  (質問の出典としては可)。

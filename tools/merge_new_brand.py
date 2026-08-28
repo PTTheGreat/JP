@@ -17,6 +17,9 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sources import OFFICIAL, host_ok, qa_ok  # noqa: E402
+
 SRC = Path(os.environ.get("STAGING", "./staging")) / "newbrand"
 BR = Path(__file__).resolve().parent.parent / "data" / "brands"
 CHK = "2026-08-28"
@@ -40,55 +43,7 @@ CANONICAL = {
     "製品ラインと価格帯": ["主力カテゴリ", "主な価格帯", "主要製品ライン", "日本での主な競合"],
 }
 
-# ブランドごとの公式ドメイン。そのドメイン自身とサブドメインを許可する
-# (support. / help. / terms. / store. など、公式のサブドメインは多岐にわたるため)。
-# 調査結果側から拡張させないため、ここで slug ごとに固定する。
-OFFICIAL = {
-    "irobot": {"irobot-jp.com", "irobot.com"},
-    "ecovacs": {"ecovacs.com", "ecovacs.co.jp"},
-    "nature-remo": {"nature.global"},
-    "ugreen": {"ugreen.com"},
-    "elecom": {"elecom.co.jp", "elecom-shop.jp"},
-    "gopro": {"gopro.com"},
-}
-GOV = {"www.houjin-bangou.nta.go.jp", "houjin-bangou.nta.go.jp", "www.nta.go.jp",
-       "www.tele.soumu.go.jp", "www.soumu.go.jp", "www.meti.go.jp", "www.caa.go.jp",
-       "www.recall.caa.go.jp", "www.nite.go.jp", "www.ppc.go.jp", "www.mlit.go.jp",
-       "www.ipa.go.jp", "www.jcpra.or.jp", "info.gbiz.go.jp",
-       # 海外の法定開示。企業自身の提出書類なので一次情報として扱う
-       "www.sec.gov", "sec.gov"}
-NEWS = {"prtimes.jp", "www.itmedia.co.jp", "ascii.jp", "news.mynavi.jp",
-        "www.nikkei.com", "japan.cnet.com", "gizmodo.jp", "www.gizmodo.jp",
-        "robotstart.info", "gigazine.net", "kakaku.com", "news.kakaku.com",
-        "www.phileweb.com", "toyokeizai.net", "www.reuters.com", "jp.reuters.com",
-        "www.bloomberg.co.jp", "www.jiji.com", "www.rbbtoday.com", "www.techno-edge.net"}
-SUFFIX = (".impress.co.jp", ".itmedia.co.jp", ".ascii.jp", ".nikkei.com",
-          ".mynavi.jp", ".go.jp")
-QA_HOSTS = {"detail.chiebukuro.yahoo.co.jp", "jp.quora.com", "oshiete.goo.ne.jp",
-            "okwave.jp", "bbs.kakaku.com", "kakaku.com", "note.com", "b.hatena.ne.jp"}
-
-# 調査結果のラベル表記ゆれを標準ラベルへ寄せる
-ALIASES = {
-    "法人番号": "法人番号(13桁)",
-    "法人番号（13桁）": "法人番号(13桁)",
-    "技適": "技適(技術基準適合証明)",
-    "技適（技術基準適合証明）": "技適(技術基準適合証明)",
-    "PSE": "PSE(電気用品安全法)",
-    "PSE（電気用品安全法）": "PSE(電気用品安全法)",
-    "日本での競合": "日本での主な競合",
-    "価格帯": "主な価格帯",
-}
-
 TODAY = date.today().isoformat()
-
-
-def host_ok(url, slug):
-    h = urlparse(url or "").netloc
-    if not h:
-        return False
-    if any(h == d or h.endswith("." + d) for d in OFFICIAL.get(slug, set())):
-        return True
-    return h in GOV or h in NEWS or any(h.endswith(s) for s in SUFFIX)
 
 
 def is_unverified(v):
@@ -214,9 +169,9 @@ def main():
             if q["slug"] in seen_slug or q["question"] in seen_q:
                 problems.append(f"{tag}: 重複"); continue
             s = q.get("source") or {}
-            h = urlparse(s.get("url", "")).netloc
-            if h not in QA_HOSTS:
-                problems.append(f"{tag}: 質問URLのホスト不正 {h!r}"); continue
+            if not qa_ok(s.get("url", "")):
+                problems.append(f"{tag}: 質問URLのホストが信源登記にない "
+                                f"{urlparse(s.get('url', '')).netloc!r}"); continue
             if s["url"] in seen_url:
                 problems.append(f"{tag}: 同じ元投稿URLが既出"); continue
             facts = [f for f in (q.get("facts") or [])

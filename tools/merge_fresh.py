@@ -7,9 +7,13 @@
 import json
 import os
 import re
+import sys
 import unicodedata
 from pathlib import Path
 from urllib.parse import urlparse
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sources import host_ok  # noqa: E402
 
 SRC = Path(os.environ.get("STAGING", "./staging")) / "fresh"
 BR = Path(__file__).resolve().parent.parent / "data" / "brands"
@@ -35,12 +39,16 @@ def slugify(text, prefix):
     return f"{prefix}-topic-{h:04d}"
 
 
-def clean_sources(sources):
+def clean_sources(sources, slug=None):
     out = []
     for s in sources or []:
         if not isinstance(s, dict) or not s.get("url"):
             continue
         if not urlparse(s["url"]).scheme.startswith("http"):
+            continue
+        if not host_ok(s["url"], slug):
+            rejected.append(f"{slug or '-'}: 出典ホストが信源登記にない "
+                            f"{urlparse(s['url']).netloc}")
             continue
         out.append({"name": s.get("name", "出典"), "url": s["url"],
                     "published": norm_date(s.get("published")) or "不明"})
@@ -48,6 +56,7 @@ def clean_sources(sources):
 
 
 added_up = added_faq = 0
+rejected = []
 
 for p in sorted(SRC.glob("*.json")):
     data = json.loads(p.read_text(encoding="utf-8"))
@@ -97,7 +106,7 @@ for p in sorted(SRC.glob("*.json")):
             answer = (q.get("answer_basis_ja") or "").strip()
             if not question or not answer or question in existing_q:
                 continue
-            srcs = clean_sources(q.get("sources"))
+            srcs = clean_sources(q.get("sources"), slug)
             if not srcs:
                 continue
             s = slugify(question, slug)
@@ -118,6 +127,10 @@ for p in sorted(SRC.glob("*.json")):
                       encoding="utf-8")
 
 print(f"updates追加: {added_up}件 / topical FAQ追加: {added_faq}件")
+if rejected:
+    print(f"\n出典で除外 {len(rejected)}件:")
+    for x in rejected[:20]:
+        print("  -", x)
 
 for p in sorted(BR.glob("*.json")):
     b = json.loads(p.read_text(encoding="utf-8"))

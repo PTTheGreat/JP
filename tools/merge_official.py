@@ -8,9 +8,13 @@
 import json
 import os
 import re
+import sys
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sources import host_ok  # noqa: E402
 
 SRC = Path(os.environ.get("STAGING", "./staging")) / "official"
 BR = Path(__file__).resolve().parent.parent / "data" / "brands"
@@ -78,6 +82,11 @@ for p in sorted(SRC.glob("*.json")):
             url = (it.get("source_url") or "").strip()
             src = (it.get("source") or "公式サイト").strip()
             if not label or not value or not urlparse(url).scheme.startswith("http"):
+                skipped += 1
+                continue
+            if not host_ok(url, slug):
+                log.append(f"  {slug}: 出典ホストが信源登記にないため除外 {label} "
+                           f"({urlparse(url).netloc})")
                 skipped += 1
                 continue
 
